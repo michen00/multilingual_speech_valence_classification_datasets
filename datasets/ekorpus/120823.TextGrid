@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.915
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.915
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.011
+            text = ""
+        intervals [2]:
+            xmin = 0.011
+            xmax = 1.871
+            text = ""
+        intervals [3]:
+            xmin = 1.871
+            xmax = 1.915
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.915
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.011
+            text = "."
+        intervals [2]:
+            xmin = 0.011
+            xmax = 0.258
+            text = "Pähe"
+        intervals [3]:
+            xmin = 0.258
+            xmax = 0.711
+            text = "löödi"
+        intervals [4]:
+            xmin = 0.711
+            xmax = 0.986
+            text = ","
+        intervals [5]:
+            xmin = 0.986
+            xmax = 1.255
+            text = "kõike"
+        intervals [6]:
+            xmin = 1.255
+            xmax = 1.332
+            text = "ei"
+        intervals [7]:
+            xmin = 1.332
+            xmax = 1.871
+            text = "mäleta"
+        intervals [8]:
+            xmin = 1.871
+            xmax = 1.915
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.915
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.915
+            text = "Pähe löödi, kõike ei mäleta."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.915
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.915
+            text = "sadness"

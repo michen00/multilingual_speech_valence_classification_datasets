@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.805
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.805
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.108
+            text = "y"
+        intervals [2]:
+            xmin = 0.108
+            xmax = 0.165
+            text = "k::"
+        intervals [3]:
+            xmin = 0.165
+            xmax = 0.248
+            text = "s"
+        intervals [4]:
+            xmin = 0.248
+            xmax = 0.33
+            text = "a"
+        intervals [5]:
+            xmin = 0.33
+            xmax = 0.381
+            text = "s1"
+        intervals [6]:
+            xmin = 0.381
+            xmax = 0.485
+            text = "i"
+        intervals [7]:
+            xmin = 0.485
+            xmax = 0.521
+            text = "v"
+        intervals [8]:
+            xmin = 0.521
+            xmax = 0.69
+            text = "e::"
+        intervals [9]:
+            xmin = 0.69
+            xmax = 0.785
+            text = "l"
+        intervals [10]:
+            xmin = 0.785
+            xmax = 0.805
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.805
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.248
+            text = "Üks"
+        intervals [2]:
+            xmin = 0.248
+            xmax = 0.485
+            text = "asi"
+        intervals [3]:
+            xmin = 0.485
+            xmax = 0.785
+            text = "veel"
+        intervals [4]:
+            xmin = 0.785
+            xmax = 0.805
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.805
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.805
+            text = "Üks asi veel."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.805
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.805
+            text = "neutral"

@@ -1,0 +1,222 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.74
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.74
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.752
+            text = ""
+        intervals [2]:
+            xmin = 0.752
+            xmax = 1.22
+            text = ""
+        intervals [3]:
+            xmin = 1.22
+            xmax = 1.313
+            text = ""
+        intervals [4]:
+            xmin = 1.313
+            xmax = 1.811
+            text = ""
+        intervals [5]:
+            xmin = 1.811
+            xmax = 2.3
+            text = ""
+        intervals [6]:
+            xmin = 2.3
+            xmax = 2.592
+            text = ""
+        intervals [7]:
+            xmin = 2.592
+            xmax = 3.059
+            text = ""
+        intervals [8]:
+            xmin = 3.059
+            xmax = 3.499
+            text = ""
+        intervals [9]:
+            xmin = 3.499
+            xmax = 3.937
+            text = ""
+        intervals [10]:
+            xmin = 3.937
+            xmax = 4.191
+            text = ""
+        intervals [11]:
+            xmin = 4.191
+            xmax = 4.31
+            text = ""
+        intervals [12]:
+            xmin = 4.31
+            xmax = 4.542
+            text = ""
+        intervals [13]:
+            xmin = 4.542
+            xmax = 4.74
+            text = ""
+        intervals [14]:
+            xmin = 4.74
+            xmax = 5.299
+            text = ""
+        intervals [15]:
+            xmin = 5.299
+            xmax = 5.74
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.74
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.752
+            text = "Söögikohta"
+        intervals [2]:
+            xmin = 0.752
+            xmax = 1.22
+            text = "tullakse"
+        intervals [3]:
+            xmin = 1.22
+            xmax = 1.313
+            text = "ju"
+        intervals [4]:
+            xmin = 1.313
+            xmax = 1.811
+            text = "ometigi"
+        intervals [5]:
+            xmin = 1.811
+            xmax = 2.3
+            text = "sooviga"
+        intervals [6]:
+            xmin = 2.3
+            xmax = 2.592
+            text = "saada"
+        intervals [7]:
+            xmin = 2.592
+            xmax = 3.059
+            text = "värsket"
+        intervals [8]:
+            xmin = 3.059
+            xmax = 3.499
+            text = "toitu"
+        intervals [9]:
+            xmin = 3.499
+            xmax = 3.937
+            text = ",/"
+        intervals [10]:
+            xmin = 3.937
+            xmax = 4.191
+            text = "ilma"
+        intervals [11]:
+            xmin = 4.191
+            xmax = 4.31
+            text = "et"
+        intervals [12]:
+            xmin = 4.31
+            xmax = 4.542
+            text = "seda"
+        intervals [13]:
+            xmin = 4.542
+            xmax = 4.74
+            text = "ise"
+        intervals [14]:
+            xmin = 4.74
+            xmax = 5.299
+            text = "valmistama"
+        intervals [15]:
+            xmin = 5.299
+            xmax = 5.74
+            text = "peaks"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 5.74
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.752
+            text = "S"
+        intervals [2]:
+            xmin = 0.752
+            xmax = 1.22
+            text = "V"
+        intervals [3]:
+            xmin = 1.22
+            xmax = 1.313
+            text = "D"
+        intervals [4]:
+            xmin = 1.313
+            xmax = 1.811
+            text = "D"
+        intervals [5]:
+            xmin = 1.811
+            xmax = 2.3
+            text = "S"
+        intervals [6]:
+            xmin = 2.3
+            xmax = 2.592
+            text = "V"
+        intervals [7]:
+            xmin = 2.592
+            xmax = 3.059
+            text = "A"
+        intervals [8]:
+            xmin = 3.059
+            xmax = 3.499
+            text = "S"
+        intervals [9]:
+            xmin = 3.499
+            xmax = 3.937
+            text = ""
+        intervals [10]:
+            xmin = 3.937
+            xmax = 4.31
+            text = "J"
+        intervals [11]:
+            xmin = 4.31
+            xmax = 4.542
+            text = "P"
+        intervals [12]:
+            xmin = 4.542
+            xmax = 4.74
+            text = "P"
+        intervals [13]:
+            xmin = 4.74
+            xmax = 5.299
+            text = "V"
+        intervals [14]:
+            xmin = 5.299
+            xmax = 5.74
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.74
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.74
+            text = "Söögikohta tullakse ju ometigi sooviga saada värsket toitu, ilma et seda ise valmistama peaks."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.74
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.74
+            text = "neutral"

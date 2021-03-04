@@ -1,0 +1,118 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.057
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.033
+            text = "p"
+        intervals [2]:
+            xmin = 0.033
+            xmax = 0.129
+            text = "u"
+        intervals [3]:
+            xmin = 0.129
+            xmax = 0.18
+            text = "p"
+        intervals [4]:
+            xmin = 0.18
+            xmax = 0.234
+            text = "l"
+        intervals [5]:
+            xmin = 0.234
+            xmax = 0.295
+            text = "i"
+        intervals [6]:
+            xmin = 0.295
+            xmax = 0.407
+            text = "k:"
+        intervals [7]:
+            xmin = 0.407
+            xmax = 0.474
+            text = "m"
+        intervals [8]:
+            xmin = 0.474
+            xmax = 0.567
+            text = "2"
+        intervals [9]:
+            xmin = 0.567
+            xmax = 0.73
+            text = "l::"
+        intervals [10]:
+            xmin = 0.73
+            xmax = 0.819
+            text = "a"
+        intervals [11]:
+            xmin = 0.819
+            xmax = 0.959
+            text = "p"
+        intervals [12]:
+            xmin = 0.959
+            xmax = 1.057
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.407
+            text = "Publik"
+        intervals [2]:
+            xmin = 0.407
+            xmax = 0.959
+            text = "möllab"
+        intervals [3]:
+            xmin = 0.959
+            xmax = 1.057
+            text = "!"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.407
+            text = "S"
+        intervals [2]:
+            xmin = 0.407
+            xmax = 0.959
+            text = "S"
+        intervals [3]:
+            xmin = 0.959
+            xmax = 1.057
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.057
+            text = "Publik möllab!"
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.057
+            text = "joy"

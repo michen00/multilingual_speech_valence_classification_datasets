@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.191
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.191
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.153
+            text = ""
+        intervals [2]:
+            xmin = 5.153
+            xmax = 5.191
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.191
+        intervals: size = 18
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.289
+            text = "Tulen"
+        intervals [2]:
+            xmin = 0.289
+            xmax = 0.633
+            text = "koju"
+        intervals [3]:
+            xmin = 0.633
+            xmax = 0.993
+            text = ","
+        intervals [4]:
+            xmin = 0.993
+            xmax = 1.052
+            text = "ja"
+        intervals [5]:
+            xmin = 1.052
+            xmax = 1.238
+            text = "vaat"
+        intervals [6]:
+            xmin = 1.238
+            xmax = 1.486
+            text = "siis"
+        intervals [7]:
+            xmin = 1.486
+            xmax = 1.845
+            text = "ongi"
+        intervals [8]:
+            xmin = 1.845
+            xmax = 2.266
+            text = ","
+        intervals [9]:
+            xmin = 2.266
+            xmax = 2.416
+            text = "et"
+        intervals [10]:
+            xmin = 2.416
+            xmax = 2.908
+            text = "ainus"
+        intervals [11]:
+            xmin = 2.908
+            xmax = 3.235
+            text = "mida"
+        intervals [12]:
+            xmin = 3.235
+            xmax = 3.607
+            text = "näen"
+        intervals [13]:
+            xmin = 3.607
+            xmax = 3.922
+            text = ","
+        intervals [14]:
+            xmin = 3.922
+            xmax = 4.033
+            text = "on"
+        intervals [15]:
+            xmin = 4.033
+            xmax = 4.246
+            text = "see"
+        intervals [16]:
+            xmin = 4.246
+            xmax = 4.419
+            text = "mis"
+        intervals [17]:
+            xmin = 4.419
+            xmax = 5.153
+            text = "tegemata"
+        intervals [18]:
+            xmin = 5.153
+            xmax = 5.191
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.191
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.191
+            text = "Tulen koju, ja vaat siis ongi, et ainus, mida näen, on see, mis tegemata."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.191
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.191
+            text = "sadness"

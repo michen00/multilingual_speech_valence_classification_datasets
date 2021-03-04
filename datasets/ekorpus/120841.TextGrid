@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 6.089
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 6.089
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.016
+            text = ""
+        intervals [2]:
+            xmin = 0.016
+            xmax = 6.085
+            text = ""
+        intervals [3]:
+            xmin = 6.085
+            xmax = 6.089
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 6.089
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.016
+            text = "."
+        intervals [2]:
+            xmin = 0.016
+            xmax = 0.299
+            text = "Sõda"
+        intervals [3]:
+            xmin = 0.299
+            xmax = 0.528
+            text = "võib"
+        intervals [4]:
+            xmin = 0.528
+            xmax = 0.759
+            text = "teha"
+        intervals [5]:
+            xmin = 0.759
+            xmax = 1.096
+            text = "lõpu"
+        intervals [6]:
+            xmin = 1.096
+            xmax = 2.175
+            text = "Õllesummerile"
+        intervals [7]:
+            xmin = 2.175
+            xmax = 2.446
+            text = ","
+        intervals [8]:
+            xmin = 2.446
+            xmax = 3.107
+            text = "pommitamine"
+        intervals [9]:
+            xmin = 3.107
+            xmax = 3.707
+            text = "purustada"
+        intervals [10]:
+            xmin = 3.707
+            xmax = 4.581
+            text = "kodumarketi"
+        intervals [11]:
+            xmin = 4.581
+            xmax = 4.725
+            text = "või"
+        intervals [12]:
+            xmin = 4.725
+            xmax = 5.196
+            text = "hubaseks"
+        intervals [13]:
+            xmin = 5.196
+            xmax = 5.546
+            text = "saanud"
+        intervals [14]:
+            xmin = 5.546
+            xmax = 6.085
+            text = "ööklubi"
+        intervals [15]:
+            xmin = 6.085
+            xmax = 6.089
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 6.089
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 6.089
+            text = "Sõda võib teha lõpu Õllesummerile, pommitamine purustada kodumarketi või hubaseks saanud ööklubi."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 6.089
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 6.089
+            text = "sadness"

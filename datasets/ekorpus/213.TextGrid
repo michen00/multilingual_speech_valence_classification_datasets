@@ -1,0 +1,152 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.48
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.48
+        intervals: size = 22
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.053
+            text = "k"
+        intervals [2]:
+            xmin = 0.053
+            xmax = 0.129
+            text = "o"
+        intervals [3]:
+            xmin = 0.129
+            xmax = 0.158
+            text = "r:"
+        intervals [4]:
+            xmin = 0.158
+            xmax = 0.217
+            text = "a"
+        intervals [5]:
+            xmin = 0.217
+            xmax = 0.255
+            text = "l"
+        intervals [6]:
+            xmin = 0.255
+            xmax = 0.288
+            text = "t1"
+        intervals [7]:
+            xmin = 0.288
+            xmax = 0.326
+            text = "u"
+        intervals [8]:
+            xmin = 0.326
+            xmax = 0.371
+            text = "s1"
+        intervals [9]:
+            xmin = 0.371
+            xmax = 0.434
+            text = "o"
+        intervals [10]:
+            xmin = 0.434
+            xmax = 0.478
+            text = "n"
+        intervals [11]:
+            xmin = 0.478
+            xmax = 0.538
+            text = "i"
+        intervals [12]:
+            xmin = 0.538
+            xmax = 0.587
+            text = "k::"
+        intervals [13]:
+            xmin = 0.587
+            xmax = 0.671
+            text = "a"
+        intervals [14]:
+            xmin = 0.671
+            xmax = 0.751
+            text = "v"
+        intervals [15]:
+            xmin = 0.751
+            xmax = 0.884
+            text = "x"
+        intervals [16]:
+            xmin = 0.884
+            xmax = 0.937
+            text = "k"
+        intervals [17]:
+            xmin = 0.937
+            xmax = 1.069
+            text = "a"
+        intervals [18]:
+            xmin = 1.069
+            xmax = 1.162
+            text = "k"
+        intervals [19]:
+            xmin = 1.162
+            xmax = 1.225
+            text = "7"
+        intervals [20]:
+            xmin = 1.225
+            xmax = 1.281
+            text = "v"
+        intervals [21]:
+            xmin = 1.281
+            xmax = 1.412
+            text = "a"
+        intervals [22]:
+            xmin = 1.412
+            xmax = 1.48
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.48
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.371
+            text = "Korraldus"
+        intervals [2]:
+            xmin = 0.371
+            xmax = 0.478
+            text = "on"
+        intervals [3]:
+            xmin = 0.478
+            xmax = 0.671
+            text = "ikka"
+        intervals [4]:
+            xmin = 0.671
+            xmax = 1.069
+            text = "väga"
+        intervals [5]:
+            xmin = 1.069
+            xmax = 1.412
+            text = "kõva"
+        intervals [6]:
+            xmin = 1.412
+            xmax = 1.48
+            text = "./"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.48
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.48
+            text = "Korraldus on ikka väga „kõva”."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.48
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.48
+            text = "joy"

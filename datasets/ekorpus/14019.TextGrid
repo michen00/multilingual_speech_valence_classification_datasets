@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.049
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.049
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.046
+            text = "j"
+        intervals [2]:
+            xmin = 0.046
+            xmax = 0.099
+            text = "a"
+        intervals [3]:
+            xmin = 0.099
+            xmax = 0.16
+            text = "m"
+        intervals [4]:
+            xmin = 0.16
+            xmax = 0.221
+            text = "i"
+        intervals [5]:
+            xmin = 0.221
+            xmax = 0.285
+            text = "l::"
+        intervals [6]:
+            xmin = 0.285
+            xmax = 0.363
+            text = "i"
+        intervals [7]:
+            xmin = 0.363
+            xmax = 0.399
+            text = "n"
+        intervals [8]:
+            xmin = 0.399
+            xmax = 0.462
+            text = "e"
+        intervals [9]:
+            xmin = 0.462
+            xmax = 0.532
+            text = "p"
+        intervals [10]:
+            xmin = 0.532
+            xmax = 0.641
+            text = "u"
+        intervals [11]:
+            xmin = 0.641
+            xmax = 0.705
+            text = "p"
+        intervals [12]:
+            xmin = 0.705
+            xmax = 0.773
+            text = "l"
+        intervals [13]:
+            xmin = 0.773
+            xmax = 0.853
+            text = "i"
+        intervals [14]:
+            xmin = 0.853
+            xmax = 1.049
+            text = "k:"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.049
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.099
+            text = "Ja"
+        intervals [2]:
+            xmin = 0.099
+            xmax = 0.462
+            text = " milline "
+        intervals [3]:
+            xmin = 0.462
+            xmax = 1.049
+            text = "publik "
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.049
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.099
+            text = "J"
+        intervals [2]:
+            xmin = 0.099
+            xmax = 0.462
+            text = "P"
+        intervals [3]:
+            xmin = 0.462
+            xmax = 1.049
+            text = "S"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.049
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.049
+            text = "Ja milline publik!"
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.049
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.049
+            text = "joy"

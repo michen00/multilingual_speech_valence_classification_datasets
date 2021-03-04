@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.224
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.224
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.337
+            text = ""
+        intervals [2]:
+            xmin = 0.337
+            xmax = 0.693
+            text = ""
+        intervals [3]:
+            xmin = 0.693
+            xmax = 0.899
+            text = ""
+        intervals [4]:
+            xmin = 0.899
+            xmax = 1.384
+            text = ""
+        intervals [5]:
+            xmin = 1.384
+            xmax = 1.538
+            text = ""
+        intervals [6]:
+            xmin = 1.538
+            xmax = 2.195
+            text = ""
+        intervals [7]:
+            xmin = 2.195
+            xmax = 2.224
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.224
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.337
+            text = "Kõige"
+        intervals [2]:
+            xmin = 0.337
+            xmax = 0.693
+            text = "tähtsam"
+        intervals [3]:
+            xmin = 0.693
+            xmax = 0.899
+            text = "asi"
+        intervals [4]:
+            xmin = 0.899
+            xmax = 1.384
+            text = "korteris"
+        intervals [5]:
+            xmin = 1.384
+            xmax = 1.538
+            text = "on"
+        intervals [6]:
+            xmin = 1.538
+            xmax = 2.195
+            text = "televiisor"
+        intervals [7]:
+            xmin = 2.195
+            xmax = 2.224
+            text = "./"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.224
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.693
+            text = "A"
+        intervals [2]:
+            xmin = 0.693
+            xmax = 0.899
+            text = "S"
+        intervals [3]:
+            xmin = 0.899
+            xmax = 1.384
+            text = "S"
+        intervals [4]:
+            xmin = 1.384
+            xmax = 1.538
+            text = "V"
+        intervals [5]:
+            xmin = 1.538
+            xmax = 2.195
+            text = "S"
+        intervals [6]:
+            xmin = 2.195
+            xmax = 2.224
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.224
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.224
+            text = "Kõige tähtsam asi korteris on televiisor."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.224
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.224
+            text = "neutral"

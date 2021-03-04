@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.658
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.658
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.021
+            text = ""
+        intervals [2]:
+            xmin = 0.021
+            xmax = 0.061
+            text = "j"
+        intervals [3]:
+            xmin = 0.061
+            xmax = 0.132
+            text = "a"
+        intervals [4]:
+            xmin = 0.132
+            xmax = 0.184
+            text = "t"
+        intervals [5]:
+            xmin = 0.184
+            xmax = 0.272
+            text = "a"
+        intervals [6]:
+            xmin = 0.272
+            xmax = 0.317
+            text = "t"
+        intervals [7]:
+            xmin = 0.317
+            xmax = 0.413
+            text = "u"
+        intervals [8]:
+            xmin = 0.413
+            xmax = 0.473
+            text = "l"
+        intervals [9]:
+            xmin = 0.473
+            xmax = 0.622
+            text = "i"
+        intervals [10]:
+            xmin = 0.622
+            xmax = 0.658
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.658
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.021
+            text = "*"
+        intervals [2]:
+            xmin = 0.021
+            xmax = 0.132
+            text = "Ja"
+        intervals [3]:
+            xmin = 0.132
+            xmax = 0.272
+            text = "ta"
+        intervals [4]:
+            xmin = 0.272
+            xmax = 0.622
+            text = "tuli"
+        intervals [5]:
+            xmin = 0.622
+            xmax = 0.658
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.658
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.658
+            text = "Ja ta tuli."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.658
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.658
+            text = "joy"

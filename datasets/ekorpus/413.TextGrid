@@ -1,0 +1,104 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.55
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.55
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.29
+            text = ""
+        intervals [2]:
+            xmin = 0.29
+            xmax = 0.541
+            text = ""
+        intervals [3]:
+            xmin = 0.541
+            xmax = 0.868
+            text = ""
+        intervals [4]:
+            xmin = 0.868
+            xmax = 1.124
+            text = ""
+        intervals [5]:
+            xmin = 1.124
+            xmax = 1.569
+            text = ""
+        intervals [6]:
+            xmin = 1.569
+            xmax = 1.835
+            text = ""
+        intervals [7]:
+            xmin = 1.835
+            xmax = 2.236
+            text = ""
+        intervals [8]:
+            xmin = 2.236
+            xmax = 2.55
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.55
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.29
+            text = "Mida"
+        intervals [2]:
+            xmin = 0.29
+            xmax = 0.541
+            text = "peavad"
+        intervals [3]:
+            xmin = 0.541
+            xmax = 0.868
+            text = "tegema"
+        intervals [4]:
+            xmin = 0.868
+            xmax = 1.124
+            text = "need"
+        intervals [5]:
+            xmin = 1.124
+            xmax = 1.569
+            text = "inimesed,"
+        intervals [6]:
+            xmin = 1.569
+            xmax = 1.835
+            text = "kellel"
+        intervals [7]:
+            xmin = 1.835
+            xmax = 2.236
+            text = "autot"
+        intervals [8]:
+            xmin = 2.236
+            xmax = 2.55
+            text = "pole"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.55
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.55
+            text = "Mida peavad tegema need inimesed, kellel autot pole?"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.55
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.55
+            text = "sadness"

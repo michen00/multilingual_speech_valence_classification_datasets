@@ -1,0 +1,192 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.24
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.24
+        intervals: size = 30
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.021
+            text = ""
+        intervals [2]:
+            xmin = 0.021
+            xmax = 0.04
+            text = "l"
+        intervals [3]:
+            xmin = 0.04
+            xmax = 0.094
+            text = "u"
+        intervals [4]:
+            xmin = 0.094
+            xmax = 0.168
+            text = "m"
+        intervals [5]:
+            xmin = 0.168
+            xmax = 0.273
+            text = "e"
+        intervals [6]:
+            xmin = 0.273
+            xmax = 0.292
+            text = "v"
+        intervals [7]:
+            xmin = 0.292
+            xmax = 0.346
+            text = "a"
+        intervals [8]:
+            xmin = 0.346
+            xmax = 0.416
+            text = "i"
+        intervals [9]:
+            xmin = 0.416
+            xmax = 0.505
+            text = "p:"
+        intervals [10]:
+            xmin = 0.505
+            xmax = 0.602
+            text = "s"
+        intervals [11]:
+            xmin = 0.602
+            xmax = 0.669
+            text = "u"
+        intervals [12]:
+            xmin = 0.669
+            xmax = 0.719
+            text = "l"
+        intervals [13]:
+            xmin = 0.719
+            xmax = 0.835
+            text = "a"
+        intervals [14]:
+            xmin = 0.835
+            xmax = 0.964
+            text = "p"
+        intervals [15]:
+            xmin = 0.964
+            xmax = 1.257
+            text = ""
+        intervals [16]:
+            xmin = 1.257
+            xmax = 1.312
+            text = "k:"
+        intervals [17]:
+            xmin = 1.312
+            xmax = 1.405
+            text = "a"
+        intervals [18]:
+            xmin = 1.405
+            xmax = 1.483
+            text = "t:"
+        intervals [19]:
+            xmin = 1.483
+            xmax = 1.545
+            text = "u"
+        intervals [20]:
+            xmin = 1.545
+            xmax = 1.613
+            text = "s"
+        intervals [21]:
+            xmin = 1.613
+            xmax = 1.662
+            text = "l"
+        intervals [22]:
+            xmin = 1.662
+            xmax = 1.71
+            text = "a"
+        intervals [23]:
+            xmin = 1.71
+            xmax = 1.779
+            text = "s"
+        intervals [24]:
+            xmin = 1.779
+            xmax = 1.852
+            text = "e"
+        intervals [25]:
+            xmin = 1.852
+            xmax = 1.913
+            text = "p"
+        intervals [26]:
+            xmin = 1.913
+            xmax = 1.939
+            text = "l"
+        intervals [27]:
+            xmin = 1.939
+            xmax = 2.002
+            text = "x"
+        intervals [28]:
+            xmin = 2.002
+            xmax = 2.089
+            text = "p"
+        intervals [29]:
+            xmin = 2.089
+            xmax = 2.198
+            text = "i"
+        intervals [30]:
+            xmin = 2.198
+            xmax = 2.24
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.24
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.021
+            text = "."
+        intervals [2]:
+            xmin = 0.021
+            xmax = 0.505
+            text = "Lumevaip"
+        intervals [3]:
+            xmin = 0.505
+            xmax = 0.964
+            text = "sulab"
+        intervals [4]:
+            xmin = 0.964
+            xmax = 1.257
+            text = ","
+        intervals [5]:
+            xmin = 1.257
+            xmax = 1.613
+            text = "katus"
+        intervals [6]:
+            xmin = 1.613
+            xmax = 1.913
+            text = "laseb"
+        intervals [7]:
+            xmin = 1.913
+            xmax = 2.198
+            text = "läbi"
+        intervals [8]:
+            xmin = 2.198
+            xmax = 2.24
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.24
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.24
+            text = "Lumevaip sulab, katus laseb läbi."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.24
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.24
+            text = "sadness"

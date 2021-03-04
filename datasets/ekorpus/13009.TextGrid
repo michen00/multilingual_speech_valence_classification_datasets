@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.914
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.914
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.057
+            text = "s"
+        intervals [2]:
+            xmin = 0.057
+            xmax = 0.093
+            text = "e::"
+        intervals [3]:
+            xmin = 0.093
+            xmax = 0.114
+            text = "o"
+        intervals [4]:
+            xmin = 0.114
+            xmax = 0.157
+            text = "l"
+        intervals [5]:
+            xmin = 0.157
+            xmax = 0.194
+            text = "i"
+        intervals [6]:
+            xmin = 0.194
+            xmax = 0.282
+            text = "m"
+        intervals [7]:
+            xmin = 0.282
+            xmax = 0.372
+            text = "u"
+        intervals [8]:
+            xmin = 0.372
+            xmax = 0.428
+            text = "r::"
+        intervals [9]:
+            xmin = 0.428
+            xmax = 0.477
+            text = "t"
+        intervals [10]:
+            xmin = 0.477
+            xmax = 0.527
+            text = "e"
+        intervals [11]:
+            xmin = 0.527
+            xmax = 0.568
+            text = "p"
+        intervals [12]:
+            xmin = 0.568
+            xmax = 0.63
+            text = "u"
+        intervals [13]:
+            xmin = 0.63
+            xmax = 0.69
+            text = "N"
+        intervals [14]:
+            xmin = 0.69
+            xmax = 0.749
+            text = "k:"
+        intervals [15]:
+            xmin = 0.749
+            xmax = 0.914
+            text = "t:"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.914
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.093
+            text = "See"
+        intervals [2]:
+            xmin = 0.093
+            xmax = 0.194
+            text = "oli"
+        intervals [3]:
+            xmin = 0.194
+            xmax = 0.914
+            text = "murdepunkt"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 0.914
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.093
+            text = "P"
+        intervals [2]:
+            xmin = 0.093
+            xmax = 0.194
+            text = "V"
+        intervals [3]:
+            xmin = 0.194
+            xmax = 0.914
+            text = "S"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.914
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.914
+            text = "See oli murdepunkt."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.914
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.914
+            text = "sadness"

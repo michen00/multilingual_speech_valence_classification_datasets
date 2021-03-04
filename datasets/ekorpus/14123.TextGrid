@@ -1,0 +1,222 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.126
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.126
+        intervals: size = 34
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.093
+            text = "s"
+        intervals [2]:
+            xmin = 0.093
+            xmax = 0.139
+            text = "e"
+        intervals [3]:
+            xmin = 0.139
+            xmax = 0.178
+            text = "a:"
+        intervals [4]:
+            xmin = 0.178
+            xmax = 0.252
+            text = "l"
+        intervals [5]:
+            xmin = 0.252
+            xmax = 0.273
+            text = "t1"
+        intervals [6]:
+            xmin = 0.273
+            xmax = 0.355
+            text = "u"
+        intervals [7]:
+            xmin = 0.355
+            xmax = 0.456
+            text = "l::"
+        intervals [8]:
+            xmin = 0.456
+            xmax = 0.472
+            text = "t1"
+        intervals [9]:
+            xmin = 0.472
+            xmax = 0.489
+            text = "i"
+        intervals [10]:
+            xmin = 0.489
+            xmax = 0.541
+            text = "j"
+        intervals [11]:
+            xmin = 0.541
+            xmax = 0.609
+            text = "u"
+        intervals [12]:
+            xmin = 0.609
+            xmax = 0.661
+            text = "v"
+        intervals [13]:
+            xmin = 0.661
+            xmax = 0.759
+            text = "i:"
+        intervals [14]:
+            xmin = 0.759
+            xmax = 0.864
+            text = "e"
+        intervals [15]:
+            xmin = 0.864
+            xmax = 0.891
+            text = "t"
+        intervals [16]:
+            xmin = 0.891
+            xmax = 0.954
+            text = "e"
+        intervals [17]:
+            xmin = 0.954
+            xmax = 1.0
+            text = "i"
+        intervals [18]:
+            xmin = 1.0
+            xmax = 1.103
+            text = "s::"
+        intervals [19]:
+            xmin = 1.103
+            xmax = 1.156
+            text = "t:"
+        intervals [20]:
+            xmin = 1.156
+            xmax = 1.188
+            text = "k"
+        intervals [21]:
+            xmin = 1.188
+            xmax = 1.223
+            text = "y"
+        intervals [22]:
+            xmin = 1.223
+            xmax = 1.27
+            text = "m::"
+        intervals [23]:
+            xmin = 1.27
+            xmax = 1.323
+            text = "n"
+        intervals [24]:
+            xmin = 1.323
+            xmax = 1.378
+            text = "e"
+        intervals [25]:
+            xmin = 1.378
+            xmax = 1.485
+            text = "k:"
+        intervals [26]:
+            xmin = 1.485
+            xmax = 1.536
+            text = "e"
+        intervals [27]:
+            xmin = 1.536
+            xmax = 1.608
+            text = "s"
+        intervals [28]:
+            xmin = 1.608
+            xmax = 1.68
+            text = "i"
+        intervals [29]:
+            xmin = 1.68
+            xmax = 1.747
+            text = "k"
+        intervals [30]:
+            xmin = 1.747
+            xmax = 1.822
+            text = "a"
+        intervals [31]:
+            xmin = 1.822
+            xmax = 1.896
+            text = "l:"
+        intervals [32]:
+            xmin = 1.896
+            xmax = 1.982
+            text = "a"
+        intervals [33]:
+            xmin = 1.982
+            xmax = 2.055
+            text = "l"
+        intervals [34]:
+            xmin = 2.055
+            xmax = 2.126
+            text = "e"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.126
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.252
+            text = "Seal"
+        intervals [2]:
+            xmin = 0.252
+            xmax = 0.489
+            text = "tuldi"
+        intervals [3]:
+            xmin = 0.489
+            xmax = 0.609
+            text = "ju"
+        intervals [4]:
+            xmin = 0.609
+            xmax = 1.68
+            text = "viieteistkümnekesi"
+        intervals [5]:
+            xmin = 1.68
+            xmax = 2.126
+            text = "kallale"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.126
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.252
+            text = "P"
+        intervals [2]:
+            xmin = 0.252
+            xmax = 0.489
+            text = "V"
+        intervals [3]:
+            xmin = 0.489
+            xmax = 0.609
+            text = "D"
+        intervals [4]:
+            xmin = 0.609
+            xmax = 1.68
+            text = "D"
+        intervals [5]:
+            xmin = 1.68
+            xmax = 2.126
+            text = "D"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.126
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.126
+            text = "Seal tuldi ju viieteistkümnekesi kallale."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.126
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.126
+            text = "anger"

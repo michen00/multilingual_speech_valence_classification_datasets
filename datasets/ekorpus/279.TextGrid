@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.589
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.589
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.309
+            text = ""
+        intervals [2]:
+            xmin = 0.309
+            xmax = 0.561
+            text = ""
+        intervals [3]:
+            xmin = 0.561
+            xmax = 0.748
+            text = ""
+        intervals [4]:
+            xmin = 0.748
+            xmax = 0.947
+            text = ""
+        intervals [5]:
+            xmin = 0.947
+            xmax = 1.52
+            text = ""
+        intervals [6]:
+            xmin = 1.52
+            xmax = 1.732
+            text = ""
+        intervals [7]:
+            xmin = 1.732
+            xmax = 2.256
+            text = ""
+        intervals [8]:
+            xmin = 2.256
+            xmax = 2.349
+            text = ""
+        intervals [9]:
+            xmin = 2.349
+            xmax = 2.589
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.589
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.309
+            text = "Elva"
+        intervals [2]:
+            xmin = 0.309
+            xmax = 0.561
+            text = "linn"
+        intervals [3]:
+            xmin = 0.561
+            xmax = 0.748
+            text = "küll"
+        intervals [4]:
+            xmin = 0.748
+            xmax = 0.947
+            text = "oma"
+        intervals [5]:
+            xmin = 0.947
+            xmax = 1.52
+            text = "kodanikele"
+        intervals [6]:
+            xmin = 1.52
+            xmax = 1.732
+            text = "seda"
+        intervals [7]:
+            xmin = 1.732
+            xmax = 2.256
+            text = "kingitust"
+        intervals [8]:
+            xmin = 2.256
+            xmax = 2.349
+            text = "ei"
+        intervals [9]:
+            xmin = 2.349
+            xmax = 2.589
+            text = "tee"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.589
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.589
+            text = "Elva linn küll oma kodanikele seda kingitust ei tee."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.589
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.589
+            text = "neutral"

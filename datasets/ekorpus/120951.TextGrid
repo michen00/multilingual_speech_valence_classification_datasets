@@ -1,0 +1,76 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.783
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.783
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.725
+            text = ""
+        intervals [2]:
+            xmin = 1.725
+            xmax = 1.783
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.783
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.382
+            text = "Kuidas"
+        intervals [2]:
+            xmin = 0.382
+            xmax = 0.507
+            text = "sa"
+        intervals [3]:
+            xmin = 0.507
+            xmax = 0.686
+            text = "aga"
+        intervals [4]:
+            xmin = 0.686
+            xmax = 0.912
+            text = "siit"
+        intervals [5]:
+            xmin = 0.912
+            xmax = 1.38
+            text = "Eestisse"
+        intervals [6]:
+            xmin = 1.38
+            xmax = 1.725
+            text = "saad"
+        intervals [7]:
+            xmin = 1.725
+            xmax = 1.783
+            text = "?!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.783
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.783
+            text = "Kuidas sa aga siit Eestisse saad?!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.783
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.783
+            text = "neutral"

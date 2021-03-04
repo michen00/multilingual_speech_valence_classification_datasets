@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 6.502
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 6.502
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = ""
+        intervals [2]:
+            xmin = 0.001
+            xmax = 6.326
+            text = ""
+        intervals [3]:
+            xmin = 6.326
+            xmax = 6.502
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 6.502
+        intervals: size = 19
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = "."
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.356
+            text = "Tõsi"
+        intervals [3]:
+            xmin = 0.356
+            xmax = 0.785
+            text = ","
+        intervals [4]:
+            xmin = 0.785
+            xmax = 1.022
+            text = "sel"
+        intervals [5]:
+            xmin = 1.022
+            xmax = 1.285
+            text = "ajal"
+        intervals [6]:
+            xmin = 1.285
+            xmax = 1.435
+            text = "kui"
+        intervals [7]:
+            xmin = 1.435
+            xmax = 2.118
+            text = "Eurovisionil"
+        intervals [8]:
+            xmin = 2.118
+            xmax = 2.357
+            text = "kõlab"
+        intervals [9]:
+            xmin = 2.357
+            xmax = 2.695
+            text = "Eesti"
+        intervals [10]:
+            xmin = 2.695
+            xmax = 3.033
+            text = "laul"
+        intervals [11]:
+            xmin = 3.033
+            xmax = 3.407
+            text = ","
+        intervals [12]:
+            xmin = 3.407
+            xmax = 3.878
+            text = "jäädakse"
+        intervals [13]:
+            xmin = 3.878
+            xmax = 3.984
+            text = "ka"
+        intervals [14]:
+            xmin = 3.984
+            xmax = 4.589
+            text = "süldilaua"
+        intervals [15]:
+            xmin = 4.589
+            xmax = 4.831
+            text = "taga"
+        intervals [16]:
+            xmin = 4.831
+            xmax = 5.303
+            text = "reeglina"
+        intervals [17]:
+            xmin = 5.303
+            xmax = 5.841
+            text = "hetkeks"
+        intervals [18]:
+            xmin = 5.841
+            xmax = 6.326
+            text = "vait"
+        intervals [19]:
+            xmin = 6.326
+            xmax = 6.502
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 6.502
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 6.502
+            text = "Tõsi, sel ajal, kui Eurovisionil kõlab Eesti laul, jäädakse ka süldilaua taga reeglina hetkeks vait."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 6.502
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 6.502
+            text = "neutral"

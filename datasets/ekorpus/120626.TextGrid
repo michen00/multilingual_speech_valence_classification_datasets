@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.755
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.755
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.036
+            text = "t"
+        intervals [2]:
+            xmin = 0.036
+            xmax = 0.111
+            text = "7"
+        intervals [3]:
+            xmin = 0.111
+            xmax = 0.159
+            text = "s"
+        intervals [4]:
+            xmin = 0.159
+            xmax = 0.241
+            text = "i"
+        intervals [5]:
+            xmin = 0.241
+            xmax = 0.288
+            text = "s1"
+        intervals [6]:
+            xmin = 0.288
+            xmax = 0.34
+            text = "e"
+        intervals [7]:
+            xmin = 0.34
+            xmax = 0.406
+            text = "l"
+        intervals [8]:
+            xmin = 0.406
+            xmax = 0.448
+            text = "t:"
+        intervals [9]:
+            xmin = 0.448
+            xmax = 0.52
+            text = "k"
+        intervals [10]:
+            xmin = 0.52
+            xmax = 0.7
+            text = "a"
+        intervals [11]:
+            xmin = 0.7
+            xmax = 0.755
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.755
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.448
+            text = "Tõsiselt"
+        intervals [2]:
+            xmin = 0.448
+            xmax = 0.7
+            text = "ka"
+        intervals [3]:
+            xmin = 0.7
+            xmax = 0.755
+            text = "!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.755
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.755
+            text = "Tõsiselt ka!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.755
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.755
+            text = "joy"

@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.441
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.441
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.275
+            text = ""
+        intervals [2]:
+            xmin = 0.275
+            xmax = 0.488
+            text = ""
+        intervals [3]:
+            xmin = 0.488
+            xmax = 0.699
+            text = ""
+        intervals [4]:
+            xmin = 0.699
+            xmax = 1.021
+            text = ""
+        intervals [5]:
+            xmin = 1.021
+            xmax = 1.441
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.441
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.275
+            text = "Kogu "
+        intervals [2]:
+            xmin = 0.275
+            xmax = 0.488
+            text = "aeg"
+        intervals [3]:
+            xmin = 0.488
+            xmax = 0.699
+            text = "tuli"
+        intervals [4]:
+            xmin = 0.699
+            xmax = 1.021
+            text = "midagi"
+        intervals [5]:
+            xmin = 1.021
+            xmax = 1.441
+            text = "vahele"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.441
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.275
+            text = "P"
+        intervals [2]:
+            xmin = 0.275
+            xmax = 0.488
+            text = "S"
+        intervals [3]:
+            xmin = 0.488
+            xmax = 0.699
+            text = "V"
+        intervals [4]:
+            xmin = 0.699
+            xmax = 1.021
+            text = "P"
+        intervals [5]:
+            xmin = 1.021
+            xmax = 1.441
+            text = "D"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.441
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.441
+            text = "Kogu aeg tuli midagi vahele."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.441
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.441
+            text = "anger"

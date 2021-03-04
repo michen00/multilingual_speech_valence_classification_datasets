@@ -1,0 +1,80 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.275
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.275
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.012
+            text = ""
+        intervals [2]:
+            xmin = 0.012
+            xmax = 2.268
+            text = ""
+        intervals [3]:
+            xmin = 2.268
+            xmax = 2.275
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.275
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.012
+            text = "."
+        intervals [2]:
+            xmin = 0.012
+            xmax = 0.8
+            text = "Reklaamidesse"
+        intervals [3]:
+            xmin = 0.8
+            xmax = 0.939
+            text = "ei"
+        intervals [4]:
+            xmin = 0.939
+            xmax = 1.22
+            text = "saa"
+        intervals [5]:
+            xmin = 1.22
+            xmax = 1.725
+            text = "tõsiselt"
+        intervals [6]:
+            xmin = 1.725
+            xmax = 2.268
+            text = "suhtuda"
+        intervals [7]:
+            xmin = 2.268
+            xmax = 2.275
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.275
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.275
+            text = "Reklaamidesse ei saa tõsiselt suhtuda."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.275
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.275
+            text = "anger"

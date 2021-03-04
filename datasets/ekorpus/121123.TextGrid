@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.455
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.455
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.05
+            text = ""
+        intervals [2]:
+            xmin = 0.05
+            xmax = 4.449
+            text = ""
+        intervals [3]:
+            xmin = 4.449
+            xmax = 4.455
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.455
+        intervals: size = 18
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.05
+            text = "?!"
+        intervals [2]:
+            xmin = 0.05
+            xmax = 0.136
+            text = "Mul"
+        intervals [3]:
+            xmin = 0.136
+            xmax = 0.235
+            text = "on"
+        intervals [4]:
+            xmin = 0.235
+            xmax = 0.718
+            text = "sügavalt"
+        intervals [5]:
+            xmin = 0.718
+            xmax = 1.065
+            text = "häbi"
+        intervals [6]:
+            xmin = 1.065
+            xmax = 1.222
+            text = "et"
+        intervals [7]:
+            xmin = 1.222
+            xmax = 1.581
+            text = "sellised"
+        intervals [8]:
+            xmin = 1.581
+            xmax = 1.856
+            text = "asjad"
+        intervals [9]:
+            xmin = 1.856
+            xmax = 2.148
+            text = "said"
+        intervals [10]:
+            xmin = 2.148
+            xmax = 2.659
+            text = "juhtuda"
+        intervals [11]:
+            xmin = 2.659
+            xmax = 3.07
+            text = ""
+        intervals [12]:
+            xmin = 3.07
+            xmax = 3.138
+            text = "ja"
+        intervals [13]:
+            xmin = 3.138
+            xmax = 3.22
+            text = "et"
+        intervals [14]:
+            xmin = 3.22
+            xmax = 3.365
+            text = "ma"
+        intervals [15]:
+            xmin = 3.365
+            xmax = 3.584
+            text = "pean"
+        intervals [16]:
+            xmin = 3.584
+            xmax = 3.846
+            text = "neist"
+        intervals [17]:
+            xmin = 3.846
+            xmax = 4.449
+            text = "kirjutama"
+        intervals [18]:
+            xmin = 4.449
+            xmax = 4.455
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.455
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.455
+            text = "Mul on sügavalt häbi, et sellised asjad said juhtuda ja et ma pean neist kirjutama."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.455
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.455
+            text = "neutral"

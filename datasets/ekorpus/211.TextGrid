@@ -1,0 +1,152 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.537
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.537
+        intervals: size = 24
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.068
+            text = "m"
+        intervals [2]:
+            xmin = 0.068
+            xmax = 0.131
+            text = "i"
+        intervals [3]:
+            xmin = 0.131
+            xmax = 0.165
+            text = "t"
+        intervals [4]:
+            xmin = 0.165
+            xmax = 0.255
+            text = "a"
+        intervals [5]:
+            xmin = 0.255
+            xmax = 0.314
+            text = "n"
+        intervals [6]:
+            xmin = 0.314
+            xmax = 0.367
+            text = "e::"
+        intervals [7]:
+            xmin = 0.367
+            xmax = 0.421
+            text = "t%"
+        intervals [8]:
+            xmin = 0.421
+            xmax = 0.486
+            text = "t"
+        intervals [9]:
+            xmin = 0.486
+            xmax = 0.558
+            text = "u"
+        intervals [10]:
+            xmin = 0.558
+            xmax = 0.601
+            text = "r"
+        intervals [11]:
+            xmin = 0.601
+            xmax = 0.635
+            text = "v"
+        intervals [12]:
+            xmin = 0.635
+            xmax = 0.747
+            text = "a"
+        intervals [13]:
+            xmin = 0.747
+            xmax = 0.77
+            text = "m"
+        intervals [14]:
+            xmin = 0.77
+            xmax = 0.804
+            text = "e"
+        intervals [15]:
+            xmin = 0.804
+            xmax = 0.841
+            text = "h1"
+        intervals [16]:
+            xmin = 0.841
+            xmax = 0.885
+            text = "e"
+        intervals [17]:
+            xmin = 0.885
+            xmax = 0.99
+            text = "t%"
+        intervals [18]:
+            xmin = 0.99
+            xmax = 1.067
+            text = "p"
+        intervals [19]:
+            xmin = 1.067
+            xmax = 1.134
+            text = "a"
+        intervals [20]:
+            xmin = 1.134
+            xmax = 1.284
+            text = "s::"
+        intervals [21]:
+            xmin = 1.284
+            xmax = 1.339
+            text = "i"
+        intervals [22]:
+            xmin = 1.339
+            xmax = 1.376
+            text = "v"
+        intervals [23]:
+            xmin = 1.376
+            xmax = 1.426
+            text = "a+"
+        intervals [24]:
+            xmin = 1.426
+            xmax = 1.537
+            text = "t%"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.537
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.255
+            text = "Mida"
+        intervals [2]:
+            xmin = 0.255
+            xmax = 0.421
+            text = "need"
+        intervals [3]:
+            xmin = 0.421
+            xmax = 0.99
+            text = "turvamehed"
+        intervals [4]:
+            xmin = 0.99
+            xmax = 1.537
+            text = "passivad"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.537
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.537
+            text = "Mida need turvamehed passivad?"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.537
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.537
+            text = "anger"

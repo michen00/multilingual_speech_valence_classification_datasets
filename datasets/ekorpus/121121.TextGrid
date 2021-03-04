@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.316
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.316
+        intervals: size = 18
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.042
+            text = "k"
+        intervals [2]:
+            xmin = 0.042
+            xmax = 0.086
+            text = "u"
+        intervals [3]:
+            xmin = 0.086
+            xmax = 0.121
+            text = "i"
+        intervals [4]:
+            xmin = 0.121
+            xmax = 0.18
+            text = "t:"
+        intervals [5]:
+            xmin = 0.18
+            xmax = 0.261
+            text = "a"
+        intervals [6]:
+            xmin = 0.261
+            xmax = 0.31
+            text = "s"
+        intervals [7]:
+            xmin = 0.31
+            xmax = 0.417
+            text = "t"
+        intervals [8]:
+            xmin = 0.417
+            xmax = 0.48
+            text = "a"
+        intervals [9]:
+            xmin = 0.48
+            xmax = 0.529
+            text = "l"
+        intervals [10]:
+            xmin = 0.529
+            xmax = 0.604
+            text = "i"
+        intervals [11]:
+            xmin = 0.604
+            xmax = 0.735
+            text = "t:"
+        intervals [12]:
+            xmin = 0.735
+            xmax = 0.826
+            text = "a"
+        intervals [13]:
+            xmin = 0.826
+            xmax = 0.887
+            text = "k:"
+        intervals [14]:
+            xmin = 0.887
+            xmax = 0.962
+            text = "s"
+        intervals [15]:
+            xmin = 0.962
+            xmax = 1.034
+            text = "i"
+        intervals [16]:
+            xmin = 1.034
+            xmax = 1.17
+            text = "t:"
+        intervals [17]:
+            xmin = 1.17
+            xmax = 1.3
+            text = "e"
+        intervals [18]:
+            xmin = 1.3
+            xmax = 1.316
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.316
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.31
+            text = "Kuidas"
+        intervals [2]:
+            xmin = 0.31
+            xmax = 1.3
+            text = "talitaksite"
+        intervals [3]:
+            xmin = 1.3
+            xmax = 1.316
+            text = "?!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.316
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.316
+            text = "Kuidas talitaksite?!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.316
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.316
+            text = "neutral"

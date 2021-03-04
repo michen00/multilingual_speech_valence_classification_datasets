@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.152
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.152
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.006
+            text = ""
+        intervals [2]:
+            xmin = 4.006
+            xmax = 4.152
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.152
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.09
+            text = "Ja"
+        intervals [2]:
+            xmin = 0.09
+            xmax = 0.703
+            text = "patrullid"
+        intervals [3]:
+            xmin = 0.703
+            xmax = 0.895
+            text = "kes"
+        intervals [4]:
+            xmin = 0.895
+            xmax = 1.406
+            text = "viitsivad"
+        intervals [5]:
+            xmin = 1.406
+            xmax = 1.81
+            text = "autost"
+        intervals [6]:
+            xmin = 1.81
+            xmax = 2.098
+            text = "välja"
+        intervals [7]:
+            xmin = 2.098
+            xmax = 2.417
+            text = "tulla"
+        intervals [8]:
+            xmin = 2.417
+            xmax = 2.572
+            text = "kui"
+        intervals [9]:
+            xmin = 2.572
+            xmax = 2.838
+            text = "pätt"
+        intervals [10]:
+            xmin = 2.838
+            xmax = 3.34
+            text = "tänaval"
+        intervals [11]:
+            xmin = 3.34
+            xmax = 4.006
+            text = "laamendab"
+        intervals [12]:
+            xmin = 4.006
+            xmax = 4.152
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.152
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.152
+            text = "Ja patrullid, kes viitsivad autost välja tulla, kui pätt tänaval laamendab."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.152
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.152
+            text = "anger"

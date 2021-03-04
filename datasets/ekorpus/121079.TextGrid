@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.454
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.454
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.418
+            text = ""
+        intervals [2]:
+            xmin = 2.418
+            xmax = 2.454
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.454
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.274
+            text = "Ainult"
+        intervals [2]:
+            xmin = 0.274
+            xmax = 0.761
+            text = "sõjavägi"
+        intervals [3]:
+            xmin = 0.761
+            xmax = 0.95
+            text = "teeb"
+        intervals [4]:
+            xmin = 0.95
+            xmax = 1.224
+            text = "meist"
+        intervals [5]:
+            xmin = 1.224
+            xmax = 1.651
+            text = "päriselt"
+        intervals [6]:
+            xmin = 1.651
+            xmax = 2.015
+            text = "mehed"
+        intervals [7]:
+            xmin = 2.015
+            xmax = 2.1
+            text = ","
+        intervals [8]:
+            xmin = 2.1
+            xmax = 2.418
+            text = "eks"
+        intervals [9]:
+            xmin = 2.418
+            xmax = 2.454
+            text = "...?"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.454
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.454
+            text = "Ainult sõjavägi teeb meist päriselt mehed, eks...?"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.454
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.454
+            text = "anger"

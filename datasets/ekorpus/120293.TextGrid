@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.019
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.019
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = ""
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.037
+            text = "l"
+        intervals [3]:
+            xmin = 0.037
+            xmax = 0.097
+            text = "u"
+        intervals [4]:
+            xmin = 0.097
+            xmax = 0.165
+            text = "m"
+        intervals [5]:
+            xmin = 0.165
+            xmax = 0.278
+            text = "i"
+        intervals [6]:
+            xmin = 0.278
+            xmax = 0.371
+            text = "o"
+        intervals [7]:
+            xmin = 0.371
+            xmax = 0.445
+            text = "n"
+        intervals [8]:
+            xmin = 0.445
+            xmax = 0.478
+            text = "j"
+        intervals [9]:
+            xmin = 0.478
+            xmax = 0.543
+            text = "u"
+        intervals [10]:
+            xmin = 0.543
+            xmax = 0.622
+            text = "i"
+        intervals [11]:
+            xmin = 0.622
+            xmax = 0.681
+            text = "l"
+        intervals [12]:
+            xmin = 0.681
+            xmax = 0.839
+            text = "u"
+        intervals [13]:
+            xmin = 0.839
+            xmax = 0.992
+            text = "s"
+        intervals [14]:
+            xmin = 0.992
+            xmax = 1.019
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.019
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = "?"
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.278
+            text = "Lumi"
+        intervals [3]:
+            xmin = 0.278
+            xmax = 0.445
+            text = "on"
+        intervals [4]:
+            xmin = 0.445
+            xmax = 0.543
+            text = "ju"
+        intervals [5]:
+            xmin = 0.543
+            xmax = 0.992
+            text = "ilus"
+        intervals [6]:
+            xmin = 0.992
+            xmax = 1.019
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.019
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.019
+            text = "Lumi on ju ilus."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.019
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.019
+            text = "joy"

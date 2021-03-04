@@ -1,0 +1,210 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.857
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.857
+        intervals: size = 29
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.069
+            text = "o"
+        intervals [2]:
+            xmin = 0.069
+            xmax = 0.114
+            text = "l"
+        intervals [3]:
+            xmin = 0.114
+            xmax = 0.178
+            text = "e"
+        intervals [4]:
+            xmin = 0.178
+            xmax = 0.251
+            text = "n"
+        intervals [5]:
+            xmin = 0.251
+            xmax = 0.287
+            text = "k"
+        intervals [6]:
+            xmin = 0.287
+            xmax = 0.377
+            text = "a"
+        intervals [7]:
+            xmin = 0.377
+            xmax = 0.425
+            text = "s"
+        intervals [8]:
+            xmin = 0.425
+            xmax = 0.456
+            text = "v"
+        intervals [9]:
+            xmin = 0.456
+            xmax = 0.531
+            text = "a"
+        intervals [10]:
+            xmin = 0.531
+            xmax = 0.623
+            text = "t:"
+        intervals [11]:
+            xmin = 0.623
+            xmax = 0.676
+            text = "a"
+        intervals [12]:
+            xmin = 0.676
+            xmax = 0.741
+            text = "n"
+        intervals [13]:
+            xmin = 0.741
+            xmax = 0.803
+            text = "u"
+        intervals [14]:
+            xmin = 0.803
+            xmax = 0.828
+            text = "t%"
+        intervals [15]:
+            xmin = 0.828
+            xmax = 0.898
+            text = "t"
+        intervals [16]:
+            xmin = 0.898
+            xmax = 0.949
+            text = "e"
+        intervals [17]:
+            xmin = 0.949
+            xmax = 0.989
+            text = "t"
+        intervals [18]:
+            xmin = 0.989
+            xmax = 1.069
+            text = "a"
+        intervals [19]:
+            xmin = 1.069
+            xmax = 1.15
+            text = "t"
+        intervals [20]:
+            xmin = 1.15
+            xmax = 1.223
+            text = "u"
+        intervals [21]:
+            xmin = 1.223
+            xmax = 1.367
+            text = "n::"
+        intervals [22]:
+            xmin = 1.367
+            xmax = 1.406
+            text = "t"
+        intervals [23]:
+            xmin = 1.406
+            xmax = 1.499
+            text = "e"
+        intervals [24]:
+            xmin = 1.499
+            xmax = 1.523
+            text = "j"
+        intervals [25]:
+            xmin = 1.523
+            xmax = 1.606
+            text = "x"
+        intervals [26]:
+            xmin = 1.606
+            xmax = 1.696
+            text = "r::"
+        intervals [27]:
+            xmin = 1.696
+            xmax = 1.756
+            text = "k"
+        intervals [28]:
+            xmin = 1.756
+            xmax = 1.851
+            text = "i"
+        intervals [29]:
+            xmin = 1.851
+            xmax = 1.857
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.857
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.251
+            text = "Olen"
+        intervals [2]:
+            xmin = 0.251
+            xmax = 0.828
+            text = "kasvatanud"
+        intervals [3]:
+            xmin = 0.828
+            xmax = 1.069
+            text = "teda"
+        intervals [4]:
+            xmin = 1.069
+            xmax = 1.499
+            text = "tunde"
+        intervals [5]:
+            xmin = 1.499
+            xmax = 1.851
+            text = "järgi"
+        intervals [6]:
+            xmin = 1.851
+            xmax = 1.857
+            text = "./"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.857
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.251
+            text = "V"
+        intervals [2]:
+            xmin = 0.251
+            xmax = 0.828
+            text = "V"
+        intervals [3]:
+            xmin = 0.828
+            xmax = 1.069
+            text = "P"
+        intervals [4]:
+            xmin = 1.069
+            xmax = 1.499
+            text = "S"
+        intervals [5]:
+            xmin = 1.499
+            xmax = 1.851
+            text = "K"
+        intervals [6]:
+            xmin = 1.851
+            xmax = 1.857
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.857
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.857
+            text = "Olen kasvatanud teda tunde järgi."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.857
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.857
+            text = "neutral"

@@ -1,0 +1,102 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.906
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.906
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.586
+            text = ""
+        intervals [2]:
+            xmin = 0.586
+            xmax = 0.956
+            text = ""
+        intervals [3]:
+            xmin = 0.956
+            xmax = 1.086
+            text = ""
+        intervals [4]:
+            xmin = 1.086
+            xmax = 1.406
+            text = ""
+        intervals [5]:
+            xmin = 1.406
+            xmax = 1.906
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.906
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.586
+            text = "Võimaluse"
+        intervals [2]:
+            xmin = 0.586
+            xmax = 0.956
+            text = "andmine"
+        intervals [3]:
+            xmin = 0.956
+            xmax = 1.086
+            text = "on"
+        intervals [4]:
+            xmin = 1.086
+            xmax = 1.406
+            text = "kõige"
+        intervals [5]:
+            xmin = 1.406
+            xmax = 1.906
+            text = "olulisem"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.906
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.586
+            text = "S"
+        intervals [2]:
+            xmin = 0.586
+            xmax = 0.956
+            text = "S"
+        intervals [3]:
+            xmin = 0.956
+            xmax = 1.086
+            text = "V"
+        intervals [4]:
+            xmin = 1.086
+            xmax = 1.906
+            text = "A"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.906
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.906
+            text = "Võimaluse andmine on kõige olulisem."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.906
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.906
+            text = "sadness"

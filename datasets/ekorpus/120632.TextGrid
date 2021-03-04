@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.578
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.578
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.033
+            text = ""
+        intervals [2]:
+            xmin = 0.033
+            xmax = 4.419
+            text = ""
+        intervals [3]:
+            xmin = 4.419
+            xmax = 4.578
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.578
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.033
+            text = "."
+        intervals [2]:
+            xmin = 0.033
+            xmax = 0.36
+            text = "Varem"
+        intervals [3]:
+            xmin = 0.36
+            xmax = 0.668
+            text = "oleme"
+        intervals [4]:
+            xmin = 0.668
+            xmax = 1.396
+            text = "tagantjärele"
+        intervals [5]:
+            xmin = 1.396
+            xmax = 1.661
+            text = "ikka"
+        intervals [6]:
+            xmin = 1.661
+            xmax = 2.057
+            text = "leidnud"
+        intervals [7]:
+            xmin = 2.057
+            xmax = 2.696
+            text = "esinejaid"
+        intervals [8]:
+            xmin = 2.696
+            xmax = 2.912
+            text = "kes"
+        intervals [9]:
+            xmin = 2.912
+            xmax = 3.11
+            text = "siia"
+        intervals [10]:
+            xmin = 3.11
+            xmax = 3.399
+            text = "väga"
+        intervals [11]:
+            xmin = 3.399
+            xmax = 3.761
+            text = "hästi"
+        intervals [12]:
+            xmin = 3.761
+            xmax = 3.85
+            text = "ei"
+        intervals [13]:
+            xmin = 3.85
+            xmax = 4.419
+            text = "sobinud"
+        intervals [14]:
+            xmin = 4.419
+            xmax = 4.578
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.578
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.578
+            text = "Varem oleme tagantjärele ikka leidnud esinejaid, kes siia väga hästi ei sobinud."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.578
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.578
+            text = "neutral"

@@ -1,0 +1,160 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.041
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.041
+        intervals: size = 23
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.007
+            text = ""
+        intervals [2]:
+            xmin = 0.007
+            xmax = 0.097
+            text = "u"
+        intervals [3]:
+            xmin = 0.097
+            xmax = 0.222
+            text = "s::"
+        intervals [4]:
+            xmin = 0.222
+            xmax = 0.266
+            text = "k:"
+        intervals [5]:
+            xmin = 0.266
+            xmax = 0.346
+            text = "u"
+        intervals [6]:
+            xmin = 0.346
+            xmax = 0.405
+            text = "k"
+        intervals [7]:
+            xmin = 0.405
+            xmax = 0.538
+            text = "e"
+        intervals [8]:
+            xmin = 0.538
+            xmax = 0.982
+            text = ""
+        intervals [9]:
+            xmin = 0.982
+            xmax = 1.033
+            text = "k"
+        intervals [10]:
+            xmin = 1.033
+            xmax = 1.091
+            text = "e"
+        intervals [11]:
+            xmin = 1.091
+            xmax = 1.15
+            text = "s"
+        intervals [12]:
+            xmin = 1.15
+            xmax = 1.253
+            text = "u"
+        intervals [13]:
+            xmin = 1.253
+            xmax = 1.32
+            text = "s::"
+        intervals [14]:
+            xmin = 1.32
+            xmax = 1.401
+            text = "k"
+        intervals [15]:
+            xmin = 1.401
+            xmax = 1.484
+            text = "u"
+        intervals [16]:
+            xmin = 1.484
+            xmax = 1.513
+            text = "t"
+        intervals [17]:
+            xmin = 1.513
+            xmax = 1.581
+            text = "a"
+        intervals [18]:
+            xmin = 1.581
+            xmax = 1.631
+            text = "s1"
+        intervals [19]:
+            xmin = 1.631
+            xmax = 1.776
+            text = "u:"
+        intervals [20]:
+            xmin = 1.776
+            xmax = 1.814
+            text = "t"
+        intervals [21]:
+            xmin = 1.814
+            xmax = 1.915
+            text = "a"
+        intervals [22]:
+            xmin = 1.915
+            xmax = 2.036
+            text = "p"
+        intervals [23]:
+            xmin = 2.036
+            xmax = 2.041
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.041
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.007
+            text = "."
+        intervals [2]:
+            xmin = 0.007
+            xmax = 0.538
+            text = "Uskuge"
+        intervals [3]:
+            xmin = 0.538
+            xmax = 0.982
+            text = ","
+        intervals [4]:
+            xmin = 0.982
+            xmax = 1.15
+            text = "kes"
+        intervals [5]:
+            xmin = 1.15
+            xmax = 1.581
+            text = "uskuda"
+        intervals [6]:
+            xmin = 1.581
+            xmax = 2.036
+            text = "suudab"
+        intervals [7]:
+            xmin = 2.036
+            xmax = 2.041
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.041
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.041
+            text = "Uskuge, kes uskuda suudab."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.041
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.041
+            text = "anger"

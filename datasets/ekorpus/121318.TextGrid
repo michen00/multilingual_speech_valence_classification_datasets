@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.08
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.08
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.025
+            text = "t:"
+        intervals [2]:
+            xmin = 0.025
+            xmax = 0.057
+            text = "a"
+        intervals [3]:
+            xmin = 0.057
+            xmax = 0.104
+            text = "l"
+        intervals [4]:
+            xmin = 0.104
+            xmax = 0.173
+            text = "o"
+        intervals [5]:
+            xmin = 0.173
+            xmax = 0.23
+            text = "n"
+        intervals [6]:
+            xmin = 0.23
+            xmax = 0.326
+            text = "e"
+        intervals [7]:
+            xmin = 0.326
+            xmax = 0.355
+            text = "r"
+        intervals [8]:
+            xmin = 0.355
+            xmax = 0.444
+            text = "i"
+        intervals [9]:
+            xmin = 0.444
+            xmax = 0.511
+            text = "l"
+        intervals [10]:
+            xmin = 0.511
+            xmax = 0.571
+            text = "i"
+        intervals [11]:
+            xmin = 0.571
+            xmax = 0.628
+            text = "n"
+        intervals [12]:
+            xmin = 0.628
+            xmax = 0.662
+            text = "e"
+        intervals [13]:
+            xmin = 0.662
+            xmax = 0.764
+            text = "a"
+        intervals [14]:
+            xmin = 0.764
+            xmax = 0.873
+            text = "u"
+        intervals [15]:
+            xmin = 0.873
+            xmax = 0.907
+            text = "r"
+        intervals [16]:
+            xmin = 0.907
+            xmax = 1.064
+            text = "a"
+        intervals [17]:
+            xmin = 1.064
+            xmax = 1.08
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.08
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.104
+            text = "Tal"
+        intervals [2]:
+            xmin = 0.104
+            xmax = 0.23
+            text = "on"
+        intervals [3]:
+            xmin = 0.23
+            xmax = 0.662
+            text = "eriline"
+        intervals [4]:
+            xmin = 0.662
+            xmax = 1.064
+            text = "aura"
+        intervals [5]:
+            xmin = 1.064
+            xmax = 1.08
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.08
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.08
+            text = "Tal on eriline aura."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.08
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.08
+            text = "joy"

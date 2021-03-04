@@ -1,0 +1,104 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.864
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.864
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.835
+            text = ""
+        intervals [2]:
+            xmin = 4.835
+            xmax = 4.864
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.864
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.386
+            text = "Hommikul"
+        intervals [2]:
+            xmin = 0.386
+            xmax = 0.511
+            text = "on"
+        intervals [3]:
+            xmin = 0.511
+            xmax = 0.683
+            text = "need"
+        intervals [4]:
+            xmin = 0.683
+            xmax = 0.955
+            text = "väga"
+        intervals [5]:
+            xmin = 0.955
+            xmax = 1.332
+            text = "rasked"
+        intervals [6]:
+            xmin = 1.332
+            xmax = 1.734
+            text = "haiged"
+        intervals [7]:
+            xmin = 1.734
+            xmax = 1.894
+            text = "seal"
+        intervals [8]:
+            xmin = 1.894
+            xmax = 2.478
+            text = "esimesed"
+        intervals [9]:
+            xmin = 2.478
+            xmax = 2.898
+            text = ","
+        intervals [10]:
+            xmin = 2.898
+            xmax = 3.47
+            text = "krõbisevad"
+        intervals [11]:
+            xmin = 3.47
+            xmax = 3.553
+            text = "ja"
+        intervals [12]:
+            xmin = 3.553
+            xmax = 4.145
+            text = "suitsetavad"
+        intervals [13]:
+            xmin = 4.145
+            xmax = 4.835
+            text = "palehigis"
+        intervals [14]:
+            xmin = 4.835
+            xmax = 4.864
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.864
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.864
+            text = "Hommikul on need väga rasked haiged seal esimesed, krõbisevad ja suitsetavad palehigis."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.864
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.864
+            text = "neutral"

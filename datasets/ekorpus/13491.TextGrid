@@ -1,0 +1,166 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.057
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 19
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.095
+            text = "m"
+        intervals [2]:
+            xmin = 0.095
+            xmax = 0.145
+            text = "a"
+        intervals [3]:
+            xmin = 0.145
+            xmax = 0.193
+            text = "e"
+        intervals [4]:
+            xmin = 0.193
+            xmax = 0.232
+            text = "i:"
+        intervals [5]:
+            xmin = 0.232
+            xmax = 0.272
+            text = "t1"
+        intervals [6]:
+            xmin = 0.272
+            xmax = 0.318
+            text = "e"
+        intervals [7]:
+            xmin = 0.318
+            xmax = 0.405
+            text = "a:"
+        intervals [8]:
+            xmin = 0.405
+            xmax = 0.441
+            text = "k1"
+        intervals [9]:
+            xmin = 0.441
+            xmax = 0.475
+            text = "u"
+        intervals [10]:
+            xmin = 0.475
+            xmax = 0.506
+            text = "i"
+        intervals [11]:
+            xmin = 0.506
+            xmax = 0.544
+            text = "t1"
+        intervals [12]:
+            xmin = 0.544
+            xmax = 0.614
+            text = "a"
+        intervals [13]:
+            xmin = 0.614
+            xmax = 0.664
+            text = "s1"
+        intervals [14]:
+            xmin = 0.664
+            xmax = 0.717
+            text = "e"
+        intervals [15]:
+            xmin = 0.717
+            xmax = 0.748
+            text = "t1"
+        intervals [16]:
+            xmin = 0.748
+            xmax = 0.871
+            text = "a"
+        intervals [17]:
+            xmin = 0.871
+            xmax = 0.96
+            text = "s"
+        intervals [18]:
+            xmin = 0.96
+            xmax = 1.052
+            text = "i"
+        intervals [19]:
+            xmin = 1.052
+            xmax = 1.057
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.145
+            text = "Ma  "
+        intervals [2]:
+            xmin = 0.145
+            xmax = 0.232
+            text = "ei "
+        intervals [3]:
+            xmin = 0.232
+            xmax = 0.405
+            text = "tea,"
+        intervals [4]:
+            xmin = 0.405
+            xmax = 0.664
+            text = "kuidas"
+        intervals [5]:
+            xmin = 0.664
+            xmax = 1.052
+            text = "edasi"
+        intervals [6]:
+            xmin = 1.052
+            xmax = 1.057
+            text = ".../"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.145
+            text = "P"
+        intervals [2]:
+            xmin = 0.145
+            xmax = 0.405
+            text = "V"
+        intervals [3]:
+            xmin = 0.405
+            xmax = 0.664
+            text = "P"
+        intervals [4]:
+            xmin = 0.664
+            xmax = 1.052
+            text = "D"
+        intervals [5]:
+            xmin = 1.052
+            xmax = 1.057
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.057
+            text = "Ma ei tea, kuidas edasi..."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.057
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.057
+            text = "sadness"

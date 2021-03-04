@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.227
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.227
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.322
+            text = ""
+        intervals [2]:
+            xmin = 0.322
+            xmax = 0.636
+            text = ""
+        intervals [3]:
+            xmin = 0.636
+            xmax = 1.014
+            text = ""
+        intervals [4]:
+            xmin = 1.014
+            xmax = 1.133
+            text = ""
+        intervals [5]:
+            xmin = 1.133
+            xmax = 1.693
+            text = ""
+        intervals [6]:
+            xmin = 1.693
+            xmax = 1.832
+            text = ""
+        intervals [7]:
+            xmin = 1.832
+            xmax = 2.045
+            text = ""
+        intervals [8]:
+            xmin = 2.045
+            xmax = 2.395
+            text = ""
+        intervals [9]:
+            xmin = 2.395
+            xmax = 2.878
+            text = ""
+        intervals [10]:
+            xmin = 2.878
+            xmax = 3.227
+            text = ""
+        intervals [11]:
+            xmin = 3.227
+            xmax = 3.703
+            text = ""
+        intervals [12]:
+            xmin = 3.703
+            xmax = 4.227
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.227
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.322
+            text = "Meie"
+        intervals [2]:
+            xmin = 0.322
+            xmax = 1.014
+            text = "suusaliidus"
+        intervals [3]:
+            xmin = 1.014
+            xmax = 1.133
+            text = "ei"
+        intervals [4]:
+            xmin = 1.133
+            xmax = 1.693
+            text = "muretse"
+        intervals [5]:
+            xmin = 1.693
+            xmax = 1.832
+            text = ","
+        intervals [6]:
+            xmin = 1.832
+            xmax = 2.045
+            text = "kas"
+        intervals [7]:
+            xmin = 2.045
+            xmax = 2.878
+            text = "kergejõustiku"
+        intervals [8]:
+            xmin = 2.878
+            xmax = 3.703
+            text = "meistrivõistlused"
+        intervals [9]:
+            xmin = 3.703
+            xmax = 4.227
+            text = "toimuvad"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.227
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.227
+            text = "Meie suusaliidus ei muretse, kas kergejõustiku meistrivõistlused toimuvad."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.227
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.227
+            text = "neutral"

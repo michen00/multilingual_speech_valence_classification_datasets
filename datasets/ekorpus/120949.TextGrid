@@ -1,0 +1,172 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.843
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.843
+        intervals: size = 25
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.017
+            text = "v0"
+        intervals [2]:
+            xmin = 0.017
+            xmax = 0.16
+            text = "a::"
+        intervals [3]:
+            xmin = 0.16
+            xmax = 0.255
+            text = "t:"
+        intervals [4]:
+            xmin = 0.255
+            xmax = 0.269
+            text = "a"
+        intervals [5]:
+            xmin = 0.269
+            xmax = 0.346
+            text = "e"
+        intervals [6]:
+            xmin = 0.346
+            xmax = 0.408
+            text = "t:"
+        intervals [7]:
+            xmin = 0.408
+            xmax = 0.453
+            text = "h1"
+        intervals [8]:
+            xmin = 0.453
+            xmax = 0.579
+            text = "o::"
+        intervals [9]:
+            xmin = 0.579
+            xmax = 0.65
+            text = "p:"
+        intervals [10]:
+            xmin = 0.65
+            xmax = 0.704
+            text = "i"
+        intervals [11]:
+            xmin = 0.704
+            xmax = 0.758
+            text = "s"
+        intervals [12]:
+            xmin = 0.758
+            xmax = 0.906
+            text = "u::"
+        intervals [13]:
+            xmin = 0.906
+            xmax = 0.964
+            text = "t:"
+        intervals [14]:
+            xmin = 0.964
+            xmax = 1.032
+            text = "s"
+        intervals [15]:
+            xmin = 1.032
+            xmax = 1.101
+            text = "7"
+        intervals [16]:
+            xmin = 1.101
+            xmax = 1.144
+            text = "t"
+        intervals [17]:
+            xmin = 1.144
+            xmax = 1.246
+            text = "a"
+        intervals [18]:
+            xmin = 1.246
+            xmax = 1.293
+            text = "e"
+        intervals [19]:
+            xmin = 1.293
+            xmax = 1.362
+            text = "i:"
+        intervals [20]:
+            xmin = 1.362
+            xmax = 1.419
+            text = "p"
+        intervals [21]:
+            xmin = 1.419
+            xmax = 1.491
+            text = "u"
+        intervals [22]:
+            xmin = 1.491
+            xmax = 1.602
+            text = "h::"
+        intervals [23]:
+            xmin = 1.602
+            xmax = 1.704
+            text = "k:"
+        intervals [24]:
+            xmin = 1.704
+            xmax = 1.839
+            text = "e"
+        intervals [25]:
+            xmin = 1.839
+            xmax = 1.843
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.843
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.269
+            text = "Vaata"
+        intervals [2]:
+            xmin = 0.269
+            xmax = 0.408
+            text = "et"
+        intervals [3]:
+            xmin = 0.408
+            xmax = 0.758
+            text = "hoopis"
+        intervals [4]:
+            xmin = 0.758
+            xmax = 0.964
+            text = "uut"
+        intervals [5]:
+            xmin = 0.964
+            xmax = 1.246
+            text = "sõda"
+        intervals [6]:
+            xmin = 1.246
+            xmax = 1.362
+            text = "ei"
+        intervals [7]:
+            xmin = 1.362
+            xmax = 1.839
+            text = "puhke"
+        intervals [8]:
+            xmin = 1.839
+            xmax = 1.843
+            text = "!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.843
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.843
+            text = "Vaata et hoopis uut sõda ei puhke!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.843
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.843
+            text = "sadness"

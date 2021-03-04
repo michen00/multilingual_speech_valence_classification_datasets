@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.853
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.853
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = ""
+        intervals [2]:
+            xmin = 0.001
+            xmax = 3.853
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.853
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = "."
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.255
+            text = "Nõnda"
+        intervals [3]:
+            xmin = 0.255
+            xmax = 0.418
+            text = "on"
+        intervals [4]:
+            xmin = 0.418
+            xmax = 0.574
+            text = "mu"
+        intervals [5]:
+            xmin = 0.574
+            xmax = 0.858
+            text = "toa"
+        intervals [6]:
+            xmin = 0.858
+            xmax = 1.151
+            text = "õhk"
+        intervals [7]:
+            xmin = 1.151
+            xmax = 1.599
+            text = "alati"
+        intervals [8]:
+            xmin = 1.599
+            xmax = 1.929
+            text = "täis"
+        intervals [9]:
+            xmin = 1.929
+            xmax = 2.244
+            text = "Malle"
+        intervals [10]:
+            xmin = 2.244
+            xmax = 2.593
+            text = "Leisi"
+        intervals [11]:
+            xmin = 2.593
+            xmax = 3.151
+            text = "maalitud"
+        intervals [12]:
+            xmin = 3.151
+            xmax = 3.853
+            text = "õietolmu"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.853
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.853
+            text = "Nõnda on mu toa õhk alati täis Malle Leisi maalitud õietolmu."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.853
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.853
+            text = "joy"

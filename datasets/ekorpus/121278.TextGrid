@@ -1,0 +1,208 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.412
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.412
+        intervals: size = 32
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.012
+            text = ""
+        intervals [2]:
+            xmin = 0.012
+            xmax = 0.073
+            text = "a"
+        intervals [3]:
+            xmin = 0.073
+            xmax = 0.118
+            text = "k"
+        intervals [4]:
+            xmin = 0.118
+            xmax = 0.204
+            text = "a"
+        intervals [5]:
+            xmin = 0.204
+            xmax = 0.246
+            text = "t"
+        intervals [6]:
+            xmin = 0.246
+            xmax = 0.319
+            text = "e"
+        intervals [7]:
+            xmin = 0.319
+            xmax = 0.347
+            text = "k1"
+        intervals [8]:
+            xmin = 0.347
+            xmax = 0.428
+            text = "e"
+        intervals [9]:
+            xmin = 0.428
+            xmax = 0.461
+            text = "l"
+        intervals [10]:
+            xmin = 0.461
+            xmax = 0.514
+            text = "i"
+        intervals [11]:
+            xmin = 0.514
+            xmax = 0.569
+            text = "k:"
+        intervals [12]:
+            xmin = 0.569
+            xmax = 0.606
+            text = "u"
+        intervals [13]:
+            xmin = 0.606
+            xmax = 0.638
+            text = "l"
+        intervals [14]:
+            xmin = 0.638
+            xmax = 0.737
+            text = "t:"
+        intervals [15]:
+            xmin = 0.737
+            xmax = 0.818
+            text = "o"
+        intervals [16]:
+            xmin = 0.818
+            xmax = 0.985
+            text = "n"
+        intervals [17]:
+            xmin = 0.985
+            xmax = 1.334
+            text = ""
+        intervals [18]:
+            xmin = 1.334
+            xmax = 1.43
+            text = "e:"
+        intervals [19]:
+            xmin = 1.43
+            xmax = 1.505
+            text = "s"
+        intervals [20]:
+            xmin = 1.505
+            xmax = 1.576
+            text = "t:"
+        intervals [21]:
+            xmin = 1.576
+            xmax = 1.619
+            text = "i"
+        intervals [22]:
+            xmin = 1.619
+            xmax = 1.687
+            text = "m"
+        intervals [23]:
+            xmin = 1.687
+            xmax = 1.825
+            text = "e::"
+        intervals [24]:
+            xmin = 1.825
+            xmax = 1.889
+            text = "s"
+        intervals [25]:
+            xmin = 1.889
+            xmax = 1.905
+            text = "j"
+        intervals [26]:
+            xmin = 1.905
+            xmax = 1.963
+            text = "u"
+        intervals [27]:
+            xmin = 1.963
+            xmax = 2.007
+            text = "t"
+        intervals [28]:
+            xmin = 2.007
+            xmax = 2.08
+            text = "u"
+        intervals [29]:
+            xmin = 2.08
+            xmax = 2.141
+            text = "p"
+        intervals [30]:
+            xmin = 2.141
+            xmax = 2.196
+            text = "l"
+        intervals [31]:
+            xmin = 2.196
+            xmax = 2.366
+            text = "i"
+        intervals [32]:
+            xmin = 2.366
+            xmax = 2.412
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.412
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.012
+            text = "."
+        intervals [2]:
+            xmin = 0.012
+            xmax = 0.204
+            text = "Aga"
+        intervals [3]:
+            xmin = 0.204
+            xmax = 0.737
+            text = "tegelikult"
+        intervals [4]:
+            xmin = 0.737
+            xmax = 0.985
+            text = "on"
+        intervals [5]:
+            xmin = 0.985
+            xmax = 1.334
+            text = ""
+        intervals [6]:
+            xmin = 1.334
+            xmax = 1.619
+            text = "Eesti"
+        intervals [7]:
+            xmin = 1.619
+            xmax = 1.889
+            text = "mees"
+        intervals [8]:
+            xmin = 1.889
+            xmax = 1.963
+            text = "ju"
+        intervals [9]:
+            xmin = 1.963
+            xmax = 2.366
+            text = "tubli"
+        intervals [10]:
+            xmin = 2.366
+            xmax = 2.412
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.412
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.412
+            text = "Aga tegelikult on Eesti mees ju tubli."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.412
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.412
+            text = "joy"

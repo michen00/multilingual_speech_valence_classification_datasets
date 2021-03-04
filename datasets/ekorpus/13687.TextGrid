@@ -1,0 +1,218 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.522
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.522
+        intervals: size = 23
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.296
+            text = ""
+        intervals [2]:
+            xmin = 0.296
+            xmax = 0.543
+            text = ""
+        intervals [3]:
+            xmin = 0.543
+            xmax = 0.598
+            text = "m"
+        intervals [4]:
+            xmin = 0.598
+            xmax = 0.632
+            text = "i"
+        intervals [5]:
+            xmin = 0.632
+            xmax = 0.668
+            text = "n"
+        intervals [6]:
+            xmin = 0.668
+            xmax = 0.767
+            text = "u"
+        intervals [7]:
+            xmin = 0.767
+            xmax = 1.098
+            text = ""
+        intervals [8]:
+            xmin = 1.098
+            xmax = 1.148
+            text = "m"
+        intervals [9]:
+            xmin = 1.148
+            xmax = 1.176
+            text = "i"
+        intervals [10]:
+            xmin = 1.176
+            xmax = 1.213
+            text = "t1"
+        intervals [11]:
+            xmin = 1.213
+            xmax = 1.311
+            text = "a"
+        intervals [12]:
+            xmin = 1.311
+            xmax = 1.352
+            text = "k"
+        intervals [13]:
+            xmin = 1.352
+            xmax = 1.369
+            text = "i"
+        intervals [14]:
+            xmin = 1.369
+            xmax = 1.455
+            text = "e"
+        intervals [15]:
+            xmin = 1.455
+            xmax = 1.491
+            text = "n"
+        intervals [16]:
+            xmin = 1.491
+            xmax = 1.598
+            text = "a"
+        intervals [17]:
+            xmin = 1.598
+            xmax = 1.659
+            text = "m"
+        intervals [18]:
+            xmin = 1.659
+            xmax = 1.739
+            text = "a"
+        intervals [19]:
+            xmin = 1.739
+            xmax = 1.801
+            text = "t:"
+        intervals [20]:
+            xmin = 1.801
+            xmax = 2.095
+            text = ""
+        intervals [21]:
+            xmin = 2.095
+            xmax = 2.628
+            text = ""
+        intervals [22]:
+            xmin = 2.628
+            xmax = 2.76
+            text = ""
+        intervals [23]:
+            xmin = 2.76
+            xmax = 3.522
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.522
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.296
+            text = "Kadri"
+        intervals [2]:
+            xmin = 0.296
+            xmax = 0.543
+            text = "on"
+        intervals [3]:
+            xmin = 0.543
+            xmax = 0.767
+            text = "minu"
+        intervals [4]:
+            xmin = 0.767
+            xmax = 1.098
+            text = "jaoks"
+        intervals [5]:
+            xmin = 1.098
+            xmax = 1.369
+            text = "midagi"
+        intervals [6]:
+            xmin = 1.369
+            xmax = 1.801
+            text = "enamat"
+        intervals [7]:
+            xmin = 1.801
+            xmax = 2.095
+            text = "kui"
+        intervals [8]:
+            xmin = 2.095
+            xmax = 2.628
+            text = "sõbranna"
+        intervals [9]:
+            xmin = 2.628
+            xmax = 2.76
+            text = "või"
+        intervals [10]:
+            xmin = 2.76
+            xmax = 3.522
+            text = "koostööpartner"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 3.522
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.296
+            text = "S"
+        intervals [2]:
+            xmin = 0.296
+            xmax = 0.543
+            text = "V"
+        intervals [3]:
+            xmin = 0.543
+            xmax = 0.767
+            text = "P"
+        intervals [4]:
+            xmin = 0.767
+            xmax = 1.098
+            text = "K"
+        intervals [5]:
+            xmin = 1.098
+            xmax = 1.369
+            text = "K"
+        intervals [6]:
+            xmin = 1.369
+            xmax = 1.801
+            text = "D"
+        intervals [7]:
+            xmin = 1.801
+            xmax = 2.095
+            text = "J"
+        intervals [8]:
+            xmin = 2.095
+            xmax = 2.628
+            text = "S"
+        intervals [9]:
+            xmin = 2.628
+            xmax = 2.76
+            text = "J"
+        intervals [10]:
+            xmin = 2.76
+            xmax = 3.522
+            text = "S"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.522
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.522
+            text = "Kadri on minu jaoks midagi enamat kui sõbranna või koostööpartner."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.522
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.522
+            text = "neutral"

@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.113
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.113
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.081
+            text = ""
+        intervals [2]:
+            xmin = 5.081
+            xmax = 5.113
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.113
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.065
+            text = "Te"
+        intervals [2]:
+            xmin = 0.065
+            xmax = 0.136
+            text = "ei"
+        intervals [3]:
+            xmin = 0.136
+            xmax = 0.478
+            text = "karda"
+        intervals [4]:
+            xmin = 0.478
+            xmax = 0.827
+            text = "jätta"
+        intervals [5]:
+            xmin = 0.827
+            xmax = 1.232
+            text = "kallist"
+        intervals [6]:
+            xmin = 1.232
+            xmax = 1.605
+            text = "autot"
+        intervals [7]:
+            xmin = 1.605
+            xmax = 1.924
+            text = "valve"
+        intervals [8]:
+            xmin = 1.924
+            xmax = 2.187
+            text = "alla"
+        intervals [9]:
+            xmin = 2.187
+            xmax = 2.884
+            text = "panemata"
+        intervals [10]:
+            xmin = 2.884
+            xmax = 3.127
+            text = ""
+        intervals [11]:
+            xmin = 3.127
+            xmax = 3.373
+            text = "ega"
+        intervals [12]:
+            xmin = 3.373
+            xmax = 4.003
+            text = "koduuksi"
+        intervals [13]:
+            xmin = 4.003
+            xmax = 4.359
+            text = "lukku"
+        intervals [14]:
+            xmin = 4.359
+            xmax = 5.081
+            text = "keeramata"
+        intervals [15]:
+            xmin = 5.081
+            xmax = 5.113
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.113
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.113
+            text = "Te ei karda jätta kallist autot valve alla panemata ega koduuksi lukku keeramata."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.113
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.113
+            text = "joy"

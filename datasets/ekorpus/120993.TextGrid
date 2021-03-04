@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.233
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.233
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.046
+            text = ""
+        intervals [2]:
+            xmin = 0.046
+            xmax = 4.147
+            text = ""
+        intervals [3]:
+            xmin = 4.147
+            xmax = 4.233
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.233
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.046
+            text = "."
+        intervals [2]:
+            xmin = 0.046
+            xmax = 0.643
+            text = "Loomulikult"
+        intervals [3]:
+            xmin = 0.643
+            xmax = 0.707
+            text = "ei"
+        intervals [4]:
+            xmin = 0.707
+            xmax = 0.986
+            text = "oska"
+        intervals [5]:
+            xmin = 0.986
+            xmax = 1.159
+            text = "nad"
+        intervals [6]:
+            xmin = 1.159
+            xmax = 1.494
+            text = "lambaid"
+        intervals [7]:
+            xmin = 1.494
+            xmax = 2.17
+            text = "kasvatada"
+        intervals [8]:
+            xmin = 2.17
+            xmax = 2.507
+            text = ","
+        intervals [9]:
+            xmin = 2.507
+            xmax = 2.995
+            text = "sööta"
+        intervals [10]:
+            xmin = 2.995
+            xmax = 3.066
+            text = ","
+        intervals [11]:
+            xmin = 3.066
+            xmax = 3.391
+            text = "tappa"
+        intervals [12]:
+            xmin = 3.391
+            xmax = 3.512
+            text = "ja"
+        intervals [13]:
+            xmin = 3.512
+            xmax = 4.147
+            text = "tükeldada"
+        intervals [14]:
+            xmin = 4.147
+            xmax = 4.233
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.233
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.233
+            text = "Loomulikult ei oska nad lambaid kasvatada, sööta, tappa ja tükeldada."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.233
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.233
+            text = "anger"

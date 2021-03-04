@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 6.595
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 6.595
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.011
+            text = ""
+        intervals [2]:
+            xmin = 0.011
+            xmax = 6.512
+            text = ""
+        intervals [3]:
+            xmin = 6.512
+            xmax = 6.595
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 6.595
+        intervals: size = 19
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.011
+            text = "!"
+        intervals [2]:
+            xmin = 0.011
+            xmax = 0.441
+            text = "Sellist"
+        intervals [3]:
+            xmin = 0.441
+            xmax = 0.844
+            text = "luulet"
+        intervals [4]:
+            xmin = 0.844
+            xmax = 0.986
+            text = "on"
+        intervals [5]:
+            xmin = 0.986
+            xmax = 1.178
+            text = "meil"
+        intervals [6]:
+            xmin = 1.178
+            xmax = 1.701
+            text = "hädasti"
+        intervals [7]:
+            xmin = 1.701
+            xmax = 1.961
+            text = "vaja"
+        intervals [8]:
+            xmin = 1.961
+            xmax = 2.324
+            text = "ajal"
+        intervals [9]:
+            xmin = 2.324
+            xmax = 2.873
+            text = ","
+        intervals [10]:
+            xmin = 2.873
+            xmax = 3.013
+            text = "mil"
+        intervals [11]:
+            xmin = 3.013
+            xmax = 3.519
+            text = "poeetide"
+        intervals [12]:
+            xmin = 3.519
+            xmax = 3.891
+            text = "asemel"
+        intervals [13]:
+            xmin = 3.891
+            xmax = 4.334
+            text = "kipuvad"
+        intervals [14]:
+            xmin = 4.334
+            xmax = 4.59
+            text = "sõna"
+        intervals [15]:
+            xmin = 4.59
+            xmax = 4.914
+            text = "võtma"
+        intervals [16]:
+            xmin = 4.914
+            xmax = 5.73
+            text = "raamatupidajad"
+        intervals [17]:
+            xmin = 5.73
+            xmax = 5.826
+            text = "ja"
+        intervals [18]:
+            xmin = 5.826
+            xmax = 6.512
+            text = "revidendid"
+        intervals [19]:
+            xmin = 6.512
+            xmax = 6.595
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 6.595
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 6.595
+            text = "Sellist luulet on meil hädasti vaja ajal, mil poeetide asemel kipuvad sõna võtma raamatupidajad ja revidendid."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 6.595
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 6.595
+            text = "sadness"

@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.618
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.618
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.604
+            text = ""
+        intervals [2]:
+            xmin = 5.604
+            xmax = 5.618
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.618
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.426
+            text = "Eriti"
+        intervals [2]:
+            xmin = 0.426
+            xmax = 0.781
+            text = "hullud"
+        intervals [3]:
+            xmin = 0.781
+            xmax = 1.04
+            text = "on"
+        intervals [4]:
+            xmin = 1.04
+            xmax = 1.727
+            text = "toiduainete"
+        intervals [5]:
+            xmin = 1.727
+            xmax = 2.33
+            text = "reklaamid"
+        intervals [6]:
+            xmin = 2.33
+            xmax = 2.808
+            text = ","
+        intervals [7]:
+            xmin = 2.808
+            xmax = 2.989
+            text = "kus"
+        intervals [8]:
+            xmin = 2.989
+            xmax = 3.363
+            text = "vastav"
+        intervals [9]:
+            xmin = 3.363
+            xmax = 3.866
+            text = "produkt"
+        intervals [10]:
+            xmin = 3.866
+            xmax = 4.473
+            text = "värvitakse"
+        intervals [11]:
+            xmin = 4.473
+            xmax = 5.604
+            text = "isuäratavamaks"
+        intervals [12]:
+            xmin = 5.604
+            xmax = 5.618
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.618
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.618
+            text = "Eriti hullud on toiduainete reklaamid, kus vastav produkt värvitakse isuäratavamaks."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.618
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.618
+            text = "neutral"

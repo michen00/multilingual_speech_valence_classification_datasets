@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.48
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.48
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.188
+            text = ""
+        intervals [2]:
+            xmin = 0.188
+            xmax = 0.325
+            text = ""
+        intervals [3]:
+            xmin = 0.325
+            xmax = 0.471
+            text = ""
+        intervals [4]:
+            xmin = 0.471
+            xmax = 0.812
+            text = ""
+        intervals [5]:
+            xmin = 0.812
+            xmax = 1.112
+            text = ""
+        intervals [6]:
+            xmin = 1.112
+            xmax = 1.476
+            text = ""
+        intervals [7]:
+            xmin = 1.476
+            xmax = 1.872
+            text = ""
+        intervals [8]:
+            xmin = 1.872
+            xmax = 2.094
+            text = ""
+        intervals [9]:
+            xmin = 2.094
+            xmax = 2.48
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.48
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.188
+            text = "Hea,  "
+        intervals [2]:
+            xmin = 0.188
+            xmax = 0.325
+            text = "et"
+        intervals [3]:
+            xmin = 0.325
+            xmax = 0.471
+            text = "ta"
+        intervals [4]:
+            xmin = 0.471
+            xmax = 0.812
+            text = "polnud"
+        intervals [5]:
+            xmin = 0.812
+            xmax = 1.476
+            text = "teine-kolmas"
+        intervals [6]:
+            xmin = 1.476
+            xmax = 1.872
+            text = "inimene"
+        intervals [7]:
+            xmin = 1.872
+            xmax = 2.094
+            text = "minu"
+        intervals [8]:
+            xmin = 2.094
+            xmax = 2.48
+            text = "elus"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.48
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.188
+            text = "A"
+        intervals [2]:
+            xmin = 0.188
+            xmax = 0.325
+            text = "J"
+        intervals [3]:
+            xmin = 0.325
+            xmax = 0.471
+            text = "P"
+        intervals [4]:
+            xmin = 0.471
+            xmax = 0.812
+            text = "V"
+        intervals [5]:
+            xmin = 0.812
+            xmax = 1.476
+            text = "A"
+        intervals [6]:
+            xmin = 1.476
+            xmax = 1.872
+            text = "S"
+        intervals [7]:
+            xmin = 1.872
+            xmax = 2.094
+            text = "P"
+        intervals [8]:
+            xmin = 2.094
+            xmax = 2.48
+            text = "S"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.48
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.48
+            text = "Hea, et ta polnud teine-kolmas inimene minu elus."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.48
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.48
+            text = "neutral"

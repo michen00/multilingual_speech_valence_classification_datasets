@@ -1,0 +1,142 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.751
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.751
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.242
+            text = ""
+        intervals [2]:
+            xmin = 0.242
+            xmax = 0.831
+            text = ""
+        intervals [3]:
+            xmin = 0.831
+            xmax = 1.412
+            text = ""
+        intervals [4]:
+            xmin = 1.412
+            xmax = 1.584
+            text = ""
+        intervals [5]:
+            xmin = 1.584
+            xmax = 1.902
+            text = ""
+        intervals [6]:
+            xmin = 1.902
+            xmax = 2.258
+            text = ""
+        intervals [7]:
+            xmin = 2.258
+            xmax = 2.397
+            text = ""
+        intervals [8]:
+            xmin = 2.397
+            xmax = 2.751
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.751
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.242
+            text = "Nagu"
+        intervals [2]:
+            xmin = 0.242
+            xmax = 0.831
+            text = "öeldakse"
+        intervals [3]:
+            xmin = 0.831
+            xmax = 1.412
+            text = ",/"
+        intervals [4]:
+            xmin = 1.412
+            xmax = 1.584
+            text = "ei"
+        intervals [5]:
+            xmin = 1.584
+            xmax = 1.902
+            text = "au"
+        intervals [6]:
+            xmin = 1.902
+            xmax = 2.258
+            text = ""
+        intervals [7]:
+            xmin = 2.258
+            xmax = 2.397
+            text = "ei"
+        intervals [8]:
+            xmin = 2.397
+            xmax = 2.751
+            text = "häbi!"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.751
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.242
+            text = "J"
+        intervals [2]:
+            xmin = 0.242
+            xmax = 0.831
+            text = "V"
+        intervals [3]:
+            xmin = 0.831
+            xmax = 1.412
+            text = ""
+        intervals [4]:
+            xmin = 1.412
+            xmax = 1.584
+            text = "D"
+        intervals [5]:
+            xmin = 1.584
+            xmax = 1.902
+            text = "S"
+        intervals [6]:
+            xmin = 1.902
+            xmax = 2.258
+            text = ""
+        intervals [7]:
+            xmin = 2.258
+            xmax = 2.397
+            text = "D"
+        intervals [8]:
+            xmin = 2.397
+            xmax = 2.751
+            text = "S"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.751
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.751
+            text = "Nagu öeldakse, ei au ei häbi!"
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.751
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.751
+            text = "anger"

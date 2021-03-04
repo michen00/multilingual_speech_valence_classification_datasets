@@ -1,0 +1,144 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.185
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.185
+        intervals: size = 21
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.037
+            text = "t"
+        intervals [2]:
+            xmin = 0.037
+            xmax = 0.129
+            text = "a"
+        intervals [3]:
+            xmin = 0.129
+            xmax = 0.176
+            text = "k"
+        intervals [4]:
+            xmin = 0.176
+            xmax = 0.267
+            text = "a"
+        intervals [5]:
+            xmin = 0.267
+            xmax = 0.315
+            text = "n"
+        intervals [6]:
+            xmin = 0.315
+            xmax = 0.351
+            text = "e"
+        intervals [7]:
+            xmin = 0.351
+            xmax = 0.413
+            text = "m"
+        intervals [8]:
+            xmin = 0.413
+            xmax = 0.449
+            text = "i"
+        intervals [9]:
+            xmin = 0.449
+            xmax = 0.518
+            text = "s"
+        intervals [10]:
+            xmin = 0.518
+            xmax = 0.606
+            text = "t:"
+        intervals [11]:
+            xmin = 0.606
+            xmax = 0.656
+            text = "e"
+        intervals [12]:
+            xmin = 0.656
+            xmax = 0.689
+            text = "n"
+        intervals [13]:
+            xmin = 0.689
+            xmax = 0.767
+            text = "a"
+        intervals [14]:
+            xmin = 0.767
+            xmax = 0.823
+            text = "m"
+        intervals [15]:
+            xmin = 0.823
+            xmax = 0.862
+            text = "e"
+        intervals [16]:
+            xmin = 0.862
+            xmax = 0.914
+            text = "i:"
+        intervals [17]:
+            xmin = 0.914
+            xmax = 0.967
+            text = "t"
+        intervals [18]:
+            xmin = 0.967
+            xmax = 1.036
+            text = "u"
+        intervals [19]:
+            xmin = 1.036
+            xmax = 1.081
+            text = "l"
+        intervals [20]:
+            xmin = 1.081
+            xmax = 1.18
+            text = "e"
+        intervals [21]:
+            xmin = 1.18
+            xmax = 1.185
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.185
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.606
+            text = "Taganemist"
+        intervals [2]:
+            xmin = 0.606
+            xmax = 0.823
+            text = "enam"
+        intervals [3]:
+            xmin = 0.823
+            xmax = 0.914
+            text = "ei"
+        intervals [4]:
+            xmin = 0.914
+            xmax = 1.18
+            text = "tule"
+        intervals [5]:
+            xmin = 1.18
+            xmax = 1.185
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.185
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.185
+            text = "Taganemist enam ei tule."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.185
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.185
+            text = "anger"

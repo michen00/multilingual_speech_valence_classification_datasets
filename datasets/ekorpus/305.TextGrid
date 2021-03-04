@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.016
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.016
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.094
+            text = ""
+        intervals [2]:
+            xmin = 0.094
+            xmax = 0.297
+            text = ""
+        intervals [3]:
+            xmin = 0.297
+            xmax = 0.461
+            text = ""
+        intervals [4]:
+            xmin = 0.461
+            xmax = 0.671
+            text = ""
+        intervals [5]:
+            xmin = 0.671
+            xmax = 0.846
+            text = ""
+        intervals [6]:
+            xmin = 0.846
+            xmax = 1.132
+            text = ""
+        intervals [7]:
+            xmin = 1.132
+            xmax = 1.405
+            text = ""
+        intervals [8]:
+            xmin = 1.405
+            xmax = 1.518
+            text = ""
+        intervals [9]:
+            xmin = 1.518
+            xmax = 1.69
+            text = ""
+        intervals [10]:
+            xmin = 1.69
+            xmax = 2.016
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.016
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.094
+            text = "Ei"
+        intervals [2]:
+            xmin = 0.094
+            xmax = 0.297
+            text = "saa"
+        intervals [3]:
+            xmin = 0.297
+            xmax = 0.461
+            text = "nii,"
+        intervals [4]:
+            xmin = 0.461
+            xmax = 0.671
+            text = "et"
+        intervals [5]:
+            xmin = 0.671
+            xmax = 1.132
+            text = "töökoht"
+        intervals [6]:
+            xmin = 1.132
+            xmax = 1.405
+            text = "tuhnib"
+        intervals [7]:
+            xmin = 1.405
+            xmax = 1.518
+            text = "su"
+        intervals [8]:
+            xmin = 1.518
+            xmax = 2.016
+            text = "eraelus"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.016
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.016
+            text = "Ei saa nii, et töökoht tuhnib su eraelus!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.016
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.016
+            text = "anger"

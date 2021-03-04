@@ -1,0 +1,104 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.371
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.371
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.042
+            text = ""
+        intervals [2]:
+            xmin = 0.042
+            xmax = 4.216
+            text = ""
+        intervals [3]:
+            xmin = 4.216
+            xmax = 4.371
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.371
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.042
+            text = "."
+        intervals [2]:
+            xmin = 0.042
+            xmax = 0.268
+            text = "Nende"
+        intervals [3]:
+            xmin = 0.268
+            xmax = 0.687
+            text = "ravimine"
+        intervals [4]:
+            xmin = 0.687
+            xmax = 0.796
+            text = "on"
+        intervals [5]:
+            xmin = 0.796
+            xmax = 1.414
+            text = "meeletult"
+        intervals [6]:
+            xmin = 1.414
+            xmax = 1.884
+            text = "kallis"
+        intervals [7]:
+            xmin = 1.884
+            xmax = 2.269
+            text = ""
+        intervals [8]:
+            xmin = 2.269
+            xmax = 2.347
+            text = "ja"
+        intervals [9]:
+            xmin = 2.347
+            xmax = 2.881
+            text = "tohtrid"
+        intervals [10]:
+            xmin = 2.881
+            xmax = 3.051
+            text = "on"
+        intervals [11]:
+            xmin = 3.051
+            xmax = 3.746
+            text = "haruldaselt"
+        intervals [12]:
+            xmin = 3.746
+            xmax = 4.216
+            text = "tublid"
+        intervals [13]:
+            xmin = 4.216
+            xmax = 4.371
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.371
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.371
+            text = "Nende ravimine on meeletult kallis ja tohtrid on haruldaselt tublid."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.371
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.371
+            text = "sadness"

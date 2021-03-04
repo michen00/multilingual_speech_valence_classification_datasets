@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.843
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.843
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.082
+            text = ""
+        intervals [2]:
+            xmin = 0.082
+            xmax = 0.294
+            text = ""
+        intervals [3]:
+            xmin = 0.294
+            xmax = 0.623
+            text = ""
+        intervals [4]:
+            xmin = 0.623
+            xmax = 0.73
+            text = ""
+        intervals [5]:
+            xmin = 0.73
+            xmax = 0.994
+            text = ""
+        intervals [6]:
+            xmin = 0.994
+            xmax = 1.471
+            text = ""
+        intervals [7]:
+            xmin = 1.471
+            xmax = 1.843
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.843
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.082
+            text = "Ja"
+        intervals [2]:
+            xmin = 0.082
+            xmax = 0.294
+            text = "pole"
+        intervals [3]:
+            xmin = 0.294
+            xmax = 0.623
+            text = "ime"
+        intervals [4]:
+            xmin = 0.623
+            xmax = 0.73
+            text = "kui"
+        intervals [5]:
+            xmin = 0.73
+            xmax = 0.994
+            text = "isegi"
+        intervals [6]:
+            xmin = 0.994
+            xmax = 1.471
+            text = "mõistust"
+        intervals [7]:
+            xmin = 1.471
+            xmax = 1.843
+            text = "napib."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.843
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.843
+            text = "Ja pole ime kui isegi mõistust napib."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.843
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.843
+            text = "anger"

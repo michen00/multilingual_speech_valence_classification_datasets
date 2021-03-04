@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.719
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.719
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.099
+            text = "s"
+        intervals [2]:
+            xmin = 0.099
+            xmax = 0.146
+            text = "e::"
+        intervals [3]:
+            xmin = 0.146
+            xmax = 0.19
+            text = "o"
+        intervals [4]:
+            xmin = 0.19
+            xmax = 0.223
+            text = "n"
+        intervals [5]:
+            xmin = 0.223
+            xmax = 0.35
+            text = "s"
+        intervals [6]:
+            xmin = 0.35
+            xmax = 0.803
+            text = "u::"
+        intervals [7]:
+            xmin = 0.803
+            xmax = 0.845
+            text = "r"
+        intervals [8]:
+            xmin = 0.845
+            xmax = 0.965
+            text = "s"
+        intervals [9]:
+            xmin = 0.965
+            xmax = 1.212
+            text = "u::"
+        intervals [10]:
+            xmin = 1.212
+            xmax = 1.248
+            text = "r"
+        intervals [11]:
+            xmin = 1.248
+            xmax = 1.34
+            text = "a"
+        intervals [12]:
+            xmin = 1.34
+            xmax = 1.391
+            text = "u"
+        intervals [13]:
+            xmin = 1.391
+            xmax = 1.719
+            text = "k::"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.719
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.146
+            text = "See "
+        intervals [2]:
+            xmin = 0.146
+            xmax = 0.223
+            text = "on "
+        intervals [3]:
+            xmin = 0.223
+            xmax = 0.845
+            text = "suur, "
+        intervals [4]:
+            xmin = 0.845
+            xmax = 1.248
+            text = "suur "
+        intervals [5]:
+            xmin = 1.248
+            xmax = 1.719
+            text = "auk "
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.719
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.146
+            text = "P"
+        intervals [2]:
+            xmin = 0.146
+            xmax = 0.223
+            text = "V"
+        intervals [3]:
+            xmin = 0.223
+            xmax = 0.845
+            text = "A"
+        intervals [4]:
+            xmin = 0.845
+            xmax = 1.248
+            text = "A"
+        intervals [5]:
+            xmin = 1.248
+            xmax = 1.719
+            text = "S"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.719
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.719
+            text = "See on suur, suur auk."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.719
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.719
+            text = "sadness"

@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.915
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.915
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = ""
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.044
+            text = "j"
+        intervals [3]:
+            xmin = 0.044
+            xmax = 0.106
+            text = "a"
+        intervals [4]:
+            xmin = 0.106
+            xmax = 0.152
+            text = "v"
+        intervals [5]:
+            xmin = 0.152
+            xmax = 0.24
+            text = "e::"
+        intervals [6]:
+            xmin = 0.24
+            xmax = 0.316
+            text = "l"
+        intervals [7]:
+            xmin = 0.316
+            xmax = 0.378
+            text = "m"
+        intervals [8]:
+            xmin = 0.378
+            xmax = 0.464
+            text = "i"
+        intervals [9]:
+            xmin = 0.464
+            xmax = 0.562
+            text = "l:"
+        intervals [10]:
+            xmin = 0.562
+            xmax = 0.666
+            text = "i"
+        intervals [11]:
+            xmin = 0.666
+            xmax = 0.733
+            text = "n"
+        intervals [12]:
+            xmin = 0.733
+            xmax = 0.872
+            text = "e"
+        intervals [13]:
+            xmin = 0.872
+            xmax = 0.915
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.915
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = "."
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.106
+            text = "Ja"
+        intervals [3]:
+            xmin = 0.106
+            xmax = 0.316
+            text = "veel"
+        intervals [4]:
+            xmin = 0.316
+            xmax = 0.872
+            text = "milline"
+        intervals [5]:
+            xmin = 0.872
+            xmax = 0.915
+            text = "!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.915
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.915
+            text = "Ja veel milline!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.915
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.915
+            text = "joy"

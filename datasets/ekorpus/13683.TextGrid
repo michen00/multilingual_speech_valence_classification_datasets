@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.888
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.888
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.08
+            text = ""
+        intervals [2]:
+            xmin = 0.08
+            xmax = 0.169
+            text = ""
+        intervals [3]:
+            xmin = 0.169
+            xmax = 0.82
+            text = ""
+        intervals [4]:
+            xmin = 0.82
+            xmax = 1.066
+            text = ""
+        intervals [5]:
+            xmin = 1.066
+            xmax = 1.945
+            text = ""
+        intervals [6]:
+            xmin = 1.945
+            xmax = 2.048
+            text = ""
+        intervals [7]:
+            xmin = 2.048
+            xmax = 2.888
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.888
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.08
+            text = "Ta"
+        intervals [2]:
+            xmin = 0.08
+            xmax = 0.169
+            text = "on"
+        intervals [3]:
+            xmin = 0.169
+            xmax = 0.82
+            text = "suursugune"
+        intervals [4]:
+            xmin = 0.82
+            xmax = 1.066
+            text = "oma"
+        intervals [5]:
+            xmin = 1.066
+            xmax = 1.945
+            text = "hoiakutelt"
+        intervals [6]:
+            xmin = 1.945
+            xmax = 2.048
+            text = "ja"
+        intervals [7]:
+            xmin = 2.048
+            xmax = 2.888
+            text = "käitumiselt"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.888
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.08
+            text = "P"
+        intervals [2]:
+            xmin = 0.08
+            xmax = 0.169
+            text = "V"
+        intervals [3]:
+            xmin = 0.169
+            xmax = 0.82
+            text = "A"
+        intervals [4]:
+            xmin = 0.82
+            xmax = 1.066
+            text = "P"
+        intervals [5]:
+            xmin = 1.066
+            xmax = 1.945
+            text = "S"
+        intervals [6]:
+            xmin = 1.945
+            xmax = 2.048
+            text = "J"
+        intervals [7]:
+            xmin = 2.048
+            xmax = 2.888
+            text = "S"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.888
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.888
+            text = "Ta on suursugune oma hoiakutelt ja käitumiselt."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.888
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.888
+            text = "neutral"

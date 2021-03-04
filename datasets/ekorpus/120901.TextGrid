@@ -1,0 +1,104 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.387
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.387
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.35
+            text = ""
+        intervals [2]:
+            xmin = 5.35
+            xmax = 5.387
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.387
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.146
+            text = "Ta"
+        intervals [2]:
+            xmin = 0.146
+            xmax = 0.272
+            text = "on"
+        intervals [3]:
+            xmin = 0.272
+            xmax = 0.852
+            text = "inimene"
+        intervals [4]:
+            xmin = 0.852
+            xmax = 1.09
+            text = "keda"
+        intervals [5]:
+            xmin = 1.09
+            xmax = 1.306
+            text = "võib"
+        intervals [6]:
+            xmin = 1.306
+            xmax = 1.668
+            text = "alati"
+        intervals [7]:
+            xmin = 1.668
+            xmax = 2.228
+            text = "usaldada"
+        intervals [8]:
+            xmin = 2.228
+            xmax = 3.002
+            text = ","
+        intervals [9]:
+            xmin = 3.002
+            xmax = 3.419
+            text = "samuti"
+        intervals [10]:
+            xmin = 3.419
+            xmax = 3.63
+            text = "võib"
+        intervals [11]:
+            xmin = 3.63
+            xmax = 4.107
+            text = "usaldada"
+        intervals [12]:
+            xmin = 4.107
+            xmax = 4.341
+            text = "tema"
+        intervals [13]:
+            xmin = 4.341
+            xmax = 5.35
+            text = "väärtushinnanguid"
+        intervals [14]:
+            xmin = 5.35
+            xmax = 5.387
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.387
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.387
+            text = "Ta on inimene, keda võib alati usaldada, samuti võib usaldada tema väärtushinnanguid."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.387
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.387
+            text = "neutral"

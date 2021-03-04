@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.157
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.157
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.047
+            text = ""
+        intervals [2]:
+            xmin = 0.047
+            xmax = 0.568
+            text = ""
+        intervals [3]:
+            xmin = 0.568
+            xmax = 0.866
+            text = ""
+        intervals [4]:
+            xmin = 0.866
+            xmax = 0.998
+            text = ""
+        intervals [5]:
+            xmin = 0.998
+            xmax = 1.535
+            text = ""
+        intervals [6]:
+            xmin = 1.535
+            xmax = 1.611
+            text = ""
+        intervals [7]:
+            xmin = 1.611
+            xmax = 1.761
+            text = ""
+        intervals [8]:
+            xmin = 1.761
+            xmax = 2.099
+            text = ""
+        intervals [9]:
+            xmin = 2.099
+            xmax = 2.627
+            text = ""
+        intervals [10]:
+            xmin = 2.627
+            xmax = 3.088
+            text = ""
+        intervals [11]:
+            xmin = 3.088
+            xmax = 3.157
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.157
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.047
+            text = "Ta"
+        intervals [2]:
+            xmin = 0.047
+            xmax = 0.568
+            text = "muretseb"
+        intervals [3]:
+            xmin = 0.568
+            xmax = 0.866
+            text = "väga"
+        intervals [4]:
+            xmin = 0.866
+            xmax = 0.998
+            text = "nii"
+        intervals [5]:
+            xmin = 0.998
+            xmax = 1.535
+            text = "Venemaa"
+        intervals [6]:
+            xmin = 1.535
+            xmax = 1.611
+            text = ""
+        intervals [7]:
+            xmin = 1.611
+            xmax = 1.761
+            text = "kui"
+        intervals [8]:
+            xmin = 1.761
+            xmax = 2.099
+            text = "Eesti"
+        intervals [9]:
+            xmin = 2.099
+            xmax = 2.627
+            text = "ühiskonna"
+        intervals [10]:
+            xmin = 2.627
+            xmax = 3.088
+            text = "pärast."
+        intervals [11]:
+            xmin = 3.088
+            xmax = 3.157
+            text = "*"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.157
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.157
+            text = "Ta muretseb väga nii Venemaa kui Eesti ühiskonna pärast."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.157
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.157
+            text = "neutral"

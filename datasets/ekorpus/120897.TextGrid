@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 6.522
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 6.522
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = ""
+        intervals [2]:
+            xmin = 0.001
+            xmax = 6.521
+            text = ""
+        intervals [3]:
+            xmin = 6.521
+            xmax = 6.522
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 6.522
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = "."
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.377
+            text = "Jumal"
+        intervals [3]:
+            xmin = 0.377
+            xmax = 0.67
+            text = "küll"
+        intervals [4]:
+            xmin = 0.67
+            xmax = 1.192
+            text = ","
+        intervals [5]:
+            xmin = 1.192
+            xmax = 1.492
+            text = "kust"
+        intervals [6]:
+            xmin = 1.492
+            xmax = 1.855
+            text = "sadas"
+        intervals [7]:
+            xmin = 1.855
+            xmax = 2.193
+            text = "selline"
+        intervals [8]:
+            xmin = 2.193
+            xmax = 2.6
+            text = "ilus"
+        intervals [9]:
+            xmin = 2.6
+            xmax = 3.069
+            text = "inimene"
+        intervals [10]:
+            xmin = 3.069
+            xmax = 3.521
+            text = "sellisel"
+        intervals [11]:
+            xmin = 3.521
+            xmax = 4.367
+            text = "novembrikuisel"
+        intervals [12]:
+            xmin = 4.367
+            xmax = 4.757
+            text = "päeval"
+        intervals [13]:
+            xmin = 4.757
+            xmax = 5.208
+            text = "Tallinna"
+        intervals [14]:
+            xmin = 5.208
+            xmax = 5.553
+            text = "linna"
+        intervals [15]:
+            xmin = 5.553
+            xmax = 6.062
+            text = "Kinomaja"
+        intervals [16]:
+            xmin = 6.062
+            xmax = 6.521
+            text = "ette"
+        intervals [17]:
+            xmin = 6.521
+            xmax = 6.522
+            text = "!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 6.522
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 6.522
+            text = "Jumal küll, kust sadas selline ilus inimene sellisel novembrikuisel päeval Tallinna linna Kinomaja ette!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 6.522
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 6.522
+            text = "joy"

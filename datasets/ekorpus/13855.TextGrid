@@ -1,0 +1,106 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.666
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.666
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.218
+            text = ""
+        intervals [2]:
+            xmin = 0.218
+            xmax = 0.506
+            text = ""
+        intervals [3]:
+            xmin = 0.506
+            xmax = 0.839
+            text = ""
+        intervals [4]:
+            xmin = 0.839
+            xmax = 1.106
+            text = ""
+        intervals [5]:
+            xmin = 1.106
+            xmax = 1.666
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.666
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.218
+            text = "Aga"
+        intervals [2]:
+            xmin = 0.218
+            xmax = 0.506
+            text = "Eesti"
+        intervals [3]:
+            xmin = 0.506
+            xmax = 0.839
+            text = "koondist"
+        intervals [4]:
+            xmin = 0.839
+            xmax = 1.106
+            text = "tuleb"
+        intervals [5]:
+            xmin = 1.106
+            xmax = 1.666
+            text = "austada"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.666
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.218
+            text = "J"
+        intervals [2]:
+            xmin = 0.218
+            xmax = 0.506
+            text = "S"
+        intervals [3]:
+            xmin = 0.506
+            xmax = 0.839
+            text = "S"
+        intervals [4]:
+            xmin = 0.839
+            xmax = 1.106
+            text = "V"
+        intervals [5]:
+            xmin = 1.106
+            xmax = 1.666
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.666
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.666
+            text = "Aga Eesti koondist tuleb austada."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.666
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.666
+            text = "joy"

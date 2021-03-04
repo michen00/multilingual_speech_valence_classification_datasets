@@ -1,0 +1,118 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.939
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.939
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.032
+            text = "t"
+        intervals [2]:
+            xmin = 0.032
+            xmax = 0.139
+            text = "e"
+        intervals [3]:
+            xmin = 0.139
+            xmax = 0.192
+            text = "r"
+        intervals [4]:
+            xmin = 0.192
+            xmax = 0.242
+            text = "v"
+        intervals [5]:
+            xmin = 0.242
+            xmax = 0.33
+            text = "i"
+        intervals [6]:
+            xmin = 0.33
+            xmax = 0.381
+            text = "s"
+        intervals [7]:
+            xmin = 0.381
+            xmax = 0.467
+            text = "o"
+        intervals [8]:
+            xmin = 0.467
+            xmax = 0.522
+            text = "n"
+        intervals [9]:
+            xmin = 0.522
+            xmax = 0.582
+            text = "h1"
+        intervals [10]:
+            xmin = 0.582
+            xmax = 0.67
+            text = "a"
+        intervals [11]:
+            xmin = 0.67
+            xmax = 0.805
+            text = "l::"
+        intervals [12]:
+            xmin = 0.805
+            xmax = 0.939
+            text = "p"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.939
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.381
+            text = "Tervis "
+        intervals [2]:
+            xmin = 0.381
+            xmax = 0.522
+            text = "on"
+        intervals [3]:
+            xmin = 0.522
+            xmax = 0.939
+            text = "halb"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 0.939
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.381
+            text = "S"
+        intervals [2]:
+            xmin = 0.381
+            xmax = 0.522
+            text = "V"
+        intervals [3]:
+            xmin = 0.522
+            xmax = 0.939
+            text = "A"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.939
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.939
+            text = "Tervis on halb."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.939
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.939
+            text = "sadness"

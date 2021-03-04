@@ -1,0 +1,160 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.729
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.729
+        intervals: size = 26
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.022
+            text = ""
+        intervals [2]:
+            xmin = 0.022
+            xmax = 0.062
+            text = "h"
+        intervals [3]:
+            xmin = 0.062
+            xmax = 0.205
+            text = "o::"
+        intervals [4]:
+            xmin = 0.205
+            xmax = 0.24
+            text = "v"
+        intervals [5]:
+            xmin = 0.24
+            xmax = 0.288
+            text = "i"
+        intervals [6]:
+            xmin = 0.288
+            xmax = 0.383
+            text = "h::"
+        intervals [7]:
+            xmin = 0.383
+            xmax = 0.454
+            text = "m"
+        intervals [8]:
+            xmin = 0.454
+            xmax = 0.509
+            text = "a"
+        intervals [9]:
+            xmin = 0.509
+            xmax = 0.57
+            text = "t"
+        intervals [10]:
+            xmin = 0.57
+            xmax = 0.651
+            text = "e"
+        intervals [11]:
+            xmin = 0.651
+            xmax = 0.701
+            text = "t"
+        intervals [12]:
+            xmin = 0.701
+            xmax = 0.797
+            text = "7"
+        intervals [13]:
+            xmin = 0.797
+            xmax = 0.862
+            text = "e:"
+        intervals [14]:
+            xmin = 0.862
+            xmax = 0.901
+            text = "n"
+        intervals [15]:
+            xmin = 0.901
+            xmax = 0.96
+            text = "x"
+        intervals [16]:
+            xmin = 0.96
+            xmax = 1.02
+            text = "o:"
+        intervals [17]:
+            xmin = 1.02
+            xmax = 1.097
+            text = "s"
+        intervals [18]:
+            xmin = 1.097
+            xmax = 1.152
+            text = "u"
+        intervals [19]:
+            xmin = 1.152
+            xmax = 1.228
+            text = "s"
+        intervals [20]:
+            xmin = 1.228
+            xmax = 1.272
+            text = "v"
+        intervals [21]:
+            xmin = 1.272
+            xmax = 1.315
+            text = "x"
+        intervals [22]:
+            xmin = 1.315
+            xmax = 1.385
+            text = "h1"
+        intervals [23]:
+            xmin = 1.385
+            xmax = 1.482
+            text = "e"
+        intervals [24]:
+            xmin = 1.482
+            xmax = 1.541
+            text = "n"
+        intervals [25]:
+            xmin = 1.541
+            xmax = 1.622
+            text = "e"
+        intervals [26]:
+            xmin = 1.622
+            xmax = 1.729
+            text = "p"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.729
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.022
+            text = "."
+        intervals [2]:
+            xmin = 0.022
+            xmax = 0.651
+            text = "Hoovihmade"
+        intervals [3]:
+            xmin = 0.651
+            xmax = 1.228
+            text = "tõenäosus"
+        intervals [4]:
+            xmin = 1.228
+            xmax = 1.729
+            text = "väheneb"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.729
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.729
+            text = "Hoovihmade tõenäosus väheneb."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.729
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.729
+            text = "neutral"

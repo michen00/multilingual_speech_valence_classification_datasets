@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.632
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.632
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.012
+            text = ""
+        intervals [2]:
+            xmin = 0.012
+            xmax = 0.058
+            text = "m"
+        intervals [3]:
+            xmin = 0.058
+            xmax = 0.116
+            text = "e"
+        intervals [4]:
+            xmin = 0.116
+            xmax = 0.264
+            text = "o::"
+        intervals [5]:
+            xmin = 0.264
+            xmax = 0.421
+            text = "t:"
+        intervals [6]:
+            xmin = 0.421
+            xmax = 0.471
+            text = "a"
+        intervals [7]:
+            xmin = 0.471
+            xmax = 0.534
+            text = "m"
+        intervals [8]:
+            xmin = 0.534
+            xmax = 0.632
+            text = "e"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.632
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.012
+            text = "!"
+        intervals [2]:
+            xmin = 0.012
+            xmax = 0.116
+            text = "Me"
+        intervals [3]:
+            xmin = 0.116
+            xmax = 0.632
+            text = "ootame!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.632
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.632
+            text = "Me ootame!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.632
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.632
+            text = "sadness"

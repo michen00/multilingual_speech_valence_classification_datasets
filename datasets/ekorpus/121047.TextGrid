@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.375
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.375
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.011
+            text = ""
+        intervals [2]:
+            xmin = 0.011
+            xmax = 4.132
+            text = ""
+        intervals [3]:
+            xmin = 4.132
+            xmax = 4.375
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.375
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.011
+            text = "."
+        intervals [2]:
+            xmin = 0.011
+            xmax = 0.606
+            text = "Suurhalli"
+        intervals [3]:
+            xmin = 0.606
+            xmax = 1.102
+            text = "väljakul"
+        intervals [4]:
+            xmin = 1.102
+            xmax = 1.569
+            text = "tegutses"
+        intervals [5]:
+            xmin = 1.569
+            xmax = 1.767
+            text = "vaid"
+        intervals [6]:
+            xmin = 1.767
+            xmax = 2.101
+            text = "üks"
+        intervals [7]:
+            xmin = 2.101
+            xmax = 2.715
+            text = "meeskond"
+        intervals [8]:
+            xmin = 2.715
+            xmax = 3.184
+            text = ","
+        intervals [9]:
+            xmin = 3.184
+            xmax = 3.608
+            text = "Tartu"
+        intervals [10]:
+            xmin = 3.608
+            xmax = 4.132
+            text = "Rock."
+        intervals [11]:
+            xmin = 4.132
+            xmax = 4.375
+            text = "*"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.375
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.375
+            text = "Suurhalli väljakul tegutses vaid üks meeskond, Tartu Rock."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.375
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.375
+            text = "joy"

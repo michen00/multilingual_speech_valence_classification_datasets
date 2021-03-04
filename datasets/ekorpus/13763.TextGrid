@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.609
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.609
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = ""
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.033
+            text = "n"
+        intervals [3]:
+            xmin = 0.033
+            xmax = 0.085
+            text = "o"
+        intervals [4]:
+            xmin = 0.085
+            xmax = 0.152
+            text = "s"
+        intervals [5]:
+            xmin = 0.152
+            xmax = 0.289
+            text = "a:"
+        intervals [6]:
+            xmin = 0.289
+            xmax = 0.339
+            text = "k"
+        intervals [7]:
+            xmin = 0.339
+            xmax = 0.364
+            text = "e"
+        intervals [8]:
+            xmin = 0.364
+            xmax = 0.45
+            text = "a"
+        intervals [9]:
+            xmin = 0.45
+            xmax = 0.486
+            text = "r"
+        intervals [10]:
+            xmin = 0.486
+            xmax = 0.602
+            text = "u"
+        intervals [11]:
+            xmin = 0.602
+            xmax = 0.609
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.609
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = "."
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.085
+            text = "No"
+        intervals [3]:
+            xmin = 0.085
+            xmax = 0.364
+            text = "saage"
+        intervals [4]:
+            xmin = 0.364
+            xmax = 0.602
+            text = "aru"
+        intervals [5]:
+            xmin = 0.602
+            xmax = 0.609
+            text = "!/"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 0.609
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = ""
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.085
+            text = "I"
+        intervals [3]:
+            xmin = 0.085
+            xmax = 0.602
+            text = "V"
+        intervals [4]:
+            xmin = 0.602
+            xmax = 0.609
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.609
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.609
+            text = "No saage aru!"
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.609
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.609
+            text = "anger"

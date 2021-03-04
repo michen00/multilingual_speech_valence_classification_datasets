@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.209
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.209
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.098
+            text = ""
+        intervals [2]:
+            xmin = 0.098
+            xmax = 0.587
+            text = ""
+        intervals [3]:
+            xmin = 0.587
+            xmax = 0.672
+            text = ""
+        intervals [4]:
+            xmin = 0.672
+            xmax = 0.94
+            text = ""
+        intervals [5]:
+            xmin = 0.94
+            xmax = 1.269
+            text = ""
+        intervals [6]:
+            xmin = 1.269
+            xmax = 1.596
+            text = ""
+        intervals [7]:
+            xmin = 1.596
+            xmax = 2.209
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.209
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.098
+            text = "Ma"
+        intervals [2]:
+            xmin = 0.098
+            xmax = 0.587
+            text = "tegelikult"
+        intervals [3]:
+            xmin = 0.587
+            xmax = 0.672
+            text = "ei"
+        intervals [4]:
+            xmin = 0.672
+            xmax = 0.94
+            text = "tea"
+        intervals [5]:
+            xmin = 0.94
+            xmax = 1.269
+            text = "kuidas"
+        intervals [6]:
+            xmin = 1.269
+            xmax = 1.596
+            text = "lapsi"
+        intervals [7]:
+            xmin = 1.596
+            xmax = 2.209
+            text = "kasvatada"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.209
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.098
+            text = "P"
+        intervals [2]:
+            xmin = 0.098
+            xmax = 0.587
+            text = "D"
+        intervals [3]:
+            xmin = 0.587
+            xmax = 0.94
+            text = "V"
+        intervals [4]:
+            xmin = 0.94
+            xmax = 1.269
+            text = "P"
+        intervals [5]:
+            xmin = 1.269
+            xmax = 1.596
+            text = "S"
+        intervals [6]:
+            xmin = 1.596
+            xmax = 2.209
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.209
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.209
+            text = "Ma tegelikult ei tea, kuidas lapsi kasvatada..."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.209
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.209
+            text = "neutral"

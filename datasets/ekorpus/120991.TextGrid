@@ -1,0 +1,104 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.028
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.028
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.053
+            text = ""
+        intervals [2]:
+            xmin = 0.053
+            xmax = 4.908
+            text = ""
+        intervals [3]:
+            xmin = 4.908
+            xmax = 5.028
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.028
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.053
+            text = "."
+        intervals [2]:
+            xmin = 0.053
+            xmax = 0.219
+            text = "Meil"
+        intervals [3]:
+            xmin = 0.219
+            xmax = 0.309
+            text = "on"
+        intervals [4]:
+            xmin = 0.309
+            xmax = 1.398
+            text = "lambakasvatajateks"
+        intervals [5]:
+            xmin = 1.398
+            xmax = 1.733
+            text = "endine"
+        intervals [6]:
+            xmin = 1.733
+            xmax = 2.793
+            text = "arvutigraafik"
+        intervals [7]:
+            xmin = 2.793
+            xmax = 3.05
+            text = ","
+        intervals [8]:
+            xmin = 3.05
+            xmax = 3.455
+            text = "endine"
+        intervals [9]:
+            xmin = 3.455
+            xmax = 3.925
+            text = "muusik"
+        intervals [10]:
+            xmin = 3.925
+            xmax = 4.022
+            text = "ja"
+        intervals [11]:
+            xmin = 4.022
+            xmax = 4.358
+            text = "endine"
+        intervals [12]:
+            xmin = 4.358
+            xmax = 4.908
+            text = "keemik"
+        intervals [13]:
+            xmin = 4.908
+            xmax = 5.028
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.028
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.028
+            text = "Meil on lambakasvatajateks endine arvutigraafik, endine muusik ja endine keemik."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.028
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.028
+            text = "neutral"

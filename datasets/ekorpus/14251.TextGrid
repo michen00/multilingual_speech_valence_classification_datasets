@@ -1,0 +1,146 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.263
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.263
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.049
+            text = "j"
+        intervals [2]:
+            xmin = 0.049
+            xmax = 0.1
+            text = "a+"
+        intervals [3]:
+            xmin = 0.1
+            xmax = 0.207
+            text = "u"
+        intervals [4]:
+            xmin = 0.207
+            xmax = 0.276
+            text = "i"
+        intervals [5]:
+            xmin = 0.276
+            xmax = 0.34
+            text = "m"
+        intervals [6]:
+            xmin = 0.34
+            xmax = 0.431
+            text = "a"
+        intervals [7]:
+            xmin = 0.431
+            xmax = 0.491
+            text = "s"
+        intervals [8]:
+            xmin = 0.491
+            xmax = 0.542
+            text = "e"
+        intervals [9]:
+            xmin = 0.542
+            xmax = 0.558
+            text = "t1"
+        intervals [10]:
+            xmin = 0.558
+            xmax = 0.632
+            text = "n"
+        intervals [11]:
+            xmin = 0.632
+            xmax = 0.712
+            text = "a+"
+        intervals [12]:
+            xmin = 0.712
+            xmax = 0.757
+            text = "k1"
+        intervals [13]:
+            xmin = 0.757
+            xmax = 0.878
+            text = "u+"
+        intervals [14]:
+            xmin = 0.878
+            xmax = 0.936
+            text = "h1"
+        intervals [15]:
+            xmin = 0.936
+            xmax = 1.009
+            text = "a"
+        intervals [16]:
+            xmin = 1.009
+            xmax = 1.125
+            text = "i:"
+        intervals [17]:
+            xmin = 1.125
+            xmax = 1.263
+            text = "t"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.263
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.1
+            text = "Ja "
+        intervals [2]:
+            xmin = 0.1
+            xmax = 0.558
+            text = "uimased"
+        intervals [3]:
+            xmin = 0.558
+            xmax = 0.878
+            text = "nagu"
+        intervals [4]:
+            xmin = 0.878
+            xmax = 1.263
+            text = "haid"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.263
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.1
+            text = "J"
+        intervals [2]:
+            xmin = 0.1
+            xmax = 0.558
+            text = "A"
+        intervals [3]:
+            xmin = 0.558
+            xmax = 0.878
+            text = "J"
+        intervals [4]:
+            xmin = 0.878
+            xmax = 1.263
+            text = "A"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.263
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.263
+            text = "Ja uimased nagu haid."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.263
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.263
+            text = "anger"

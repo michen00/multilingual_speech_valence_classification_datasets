@@ -1,0 +1,104 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.088
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.088
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.004
+            text = ""
+        intervals [2]:
+            xmin = 0.004
+            xmax = 3.987
+            text = ""
+        intervals [3]:
+            xmin = 3.987
+            xmax = 4.088
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.088
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.004
+            text = "."
+        intervals [2]:
+            xmin = 0.004
+            xmax = 0.117
+            text = "Nii"
+        intervals [3]:
+            xmin = 0.117
+            xmax = 0.423
+            text = "kõva"
+        intervals [4]:
+            xmin = 0.423
+            xmax = 0.981
+            text = "võitleja"
+        intervals [5]:
+            xmin = 0.981
+            xmax = 1.227
+            text = "võib"
+        intervals [6]:
+            xmin = 1.227
+            xmax = 1.505
+            text = "minna"
+        intervals [7]:
+            xmin = 1.505
+            xmax = 1.742
+            text = "ühel"
+        intervals [8]:
+            xmin = 1.742
+            xmax = 2.145
+            text = "hetkel"
+        intervals [9]:
+            xmin = 2.145
+            xmax = 2.653
+            text = "võitlema"
+        intervals [10]:
+            xmin = 2.653
+            xmax = 3.049
+            text = "kellegi"
+        intervals [11]:
+            xmin = 3.049
+            xmax = 3.358
+            text = "teise"
+        intervals [12]:
+            xmin = 3.358
+            xmax = 3.987
+            text = "võitlust"
+        intervals [13]:
+            xmin = 3.987
+            xmax = 4.088
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.088
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.088
+            text = "Nii kõva võitleja võib minna ühel hetkel võitlema kellegi teise võitlust."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.088
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.088
+            text = "neutral"

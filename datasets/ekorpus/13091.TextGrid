@@ -1,0 +1,238 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.77
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.77
+        intervals: size = 16
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.412
+            text = ""
+        intervals [2]:
+            xmin = 0.412
+            xmax = 0.669
+            text = ""
+        intervals [3]:
+            xmin = 0.669
+            xmax = 1.012
+            text = ""
+        intervals [4]:
+            xmin = 1.012
+            xmax = 1.354
+            text = ""
+        intervals [5]:
+            xmin = 1.354
+            xmax = 1.805
+            text = ""
+        intervals [6]:
+            xmin = 1.805
+            xmax = 2.227
+            text = ""
+        intervals [7]:
+            xmin = 2.227
+            xmax = 2.335
+            text = ""
+        intervals [8]:
+            xmin = 2.335
+            xmax = 2.504
+            text = ""
+        intervals [9]:
+            xmin = 2.504
+            xmax = 2.71
+            text = ""
+        intervals [10]:
+            xmin = 2.71
+            xmax = 2.883
+            text = ""
+        intervals [11]:
+            xmin = 2.883
+            xmax = 3.098
+            text = ""
+        intervals [12]:
+            xmin = 3.098
+            xmax = 3.369
+            text = ""
+        intervals [13]:
+            xmin = 3.369
+            xmax = 3.679
+            text = ""
+        intervals [14]:
+            xmin = 3.679
+            xmax = 3.917
+            text = ""
+        intervals [15]:
+            xmin = 3.917
+            xmax = 4.156
+            text = ""
+        intervals [16]:
+            xmin = 4.156
+            xmax = 4.77
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.77
+        intervals: size = 16
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.412
+            text = "Näiteks"
+        intervals [2]:
+            xmin = 0.412
+            xmax = 0.669
+            text = "käsib"
+        intervals [3]:
+            xmin = 0.669
+            xmax = 1.012
+            text = "nõud"
+        intervals [4]:
+            xmin = 1.012
+            xmax = 1.354
+            text = "kappi"
+        intervals [5]:
+            xmin = 1.354
+            xmax = 1.805
+            text = "panna"
+        intervals [6]:
+            xmin = 1.805
+            xmax = 2.227
+            text = ","
+        intervals [7]:
+            xmin = 2.227
+            xmax = 2.335
+            text = "kui"
+        intervals [8]:
+            xmin = 2.335
+            xmax = 2.504
+            text = "need"
+        intervals [9]:
+            xmin = 2.504
+            xmax = 2.71
+            text = "pole"
+        intervals [10]:
+            xmin = 2.71
+            xmax = 2.883
+            text = "nii,"
+        intervals [11]:
+            xmin = 2.883
+            xmax = 3.098
+            text = "nagu"
+        intervals [12]:
+            xmin = 3.098
+            xmax = 3.369
+            text = "tema"
+        intervals [13]:
+            xmin = 3.369
+            xmax = 3.679
+            text = "tahab"
+        intervals [14]:
+            xmin = 3.679
+            xmax = 3.917
+            text = ","
+        intervals [15]:
+            xmin = 3.917
+            xmax = 4.156
+            text = "saab"
+        intervals [16]:
+            xmin = 4.156
+            xmax = 4.77
+            text = "vihaseks"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 4.77
+        intervals: size = 16
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.412
+            text = "D"
+        intervals [2]:
+            xmin = 0.412
+            xmax = 0.669
+            text = "V"
+        intervals [3]:
+            xmin = 0.669
+            xmax = 1.012
+            text = "S"
+        intervals [4]:
+            xmin = 1.012
+            xmax = 1.354
+            text = "S"
+        intervals [5]:
+            xmin = 1.354
+            xmax = 1.805
+            text = "V"
+        intervals [6]:
+            xmin = 1.805
+            xmax = 2.227
+            text = ""
+        intervals [7]:
+            xmin = 2.227
+            xmax = 2.335
+            text = "J"
+        intervals [8]:
+            xmin = 2.335
+            xmax = 2.504
+            text = "P"
+        intervals [9]:
+            xmin = 2.504
+            xmax = 2.71
+            text = "V"
+        intervals [10]:
+            xmin = 2.71
+            xmax = 2.883
+            text = "P"
+        intervals [11]:
+            xmin = 2.883
+            xmax = 3.098
+            text = "J"
+        intervals [12]:
+            xmin = 3.098
+            xmax = 3.369
+            text = "P"
+        intervals [13]:
+            xmin = 3.369
+            xmax = 3.679
+            text = "V"
+        intervals [14]:
+            xmin = 3.679
+            xmax = 3.917
+            text = ""
+        intervals [15]:
+            xmin = 3.917
+            xmax = 4.156
+            text = "V"
+        intervals [16]:
+            xmin = 4.156
+            xmax = 4.77
+            text = "A"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.77
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.77
+            text = "Näiteks käsib nõud kappi panna, kui need pole nii, nagu tema tahab, saab vihaseks."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.77
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.77
+            text = "neutral"

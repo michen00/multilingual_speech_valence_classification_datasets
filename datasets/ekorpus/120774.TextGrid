@@ -1,0 +1,140 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 8.003
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 8.003
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 7.852
+            text = ""
+        intervals [2]:
+            xmin = 7.852
+            xmax = 8.003
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 8.003
+        intervals: size = 23
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.379
+            text = "Eesti"
+        intervals [2]:
+            xmin = 0.379
+            xmax = 1.388
+            text = "politseistruktuur"
+        intervals [3]:
+            xmin = 1.388
+            xmax = 1.536
+            text = "on"
+        intervals [4]:
+            xmin = 1.536
+            xmax = 1.879
+            text = "praegu"
+        intervals [5]:
+            xmin = 1.879
+            xmax = 2.117
+            text = "nii"
+        intervals [6]:
+            xmin = 2.117
+            xmax = 2.741
+            text = "keeruline"
+        intervals [7]:
+            xmin = 2.741
+            xmax = 3.084
+            text = ","
+        intervals [8]:
+            xmin = 3.084
+            xmax = 3.253
+            text = "et"
+        intervals [9]:
+            xmin = 3.253
+            xmax = 4.081
+            text = "politseinikud"
+        intervals [10]:
+            xmin = 4.081
+            xmax = 4.197
+            text = "ei"
+        intervals [11]:
+            xmin = 4.197
+            xmax = 4.445
+            text = "saa"
+        intervals [12]:
+            xmin = 4.445
+            xmax = 4.735
+            text = "ise"
+        intervals [13]:
+            xmin = 4.735
+            xmax = 4.969
+            text = "ka"
+        intervals [14]:
+            xmin = 4.969
+            xmax = 5.203
+            text = "aru"
+        intervals [15]:
+            xmin = 5.203
+            xmax = 5.484
+            text = "kes"
+        intervals [16]:
+            xmin = 5.484
+            xmax = 5.846
+            text = "kellele"
+        intervals [17]:
+            xmin = 5.846
+            xmax = 6.312
+            text = "allub"
+        intervals [18]:
+            xmin = 6.312
+            xmax = 6.415
+            text = "või"
+        intervals [19]:
+            xmin = 6.415
+            xmax = 6.746
+            text = "mida"
+        intervals [20]:
+            xmin = 6.746
+            xmax = 7.079
+            text = "keegi"
+        intervals [21]:
+            xmin = 7.079
+            xmax = 7.501
+            text = "tegema"
+        intervals [22]:
+            xmin = 7.501
+            xmax = 7.852
+            text = "peab"
+        intervals [23]:
+            xmin = 7.852
+            xmax = 8.003
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 8.003
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 8.003
+            text = "Eesti politseistruktuur on praegu nii keeruline, et politseinikud ei saa ise ka aru, kes kellele allub või mida keegi tegema peab."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 8.003
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 8.003
+            text = "sadness"

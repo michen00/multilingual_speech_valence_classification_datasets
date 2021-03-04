@@ -1,0 +1,130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.078
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.078
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.054
+            text = "k"
+        intervals [2]:
+            xmin = 0.054
+            xmax = 0.135
+            text = "o"
+        intervals [3]:
+            xmin = 0.135
+            xmax = 0.181
+            text = "r0"
+        intervals [4]:
+            xmin = 0.181
+            xmax = 0.316
+            text = "t::"
+        intervals [5]:
+            xmin = 0.316
+            xmax = 0.353
+            text = "e"
+        intervals [6]:
+            xmin = 0.353
+            xmax = 0.37
+            text = "r"
+        intervals [7]:
+            xmin = 0.37
+            xmax = 0.456
+            text = "2"
+        intervals [8]:
+            xmin = 0.456
+            xmax = 0.505
+            text = "e:"
+        intervals [9]:
+            xmin = 0.505
+            xmax = 0.598
+            text = "l"
+        intervals [10]:
+            xmin = 0.598
+            xmax = 0.63
+            text = "t"
+        intervals [11]:
+            xmin = 0.63
+            xmax = 0.651
+            text = "i"
+        intervals [12]:
+            xmin = 0.651
+            xmax = 0.736
+            text = "y"
+        intervals [13]:
+            xmin = 0.736
+            xmax = 0.768
+            text = "l"
+        intervals [14]:
+            xmin = 0.768
+            xmax = 0.885
+            text = "e"
+        intervals [15]:
+            xmin = 0.885
+            xmax = 1.078
+            text = "s"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.078
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.37
+            text = "Korter"
+        intervals [2]:
+            xmin = 0.37
+            xmax = 0.651
+            text = "öeldi"
+        intervals [3]:
+            xmin = 0.651
+            xmax = 1.078
+            text = "üles"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.078
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.37
+            text = "S"
+        intervals [2]:
+            xmin = 0.37
+            xmax = 0.651
+            text = "V"
+        intervals [3]:
+            xmin = 0.651
+            xmax = 1.078
+            text = "D"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.078
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.078
+            text = "Korter öeldi üles."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.078
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.078
+            text = "sadness"

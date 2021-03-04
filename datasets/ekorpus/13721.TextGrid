@@ -1,0 +1,142 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.188
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.188
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.606
+            text = ""
+        intervals [2]:
+            xmin = 0.606
+            xmax = 1.167
+            text = ""
+        intervals [3]:
+            xmin = 1.167
+            xmax = 1.323
+            text = ""
+        intervals [4]:
+            xmin = 1.323
+            xmax = 1.466
+            text = ""
+        intervals [5]:
+            xmin = 1.466
+            xmax = 1.813
+            text = ""
+        intervals [6]:
+            xmin = 1.813
+            xmax = 2.042
+            text = ""
+        intervals [7]:
+            xmin = 2.042
+            xmax = 2.647
+            text = ""
+        intervals [8]:
+            xmin = 2.647
+            xmax = 3.188
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.188
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.606
+            text = "Sedasorti"
+        intervals [2]:
+            xmin = 0.606
+            xmax = 1.167
+            text = "inimene"
+        intervals [3]:
+            xmin = 1.167
+            xmax = 1.323
+            text = ","
+        intervals [4]:
+            xmin = 1.323
+            xmax = 1.466
+            text = "kes"
+        intervals [5]:
+            xmin = 1.466
+            xmax = 1.813
+            text = "suudab"
+        intervals [6]:
+            xmin = 1.813
+            xmax = 2.042
+            text = "ise"
+        intervals [7]:
+            xmin = 2.042
+            xmax = 2.647
+            text = "köögimööbli"
+        intervals [8]:
+            xmin = 2.647
+            xmax = 3.188
+            text = "ehitada"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 3.188
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.606
+            text = "P"
+        intervals [2]:
+            xmin = 0.606
+            xmax = 1.167
+            text = "S"
+        intervals [3]:
+            xmin = 1.167
+            xmax = 1.323
+            text = ""
+        intervals [4]:
+            xmin = 1.323
+            xmax = 1.466
+            text = "P"
+        intervals [5]:
+            xmin = 1.466
+            xmax = 1.813
+            text = "V"
+        intervals [6]:
+            xmin = 1.813
+            xmax = 2.042
+            text = "P"
+        intervals [7]:
+            xmin = 2.042
+            xmax = 2.647
+            text = "S"
+        intervals [8]:
+            xmin = 2.647
+            xmax = 3.188
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.188
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.188
+            text = "Sedasorti inimene, kes suudab ise köögimööbli ehitada."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.188
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.188
+            text = "joy"

@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.202
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.202
+        intervals: size = 16
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.071
+            text = "e"
+        intervals [2]:
+            xmin = 0.071
+            xmax = 0.119
+            text = "t:"
+        intervals [3]:
+            xmin = 0.119
+            xmax = 0.188
+            text = "s"
+        intervals [4]:
+            xmin = 0.188
+            xmax = 0.243
+            text = "y"
+        intervals [5]:
+            xmin = 0.243
+            xmax = 0.314
+            text = "n:"
+        intervals [6]:
+            xmin = 0.314
+            xmax = 0.386
+            text = "i"
+        intervals [7]:
+            xmin = 0.386
+            xmax = 0.417
+            text = "v"
+        intervals [8]:
+            xmin = 0.417
+            xmax = 0.485
+            text = "a"
+        intervals [9]:
+            xmin = 0.485
+            xmax = 0.55
+            text = "t%"
+        intervals [10]:
+            xmin = 0.55
+            xmax = 0.62
+            text = "t"
+        intervals [11]:
+            xmin = 0.62
+            xmax = 0.781
+            text = "2:"
+        intervals [12]:
+            xmin = 0.781
+            xmax = 0.87
+            text = "k:"
+        intervals [13]:
+            xmin = 0.87
+            xmax = 0.917
+            text = "o"
+        intervals [14]:
+            xmin = 0.917
+            xmax = 0.983
+            text = "h1"
+        intervals [15]:
+            xmin = 0.983
+            xmax = 1.058
+            text = "a"
+        intervals [16]:
+            xmin = 1.058
+            xmax = 1.202
+            text = "t"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.202
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.119
+            text = "Et"
+        intervals [2]:
+            xmin = 0.119
+            xmax = 0.55
+            text = "sünnivad"
+        intervals [3]:
+            xmin = 0.55
+            xmax = 1.202
+            text = "töökohad"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.202
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.202
+            text = "Et sünnivad töökohad."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.202
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.202
+            text = "neutral"

@@ -1,0 +1,170 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.232
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.232
+        intervals: size = 23
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.077
+            text = "s"
+        intervals [2]:
+            xmin = 0.077
+            xmax = 0.12
+            text = "e"
+        intervals [3]:
+            xmin = 0.12
+            xmax = 0.169
+            text = "i"
+        intervals [4]:
+            xmin = 0.169
+            xmax = 0.212
+            text = "t:#"
+        intervals [5]:
+            xmin = 0.212
+            xmax = 0.249
+            text = "s#"
+        intervals [6]:
+            xmin = 0.249
+            xmax = 0.317
+            text = "e"
+        intervals [7]:
+            xmin = 0.317
+            xmax = 0.352
+            text = "k"
+        intervals [8]:
+            xmin = 0.352
+            xmax = 0.38
+            text = "y"
+        intervals [9]:
+            xmin = 0.38
+            xmax = 0.418
+            text = "m::"
+        intervals [10]:
+            xmin = 0.418
+            xmax = 0.469
+            text = "e"
+        intervals [11]:
+            xmin = 0.469
+            xmax = 0.517
+            text = "n"
+        intervals [12]:
+            xmin = 0.517
+            xmax = 0.546
+            text = "t"
+        intervals [13]:
+            xmin = 0.546
+            xmax = 0.602
+            text = "k"
+        intervals [14]:
+            xmin = 0.602
+            xmax = 0.651
+            text = "r"
+        intervals [15]:
+            xmin = 0.651
+            xmax = 0.812
+            text = "o::"
+        intervals [16]:
+            xmin = 0.812
+            xmax = 0.856
+            text = "n"
+        intervals [17]:
+            xmin = 0.856
+            xmax = 0.914
+            text = "i"
+        intervals [18]:
+            xmin = 0.914
+            xmax = 0.961
+            text = "p"
+        intervals [19]:
+            xmin = 0.961
+            xmax = 1.026
+            text = "a"
+        intervals [20]:
+            xmin = 1.026
+            xmax = 1.061
+            text = "l"
+        intervals [21]:
+            xmin = 1.061
+            xmax = 1.143
+            text = "u"
+        intervals [22]:
+            xmin = 1.143
+            xmax = 1.223
+            text = "n"
+        intervals [23]:
+            xmin = 1.223
+            xmax = 1.232
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.232
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.546
+            text = "Seitsekümmend "
+        intervals [2]:
+            xmin = 0.546
+            xmax = 0.914
+            text = "krooni, "
+        intervals [3]:
+            xmin = 0.914
+            xmax = 1.223
+            text = "palun "
+        intervals [4]:
+            xmin = 1.223
+            xmax = 1.232
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.232
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.546
+            text = "S"
+        intervals [2]:
+            xmin = 0.546
+            xmax = 0.914
+            text = "S"
+        intervals [3]:
+            xmin = 0.914
+            xmax = 1.223
+            text = "I"
+        intervals [4]:
+            xmin = 1.223
+            xmax = 1.232
+            text = ""
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.232
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.232
+            text = "Seitsekümmend krooni, palun."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.232
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.232
+            text = "neutral"

@@ -1,0 +1,168 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.515
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.515
+        intervals: size = 16
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = ""
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.162
+            text = ""
+        intervals [3]:
+            xmin = 0.162
+            xmax = 0.277
+            text = ""
+        intervals [4]:
+            xmin = 0.277
+            xmax = 0.545
+            text = ""
+        intervals [5]:
+            xmin = 0.545
+            xmax = 0.828
+            text = ""
+        intervals [6]:
+            xmin = 0.828
+            xmax = 1.252
+            text = ""
+        intervals [7]:
+            xmin = 1.252
+            xmax = 1.403
+            text = ""
+        intervals [8]:
+            xmin = 1.403
+            xmax = 1.707
+            text = ""
+        intervals [9]:
+            xmin = 1.707
+            xmax = 2.026
+            text = ""
+        intervals [10]:
+            xmin = 2.026
+            xmax = 2.263
+            text = ""
+        intervals [11]:
+            xmin = 2.263
+            xmax = 2.658
+            text = ""
+        intervals [12]:
+            xmin = 2.658
+            xmax = 2.882
+            text = ""
+        intervals [13]:
+            xmin = 2.882
+            xmax = 3.08
+            text = ""
+        intervals [14]:
+            xmin = 3.08
+            xmax = 3.167
+            text = ""
+        intervals [15]:
+            xmin = 3.167
+            xmax = 3.464
+            text = ""
+        intervals [16]:
+            xmin = 3.464
+            xmax = 3.515
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.515
+        intervals: size = 16
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = "!"
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.162
+            text = "Meil"
+        intervals [3]:
+            xmin = 0.162
+            xmax = 0.277
+            text = "on"
+        intervals [4]:
+            xmin = 0.277
+            xmax = 0.545
+            text = "sada"
+        intervals [5]:
+            xmin = 0.545
+            xmax = 0.828
+            text = "tuhat"
+        intervals [6]:
+            xmin = 0.828
+            xmax = 1.252
+            text = "naist"
+        intervals [7]:
+            xmin = 1.252
+            xmax = 1.403
+            text = ","
+        intervals [8]:
+            xmin = 1.403
+            xmax = 1.707
+            text = "kellel"
+        intervals [9]:
+            xmin = 1.707
+            xmax = 2.026
+            text = "võiks"
+        intervals [10]:
+            xmin = 2.026
+            xmax = 2.263
+            text = "olla"
+        intervals [11]:
+            xmin = 2.263
+            xmax = 2.658
+            text = "mees"
+        intervals [12]:
+            xmin = 2.658
+            xmax = 2.882
+            text = ","
+        intervals [13]:
+            xmin = 2.882
+            xmax = 3.08
+            text = "aga"
+        intervals [14]:
+            xmin = 3.08
+            xmax = 3.167
+            text = "ei"
+        intervals [15]:
+            xmin = 3.167
+            xmax = 3.464
+            text = "ole"
+        intervals [16]:
+            xmin = 3.464
+            xmax = 3.515
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.515
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.515
+            text = "Meil on 100 000 naist, kellel võiks olla mees, aga ei ole."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.515
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.515
+            text = "neutral"

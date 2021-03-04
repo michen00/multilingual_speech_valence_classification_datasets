@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.365
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.365
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = ""
+        intervals [2]:
+            xmin = 0.003
+            xmax = 4.219
+            text = ""
+        intervals [3]:
+            xmin = 4.219
+            xmax = 4.365
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.365
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = "."
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.86
+            text = "Enesekindlus"
+        intervals [3]:
+            xmin = 0.86
+            xmax = 1.01
+            text = "on"
+        intervals [4]:
+            xmin = 1.01
+            xmax = 1.277
+            text = "see"
+        intervals [5]:
+            xmin = 1.277
+            xmax = 1.467
+            text = "mis"
+        intervals [6]:
+            xmin = 1.467
+            xmax = 2.032
+            text = "hukutab"
+        intervals [7]:
+            xmin = 2.032
+            xmax = 2.454
+            text = "liiga"
+        intervals [8]:
+            xmin = 2.454
+            xmax = 2.793
+            text = "kaus"
+        intervals [9]:
+            xmin = 2.793
+            xmax = 3.131
+            text = "võimul"
+        intervals [10]:
+            xmin = 3.131
+            xmax = 3.555
+            text = "püsinud"
+        intervals [11]:
+            xmin = 3.555
+            xmax = 4.219
+            text = "erakonnad."
+        intervals [12]:
+            xmin = 4.219
+            xmax = 4.365
+            text = "*"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.365
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.365
+            text = "Enesekindlus on see, mis hukutab liiga kaua võimul püsinud erakonnad."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.365
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.365
+            text = "neutral"

@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.23
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.23
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.223
+            text = ""
+        intervals [2]:
+            xmin = 4.223
+            xmax = 4.23
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.23
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.01
+            text = "!"
+        intervals [2]:
+            xmin = 0.01
+            xmax = 0.366
+            text = "Kunnas"
+        intervals [3]:
+            xmin = 0.366
+            xmax = 0.712
+            text = "vajab"
+        intervals [4]:
+            xmin = 0.712
+            xmax = 1.326
+            text = "võitlust"
+        intervals [5]:
+            xmin = 1.326
+            xmax = 1.5
+            text = ""
+        intervals [6]:
+            xmin = 1.5
+            xmax = 1.611
+            text = "ja"
+        intervals [7]:
+            xmin = 1.611
+            xmax = 1.992
+            text = "parema"
+        intervals [8]:
+            xmin = 1.992
+            xmax = 2.537
+            text = "puudumisel"
+        intervals [9]:
+            xmin = 2.537
+            xmax = 2.947
+            text = "võitleb"
+        intervals [10]:
+            xmin = 2.947
+            xmax = 4.223
+            text = "Kaitseministeeriumiga"
+        intervals [11]:
+            xmin = 4.223
+            xmax = 4.23
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.23
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.23
+            text = "Kunnas vajab võitlust ja parema puudumisel võitleb kaitseministeeriumiga."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.23
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.23
+            text = "neutral"

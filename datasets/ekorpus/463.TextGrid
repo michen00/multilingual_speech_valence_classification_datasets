@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.137
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.137
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.101
+            text = ""
+        intervals [2]:
+            xmin = 0.101
+            xmax = 0.614
+            text = ""
+        intervals [3]:
+            xmin = 0.614
+            xmax = 1.037
+            text = ""
+        intervals [4]:
+            xmin = 1.037
+            xmax = 1.245
+            text = ""
+        intervals [5]:
+            xmin = 1.245
+            xmax = 1.529
+            text = ""
+        intervals [6]:
+            xmin = 1.529
+            xmax = 2.012
+            text = ""
+        intervals [7]:
+            xmin = 2.012
+            xmax = 2.629
+            text = ""
+        intervals [8]:
+            xmin = 2.629
+            xmax = 2.729
+            text = ""
+        intervals [9]:
+            xmin = 2.729
+            xmax = 3.137
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.137
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.101
+            text = "Kui"
+        intervals [2]:
+            xmin = 0.101
+            xmax = 0.614
+            text = "sellist"
+        intervals [3]:
+            xmin = 0.614
+            xmax = 1.037
+            text = "sõnumit"
+        intervals [4]:
+            xmin = 1.037
+            xmax = 1.245
+            text = "iga"
+        intervals [5]:
+            xmin = 1.245
+            xmax = 1.529
+            text = "päev"
+        intervals [6]:
+            xmin = 1.529
+            xmax = 2.012
+            text = "korrata,"
+        intervals [7]:
+            xmin = 2.012
+            xmax = 2.629
+            text = "sööbib"
+        intervals [8]:
+            xmin = 2.629
+            xmax = 2.729
+            text = "ta"
+        intervals [9]:
+            xmin = 2.729
+            xmax = 3.137
+            text = "mällu"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.137
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.137
+            text = "Kui sellist sõnumit iga päev korrata, sööbib ta mällu."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.137
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.137
+            text = "sadness"

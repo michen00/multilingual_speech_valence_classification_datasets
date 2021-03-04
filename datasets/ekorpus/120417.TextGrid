@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.226
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.226
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.186
+            text = ""
+        intervals [2]:
+            xmin = 4.186
+            xmax = 4.226
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.226
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.109
+            text = "Me"
+        intervals [2]:
+            xmin = 0.109
+            xmax = 0.211
+            text = "ei"
+        intervals [3]:
+            xmin = 0.211
+            xmax = 0.588
+            text = "tohiks"
+        intervals [4]:
+            xmin = 0.588
+            xmax = 0.931
+            text = "joobes"
+        intervals [5]:
+            xmin = 0.931
+            xmax = 1.326
+            text = "olevaid"
+        intervals [6]:
+            xmin = 1.326
+            xmax = 1.891
+            text = "haigeid"
+        intervals [7]:
+            xmin = 1.891
+            xmax = 2.304
+            text = ""
+        intervals [8]:
+            xmin = 2.304
+            xmax = 2.38
+            text = "ja"
+        intervals [9]:
+            xmin = 2.38
+            xmax = 3.022
+            text = "normaalseid"
+        intervals [10]:
+            xmin = 3.022
+            xmax = 3.457
+            text = "inimesi"
+        intervals [11]:
+            xmin = 3.457
+            xmax = 3.763
+            text = "segi"
+        intervals [12]:
+            xmin = 3.763
+            xmax = 4.186
+            text = "ajada."
+        intervals [13]:
+            xmin = 4.186
+            xmax = 4.226
+            text = "*"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.226
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.226
+            text = "Me ei tohiks joobes olevaid haigeid ja normaalseid inimesi segi ajada."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.226
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.226
+            text = "anger"

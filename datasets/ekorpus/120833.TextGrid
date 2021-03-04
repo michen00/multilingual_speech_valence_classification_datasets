@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.678
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.678
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.662
+            text = ""
+        intervals [2]:
+            xmin = 2.662
+            xmax = 2.678
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.678
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.385
+            text = "Ilmselt"
+        intervals [2]:
+            xmin = 0.385
+            xmax = 0.519
+            text = "nii"
+        intervals [3]:
+            xmin = 0.519
+            xmax = 0.829
+            text = "lolli"
+        intervals [4]:
+            xmin = 0.829
+            xmax = 1.411
+            text = "tegelast"
+        intervals [5]:
+            xmin = 1.411
+            xmax = 1.638
+            text = "ei"
+        intervals [6]:
+            xmin = 1.638
+            xmax = 1.886
+            text = "ole"
+        intervals [7]:
+            xmin = 1.886
+            xmax = 2.174
+            text = "üldse"
+        intervals [8]:
+            xmin = 2.174
+            xmax = 2.662
+            text = "olemas"
+        intervals [9]:
+            xmin = 2.662
+            xmax = 2.678
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.678
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.678
+            text = "Ilmselt nii lolli tegelast ei ole üldse olemas."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.678
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.678
+            text = "neutral"

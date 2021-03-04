@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.299
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.299
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.121
+            text = ""
+        intervals [2]:
+            xmin = 4.121
+            xmax = 4.299
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.299
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.34
+            text = "Lapsed"
+        intervals [2]:
+            xmin = 0.34
+            xmax = 0.873
+            text = "muuseas"
+        intervals [3]:
+            xmin = 0.873
+            xmax = 0.969
+            text = ","
+        intervals [4]:
+            xmin = 0.969
+            xmax = 1.291
+            text = "tahavad"
+        intervals [5]:
+            xmin = 1.291
+            xmax = 1.603
+            text = "süüa"
+        intervals [6]:
+            xmin = 1.603
+            xmax = 1.76
+            text = "ja"
+        intervals [7]:
+            xmin = 1.76
+            xmax = 2.147
+            text = "kuskil"
+        intervals [8]:
+            xmin = 2.147
+            xmax = 2.498
+            text = "elada"
+        intervals [9]:
+            xmin = 2.498
+            xmax = 2.604
+            text = "ka"
+        intervals [10]:
+            xmin = 2.604
+            xmax = 2.908
+            text = "siis"
+        intervals [11]:
+            xmin = 2.908
+            xmax = 3.052
+            text = "kui"
+        intervals [12]:
+            xmin = 3.052
+            xmax = 3.502
+            text = "hüvitise"
+        intervals [13]:
+            xmin = 3.502
+            xmax = 3.716
+            text = "aeg"
+        intervals [14]:
+            xmin = 3.716
+            xmax = 4.121
+            text = "lõpeb"
+        intervals [15]:
+            xmin = 4.121
+            xmax = 4.299
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.299
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.299
+            text = "Lapsed, muuseas, tahavad süüa ja kuskil elada ka siis, kui hüvitise aeg lõpeb."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.299
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.299
+            text = "sadness"

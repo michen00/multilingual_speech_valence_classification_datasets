@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.834
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.834
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.025
+            text = ""
+        intervals [2]:
+            xmin = 0.025
+            xmax = 0.083
+            text = "a"
+        intervals [3]:
+            xmin = 0.083
+            xmax = 0.111
+            text = "k1"
+        intervals [4]:
+            xmin = 0.111
+            xmax = 0.15
+            text = "a"
+        intervals [5]:
+            xmin = 0.15
+            xmax = 0.206
+            text = "m"
+        intervals [6]:
+            xmin = 0.206
+            xmax = 0.292
+            text = "i"
+        intervals [7]:
+            xmin = 0.292
+            xmax = 0.375
+            text = "t:."
+        intervals [8]:
+            xmin = 0.375
+            xmax = 0.449
+            text = "e"
+        intervals [9]:
+            xmin = 0.449
+            xmax = 0.488
+            text = "t1"
+        intervals [10]:
+            xmin = 0.488
+            xmax = 0.601
+            text = "x"
+        intervals [11]:
+            xmin = 0.601
+            xmax = 0.646
+            text = "n"
+        intervals [12]:
+            xmin = 0.646
+            xmax = 0.789
+            text = "a"
+        intervals [13]:
+            xmin = 0.789
+            xmax = 0.834
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.834
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.025
+            text = "."
+        intervals [2]:
+            xmin = 0.025
+            xmax = 0.15
+            text = "Aga"
+        intervals [3]:
+            xmin = 0.15
+            xmax = 0.449
+            text = "mitte"
+        intervals [4]:
+            xmin = 0.449
+            xmax = 0.789
+            text = "täna"
+        intervals [5]:
+            xmin = 0.789
+            xmax = 0.834
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.834
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.834
+            text = "Aga mitte täna."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.834
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.834
+            text = "neutral"

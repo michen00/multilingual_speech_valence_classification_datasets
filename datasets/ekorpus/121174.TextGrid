@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.859
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.859
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.372
+            text = ""
+        intervals [2]:
+            xmin = 0.372
+            xmax = 0.944
+            text = ""
+        intervals [3]:
+            xmin = 0.944
+            xmax = 1.365
+            text = ""
+        intervals [4]:
+            xmin = 1.365
+            xmax = 1.534
+            text = ""
+        intervals [5]:
+            xmin = 1.534
+            xmax = 1.829
+            text = ""
+        intervals [6]:
+            xmin = 1.829
+            xmax = 2.243
+            text = ""
+        intervals [7]:
+            xmin = 2.243
+            xmax = 2.359
+            text = ""
+        intervals [8]:
+            xmin = 2.359
+            xmax = 2.678
+            text = ""
+        intervals [9]:
+            xmin = 2.678
+            xmax = 3.093
+            text = ""
+        intervals [10]:
+            xmin = 3.093
+            xmax = 3.822
+            text = ""
+        intervals [11]:
+            xmin = 3.822
+            xmax = 3.859
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.859
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.372
+            text = "Siis"
+        intervals [2]:
+            xmin = 0.372
+            xmax = 0.944
+            text = "selgus"
+        intervals [3]:
+            xmin = 0.944
+            xmax = 1.365
+            text = ","
+        intervals [4]:
+            xmin = 1.365
+            xmax = 1.534
+            text = "et"
+        intervals [5]:
+            xmin = 1.534
+            xmax = 1.829
+            text = "truud"
+        intervals [6]:
+            xmin = 1.829
+            xmax = 2.243
+            text = "kunded"
+        intervals [7]:
+            xmin = 2.243
+            xmax = 2.359
+            text = "ei"
+        intervals [8]:
+            xmin = 2.359
+            xmax = 2.678
+            text = "vääri"
+        intervals [9]:
+            xmin = 2.678
+            xmax = 3.093
+            text = "sellist"
+        intervals [10]:
+            xmin = 3.093
+            xmax = 3.822
+            text = "privileegi"
+        intervals [11]:
+            xmin = 3.822
+            xmax = 3.859
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.859
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.859
+            text = "Siis selgus, et truud kunded ei vääri sellist privileegi."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.859
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.859
+            text = "neutral"

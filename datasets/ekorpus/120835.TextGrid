@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.081
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.081
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.006
+            text = ""
+        intervals [2]:
+            xmin = 0.006
+            xmax = 3.024
+            text = ""
+        intervals [3]:
+            xmin = 3.024
+            xmax = 3.081
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.081
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.006
+            text = "."
+        intervals [2]:
+            xmin = 0.006
+            xmax = 0.332
+            text = "Seega"
+        intervals [3]:
+            xmin = 0.332
+            xmax = 0.447
+            text = "on"
+        intervals [4]:
+            xmin = 0.447
+            xmax = 0.73
+            text = "väga"
+        intervals [5]:
+            xmin = 0.73
+            xmax = 1.577
+            text = "ebaeetiline"
+        intervals [6]:
+            xmin = 1.577
+            xmax = 1.989
+            text = "lõigata"
+        intervals [7]:
+            xmin = 1.989
+            xmax = 2.234
+            text = "kasu"
+        intervals [8]:
+            xmin = 2.234
+            xmax = 2.571
+            text = "Tartu"
+        intervals [9]:
+            xmin = 2.571
+            xmax = 3.024
+            text = "rahust"
+        intervals [10]:
+            xmin = 3.024
+            xmax = 3.081
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.081
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.081
+            text = "Seega on väga ebaeetiline lõigata kasu Tartu rahust."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.081
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.081
+            text = "neutral"

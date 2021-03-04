@@ -1,0 +1,82 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.951
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.951
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.283
+            text = ""
+        intervals [2]:
+            xmin = 0.283
+            xmax = 0.478
+            text = ""
+        intervals [3]:
+            xmin = 0.478
+            xmax = 0.951
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.951
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.283
+            text = "Kõike "
+        intervals [2]:
+            xmin = 0.283
+            xmax = 0.478
+            text = "võib"
+        intervals [3]:
+            xmin = 0.478
+            xmax = 0.951
+            text = "juhtuda"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 0.951
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.283
+            text = "P"
+        intervals [2]:
+            xmin = 0.283
+            xmax = 0.478
+            text = "V"
+        intervals [3]:
+            xmin = 0.478
+            xmax = 0.951
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.951
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.951
+            text = "Kõike võib juhtuda."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.951
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.951
+            text = "neutral"

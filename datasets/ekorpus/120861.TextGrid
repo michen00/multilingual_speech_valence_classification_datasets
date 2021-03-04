@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.838
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.838
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.76
+            text = ""
+        intervals [2]:
+            xmin = 2.76
+            xmax = 2.838
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.838
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.59
+            text = "Meediakisa"
+        intervals [2]:
+            xmin = 0.59
+            xmax = 0.714
+            text = "on"
+        intervals [3]:
+            xmin = 0.714
+            xmax = 1.025
+            text = "üldse"
+        intervals [4]:
+            xmin = 1.025
+            xmax = 1.403
+            text = "palju"
+        intervals [5]:
+            xmin = 1.403
+            xmax = 1.836
+            text = ","
+        intervals [6]:
+            xmin = 1.836
+            xmax = 1.945
+            text = "see"
+        intervals [7]:
+            xmin = 1.945
+            xmax = 2.129
+            text = "käib"
+        intervals [8]:
+            xmin = 2.129
+            xmax = 2.76
+            text = "närvidele"
+        intervals [9]:
+            xmin = 2.76
+            xmax = 2.838
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.838
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.838
+            text = "Meediakisa on üldse palju, see käib närvidele."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.838
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.838
+            text = "sadness"

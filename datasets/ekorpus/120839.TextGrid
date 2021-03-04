@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.95
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.95
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.014
+            text = ""
+        intervals [2]:
+            xmin = 0.014
+            xmax = 0.087
+            text = "s"
+        intervals [3]:
+            xmin = 0.087
+            xmax = 0.152
+            text = "7"
+        intervals [4]:
+            xmin = 0.152
+            xmax = 0.207
+            text = "t"
+        intervals [5]:
+            xmin = 0.207
+            xmax = 0.308
+            text = "a"
+        intervals [6]:
+            xmin = 0.308
+            xmax = 0.355
+            text = "e"
+        intervals [7]:
+            xmin = 0.355
+            xmax = 0.396
+            text = "i:"
+        intervals [8]:
+            xmin = 0.396
+            xmax = 0.465
+            text = "o"
+        intervals [9]:
+            xmin = 0.465
+            xmax = 0.52
+            text = "l"
+        intervals [10]:
+            xmin = 0.52
+            xmax = 0.59
+            text = "e"
+        intervals [11]:
+            xmin = 0.59
+            xmax = 0.663
+            text = "h1"
+        intervals [12]:
+            xmin = 0.663
+            xmax = 0.737
+            text = "e"
+        intervals [13]:
+            xmin = 0.737
+            xmax = 0.891
+            text = "a:"
+        intervals [14]:
+            xmin = 0.891
+            xmax = 0.95
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.95
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.014
+            text = "."
+        intervals [2]:
+            xmin = 0.014
+            xmax = 0.308
+            text = "Sõda"
+        intervals [3]:
+            xmin = 0.308
+            xmax = 0.396
+            text = "ei"
+        intervals [4]:
+            xmin = 0.396
+            xmax = 0.59
+            text = "ole"
+        intervals [5]:
+            xmin = 0.59
+            xmax = 0.891
+            text = "hea"
+        intervals [6]:
+            xmin = 0.891
+            xmax = 0.95
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.95
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.95
+            text = "Sõda ei ole hea."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.95
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.95
+            text = "neutral"

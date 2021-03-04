@@ -1,0 +1,142 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.273
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.273
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.099
+            text = ""
+        intervals [2]:
+            xmin = 0.099
+            xmax = 0.22
+            text = ""
+        intervals [3]:
+            xmin = 0.22
+            xmax = 0.811
+            text = ""
+        intervals [4]:
+            xmin = 0.811
+            xmax = 1.128
+            text = ""
+        intervals [5]:
+            xmin = 1.128
+            xmax = 1.486
+            text = ""
+        intervals [6]:
+            xmin = 1.486
+            xmax = 1.698
+            text = ""
+        intervals [7]:
+            xmin = 1.698
+            xmax = 1.848
+            text = ""
+        intervals [8]:
+            xmin = 1.848
+            xmax = 2.273
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.273
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.099
+            text = "Ja "
+        intervals [2]:
+            xmin = 0.099
+            xmax = 0.22
+            text = "kui"
+        intervals [3]:
+            xmin = 0.22
+            xmax = 0.811
+            text = "kannatama"
+        intervals [4]:
+            xmin = 0.811
+            xmax = 1.128
+            text = "paneb"
+        intervals [5]:
+            xmin = 1.128
+            xmax = 1.486
+            text = ","
+        intervals [6]:
+            xmin = 1.486
+            xmax = 1.698
+            text = "siis "
+        intervals [7]:
+            xmin = 1.698
+            xmax = 1.848
+            text = "las"
+        intervals [8]:
+            xmin = 1.848
+            xmax = 2.273
+            text = "paneb"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.273
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.099
+            text = "J"
+        intervals [2]:
+            xmin = 0.099
+            xmax = 0.22
+            text = "J"
+        intervals [3]:
+            xmin = 0.22
+            xmax = 0.811
+            text = "V"
+        intervals [4]:
+            xmin = 0.811
+            xmax = 1.128
+            text = "V"
+        intervals [5]:
+            xmin = 1.128
+            xmax = 1.486
+            text = ""
+        intervals [6]:
+            xmin = 1.486
+            xmax = 1.698
+            text = "P"
+        intervals [7]:
+            xmin = 1.698
+            xmax = 1.848
+            text = "D"
+        intervals [8]:
+            xmin = 1.848
+            xmax = 2.273
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.273
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.273
+            text = "Ja kui kannatama paneb, siis las paneb."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.273
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.273
+            text = "neutral"

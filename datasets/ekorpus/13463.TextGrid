@@ -1,0 +1,158 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.045
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.045
+        intervals: size = 18
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = ""
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.042
+            text = "k"
+        intervals [3]:
+            xmin = 0.042
+            xmax = 0.098
+            text = "a"
+        intervals [4]:
+            xmin = 0.098
+            xmax = 0.151
+            text = "p"
+        intervals [5]:
+            xmin = 0.151
+            xmax = 0.208
+            text = "u"
+        intervals [6]:
+            xmin = 0.208
+            xmax = 0.348
+            text = "s’::"
+        intervals [7]:
+            xmin = 0.348
+            xmax = 0.389
+            text = "i"
+        intervals [8]:
+            xmin = 0.389
+            xmax = 0.423
+            text = "t1"
+        intervals [9]:
+            xmin = 0.423
+            xmax = 0.496
+            text = "e"
+        intervals [10]:
+            xmin = 0.496
+            xmax = 0.55
+            text = "k1"
+        intervals [11]:
+            xmin = 0.55
+            xmax = 0.597
+            text = "a"
+        intervals [12]:
+            xmin = 0.597
+            xmax = 0.648
+            text = "o"
+        intervals [13]:
+            xmin = 0.648
+            xmax = 0.671
+            text = "n"
+        intervals [14]:
+            xmin = 0.671
+            xmax = 0.708
+            text = "r"
+        intervals [15]:
+            xmin = 0.708
+            xmax = 0.77
+            text = "a"
+        intervals [16]:
+            xmin = 0.77
+            xmax = 0.896
+            text = "s::"
+        intervals [17]:
+            xmin = 0.896
+            xmax = 0.961
+            text = "k:"
+        intervals [18]:
+            xmin = 0.961
+            xmax = 1.045
+            text = "e"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.045
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = "."
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.098
+            text = "Ka "
+        intervals [3]:
+            xmin = 0.098
+            xmax = 0.597
+            text = "bussidega "
+        intervals [4]:
+            xmin = 0.597
+            xmax = 0.671
+            text = " on "
+        intervals [5]:
+            xmin = 0.671
+            xmax = 1.045
+            text = "raske"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.045
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = ""
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.098
+            text = "D"
+        intervals [3]:
+            xmin = 0.098
+            xmax = 0.597
+            text = "S"
+        intervals [4]:
+            xmin = 0.597
+            xmax = 0.671
+            text = "V"
+        intervals [5]:
+            xmin = 0.671
+            xmax = 1.045
+            text = "A"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.045
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.045
+            text = "Ka bussidega on raske."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.045
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.045
+            text = "neutral"

@@ -1,0 +1,170 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.5
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.5
+        intervals: size = 23
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.03
+            text = "p"
+        intervals [2]:
+            xmin = 0.03
+            xmax = 0.227
+            text = "o::"
+        intervals [3]:
+            xmin = 0.227
+            xmax = 0.292
+            text = "l"
+        intervals [4]:
+            xmin = 0.292
+            xmax = 0.33
+            text = "j"
+        intervals [5]:
+            xmin = 0.33
+            xmax = 0.462
+            text = "o::"
+        intervals [6]:
+            xmin = 0.462
+            xmax = 0.527
+            text = "s"
+        intervals [7]:
+            xmin = 0.527
+            xmax = 0.615
+            text = "t:"
+        intervals [8]:
+            xmin = 0.615
+            xmax = 0.666
+            text = "e"
+        intervals [9]:
+            xmin = 0.666
+            xmax = 0.716
+            text = "s"
+        intervals [10]:
+            xmin = 0.716
+            xmax = 0.767
+            text = "l"
+        intervals [11]:
+            xmin = 0.767
+            xmax = 0.824
+            text = "x"
+        intervals [12]:
+            xmin = 0.824
+            xmax = 0.87
+            text = "h1"
+        intervals [13]:
+            xmin = 0.87
+            xmax = 0.92
+            text = "e"
+        intervals [14]:
+            xmin = 0.92
+            xmax = 0.963
+            text = "n"
+        intervals [15]:
+            xmin = 0.963
+            xmax = 0.999
+            text = "v"
+        intervals [16]:
+            xmin = 0.999
+            xmax = 1.049
+            text = "a"
+        intervals [17]:
+            xmin = 1.049
+            xmax = 1.098
+            text = "h1"
+        intervals [18]:
+            xmin = 1.098
+            xmax = 1.144
+            text = "e"
+        intervals [19]:
+            xmin = 1.144
+            xmax = 1.209
+            text = "l"
+        intervals [20]:
+            xmin = 1.209
+            xmax = 1.28
+            text = "k"
+        intervals [21]:
+            xmin = 1.28
+            xmax = 1.364
+            text = "o"
+        intervals [22]:
+            xmin = 1.364
+            xmax = 1.415
+            text = "j"
+        intervals [23]:
+            xmin = 1.415
+            xmax = 1.5
+            text = "u"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.5
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.716
+            text = "Pooljoostes "
+        intervals [2]:
+            xmin = 0.716
+            xmax = 0.963
+            text = "lähen"
+        intervals [3]:
+            xmin = 0.963
+            xmax = 1.209
+            text = "vahel"
+        intervals [4]:
+            xmin = 1.209
+            xmax = 1.5
+            text = "koju!"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.5
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.716
+            text = "D"
+        intervals [2]:
+            xmin = 0.716
+            xmax = 0.963
+            text = "V"
+        intervals [3]:
+            xmin = 0.963
+            xmax = 1.209
+            text = "D"
+        intervals [4]:
+            xmin = 1.209
+            xmax = 1.5
+            text = "D"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.5
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.5
+            text = "Pooljoostes lähen vahel koju!"
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.5
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.5
+            text = "joy"

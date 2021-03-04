@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.935
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.935
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.005
+            text = ""
+        intervals [2]:
+            xmin = 0.005
+            xmax = 1.873
+            text = ""
+        intervals [3]:
+            xmin = 1.873
+            xmax = 1.935
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.935
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.005
+            text = "."
+        intervals [2]:
+            xmin = 0.005
+            xmax = 0.077
+            text = "Ma"
+        intervals [3]:
+            xmin = 0.077
+            xmax = 0.137
+            text = "ei"
+        intervals [4]:
+            xmin = 0.137
+            xmax = 0.367
+            text = "tea"
+        intervals [5]:
+            xmin = 0.367
+            xmax = 0.598
+            text = "kuhu"
+        intervals [6]:
+            xmin = 0.598
+            xmax = 0.737
+            text = "need"
+        intervals [7]:
+            xmin = 0.737
+            xmax = 1.181
+            text = "vasikad"
+        intervals [8]:
+            xmin = 1.181
+            xmax = 1.873
+            text = "peidetakse"
+        intervals [9]:
+            xmin = 1.873
+            xmax = 1.935
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.935
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.935
+            text = "Ma ei tea, kuhu need vasikad peidetakse."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.935
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.935
+            text = "neutral"

@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 4.987
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 4.987
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.985
+            text = ""
+        intervals [2]:
+            xmin = 4.985
+            xmax = 4.987
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 4.987
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.444
+            text = "Poisike"
+        intervals [2]:
+            xmin = 0.444
+            xmax = 0.888
+            text = "vaatas"
+        intervals [3]:
+            xmin = 0.888
+            xmax = 1.127
+            text = "mind"
+        intervals [4]:
+            xmin = 1.127
+            xmax = 1.769
+            text = "õudusega"
+        intervals [5]:
+            xmin = 1.769
+            xmax = 2.279
+            text = "pilgus"
+        intervals [6]:
+            xmin = 2.279
+            xmax = 2.847
+            text = ","
+        intervals [7]:
+            xmin = 2.847
+            xmax = 3.478
+            text = "karjatas"
+        intervals [8]:
+            xmin = 3.478
+            xmax = 4.133
+            text = ":"
+        intervals [9]:
+            xmin = 4.133
+            xmax = 4.985
+            text = "kommitädi"
+        intervals [10]:
+            xmin = 4.985
+            xmax = 4.987
+            text = "!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 4.987
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.987
+            text = "Poisike vaatas mind õudusega pilgus, karjatas: „KOMMITÄDI!“"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 4.987
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.987
+            text = "sadness"

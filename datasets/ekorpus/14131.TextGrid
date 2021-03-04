@@ -1,0 +1,126 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.532
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.651
+            text = ""
+        intervals [2]:
+            xmin = 0.651
+            xmax = 0.745
+            text = "o"
+        intervals [3]:
+            xmin = 0.745
+            xmax = 0.803
+            text = "l"
+        intervals [4]:
+            xmin = 0.803
+            xmax = 0.902
+            text = "i"
+        intervals [5]:
+            xmin = 0.902
+            xmax = 1.269
+            text = ""
+        intervals [6]:
+            xmin = 1.269
+            xmax = 1.539
+            text = ""
+        intervals [7]:
+            xmin = 1.539
+            xmax = 1.894
+            text = ""
+        intervals [8]:
+            xmin = 1.894
+            xmax = 2.532
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.651
+            text = "Esmaspäeval  "
+        intervals [2]:
+            xmin = 0.651
+            xmax = 0.902
+            text = "oli"
+        intervals [3]:
+            xmin = 0.902
+            xmax = 1.269
+            text = "halvim "
+        intervals [4]:
+            xmin = 1.269
+            xmax = 1.539
+            text = "päev "
+        intervals [5]:
+            xmin = 1.539
+            xmax = 1.894
+            text = "Tartu"
+        intervals [6]:
+            xmin = 1.894
+            xmax = 2.532
+            text = "liikluses"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.651
+            text = "S"
+        intervals [2]:
+            xmin = 0.651
+            xmax = 0.902
+            text = "V"
+        intervals [3]:
+            xmin = 0.902
+            xmax = 1.269
+            text = "A"
+        intervals [4]:
+            xmin = 1.269
+            xmax = 1.539
+            text = "S"
+        intervals [5]:
+            xmin = 1.539
+            xmax = 1.894
+            text = "S"
+        intervals [6]:
+            xmin = 1.894
+            xmax = 2.532
+            text = "S"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.532
+            text = "Esmaspäeval oli halvim päev Tartu liikluses."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.532
+            text = "neutral"

@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.828
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.828
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.104
+            text = "a"
+        intervals [2]:
+            xmin = 0.104
+            xmax = 0.156
+            text = "r"
+        intervals [3]:
+            xmin = 0.156
+            xmax = 0.212
+            text = "m"
+        intervals [4]:
+            xmin = 0.212
+            xmax = 0.292
+            text = "a"
+        intervals [5]:
+            xmin = 0.292
+            xmax = 0.383
+            text = "s"
+        intervals [6]:
+            xmin = 0.383
+            xmax = 0.43
+            text = "r"
+        intervals [7]:
+            xmin = 0.43
+            xmax = 0.521
+            text = "a"
+        intervals [8]:
+            xmin = 0.521
+            xmax = 0.6
+            text = "h"
+        intervals [9]:
+            xmin = 0.6
+            xmax = 0.639
+            text = "v"
+        intervals [10]:
+            xmin = 0.639
+            xmax = 0.72
+            text = "a"
+        intervals [11]:
+            xmin = 0.72
+            xmax = 0.819
+            text = "s"
+        intervals [12]:
+            xmin = 0.819
+            xmax = 0.828
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.828
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.383
+            text = "Armas"
+        intervals [2]:
+            xmin = 0.383
+            xmax = 0.819
+            text = "rahvas"
+        intervals [3]:
+            xmin = 0.819
+            xmax = 0.828
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.828
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.828
+            text = "Armas rahvas."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.828
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.828
+            text = "joy"

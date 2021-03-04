@@ -1,0 +1,226 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.024
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.024
+        intervals: size = 31
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.056
+            text = "@"
+        intervals [2]:
+            xmin = 0.056
+            xmax = 0.084
+            text = "f"
+        intervals [3]:
+            xmin = 0.084
+            xmax = 0.168
+            text = "i"
+        intervals [4]:
+            xmin = 0.168
+            xmax = 0.229
+            text = "l’::"
+        intervals [5]:
+            xmin = 0.229
+            xmax = 0.293
+            text = "m"
+        intervals [6]:
+            xmin = 0.293
+            xmax = 0.377
+            text = "o"
+        intervals [7]:
+            xmin = 0.377
+            xmax = 0.465
+            text = "n"
+        intervals [8]:
+            xmin = 0.465
+            xmax = 0.505
+            text = "j"
+        intervals [9]:
+            xmin = 0.505
+            xmax = 0.593
+            text = "u"
+        intervals [10]:
+            xmin = 0.593
+            xmax = 0.647
+            text = "y"
+        intervals [11]:
+            xmin = 0.647
+            xmax = 0.711
+            text = "l’::"
+        intervals [12]:
+            xmin = 0.711
+            xmax = 0.757
+            text = "t1"
+        intervals [13]:
+            xmin = 0.757
+            xmax = 0.776
+            text = "i"
+        intervals [14]:
+            xmin = 0.776
+            xmax = 0.851
+            text = "s"
+        intervals [15]:
+            xmin = 0.851
+            xmax = 0.891
+            text = "e"
+        intervals [16]:
+            xmin = 0.891
+            xmax = 0.932
+            text = "l"
+        intervals [17]:
+            xmin = 0.932
+            xmax = 0.989
+            text = "t:%"
+        intervals [18]:
+            xmin = 0.989
+            xmax = 1.054
+            text = "t"
+        intervals [19]:
+            xmin = 1.054
+            xmax = 1.166
+            text = "7"
+        intervals [20]:
+            xmin = 1.166
+            xmax = 1.234
+            text = "e:"
+        intervals [21]:
+            xmin = 1.234
+            xmax = 1.282
+            text = "t"
+        intervals [22]:
+            xmin = 1.282
+            xmax = 1.333
+            text = "r"
+        intervals [23]:
+            xmin = 1.333
+            xmax = 1.401
+            text = "u:"
+        intervals [24]:
+            xmin = 1.401
+            xmax = 1.461
+            text = "l"
+        intervals [25]:
+            xmin = 1.461
+            xmax = 1.512
+            text = "t:%"
+        intervals [26]:
+            xmin = 1.512
+            xmax = 1.587
+            text = "t"
+        intervals [27]:
+            xmin = 1.587
+            xmax = 1.645
+            text = "e"
+        intervals [28]:
+            xmin = 1.645
+            xmax = 1.744
+            text = "h::"
+        intervals [29]:
+            xmin = 1.744
+            xmax = 1.856
+            text = "t:"
+        intervals [30]:
+            xmin = 1.856
+            xmax = 1.9
+            text = "u0"
+        intervals [31]:
+            xmin = 1.9
+            xmax = 2.024
+            text = "t"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.024
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.056
+            text = ""
+        intervals [2]:
+            xmin = 0.056
+            xmax = 0.293
+            text = "Film"
+        intervals [3]:
+            xmin = 0.293
+            xmax = 0.465
+            text = "on"
+        intervals [4]:
+            xmin = 0.465
+            xmax = 0.593
+            text = "ju"
+        intervals [5]:
+            xmin = 0.593
+            xmax = 0.989
+            text = "üldiselt"
+        intervals [6]:
+            xmin = 0.989
+            xmax = 1.512
+            text = "tõetruult"
+        intervals [7]:
+            xmin = 1.512
+            xmax = 2.024
+            text = "tehtud"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.024
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.056
+            text = "S"
+        intervals [2]:
+            xmin = 0.056
+            xmax = 0.293
+            text = ""
+        intervals [3]:
+            xmin = 0.293
+            xmax = 0.465
+            text = "V"
+        intervals [4]:
+            xmin = 0.465
+            xmax = 0.593
+            text = "D"
+        intervals [5]:
+            xmin = 0.593
+            xmax = 0.989
+            text = "D"
+        intervals [6]:
+            xmin = 0.989
+            xmax = 1.512
+            text = "D"
+        intervals [7]:
+            xmin = 1.512
+            xmax = 2.024
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.024
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.024
+            text = "Film on ju üldiselt tõetruult tehtud."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.024
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.024
+            text = "neutral"

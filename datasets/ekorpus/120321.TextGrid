@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.02
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.02
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.99
+            text = ""
+        intervals [2]:
+            xmin = 2.99
+            xmax = 3.02
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.02
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.134
+            text = "Kas"
+        intervals [2]:
+            xmin = 0.134
+            xmax = 0.34
+            text = "läks"
+        intervals [3]:
+            xmin = 0.34
+            xmax = 0.701
+            text = "midagi"
+        intervals [4]:
+            xmin = 0.701
+            xmax = 1.349
+            text = "halvasti"
+        intervals [5]:
+            xmin = 1.349
+            xmax = 1.779
+            text = ","
+        intervals [6]:
+            xmin = 1.779
+            xmax = 1.945
+            text = "kas"
+        intervals [7]:
+            xmin = 1.945
+            xmax = 2.264
+            text = "keegi"
+        intervals [8]:
+            xmin = 2.264
+            xmax = 2.51
+            text = "tegi"
+        intervals [9]:
+            xmin = 2.51
+            xmax = 2.99
+            text = "liiga"
+        intervals [10]:
+            xmin = 2.99
+            xmax = 3.02
+            text = "?"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.02
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.02
+            text = "Kas läks midagi halvasti, kas keegi tegi liiga?"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.02
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.02
+            text = "sadness"

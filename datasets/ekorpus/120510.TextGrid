@@ -1,0 +1,228 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.733
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.733
+        intervals: size = 40
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.036
+            text = "k"
+        intervals [2]:
+            xmin = 0.036
+            xmax = 0.088
+            text = "o"
+        intervals [3]:
+            xmin = 0.088
+            xmax = 0.133
+            text = "l"
+        intervals [4]:
+            xmin = 0.133
+            xmax = 0.185
+            text = "m"
+        intervals [5]:
+            xmin = 0.185
+            xmax = 0.297
+            text = "a"
+        intervals [6]:
+            xmin = 0.297
+            xmax = 0.359
+            text = "p"
+        intervals [7]:
+            xmin = 0.359
+            xmax = 0.482
+            text = "x:"
+        intervals [8]:
+            xmin = 0.482
+            xmax = 0.53
+            text = "v"
+        intervals [9]:
+            xmin = 0.53
+            xmax = 0.583
+            text = "a"
+        intervals [10]:
+            xmin = 0.583
+            xmax = 0.626
+            text = "l"
+        intervals [11]:
+            xmin = 0.626
+            xmax = 0.76
+            text = "e::"
+        intervals [12]:
+            xmin = 0.76
+            xmax = 0.818
+            text = "m"
+        intervals [13]:
+            xmin = 0.818
+            xmax = 0.889
+            text = "a"
+        intervals [14]:
+            xmin = 0.889
+            xmax = 0.943
+            text = "l"
+        intervals [15]:
+            xmin = 0.943
+            xmax = 0.979
+            text = "t"
+        intervals [16]:
+            xmin = 0.979
+            xmax = 1.026
+            text = "u"
+        intervals [17]:
+            xmin = 1.026
+            xmax = 1.094
+            text = "p%"
+        intervals [18]:
+            xmin = 1.094
+            xmax = 1.138
+            text = "t"
+        intervals [19]:
+            xmin = 1.138
+            xmax = 1.186
+            text = "s"
+        intervals [20]:
+            xmin = 1.186
+            xmax = 1.239
+            text = "y"
+        intervals [21]:
+            xmin = 1.239
+            xmax = 1.357
+            text = "k:"
+        intervals [22]:
+            xmin = 1.357
+            xmax = 1.396
+            text = "l"
+        intervals [23]:
+            xmin = 1.396
+            xmax = 1.46
+            text = "o"
+        intervals [24]:
+            xmin = 1.46
+            xmax = 1.511
+            text = "n"
+        intervals [25]:
+            xmin = 1.511
+            xmax = 1.588
+            text = "i"
+        intervals [26]:
+            xmin = 1.588
+            xmax = 1.642
+            text = "k"
+        intervals [27]:
+            xmin = 1.642
+            xmax = 1.724
+            text = "e"
+        intervals [28]:
+            xmin = 1.724
+            xmax = 1.794
+            text = "s"
+        intervals [29]:
+            xmin = 1.794
+            xmax = 1.897
+            text = "e"
+        intervals [30]:
+            xmin = 1.897
+            xmax = 1.975
+            text = "s"
+        intervals [31]:
+            xmin = 1.975
+            xmax = 2.126
+            text = "o:"
+        intervals [32]:
+            xmin = 2.126
+            xmax = 2.182
+            text = "m"
+        intervals [33]:
+            xmin = 2.182
+            xmax = 2.28
+            text = "e"
+        intervals [34]:
+            xmin = 2.28
+            xmax = 2.344
+            text = "k"
+        intervals [35]:
+            xmin = 2.344
+            xmax = 2.402
+            text = "o"
+        intervals [36]:
+            xmin = 2.402
+            xmax = 2.458
+            text = "h1"
+        intervals [37]:
+            xmin = 2.458
+            xmax = 2.551
+            text = "a"
+        intervals [38]:
+            xmin = 2.551
+            xmax = 2.598
+            text = "l"
+        intervals [39]:
+            xmin = 2.598
+            xmax = 2.686
+            text = "e"
+        intervals [40]:
+            xmin = 2.686
+            xmax = 2.733
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.733
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.626
+            text = "Kolmapäeval"
+        intervals [2]:
+            xmin = 0.626
+            xmax = 1.094
+            text = "eemaldub"
+        intervals [3]:
+            xmin = 1.094
+            xmax = 1.588
+            text = "tsükloni"
+        intervals [4]:
+            xmin = 1.588
+            xmax = 1.897
+            text = "kese"
+        intervals [5]:
+            xmin = 1.897
+            xmax = 2.28
+            text = "Soome"
+        intervals [6]:
+            xmin = 2.28
+            xmax = 2.686
+            text = "kohale"
+        intervals [7]:
+            xmin = 2.686
+            xmax = 2.733
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.733
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.733
+            text = "Kolmapäeval eemaldub tsükloni kese Soome kohale."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.733
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.733
+            text = "neutral"

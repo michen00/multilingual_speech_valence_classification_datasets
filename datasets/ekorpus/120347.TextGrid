@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.43
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.43
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.335
+            text = ""
+        intervals [2]:
+            xmin = 2.335
+            xmax = 2.43
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.43
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.053
+            text = "Ta"
+        intervals [2]:
+            xmin = 0.053
+            xmax = 0.178
+            text = "ei"
+        intervals [3]:
+            xmin = 0.178
+            xmax = 0.512
+            text = "oota"
+        intervals [4]:
+            xmin = 0.512
+            xmax = 0.88
+            text = "käske"
+        intervals [5]:
+            xmin = 0.88
+            xmax = 0.973
+            text = "ei"
+        intervals [6]:
+            xmin = 0.973
+            xmax = 1.529
+            text = "Moskvast"
+        intervals [7]:
+            xmin = 1.529
+            xmax = 1.641
+            text = "ei"
+        intervals [8]:
+            xmin = 1.641
+            xmax = 2.335
+            text = "Brüsselist"
+        intervals [9]:
+            xmin = 2.335
+            xmax = 2.43
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.43
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.43
+            text = "Ta ei oota käske ei Moskvast, ei Brüsselist."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.43
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.43
+            text = "sadness"

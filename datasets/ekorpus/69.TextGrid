@@ -1,0 +1,152 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.702
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.702
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = ""
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.305
+            text = ""
+        intervals [3]:
+            xmin = 0.305
+            xmax = 0.635
+            text = ""
+        intervals [4]:
+            xmin = 0.635
+            xmax = 0.834
+            text = ""
+        intervals [5]:
+            xmin = 0.834
+            xmax = 0.901
+            text = ""
+        intervals [6]:
+            xmin = 0.901
+            xmax = 1.157
+            text = ""
+        intervals [7]:
+            xmin = 1.157
+            xmax = 1.388
+            text = ""
+        intervals [8]:
+            xmin = 1.388
+            xmax = 1.619
+            text = ""
+        intervals [9]:
+            xmin = 1.619
+            xmax = 2.038
+            text = ""
+        intervals [10]:
+            xmin = 2.038
+            xmax = 2.494
+            text = ""
+        intervals [11]:
+            xmin = 2.494
+            xmax = 2.873
+            text = ""
+        intervals [12]:
+            xmin = 2.873
+            xmax = 2.941
+            text = ""
+        intervals [13]:
+            xmin = 2.941
+            xmax = 3.257
+            text = ""
+        intervals [14]:
+            xmin = 3.257
+            xmax = 3.698
+            text = ""
+        intervals [15]:
+            xmin = 3.698
+            xmax = 3.702
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.702
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.305
+            text = "Laps"
+        intervals [2]:
+            xmin = 0.305
+            xmax = 0.635
+            text = "teab,"
+        intervals [3]:
+            xmin = 0.635
+            xmax = 0.834
+            text = "et"
+        intervals [4]:
+            xmin = 0.834
+            xmax = 0.9
+            text = "ta"
+        intervals [5]:
+            xmin = 0.9
+            xmax = 1.152
+            text = "võib"
+        intervals [6]:
+            xmin = 1.152
+            xmax = 1.389
+            text = "teha"
+        intervals [7]:
+            xmin = 1.389
+            xmax = 1.619
+            text = "mida"
+        intervals [8]:
+            xmin = 1.619
+            xmax = 2.038
+            text = "tahab"
+        intervals [9]:
+            xmin = 2.038
+            xmax = 2.489
+            text = ","
+        intervals [10]:
+            xmin = 2.489
+            xmax = 2.873
+            text = "temaga"
+        intervals [11]:
+            xmin = 2.873
+            xmax = 2.941
+            text = "ei"
+        intervals [12]:
+            xmin = 2.941
+            xmax = 3.257
+            text = "juhtu"
+        intervals [13]:
+            xmin = 3.257
+            xmax = 3.702
+            text = "midagi"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.702
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.702
+            text = "Laps teab, et ta võib teha, mida tahab, temaga ei juhtu midagi."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.702
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.702
+            text = "neutral"

@@ -1,0 +1,136 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.271
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.271
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.433
+            text = ""
+        intervals [2]:
+            xmin = 0.433
+            xmax = 0.535
+            text = ""
+        intervals [3]:
+            xmin = 0.535
+            xmax = 0.866
+            text = ""
+        intervals [4]:
+            xmin = 0.866
+            xmax = 1.319
+            text = ""
+        intervals [5]:
+            xmin = 1.319
+            xmax = 1.855
+            text = ""
+        intervals [6]:
+            xmin = 1.855
+            xmax = 2.013
+            text = ""
+        intervals [7]:
+            xmin = 2.013
+            xmax = 2.236
+            text = ""
+        intervals [8]:
+            xmin = 2.236
+            xmax = 2.391
+            text = ""
+        intervals [9]:
+            xmin = 2.391
+            xmax = 2.525
+            text = ""
+        intervals [10]:
+            xmin = 2.525
+            xmax = 2.872
+            text = ""
+        intervals [11]:
+            xmin = 2.872
+            xmax = 3.223
+            text = ""
+        intervals [12]:
+            xmin = 3.223
+            xmax = 3.271
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.271
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.433
+            text = "Naistele"
+        intervals [2]:
+            xmin = 0.433
+            xmax = 0.535
+            text = "ei"
+        intervals [3]:
+            xmin = 0.535
+            xmax = 0.866
+            text = "meeldi"
+        intervals [4]:
+            xmin = 0.866
+            xmax = 1.319
+            text = "jobud"
+        intervals [5]:
+            xmin = 1.319
+            xmax = 1.855
+            text = ","
+        intervals [6]:
+            xmin = 1.855
+            xmax = 2.013
+            text = "aga"
+        intervals [7]:
+            xmin = 2.013
+            xmax = 2.236
+            text = "meil"
+        intervals [8]:
+            xmin = 2.236
+            xmax = 2.391
+            text = "on"
+        intervals [9]:
+            xmin = 2.391
+            xmax = 2.525
+            text = "neid"
+        intervals [10]:
+            xmin = 2.525
+            xmax = 2.872
+            text = "liiga"
+        intervals [11]:
+            xmin = 2.872
+            xmax = 3.223
+            text = "palju."
+        intervals [12]:
+            xmin = 3.223
+            xmax = 3.271
+            text = "*"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.271
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.271
+            text = "Naistele ei meeldi jobud, aga meil on neid liiga palju."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.271
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.271
+            text = "anger"

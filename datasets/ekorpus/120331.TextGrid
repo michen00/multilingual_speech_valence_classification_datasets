@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.69
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.69
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.043
+            text = "k"
+        intervals [2]:
+            xmin = 0.043
+            xmax = 0.114
+            text = "o"
+        intervals [3]:
+            xmin = 0.114
+            xmax = 0.169
+            text = "l"
+        intervals [4]:
+            xmin = 0.169
+            xmax = 0.313
+            text = "e"
+        intervals [5]:
+            xmin = 0.313
+            xmax = 0.374
+            text = "t"
+        intervals [6]:
+            xmin = 0.374
+            xmax = 0.48
+            text = "a"
+        intervals [7]:
+            xmin = 0.48
+            xmax = 0.534
+            text = "l"
+        intervals [8]:
+            xmin = 0.534
+            xmax = 0.685
+            text = "i"
+        intervals [9]:
+            xmin = 0.685
+            xmax = 0.69
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.69
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.313
+            text = "Kole"
+        intervals [2]:
+            xmin = 0.313
+            xmax = 0.685
+            text = "tali."
+        intervals [3]:
+            xmin = 0.685
+            xmax = 0.69
+            text = "*"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.69
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.69
+            text = "Kole tali."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.69
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.69
+            text = "sadness"

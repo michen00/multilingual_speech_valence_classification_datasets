@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.805
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.805
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.115
+            text = ""
+        intervals [2]:
+            xmin = 0.115
+            xmax = 0.231
+            text = ""
+        intervals [3]:
+            xmin = 0.231
+            xmax = 0.635
+            text = ""
+        intervals [4]:
+            xmin = 0.635
+            xmax = 0.952
+            text = ""
+        intervals [5]:
+            xmin = 0.952
+            xmax = 1.053
+            text = ""
+        intervals [6]:
+            xmin = 1.053
+            xmax = 1.245
+            text = ""
+        intervals [7]:
+            xmin = 1.245
+            xmax = 1.336
+            text = ""
+        intervals [8]:
+            xmin = 1.336
+            xmax = 1.805
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.805
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.115
+            text = "Mida"
+        intervals [2]:
+            xmin = 0.115
+            xmax = 0.231
+            text = "ma"
+        intervals [3]:
+            xmin = 0.231
+            xmax = 0.635
+            text = "tohin"
+        intervals [4]:
+            xmin = 0.635
+            xmax = 0.952
+            text = "teha"
+        intervals [5]:
+            xmin = 0.952
+            xmax = 1.053
+            text = "ja"
+        intervals [6]:
+            xmin = 1.053
+            xmax = 1.245
+            text = "mida"
+        intervals [7]:
+            xmin = 1.245
+            xmax = 1.336
+            text = "ei"
+        intervals [8]:
+            xmin = 1.336
+            xmax = 1.805
+            text = "tohi"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.805
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.115
+            text = "PÜ"
+        intervals [2]:
+            xmin = 0.115
+            xmax = 0.231
+            text = "P"
+        intervals [3]:
+            xmin = 0.231
+            xmax = 0.635
+            text = "V"
+        intervals [4]:
+            xmin = 0.635
+            xmax = 0.952
+            text = "V"
+        intervals [5]:
+            xmin = 0.952
+            xmax = 1.053
+            text = "J"
+        intervals [6]:
+            xmin = 1.053
+            xmax = 1.245
+            text = "P"
+        intervals [7]:
+            xmin = 1.245
+            xmax = 1.805
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.805
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.805
+            text = "Mida ma tohin teha ja mida ei tohi."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.805
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.805
+            text = "sadness"

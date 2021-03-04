@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.156
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.156
+        intervals: size = 16
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.047
+            text = "j"
+        intervals [2]:
+            xmin = 0.047
+            xmax = 0.123
+            text = "a"
+        intervals [3]:
+            xmin = 0.123
+            xmax = 0.21
+            text = "s"
+        intervals [4]:
+            xmin = 0.21
+            xmax = 0.326
+            text = "i::"
+        intervals [5]:
+            xmin = 0.326
+            xmax = 0.391
+            text = "s"
+        intervals [6]:
+            xmin = 0.391
+            xmax = 0.448
+            text = "m"
+        intervals [7]:
+            xmin = 0.448
+            xmax = 0.508
+            text = "a"
+        intervals [8]:
+            xmin = 0.508
+            xmax = 0.556
+            text = "l"
+        intervals [9]:
+            xmin = 0.556
+            xmax = 0.632
+            text = "7"
+        intervals [10]:
+            xmin = 0.632
+            xmax = 0.739
+            text = "u:"
+        intervals [11]:
+            xmin = 0.739
+            xmax = 0.814
+            text = "k"
+        intervals [12]:
+            xmin = 0.814
+            xmax = 0.879
+            text = "a"
+        intervals [13]:
+            xmin = 0.879
+            xmax = 0.962
+            text = "N"
+        intervals [14]:
+            xmin = 0.962
+            xmax = 1.049
+            text = "k"
+        intervals [15]:
+            xmin = 1.049
+            xmax = 1.138
+            text = "i"
+        intervals [16]:
+            xmin = 1.138
+            xmax = 1.156
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.156
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.123
+            text = "Ja"
+        intervals [2]:
+            xmin = 0.123
+            xmax = 0.391
+            text = "siis"
+        intervals [3]:
+            xmin = 0.391
+            xmax = 0.508
+            text = "ma"
+        intervals [4]:
+            xmin = 0.508
+            xmax = 1.138
+            text = "lõugangi"
+        intervals [5]:
+            xmin = 1.138
+            xmax = 1.156
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.156
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.156
+            text = "Ja siis ma lõugangi."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.156
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.156
+            text = "anger"

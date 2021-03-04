@@ -1,0 +1,154 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.086
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.086
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.221
+            text = ""
+        intervals [2]:
+            xmin = 0.221
+            xmax = 0.431
+            text = ""
+        intervals [3]:
+            xmin = 0.431
+            xmax = 0.633
+            text = ""
+        intervals [4]:
+            xmin = 0.633
+            xmax = 1.042
+            text = ""
+        intervals [5]:
+            xmin = 1.042
+            xmax = 1.578
+            text = ""
+        intervals [6]:
+            xmin = 1.578
+            xmax = 1.826
+            text = ""
+        intervals [7]:
+            xmin = 1.826
+            xmax = 2.349
+            text = ""
+        intervals [8]:
+            xmin = 2.349
+            xmax = 2.62
+            text = ""
+        intervals [9]:
+            xmin = 2.62
+            xmax = 3.086
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.086
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.221
+            text = "Siin"
+        intervals [2]:
+            xmin = 0.221
+            xmax = 0.431
+            text = "pole"
+        intervals [3]:
+            xmin = 0.431
+            xmax = 0.633
+            text = "enam"
+        intervals [4]:
+            xmin = 0.633
+            xmax = 1.042
+            text = "paljusid"
+        intervals [5]:
+            xmin = 1.042
+            xmax = 1.578
+            text = "probleeme,"
+        intervals [6]:
+            xmin = 1.578
+            xmax = 1.826
+            text = "mis"
+        intervals [7]:
+            xmin = 1.826
+            xmax = 2.349
+            text = "tekitasid"
+        intervals [8]:
+            xmin = 2.349
+            xmax = 2.62
+            text = "varem"
+        intervals [9]:
+            xmin = 2.62
+            xmax = 3.086
+            text = "peavalu"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 3.086
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.221
+            text = "P"
+        intervals [2]:
+            xmin = 0.221
+            xmax = 0.431
+            text = "V"
+        intervals [3]:
+            xmin = 0.431
+            xmax = 0.633
+            text = "D"
+        intervals [4]:
+            xmin = 0.633
+            xmax = 1.042
+            text = "P"
+        intervals [5]:
+            xmin = 1.042
+            xmax = 1.578
+            text = "S"
+        intervals [6]:
+            xmin = 1.578
+            xmax = 1.826
+            text = "P"
+        intervals [7]:
+            xmin = 1.826
+            xmax = 2.349
+            text = "V"
+        intervals [8]:
+            xmin = 2.349
+            xmax = 2.62
+            text = "D"
+        intervals [9]:
+            xmin = 2.62
+            xmax = 3.086
+            text = "S"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.086
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.086
+            text = "Siin pole enam paljusid probleeme, mis tekitasid varem peavalu."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.086
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.086
+            text = "sadness"

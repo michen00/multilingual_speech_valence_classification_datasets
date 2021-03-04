@@ -1,0 +1,148 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.286
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.286
+        intervals: size = 21
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.01
+            text = "k"
+        intervals [2]:
+            xmin = 0.01
+            xmax = 0.067
+            text = "a"
+        intervals [3]:
+            xmin = 0.067
+            xmax = 0.117
+            text = "s"
+        intervals [4]:
+            xmin = 0.117
+            xmax = 0.182
+            text = "m"
+        intervals [5]:
+            xmin = 0.182
+            xmax = 0.234
+            text = "i"
+        intervals [6]:
+            xmin = 0.234
+            xmax = 0.277
+            text = "t"
+        intervals [7]:
+            xmin = 0.277
+            xmax = 0.369
+            text = "a"
+        intervals [8]:
+            xmin = 0.369
+            xmax = 0.435
+            text = "k"
+        intervals [9]:
+            xmin = 0.435
+            xmax = 0.493
+            text = "i"
+        intervals [10]:
+            xmin = 0.493
+            xmax = 0.528
+            text = "j"
+        intervals [11]:
+            xmin = 0.528
+            xmax = 0.575
+            text = "x"
+        intervals [12]:
+            xmin = 0.575
+            xmax = 0.626
+            text = "i"
+        intervals [13]:
+            xmin = 0.626
+            xmax = 0.708
+            text = "k"
+        intervals [14]:
+            xmin = 0.708
+            xmax = 0.865
+            text = "o::"
+        intervals [15]:
+            xmin = 0.865
+            xmax = 0.917
+            text = "l"
+        intervals [16]:
+            xmin = 0.917
+            xmax = 0.973
+            text = "i"
+        intervals [17]:
+            xmin = 0.973
+            xmax = 1.039
+            text = "m"
+        intervals [18]:
+            xmin = 1.039
+            xmax = 1.099
+            text = "a"
+        intervals [19]:
+            xmin = 1.099
+            xmax = 1.154
+            text = "h1"
+        intervals [20]:
+            xmin = 1.154
+            xmax = 1.26
+            text = "a"
+        intervals [21]:
+            xmin = 1.26
+            xmax = 1.286
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.286
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.117
+            text = "Kas"
+        intervals [2]:
+            xmin = 0.117
+            xmax = 0.493
+            text = "midagi"
+        intervals [3]:
+            xmin = 0.493
+            xmax = 0.626
+            text = "jäi"
+        intervals [4]:
+            xmin = 0.626
+            xmax = 0.973
+            text = "kooli"
+        intervals [5]:
+            xmin = 0.973
+            xmax = 1.26
+            text = "maha"
+        intervals [6]:
+            xmin = 1.26
+            xmax = 1.286
+            text = "?"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.286
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.286
+            text = "Kas midagi jäi kooli maha?"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.286
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.286
+            text = "sadness"

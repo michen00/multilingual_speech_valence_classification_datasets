@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.63
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.63
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.067
+            text = "k:"
+        intervals [2]:
+            xmin = 0.067
+            xmax = 0.148
+            text = "i"
+        intervals [3]:
+            xmin = 0.148
+            xmax = 0.181
+            text = "r"
+        intervals [4]:
+            xmin = 0.181
+            xmax = 0.223
+            text = "j"
+        intervals [5]:
+            xmin = 0.223
+            xmax = 0.278
+            text = "u"
+        intervals [6]:
+            xmin = 0.278
+            xmax = 0.442
+            text = "t:"
+        intervals [7]:
+            xmin = 0.442
+            xmax = 0.497
+            text = "a"
+        intervals [8]:
+            xmin = 0.497
+            xmax = 0.588
+            text = "n"
+        intervals [9]:
+            xmin = 0.588
+            xmax = 0.63
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.63
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.588
+            text = "Kirjutan"
+        intervals [2]:
+            xmin = 0.588
+            xmax = 0.63
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.63
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.63
+            text = "Kirjutan."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.63
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.63
+            text = "neutral"

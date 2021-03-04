@@ -1,0 +1,138 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.532
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.483
+            text = ""
+        intervals [2]:
+            xmin = 0.483
+            xmax = 0.681
+            text = ""
+        intervals [3]:
+            xmin = 0.681
+            xmax = 1.053
+            text = ""
+        intervals [4]:
+            xmin = 1.053
+            xmax = 1.508
+            text = ""
+        intervals [5]:
+            xmin = 1.508
+            xmax = 1.599
+            text = ""
+        intervals [6]:
+            xmin = 1.599
+            xmax = 1.671
+            text = ""
+        intervals [7]:
+            xmin = 1.671
+            xmax = 1.936
+            text = ""
+        intervals [8]:
+            xmin = 1.936
+            xmax = 2.263
+            text = ""
+        intervals [9]:
+            xmin = 2.263
+            xmax = 2.532
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.483
+            text = "Magavad "
+        intervals [2]:
+            xmin = 0.483
+            xmax = 0.681
+            text = "kella"
+        intervals [3]:
+            xmin = 0.681
+            xmax = 1.508
+            text = "üheksa-kümneni "
+        intervals [4]:
+            xmin = 1.508
+            xmax = 1.599
+            text = "ja"
+        intervals [5]:
+            xmin = 1.599
+            xmax = 1.671
+            text = "ei"
+        intervals [6]:
+            xmin = 1.671
+            xmax = 1.936
+            text = "taha"
+        intervals [7]:
+            xmin = 1.936
+            xmax = 2.263
+            text = "tööd"
+        intervals [8]:
+            xmin = 2.263
+            xmax = 2.532
+            text = "teha"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.483
+            text = "V"
+        intervals [2]:
+            xmin = 0.483
+            xmax = 1.508
+            text = "D"
+        intervals [3]:
+            xmin = 1.508
+            xmax = 1.599
+            text = "J"
+        intervals [4]:
+            xmin = 1.599
+            xmax = 1.936
+            text = "V"
+        intervals [5]:
+            xmin = 1.936
+            xmax = 2.263
+            text = "S"
+        intervals [6]:
+            xmin = 2.263
+            xmax = 2.532
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.532
+            text = "Magavad kella 9-10ni ja ei taha tööd teha."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.532
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.532
+            text = "sadness"

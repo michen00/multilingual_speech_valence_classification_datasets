@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.251
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.251
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.043
+            text = ""
+        intervals [2]:
+            xmin = 0.043
+            xmax = 0.115
+            text = "a"
+        intervals [3]:
+            xmin = 0.115
+            xmax = 0.182
+            text = "k"
+        intervals [4]:
+            xmin = 0.182
+            xmax = 0.224
+            text = "a"
+        intervals [5]:
+            xmin = 0.224
+            xmax = 0.283
+            text = "m"
+        intervals [6]:
+            xmin = 0.283
+            xmax = 0.35
+            text = "i"
+        intervals [7]:
+            xmin = 0.35
+            xmax = 0.477
+            text = "t::"
+        intervals [8]:
+            xmin = 0.477
+            xmax = 0.554
+            text = "e"
+        intervals [9]:
+            xmin = 0.554
+            xmax = 0.597
+            text = "p:"
+        intervals [10]:
+            xmin = 0.597
+            xmax = 0.748
+            text = "i::"
+        intervals [11]:
+            xmin = 0.748
+            xmax = 0.838
+            text = "s"
+        intervals [12]:
+            xmin = 0.838
+            xmax = 0.888
+            text = "a"
+        intervals [13]:
+            xmin = 0.888
+            xmax = 0.925
+            text = "v"
+        intervals [14]:
+            xmin = 0.925
+            xmax = 0.973
+            text = "a"
+        intervals [15]:
+            xmin = 0.973
+            xmax = 0.996
+            text = "l"
+        intervals [16]:
+            xmin = 0.996
+            xmax = 1.216
+            text = "t:"
+        intervals [17]:
+            xmin = 1.216
+            xmax = 1.251
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.251
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.043
+            text = "."
+        intervals [2]:
+            xmin = 0.043
+            xmax = 0.224
+            text = "Aga"
+        intervals [3]:
+            xmin = 0.224
+            xmax = 0.554
+            text = "mitte"
+        intervals [4]:
+            xmin = 0.554
+            xmax = 1.216
+            text = "piisavalt"
+        intervals [5]:
+            xmin = 1.216
+            xmax = 1.251
+            text = "!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.251
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.251
+            text = "Aga mitte piisavalt!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.251
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.251
+            text = "neutral"

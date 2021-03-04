@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.839
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.839
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.037
+            text = ""
+        intervals [2]:
+            xmin = 0.037
+            xmax = 0.552
+            text = ""
+        intervals [3]:
+            xmin = 0.552
+            xmax = 0.862
+            text = ""
+        intervals [4]:
+            xmin = 0.862
+            xmax = 1.231
+            text = ""
+        intervals [5]:
+            xmin = 1.231
+            xmax = 1.631
+            text = ""
+        intervals [6]:
+            xmin = 1.631
+            xmax = 1.769
+            text = ""
+        intervals [7]:
+            xmin = 1.769
+            xmax = 1.839
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.839
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.037
+            text = "*"
+        intervals [2]:
+            xmin = 0.037
+            xmax = 0.552
+            text = "Appi"
+        intervals [3]:
+            xmin = 0.552
+            xmax = 0.862
+            text = ","
+        intervals [4]:
+            xmin = 0.862
+            xmax = 1.231
+            text = "kuradi"
+        intervals [5]:
+            xmin = 1.231
+            xmax = 1.631
+            text = "magus"
+        intervals [6]:
+            xmin = 1.631
+            xmax = 1.769
+            text = "on"
+        intervals [7]:
+            xmin = 1.769
+            xmax = 1.839
+            text = "!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.839
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.839
+            text = "Appi, kuradi magus on!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.839
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.839
+            text = "joy"

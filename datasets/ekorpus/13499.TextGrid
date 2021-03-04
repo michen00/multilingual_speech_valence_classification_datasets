@@ -1,0 +1,154 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.31
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.31
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.069
+            text = "y"
+        intervals [2]:
+            xmin = 0.069
+            xmax = 0.141
+            text = "s"
+        intervals [3]:
+            xmin = 0.141
+            xmax = 0.181
+            text = "n"
+        intervals [4]:
+            xmin = 0.181
+            xmax = 0.223
+            text = "a"
+        intervals [5]:
+            xmin = 0.223
+            xmax = 0.321
+            text = "7"
+        intervals [6]:
+            xmin = 0.321
+            xmax = 0.48
+            text = "u"
+        intervals [7]:
+            xmin = 0.48
+            xmax = 0.528
+            text = "t"
+        intervals [8]:
+            xmin = 0.528
+            xmax = 0.584
+            text = "n"
+        intervals [9]:
+            xmin = 0.584
+            xmax = 0.67
+            text = "e"
+        intervals [10]:
+            xmin = 0.67
+            xmax = 0.693
+            text = "o"
+        intervals [11]:
+            xmin = 0.693
+            xmax = 0.717
+            text = "n"
+        intervals [12]:
+            xmin = 0.717
+            xmax = 0.774
+            text = "i"
+        intervals [13]:
+            xmin = 0.774
+            xmax = 0.951
+            text = "k::"
+        intervals [14]:
+            xmin = 0.951
+            xmax = 1.003
+            text = "a"
+        intervals [15]:
+            xmin = 1.003
+            xmax = 1.052
+            text = "o"
+        intervals [16]:
+            xmin = 1.052
+            xmax = 1.206
+            text = "l::"
+        intervals [17]:
+            xmin = 1.206
+            xmax = 1.31
+            text = "a"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.31
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.223
+            text = "Üsna  "
+        intervals [2]:
+            xmin = 0.223
+            xmax = 0.67
+            text = "õudne "
+        intervals [3]:
+            xmin = 0.67
+            xmax = 0.717
+            text = "on "
+        intervals [4]:
+            xmin = 0.717
+            xmax = 1.003
+            text = "ikka"
+        intervals [5]:
+            xmin = 1.003
+            xmax = 1.31
+            text = "olla"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.31
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.223
+            text = "D"
+        intervals [2]:
+            xmin = 0.223
+            xmax = 0.67
+            text = "A"
+        intervals [3]:
+            xmin = 0.67
+            xmax = 0.717
+            text = "V"
+        intervals [4]:
+            xmin = 0.717
+            xmax = 1.003
+            text = "D"
+        intervals [5]:
+            xmin = 1.003
+            xmax = 1.31
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.31
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.31
+            text = "Üsna õudne on ikka olla."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.31
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.31
+            text = "sadness"

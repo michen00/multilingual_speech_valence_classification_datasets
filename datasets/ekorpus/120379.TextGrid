@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.056
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.056
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.056
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.056
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.363
+            text = "Näiteks"
+        intervals [2]:
+            xmin = 0.363
+            xmax = 0.667
+            text = "ravin"
+        intervals [3]:
+            xmin = 0.667
+            xmax = 1.849
+            text = "epilepsiahaiget"
+        intervals [4]:
+            xmin = 1.849
+            xmax = 2.042
+            text = ","
+        intervals [5]:
+            xmin = 2.042
+            xmax = 2.209
+            text = "kes"
+        intervals [6]:
+            xmin = 2.209
+            xmax = 2.516
+            text = "kogu"
+        intervals [7]:
+            xmin = 2.516
+            xmax = 2.704
+            text = "aeg"
+        intervals [8]:
+            xmin = 2.704
+            xmax = 3.055
+            text = "trügib"
+        intervals [9]:
+            xmin = 3.055
+            xmax = 3.744
+            text = "autorooli"
+        intervals [10]:
+            xmin = 3.744
+            xmax = 3.838
+            text = "ja"
+        intervals [11]:
+            xmin = 3.838
+            xmax = 4.181
+            text = "sõidab"
+        intervals [12]:
+            xmin = 4.181
+            xmax = 4.501
+            text = "teisi"
+        intervals [13]:
+            xmin = 4.501
+            xmax = 5.056
+            text = "surnuks"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.056
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.056
+            text = "Näiteks ravin epilepsiahaiget, kes kogu aeg trügib autorooli ja sõidab teisi surnuks?!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.056
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.056
+            text = "anger"

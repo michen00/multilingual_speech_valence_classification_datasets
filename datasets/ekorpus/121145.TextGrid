@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.845
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.845
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.032
+            text = ""
+        intervals [2]:
+            xmin = 0.032
+            xmax = 3.798
+            text = ""
+        intervals [3]:
+            xmin = 3.798
+            xmax = 3.845
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.845
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.032
+            text = "."
+        intervals [2]:
+            xmin = 0.032
+            xmax = 0.224
+            text = "Ega"
+        intervals [3]:
+            xmin = 0.224
+            xmax = 0.901
+            text = "erruläinud"
+        intervals [4]:
+            xmin = 0.901
+            xmax = 1.759
+            text = "profisõdurile"
+        intervals [5]:
+            xmin = 1.759
+            xmax = 2.091
+            text = "enam"
+        intervals [6]:
+            xmin = 2.091
+            xmax = 2.192
+            text = ""
+        intervals [7]:
+            xmin = 2.192
+            xmax = 2.948
+            text = "tsiviilleib"
+        intervals [8]:
+            xmin = 2.948
+            xmax = 3.507
+            text = "magusaks"
+        intervals [9]:
+            xmin = 3.507
+            xmax = 3.798
+            text = "saa..."
+        intervals [10]:
+            xmin = 3.798
+            xmax = 3.845
+            text = "*"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.845
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.845
+            text = "Ega erruläinud profisõdurile enam tsiviilleib magusaks saa...."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.845
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.845
+            text = "neutral"

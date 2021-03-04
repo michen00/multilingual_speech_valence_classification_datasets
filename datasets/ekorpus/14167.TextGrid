@@ -1,0 +1,158 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.777
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.777
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.328
+            text = ""
+        intervals [2]:
+            xmin = 0.328
+            xmax = 0.49
+            text = ""
+        intervals [3]:
+            xmin = 0.49
+            xmax = 0.656
+            text = ""
+        intervals [4]:
+            xmin = 0.656
+            xmax = 0.745
+            text = ""
+        intervals [5]:
+            xmin = 0.745
+            xmax = 1.069
+            text = ""
+        intervals [6]:
+            xmin = 1.069
+            xmax = 1.389
+            text = ""
+        intervals [7]:
+            xmin = 1.389
+            xmax = 1.888
+            text = ""
+        intervals [8]:
+            xmin = 1.888
+            xmax = 2.107
+            text = ""
+        intervals [9]:
+            xmin = 2.107
+            xmax = 2.455
+            text = ""
+        intervals [10]:
+            xmin = 2.455
+            xmax = 2.777
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.777
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.328
+            text = "Selleks "
+        intervals [2]:
+            xmin = 0.328
+            xmax = 0.49
+            text = "võib"
+        intervals [3]:
+            xmin = 0.49
+            xmax = 0.745
+            text = "kasvõi"
+        intervals [4]:
+            xmin = 0.745
+            xmax = 1.069
+            text = "suure"
+        intervals [5]:
+            xmin = 1.069
+            xmax = 1.389
+            text = "hulga"
+        intervals [6]:
+            xmin = 1.389
+            xmax = 1.888
+            text = "võõrast"
+        intervals [7]:
+            xmin = 1.888
+            xmax = 2.107
+            text = "raha"
+        intervals [8]:
+            xmin = 2.107
+            xmax = 2.455
+            text = "pihta"
+        intervals [9]:
+            xmin = 2.455
+            xmax = 2.777
+            text = "panna"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 2.777
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.328
+            text = "P"
+        intervals [2]:
+            xmin = 0.328
+            xmax = 0.49
+            text = "V"
+        intervals [3]:
+            xmin = 0.49
+            xmax = 0.745
+            text = "D"
+        intervals [4]:
+            xmin = 0.745
+            xmax = 1.069
+            text = "A"
+        intervals [5]:
+            xmin = 1.069
+            xmax = 1.389
+            text = "S"
+        intervals [6]:
+            xmin = 1.389
+            xmax = 1.888
+            text = "A"
+        intervals [7]:
+            xmin = 1.888
+            xmax = 2.107
+            text = "S"
+        intervals [8]:
+            xmin = 2.107
+            xmax = 2.455
+            text = "D"
+        intervals [9]:
+            xmin = 2.455
+            xmax = 2.777
+            text = "V"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.777
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.777
+            text = "Selleks võib kasvõi suure hulga võõrast raha pihta panna."
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.777
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.777
+            text = "neutral"

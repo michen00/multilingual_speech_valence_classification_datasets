@@ -1,0 +1,84 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.691
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.691
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.04
+            text = "k"
+        intervals [2]:
+            xmin = 0.04
+            xmax = 0.133
+            text = "e::"
+        intervals [3]:
+            xmin = 0.133
+            xmax = 0.196
+            text = "l"
+        intervals [4]:
+            xmin = 0.196
+            xmax = 0.268
+            text = "k"
+        intervals [5]:
+            xmin = 0.268
+            xmax = 0.371
+            text = "a"
+        intervals [6]:
+            xmin = 0.371
+            xmax = 0.47
+            text = "o:"
+        intervals [7]:
+            xmin = 0.47
+            xmax = 0.602
+            text = "p"
+        intervals [8]:
+            xmin = 0.602
+            xmax = 0.691
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.691
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.196
+            text = "Keel"
+        intervals [2]:
+            xmin = 0.196
+            xmax = 0.602
+            text = "kaob"
+        intervals [3]:
+            xmin = 0.602
+            xmax = 0.691
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.691
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.691
+            text = "Keel kaob."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.691
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.691
+            text = "anger"

@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.165
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.165
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.006
+            text = ""
+        intervals [2]:
+            xmin = 0.006
+            xmax = 5.095
+            text = ""
+        intervals [3]:
+            xmin = 5.095
+            xmax = 5.165
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.165
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.006
+            text = "."
+        intervals [2]:
+            xmin = 0.006
+            xmax = 0.321
+            text = "Ühel"
+        intervals [3]:
+            xmin = 0.321
+            xmax = 0.933
+            text = "inimesel"
+        intervals [4]:
+            xmin = 0.933
+            xmax = 1.025
+            text = ""
+        intervals [5]:
+            xmin = 1.025
+            xmax = 1.179
+            text = "ei"
+        intervals [6]:
+            xmin = 1.179
+            xmax = 1.379
+            text = "ole"
+        intervals [7]:
+            xmin = 1.379
+            xmax = 1.795
+            text = "mõtet"
+        intervals [8]:
+            xmin = 1.795
+            xmax = 2.005
+            text = "olla"
+        intervals [9]:
+            xmin = 2.005
+            xmax = 2.338
+            text = "sõdur"
+        intervals [10]:
+            xmin = 2.338
+            xmax = 3.136
+            text = "lahinguväljal"
+        intervals [11]:
+            xmin = 3.136
+            xmax = 3.535
+            text = ","
+        intervals [12]:
+            xmin = 3.535
+            xmax = 3.717
+            text = "kui"
+        intervals [13]:
+            xmin = 3.717
+            xmax = 4.352
+            text = "ühiskonnale"
+        intervals [14]:
+            xmin = 4.352
+            xmax = 4.577
+            text = "pole"
+        intervals [15]:
+            xmin = 4.577
+            xmax = 4.77
+            text = "seda"
+        intervals [16]:
+            xmin = 4.77
+            xmax = 5.095
+            text = "vaja"
+        intervals [17]:
+            xmin = 5.095
+            xmax = 5.165
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.165
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.165
+            text = "Ühel inimesel ei ole mõtet olla sõdur lahinguväljal, kui ühiskonnale pole seda vaja."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.165
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.165
+            text = "sadness"

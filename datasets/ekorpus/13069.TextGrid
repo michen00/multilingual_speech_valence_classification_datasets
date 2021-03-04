@@ -1,0 +1,206 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.72
+tiers? <exists>
+size = 5
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.72
+        intervals: size = 30
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.05
+            text = "m"
+        intervals [2]:
+            xmin = 0.05
+            xmax = 0.19
+            text = "e::"
+        intervals [3]:
+            xmin = 0.19
+            xmax = 0.23
+            text = "s1"
+        intervals [4]:
+            xmin = 0.23
+            xmax = 0.295
+            text = "o"
+        intervals [5]:
+            xmin = 0.295
+            xmax = 0.34
+            text = "n"
+        intervals [6]:
+            xmin = 0.34
+            xmax = 0.367
+            text = "k1"
+        intervals [7]:
+            xmin = 0.367
+            xmax = 0.413
+            text = "7"
+        intervals [8]:
+            xmin = 0.413
+            xmax = 0.446
+            text = "i"
+        intervals [9]:
+            xmin = 0.446
+            xmax = 0.478
+            text = "k1"
+        intervals [10]:
+            xmin = 0.478
+            xmax = 0.528
+            text = "e"
+        intervals [11]:
+            xmin = 0.528
+            xmax = 0.577
+            text = "s"
+        intervals [12]:
+            xmin = 0.577
+            xmax = 0.618
+            text = "t:"
+        intervals [13]:
+            xmin = 0.618
+            xmax = 0.69
+            text = "k"
+        intervals [14]:
+            xmin = 0.69
+            xmax = 0.734
+            text = "a"
+        intervals [15]:
+            xmin = 0.734
+            xmax = 0.782
+            text = "h1"
+        intervals [16]:
+            xmin = 0.782
+            xmax = 0.864
+            text = "e"
+        intervals [17]:
+            xmin = 0.864
+            xmax = 0.893
+            text = "k1"
+        intervals [18]:
+            xmin = 0.893
+            xmax = 0.917
+            text = "y"
+        intervals [19]:
+            xmin = 0.917
+            xmax = 0.959
+            text = "m::"
+        intervals [20]:
+            xmin = 0.959
+            xmax = 0.978
+            text = "n#"
+        intervals [21]:
+            xmin = 0.978
+            xmax = 1.05
+            text = "e"
+        intervals [22]:
+            xmin = 1.05
+            xmax = 1.102
+            text = "k"
+        intervals [23]:
+            xmin = 1.102
+            xmax = 1.209
+            text = "u:"
+        intervals [24]:
+            xmin = 1.209
+            xmax = 1.254
+            text = "e"
+        intervals [25]:
+            xmin = 1.254
+            xmax = 1.382
+            text = "a::"
+        intervals [26]:
+            xmin = 1.382
+            xmax = 1.469
+            text = "s"
+        intervals [27]:
+            xmin = 1.469
+            xmax = 1.532
+            text = "t:"
+        intervals [28]:
+            xmin = 1.532
+            xmax = 1.582
+            text = "a"
+        intervals [29]:
+            xmin = 1.582
+            xmax = 1.633
+            text = "n"
+        intervals [30]:
+            xmin = 1.633
+            xmax = 1.72
+            text = "e"
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.72
+        intervals: size = 6
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.23
+            text = "Mees  "
+        intervals [2]:
+            xmin = 0.23
+            xmax = 0.34
+            text = "on "
+        intervals [3]:
+            xmin = 0.34
+            xmax = 0.618
+            text = "kõigest "
+        intervals [4]:
+            xmin = 0.618
+            xmax = 1.05
+            text = "kahekümne "
+        intervals [5]:
+            xmin = 1.05
+            xmax = 1.254
+            text = "kuue "
+        intervals [6]:
+            xmin = 1.254
+            xmax = 1.72
+            text = "aastane"
+    item [3]:
+        class = "IntervalTier"
+        name = "pos"
+        xmin = 0.0
+        xmax = 1.72
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.23
+            text = "S"
+        intervals [2]:
+            xmin = 0.23
+            xmax = 0.34
+            text = "V"
+        intervals [3]:
+            xmin = 0.34
+            xmax = 0.618
+            text = "D"
+        intervals [4]:
+            xmin = 0.618
+            xmax = 1.72
+            text = "A"
+    item [4]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.72
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.72
+            text = "Mees on kõigest 26. aastane!"
+    item [5]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.72
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.72
+            text = "anger"

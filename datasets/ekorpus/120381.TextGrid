@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.966
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.966
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = ""
+        intervals [2]:
+            xmin = 0.001
+            xmax = 5.903
+            text = ""
+        intervals [3]:
+            xmin = 5.903
+            xmax = 5.966
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.966
+        intervals: size = 19
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.001
+            text = "?!"
+        intervals [2]:
+            xmin = 0.001
+            xmax = 0.148
+            text = "Kas"
+        intervals [3]:
+            xmin = 0.148
+            xmax = 0.307
+            text = "mul"
+        intervals [4]:
+            xmin = 0.307
+            xmax = 0.412
+            text = "on"
+        intervals [5]:
+            xmin = 0.412
+            xmax = 0.772
+            text = "õigus"
+        intervals [6]:
+            xmin = 0.772
+            xmax = 1.287
+            text = "keelduda"
+        intervals [7]:
+            xmin = 1.287
+            xmax = 2.113
+            text = "tegevusest"
+        intervals [8]:
+            xmin = 2.113
+            xmax = 2.555
+            text = ","
+        intervals [9]:
+            xmin = 2.555
+            xmax = 2.663
+            text = "mis"
+        intervals [10]:
+            xmin = 2.663
+            xmax = 2.892
+            text = "minu"
+        intervals [11]:
+            xmin = 2.892
+            xmax = 3.34
+            text = "arvates"
+        intervals [12]:
+            xmin = 3.34
+            xmax = 3.452
+            text = "ei"
+        intervals [13]:
+            xmin = 3.452
+            xmax = 3.649
+            text = "too"
+        intervals [14]:
+            xmin = 3.649
+            xmax = 4.13
+            text = "haigele"
+        intervals [15]:
+            xmin = 4.13
+            xmax = 4.807
+            text = "mingisugust"
+        intervals [16]:
+            xmin = 4.807
+            xmax = 5.045
+            text = "tulu"
+        intervals [17]:
+            xmin = 5.045
+            xmax = 5.204
+            text = "või"
+        intervals [18]:
+            xmin = 5.204
+            xmax = 5.903
+            text = "paranemist"
+        intervals [19]:
+            xmin = 5.903
+            xmax = 5.966
+            text = "?"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.966
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.966
+            text = "Kas mul on õigus keelduda tegevusest, mis minu arvates ei too haigele mingisugust tulu või paranemist?"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.966
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.966
+            text = "anger"

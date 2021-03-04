@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.913
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.913
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.811
+            text = ""
+        intervals [2]:
+            xmin = 5.811
+            xmax = 5.913
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.913
+        intervals: size = 13
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.129
+            text = "Ma"
+        intervals [2]:
+            xmin = 0.129
+            xmax = 0.194
+            text = "ei"
+        intervals [3]:
+            xmin = 0.194
+            xmax = 0.51
+            text = "räägi"
+        intervals [4]:
+            xmin = 0.51
+            xmax = 0.729
+            text = "siin"
+        intervals [5]:
+            xmin = 0.729
+            xmax = 0.923
+            text = "tema"
+        intervals [6]:
+            xmin = 0.923
+            xmax = 1.521
+            text = "sarmist"
+        intervals [7]:
+            xmin = 1.521
+            xmax = 2.313
+            text = "sidemetest"
+        intervals [8]:
+            xmin = 2.313
+            xmax = 3.408
+            text = "laitmatustest"
+        intervals [9]:
+            xmin = 3.408
+            xmax = 4.154
+            text = "maneeridest"
+        intervals [10]:
+            xmin = 4.154
+            xmax = 4.224
+            text = "ja"
+        intervals [11]:
+            xmin = 4.224
+            xmax = 4.662
+            text = "heast"
+        intervals [12]:
+            xmin = 4.662
+            xmax = 5.811
+            text = "suhtlemisoskusest"
+        intervals [13]:
+            xmin = 5.811
+            xmax = 5.913
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.913
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.913
+            text = "Ma ei räägi siin tema sarmist, sidemetest, laitmatutest maneeridest ja heast suhtlemisoskusest."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.913
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.913
+            text = "neutral"

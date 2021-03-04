@@ -1,0 +1,176 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.852
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.852
+        intervals: size = 27
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.006
+            text = ""
+        intervals [2]:
+            xmin = 0.006
+            xmax = 0.046
+            text = "o"
+        intervals [3]:
+            xmin = 0.046
+            xmax = 0.121
+            text = "m"
+        intervals [4]:
+            xmin = 0.121
+            xmax = 0.225
+            text = "a"
+        intervals [5]:
+            xmin = 0.225
+            xmax = 0.289
+            text = "m"
+        intervals [6]:
+            xmin = 0.289
+            xmax = 0.369
+            text = "e"
+        intervals [7]:
+            xmin = 0.369
+            xmax = 0.403
+            text = "h1"
+        intervals [8]:
+            xmin = 0.403
+            xmax = 0.485
+            text = "e"
+        intervals [9]:
+            xmin = 0.485
+            xmax = 0.544
+            text = "k"
+        intervals [10]:
+            xmin = 0.544
+            xmax = 0.581
+            text = "a"
+        intervals [11]:
+            xmin = 0.581
+            xmax = 0.646
+            text = "m"
+        intervals [12]:
+            xmin = 0.646
+            xmax = 0.74
+            text = "x"
+        intervals [13]:
+            xmin = 0.74
+            xmax = 0.817
+            text = "N"
+        intervals [14]:
+            xmin = 0.817
+            xmax = 0.855
+            text = "k"
+        intervals [15]:
+            xmin = 0.855
+            xmax = 0.902
+            text = "i"
+        intervals [16]:
+            xmin = 0.902
+            xmax = 0.955
+            text = "m"
+        intervals [17]:
+            xmin = 0.955
+            xmax = 1.05
+            text = "e"
+        intervals [18]:
+            xmin = 1.05
+            xmax = 1.087
+            text = "t"
+        intervals [19]:
+            xmin = 1.087
+            xmax = 1.151
+            text = "e"
+        intervals [20]:
+            xmin = 1.151
+            xmax = 1.234
+            text = "i:"
+        intervals [21]:
+            xmin = 1.234
+            xmax = 1.318
+            text = "s"
+        intervals [22]:
+            xmin = 1.318
+            xmax = 1.379
+            text = "i"
+        intervals [23]:
+            xmin = 1.379
+            xmax = 1.414
+            text = "r"
+        intervals [24]:
+            xmin = 1.414
+            xmax = 1.534
+            text = "o"
+        intervals [25]:
+            xmin = 1.534
+            xmax = 1.668
+            text = "l'::"
+        intervals [26]:
+            xmin = 1.668
+            xmax = 1.786
+            text = "e"
+        intervals [27]:
+            xmin = 1.786
+            xmax = 1.852
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.852
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.006
+            text = "*"
+        intervals [2]:
+            xmin = 0.006
+            xmax = 0.225
+            text = "Oma"
+        intervals [3]:
+            xmin = 0.225
+            xmax = 0.581
+            text = "mehega"
+        intervals [4]:
+            xmin = 0.581
+            xmax = 1.05
+            text = "mängime"
+        intervals [5]:
+            xmin = 1.05
+            xmax = 1.379
+            text = "teisi"
+        intervals [6]:
+            xmin = 1.379
+            xmax = 1.786
+            text = "rolle"
+        intervals [7]:
+            xmin = 1.786
+            xmax = 1.852
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.852
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.852
+            text = "Oma mehega mängime teisi rolle..."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.852
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.852
+            text = "neutral"

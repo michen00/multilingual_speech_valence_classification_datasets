@@ -1,0 +1,200 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.745
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.745
+        intervals: size = 30
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = ""
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.024
+            text = "v"
+        intervals [3]:
+            xmin = 0.024
+            xmax = 0.104
+            text = "a"
+        intervals [4]:
+            xmin = 0.104
+            xmax = 0.162
+            text = "p"
+        intervals [5]:
+            xmin = 0.162
+            xmax = 0.227
+            text = "a"
+        intervals [6]:
+            xmin = 0.227
+            xmax = 0.278
+            text = "n"
+        intervals [7]:
+            xmin = 0.278
+            xmax = 0.318
+            text = "t"
+        intervals [8]:
+            xmin = 0.318
+            xmax = 0.504
+            text = "a"
+        intervals [9]:
+            xmin = 0.504
+            xmax = 0.603
+            text = ""
+        intervals [10]:
+            xmin = 0.603
+            xmax = 0.667
+            text = "a"
+        intervals [11]:
+            xmin = 0.667
+            xmax = 0.713
+            text = "k"
+        intervals [12]:
+            xmin = 0.713
+            xmax = 0.789
+            text = "a"
+        intervals [13]:
+            xmin = 0.789
+            xmax = 0.831
+            text = "k"
+        intervals [14]:
+            xmin = 0.831
+            xmax = 0.877
+            text = "a"
+        intervals [15]:
+            xmin = 0.877
+            xmax = 0.922
+            text = "s"
+        intervals [16]:
+            xmin = 0.922
+            xmax = 0.967
+            text = "s"
+        intervals [17]:
+            xmin = 0.967
+            xmax = 1.001
+            text = "a"
+        intervals [18]:
+            xmin = 1.001
+            xmax = 1.031
+            text = "o"
+        intervals [19]:
+            xmin = 1.031
+            xmax = 1.079
+            text = "l"
+        intervals [20]:
+            xmin = 1.079
+            xmax = 1.148
+            text = "e"
+        intervals [21]:
+            xmin = 1.148
+            xmax = 1.195
+            text = "t"
+        intervals [22]:
+            xmin = 1.195
+            xmax = 1.245
+            text = "r"
+        intervals [23]:
+            xmin = 1.245
+            xmax = 1.328
+            text = "u"
+        intervals [24]:
+            xmin = 1.328
+            xmax = 1.381
+            text = "m"
+        intervals [25]:
+            xmin = 1.381
+            xmax = 1.492
+            text = "a"
+        intervals [26]:
+            xmin = 1.492
+            xmax = 1.563
+            text = "l"
+        intervals [27]:
+            xmin = 1.563
+            xmax = 1.612
+            text = "v"
+        intervals [28]:
+            xmin = 1.612
+            xmax = 1.662
+            text = "7"
+        intervals [29]:
+            xmin = 1.662
+            xmax = 1.743
+            text = "i:"
+        intervals [30]:
+            xmin = 1.743
+            xmax = 1.745
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.745
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = "*"
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.504
+            text = "Vabanda"
+        intervals [3]:
+            xmin = 0.504
+            xmax = 0.603
+            text = ","
+        intervals [4]:
+            xmin = 0.603
+            xmax = 0.789
+            text = "aga"
+        intervals [5]:
+            xmin = 0.789
+            xmax = 0.922
+            text = "kas"
+        intervals [6]:
+            xmin = 0.922
+            xmax = 1.001
+            text = "sa"
+        intervals [7]:
+            xmin = 1.001
+            xmax = 1.195
+            text = "oled"
+        intervals [8]:
+            xmin = 1.195
+            xmax = 1.563
+            text = "rumal"
+        intervals [9]:
+            xmin = 1.563
+            xmax = 1.743
+            text = "või"
+        intervals [10]:
+            xmin = 1.743
+            xmax = 1.745
+            text = "?/"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.745
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.745
+            text = "Vabanda, aga kas sa oled rumal või?"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.745
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.745
+            text = "anger"

@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.086
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.086
+        intervals: size = 17
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.054
+            text = "k"
+        intervals [2]:
+            xmin = 0.054
+            xmax = 0.114
+            text = "u"
+        intervals [3]:
+            xmin = 0.114
+            xmax = 0.221
+            text = "s"
+        intervals [4]:
+            xmin = 0.221
+            xmax = 0.293
+            text = "o"
+        intervals [5]:
+            xmin = 0.293
+            xmax = 0.344
+            text = "n"
+        intervals [6]:
+            xmin = 0.344
+            xmax = 0.402
+            text = "n"
+        intervals [7]:
+            xmin = 0.402
+            xmax = 0.531
+            text = "y::"
+        intervals [8]:
+            xmin = 0.531
+            xmax = 0.59
+            text = "t"
+        intervals [9]:
+            xmin = 0.59
+            xmax = 0.655
+            text = "p"
+        intervals [10]:
+            xmin = 0.655
+            xmax = 0.717
+            text = "o"
+        intervals [11]:
+            xmin = 0.717
+            xmax = 0.761
+            text = "l"
+        intervals [12]:
+            xmin = 0.761
+            xmax = 0.836
+            text = "i"
+        intervals [13]:
+            xmin = 0.836
+            xmax = 0.891
+            text = "t:"
+        intervals [14]:
+            xmin = 0.891
+            xmax = 0.988
+            text = "s"
+        intervals [15]:
+            xmin = 0.988
+            xmax = 1.04
+            text = "e"
+        intervals [16]:
+            xmin = 1.04
+            xmax = 1.08
+            text = "i:"
+        intervals [17]:
+            xmin = 1.08
+            xmax = 1.086
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.086
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.221
+            text = "Kus"
+        intervals [2]:
+            xmin = 0.221
+            xmax = 0.344
+            text = "on"
+        intervals [3]:
+            xmin = 0.344
+            xmax = 0.59
+            text = "nüüd"
+        intervals [4]:
+            xmin = 0.59
+            xmax = 1.08
+            text = "politsei"
+        intervals [5]:
+            xmin = 1.08
+            xmax = 1.086
+            text = "?!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.086
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.086
+            text = "Kus on nüüd politsei?!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.086
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.086
+            text = "anger"

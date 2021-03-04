@@ -1,0 +1,176 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.266
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.266
+        intervals: size = 26
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.002
+            text = ""
+        intervals [2]:
+            xmin = 0.002
+            xmax = 0.059
+            text = "n"
+        intervals [3]:
+            xmin = 0.059
+            xmax = 0.12
+            text = "o"
+        intervals [4]:
+            xmin = 0.12
+            xmax = 0.182
+            text = "m"
+        intervals [5]:
+            xmin = 0.182
+            xmax = 0.283
+            text = "i"
+        intervals [6]:
+            xmin = 0.283
+            xmax = 0.343
+            text = "t"
+        intervals [7]:
+            xmin = 0.343
+            xmax = 0.566
+            text = "a"
+        intervals [8]:
+            xmin = 0.566
+            xmax = 0.88
+            text = ""
+        intervals [9]:
+            xmin = 0.88
+            xmax = 0.958
+            text = "r0"
+        intervals [10]:
+            xmin = 0.958
+            xmax = 1.115
+            text = "i:"
+        intervals [11]:
+            xmin = 1.115
+            xmax = 1.19
+            text = "k"
+        intervals [12]:
+            xmin = 1.19
+            xmax = 1.245
+            text = "i"
+        intervals [13]:
+            xmin = 1.245
+            xmax = 1.307
+            text = "m"
+        intervals [14]:
+            xmin = 1.307
+            xmax = 1.354
+            text = "e"
+        intervals [15]:
+            xmin = 1.354
+            xmax = 1.412
+            text = "h1"
+        intervals [16]:
+            xmin = 1.412
+            xmax = 1.509
+            text = "e"
+        intervals [17]:
+            xmin = 1.509
+            xmax = 1.581
+            text = "t"
+        intervals [18]:
+            xmin = 1.581
+            xmax = 1.611
+            text = "j"
+        intervals [19]:
+            xmin = 1.611
+            xmax = 1.661
+            text = "a"
+        intervals [20]:
+            xmin = 1.661
+            xmax = 1.7
+            text = "n"
+        intervals [21]:
+            xmin = 1.7
+            xmax = 1.78
+            text = "a"
+        intervals [22]:
+            xmin = 1.78
+            xmax = 1.854
+            text = "i"
+        intervals [23]:
+            xmin = 1.854
+            xmax = 1.93
+            text = "s"
+        intervals [24]:
+            xmin = 1.93
+            xmax = 2.055
+            text = "e"
+        intervals [25]:
+            xmin = 2.055
+            xmax = 2.147
+            text = "t"
+        intervals [26]:
+            xmin = 2.147
+            xmax = 2.266
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.266
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.002
+            text = "."
+        intervals [2]:
+            xmin = 0.002
+            xmax = 0.12
+            text = "No"
+        intervals [3]:
+            xmin = 0.12
+            xmax = 0.566
+            text = "mida"
+        intervals [4]:
+            xmin = 0.566
+            xmax = 0.88
+            text = ","
+        intervals [5]:
+            xmin = 0.88
+            xmax = 1.581
+            text = "riigimehed"
+        intervals [6]:
+            xmin = 1.581
+            xmax = 1.661
+            text = "ja"
+        intervals [7]:
+            xmin = 1.661
+            xmax = 2.147
+            text = "naised"
+        intervals [8]:
+            xmin = 2.147
+            xmax = 2.266
+            text = "?!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.266
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.266
+            text = "No mida, riigimehed ja –naised?!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.266
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.266
+            text = "anger"

@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.876
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.876
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.328
+            text = ""
+        intervals [2]:
+            xmin = 0.328
+            xmax = 0.679
+            text = ""
+        intervals [3]:
+            xmin = 0.679
+            xmax = 0.946
+            text = ""
+        intervals [4]:
+            xmin = 0.946
+            xmax = 1.195
+            text = ""
+        intervals [5]:
+            xmin = 1.195
+            xmax = 1.549
+            text = ""
+        intervals [6]:
+            xmin = 1.549
+            xmax = 1.648
+            text = ""
+        intervals [7]:
+            xmin = 1.648
+            xmax = 1.863
+            text = ""
+        intervals [8]:
+            xmin = 1.863
+            xmax = 2.117
+            text = ""
+        intervals [9]:
+            xmin = 2.117
+            xmax = 2.539
+            text = ""
+        intervals [10]:
+            xmin = 2.539
+            xmax = 2.876
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.876
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.328
+            text = "Mõista,"
+        intervals [2]:
+            xmin = 0.328
+            xmax = 0.679
+            text = "mõista,"
+        intervals [3]:
+            xmin = 0.679
+            xmax = 0.946
+            text = "mitu"
+        intervals [4]:
+            xmin = 0.946
+            xmax = 1.549
+            text = "lumesahka"
+        intervals [5]:
+            xmin = 1.549
+            xmax = 1.648
+            text = "ma"
+        intervals [6]:
+            xmin = 1.648
+            xmax = 1.863
+            text = "selle"
+        intervals [7]:
+            xmin = 1.863
+            xmax = 2.117
+            text = "aja"
+        intervals [8]:
+            xmin = 2.117
+            xmax = 2.539
+            text = "jooksul"
+        intervals [9]:
+            xmin = 2.539
+            xmax = 2.876
+            text = "nägin"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.876
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.876
+            text = "Mõista-mõista, mitu lumesahka ma selle aja jooksul nägin?"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.876
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.876
+            text = "anger"

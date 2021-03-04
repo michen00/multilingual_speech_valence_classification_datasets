@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.049
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.049
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.028
+            text = "k"
+        intervals [2]:
+            xmin = 0.028
+            xmax = 0.075
+            text = "u"
+        intervals [3]:
+            xmin = 0.075
+            xmax = 0.133
+            text = "i"
+        intervals [4]:
+            xmin = 0.133
+            xmax = 0.156
+            text = "t"
+        intervals [5]:
+            xmin = 0.156
+            xmax = 0.243
+            text = "a"
+        intervals [6]:
+            xmin = 0.243
+            xmax = 0.287
+            text = "s"
+        intervals [7]:
+            xmin = 0.287
+            xmax = 0.356
+            text = "s"
+        intervals [8]:
+            xmin = 0.356
+            xmax = 0.416
+            text = "u"
+        intervals [9]:
+            xmin = 0.416
+            xmax = 0.468
+            text = "l"
+        intervals [10]:
+            xmin = 0.468
+            xmax = 0.521
+            text = "l"
+        intervals [11]:
+            xmin = 0.521
+            xmax = 0.574
+            text = "x"
+        intervals [12]:
+            xmin = 0.574
+            xmax = 0.65
+            text = "h1"
+        intervals [13]:
+            xmin = 0.65
+            xmax = 0.742
+            text = "x"
+        intervals [14]:
+            xmin = 0.742
+            xmax = 0.843
+            text = "p"
+        intervals [15]:
+            xmin = 0.843
+            xmax = 1.049
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.049
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.287
+            text = "Kuidas"
+        intervals [2]:
+            xmin = 0.287
+            xmax = 0.468
+            text = "sul"
+        intervals [3]:
+            xmin = 0.468
+            xmax = 0.843
+            text = "läheb"
+        intervals [4]:
+            xmin = 0.843
+            xmax = 1.049
+            text = "?"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.049
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.049
+            text = "Kuidas sul läheb?"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.049
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.049
+            text = "joy"

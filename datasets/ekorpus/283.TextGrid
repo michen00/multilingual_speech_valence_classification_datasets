@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.879
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.879
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.039
+            text = "n"
+        intervals [2]:
+            xmin = 0.039
+            xmax = 0.068
+            text = "e"
+        intervals [3]:
+            xmin = 0.068
+            xmax = 0.101
+            text = "i:"
+        intervals [4]:
+            xmin = 0.101
+            xmax = 0.137
+            text = "l"
+        intervals [5]:
+            xmin = 0.137
+            xmax = 0.234
+            text = "p"
+        intervals [6]:
+            xmin = 0.234
+            xmax = 0.32
+            text = "o"
+        intervals [7]:
+            xmin = 0.32
+            xmax = 0.364
+            text = "l"
+        intervals [8]:
+            xmin = 0.364
+            xmax = 0.447
+            text = "e"
+        intervals [9]:
+            xmin = 0.447
+            xmax = 0.482
+            text = "j"
+        intervals [10]:
+            xmin = 0.482
+            xmax = 0.564
+            text = "u"
+        intervals [11]:
+            xmin = 0.564
+            xmax = 0.596
+            text = "r"
+        intervals [12]:
+            xmin = 0.596
+            xmax = 0.661
+            text = "a"
+        intervals [13]:
+            xmin = 0.661
+            xmax = 0.735
+            text = "h1"
+        intervals [14]:
+            xmin = 0.735
+            xmax = 0.874
+            text = "a"
+        intervals [15]:
+            xmin = 0.874
+            xmax = 0.879
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.879
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.137
+            text = "Neil"
+        intervals [2]:
+            xmin = 0.137
+            xmax = 0.447
+            text = "pole"
+        intervals [3]:
+            xmin = 0.447
+            xmax = 0.564
+            text = "ju"
+        intervals [4]:
+            xmin = 0.564
+            xmax = 0.874
+            text = "raha"
+        intervals [5]:
+            xmin = 0.874
+            xmax = 0.879
+            text = "!/"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.879
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.879
+            text = "Neil pole ju raha!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.879
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.879
+            text = "sadness"

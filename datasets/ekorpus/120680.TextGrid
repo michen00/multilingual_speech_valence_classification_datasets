@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.892
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.892
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.885
+            text = ""
+        intervals [2]:
+            xmin = 3.885
+            xmax = 3.892
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.892
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.068
+            text = "Ma"
+        intervals [2]:
+            xmin = 0.068
+            xmax = 0.436
+            text = "õpetan"
+        intervals [3]:
+            xmin = 0.436
+            xmax = 0.794
+            text = "handi"
+        intervals [4]:
+            xmin = 0.794
+            xmax = 1.145
+            text = "keelt"
+        intervals [5]:
+            xmin = 1.145
+            xmax = 1.234
+            text = "ja"
+        intervals [6]:
+            xmin = 1.234
+            xmax = 1.708
+            text = "kultuuri"
+        intervals [7]:
+            xmin = 1.708
+            xmax = 2.049
+            text = "ainult"
+        intervals [8]:
+            xmin = 2.049
+            xmax = 3.049
+            text = "südametunnistuse"
+        intervals [9]:
+            xmin = 3.049
+            xmax = 3.885
+            text = "rahustamiseks"
+        intervals [10]:
+            xmin = 3.885
+            xmax = 3.892
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.892
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.892
+            text = "Ma õpetan handi keelt ja kultuuri ainult südametunnistuse rahustamiseks."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.892
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.892
+            text = "neutral"

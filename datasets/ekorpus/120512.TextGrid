@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.031
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.031
+        intervals: size = 14
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.01
+            text = ""
+        intervals [2]:
+            xmin = 0.01
+            xmax = 0.083
+            text = "s"
+        intervals [3]:
+            xmin = 0.083
+            xmax = 0.161
+            text = "a"
+        intervals [4]:
+            xmin = 0.161
+            xmax = 0.187
+            text = "j"
+        intervals [5]:
+            xmin = 0.187
+            xmax = 0.268
+            text = "a"
+        intervals [6]:
+            xmin = 0.268
+            xmax = 0.332
+            text = "p"
+        intervals [7]:
+            xmin = 0.332
+            xmax = 0.425
+            text = "h"
+        intervals [8]:
+            xmin = 0.425
+            xmax = 0.592
+            text = "o::"
+        intervals [9]:
+            xmin = 0.592
+            xmax = 0.635
+            text = "v"
+        intervals [10]:
+            xmin = 0.635
+            xmax = 0.689
+            text = "i"
+        intervals [11]:
+            xmin = 0.689
+            xmax = 0.834
+            text = "h::"
+        intervals [12]:
+            xmin = 0.834
+            xmax = 0.917
+            text = "m"
+        intervals [13]:
+            xmin = 0.917
+            xmax = 1.008
+            text = "a"
+        intervals [14]:
+            xmin = 1.008
+            xmax = 1.031
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.031
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.01
+            text = "."
+        intervals [2]:
+            xmin = 0.01
+            xmax = 0.332
+            text = "Sajab"
+        intervals [3]:
+            xmin = 0.332
+            xmax = 1.008
+            text = "hoovihma"
+        intervals [4]:
+            xmin = 1.008
+            xmax = 1.031
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.031
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.031
+            text = "Sajab hoovihma."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.031
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.031
+            text = "neutral"

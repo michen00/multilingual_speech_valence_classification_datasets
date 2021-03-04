@@ -1,0 +1,104 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.239
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.239
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.006
+            text = ""
+        intervals [2]:
+            xmin = 0.006
+            xmax = 1.204
+            text = ""
+        intervals [3]:
+            xmin = 1.204
+            xmax = 1.453
+            text = ""
+        intervals [4]:
+            xmin = 1.453
+            xmax = 1.754
+            text = ""
+        intervals [5]:
+            xmin = 1.754
+            xmax = 2.829
+            text = ""
+        intervals [6]:
+            xmin = 2.829
+            xmax = 2.888
+            text = ""
+        intervals [7]:
+            xmin = 2.888
+            xmax = 3.177
+            text = ""
+        intervals [8]:
+            xmin = 3.177
+            xmax = 3.239
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.239
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.006
+            text = "."
+        intervals [2]:
+            xmin = 0.006
+            xmax = 1.204
+            text = "Ajalehekioskites"
+        intervals [3]:
+            xmin = 1.204
+            xmax = 1.453
+            text = ","
+        intervals [4]:
+            xmin = 1.453
+            xmax = 1.754
+            text = "isegi"
+        intervals [5]:
+            xmin = 1.754
+            xmax = 2.829
+            text = "bensiinijaamades"
+        intervals [6]:
+            xmin = 2.829
+            xmax = 2.888
+            text = "ja"
+        intervals [7]:
+            xmin = 2.888
+            xmax = 3.177
+            text = "nii"
+        intervals [8]:
+            xmin = 3.177
+            xmax = 3.239
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.239
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.239
+            text = "Ajalehekioskites, isegi bensiinijaamades ja nii."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.239
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.239
+            text = "neutral"

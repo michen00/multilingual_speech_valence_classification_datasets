@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.895
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.895
+        intervals: size = 12
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.01
+            text = ""
+        intervals [2]:
+            xmin = 0.01
+            xmax = 0.066
+            text = "e"
+        intervals [3]:
+            xmin = 0.066
+            xmax = 0.142
+            text = "i:"
+        intervals [4]:
+            xmin = 0.142
+            xmax = 0.225
+            text = "o"
+        intervals [5]:
+            xmin = 0.225
+            xmax = 0.27
+            text = "l"
+        intervals [6]:
+            xmin = 0.27
+            xmax = 0.365
+            text = "e"
+        intervals [7]:
+            xmin = 0.365
+            xmax = 0.439
+            text = "k"
+        intervals [8]:
+            xmin = 0.439
+            xmax = 0.518
+            text = "o"
+        intervals [9]:
+            xmin = 0.518
+            xmax = 0.633
+            text = "h::"
+        intervals [10]:
+            xmin = 0.633
+            xmax = 0.753
+            text = "t:"
+        intervals [11]:
+            xmin = 0.753
+            xmax = 0.863
+            text = "i"
+        intervals [12]:
+            xmin = 0.863
+            xmax = 0.895
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.895
+        intervals: size = 5
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.01
+            text = "."
+        intervals [2]:
+            xmin = 0.01
+            xmax = 0.142
+            text = "Ei"
+        intervals [3]:
+            xmin = 0.142
+            xmax = 0.365
+            text = "ole"
+        intervals [4]:
+            xmin = 0.365
+            xmax = 0.863
+            text = "kohti"
+        intervals [5]:
+            xmin = 0.863
+            xmax = 0.895
+            text = "!"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.895
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.895
+            text = "Ei ole kohti!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.895
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.895
+            text = "anger"

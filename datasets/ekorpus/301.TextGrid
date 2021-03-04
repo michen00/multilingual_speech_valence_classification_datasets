@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 1.78
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 1.78
+        intervals: size = 8
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.265
+            text = ""
+        intervals [2]:
+            xmin = 0.265
+            xmax = 0.623
+            text = ""
+        intervals [3]:
+            xmin = 0.623
+            xmax = 0.75
+            text = ""
+        intervals [4]:
+            xmin = 0.75
+            xmax = 0.869
+            text = ""
+        intervals [5]:
+            xmin = 0.869
+            xmax = 1.04
+            text = ""
+        intervals [6]:
+            xmin = 1.04
+            xmax = 1.287
+            text = ""
+        intervals [7]:
+            xmin = 1.287
+            xmax = 1.544
+            text = ""
+        intervals [8]:
+            xmin = 1.544
+            xmax = 1.78
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 1.78
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.265
+            text = "Tuleb"
+        intervals [2]:
+            xmin = 0.265
+            xmax = 0.623
+            text = "välja,"
+        intervals [3]:
+            xmin = 0.623
+            xmax = 0.75
+            text = "et"
+        intervals [4]:
+            xmin = 0.75
+            xmax = 0.869
+            text = "ma"
+        intervals [5]:
+            xmin = 0.869
+            xmax = 1.04
+            text = "olen"
+        intervals [6]:
+            xmin = 1.04
+            xmax = 1.544
+            text = "tööandja"
+        intervals [7]:
+            xmin = 1.544
+            xmax = 1.78
+            text = "oma"
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 1.78
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.78
+            text = "Tuleb välja, et ma olen tööandja oma!"
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 1.78
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 1.78
+            text = "anger"

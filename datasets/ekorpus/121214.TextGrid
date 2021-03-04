@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.98
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.98
+        intervals: size = 15
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = ""
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.064
+            text = "y"
+        intervals [3]:
+            xmin = 0.064
+            xmax = 0.138
+            text = "t:"
+        intervals [4]:
+            xmin = 0.138
+            xmax = 0.165
+            text = "l"
+        intervals [5]:
+            xmin = 0.165
+            xmax = 0.22
+            text = "e"
+        intervals [6]:
+            xmin = 0.22
+            xmax = 0.25
+            text = "v"
+        intervals [7]:
+            xmin = 0.25
+            xmax = 0.32
+            text = "a"
+        intervals [8]:
+            xmin = 0.32
+            xmax = 0.393
+            text = "t"
+        intervals [9]:
+            xmin = 0.393
+            xmax = 0.474
+            text = "p"
+        intervals [10]:
+            xmin = 0.474
+            xmax = 0.542
+            text = "a"
+        intervals [11]:
+            xmin = 0.542
+            xmax = 0.585
+            text = "l"
+        intervals [12]:
+            xmin = 0.585
+            xmax = 0.66
+            text = "j"
+        intervals [13]:
+            xmin = 0.66
+            xmax = 0.761
+            text = "u"
+        intervals [14]:
+            xmin = 0.761
+            xmax = 0.897
+            text = " t"
+        intervals [15]:
+            xmin = 0.897
+            xmax = 0.98
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.98
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = "."
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.393
+            text = "Ütlevad"
+        intervals [3]:
+            xmin = 0.393
+            xmax = 0.897
+            text = "paljud"
+        intervals [4]:
+            xmin = 0.897
+            xmax = 0.98
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.98
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.98
+            text = "Ütlevad paljud."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.98
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.98
+            text = "neutral"

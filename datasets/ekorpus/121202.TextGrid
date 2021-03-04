@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 3.103
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 3.103
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.294
+            text = ""
+        intervals [2]:
+            xmin = 0.294
+            xmax = 0.593
+            text = ""
+        intervals [3]:
+            xmin = 0.593
+            xmax = 1.018
+            text = ""
+        intervals [4]:
+            xmin = 1.018
+            xmax = 1.293
+            text = ""
+        intervals [5]:
+            xmin = 1.293
+            xmax = 1.563
+            text = ""
+        intervals [6]:
+            xmin = 1.563
+            xmax = 1.834
+            text = ""
+        intervals [7]:
+            xmin = 1.834
+            xmax = 1.902
+            text = ""
+        intervals [8]:
+            xmin = 1.902
+            xmax = 2.338
+            text = ""
+        intervals [9]:
+            xmin = 2.338
+            xmax = 2.488
+            text = ""
+        intervals [10]:
+            xmin = 2.488
+            xmax = 3.089
+            text = ""
+        intervals [11]:
+            xmin = 3.089
+            xmax = 3.103
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 3.103
+        intervals: size = 11
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.294
+            text = "Tuleb "
+        intervals [2]:
+            xmin = 0.294
+            xmax = 0.593
+            text = "jalad"
+        intervals [3]:
+            xmin = 0.593
+            xmax = 1.018
+            text = "istumise"
+        intervals [4]:
+            xmin = 1.018
+            xmax = 1.293
+            text = "alt"
+        intervals [5]:
+            xmin = 1.293
+            xmax = 1.563
+            text = "välja"
+        intervals [6]:
+            xmin = 1.563
+            xmax = 1.834
+            text = "võtta"
+        intervals [7]:
+            xmin = 1.834
+            xmax = 1.902
+            text = "ja"
+        intervals [8]:
+            xmin = 1.902
+            xmax = 2.338
+            text = "hakata"
+        intervals [9]:
+            xmin = 2.338
+            xmax = 2.488
+            text = "end"
+        intervals [10]:
+            xmin = 2.488
+            xmax = 3.089
+            text = "liigutama"
+        intervals [11]:
+            xmin = 3.089
+            xmax = 3.103
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 3.103
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.103
+            text = "Tuleb jalad istumise alt välja võtta ja hakata end liigutama."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 3.103
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 3.103
+            text = "neutral"

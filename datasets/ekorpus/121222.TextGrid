@@ -1,0 +1,92 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.714
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.714
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.052
+            text = ""
+        intervals [2]:
+            xmin = 0.052
+            xmax = 0.121
+            text = "j"
+        intervals [3]:
+            xmin = 0.121
+            xmax = 0.2
+            text = "a"
+        intervals [4]:
+            xmin = 0.2
+            xmax = 0.266
+            text = "p:"
+        intervals [5]:
+            xmin = 0.266
+            xmax = 0.372
+            text = "a"
+        intervals [6]:
+            xmin = 0.372
+            xmax = 0.497
+            text = "l"
+        intervals [7]:
+            xmin = 0.497
+            xmax = 0.54
+            text = "j"
+        intervals [8]:
+            xmin = 0.54
+            xmax = 0.687
+            text = "u"
+        intervals [9]:
+            xmin = 0.687
+            xmax = 0.714
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.714
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.052
+            text = "."
+        intervals [2]:
+            xmin = 0.052
+            xmax = 0.2
+            text = "Ja"
+        intervals [3]:
+            xmin = 0.2
+            xmax = 0.687
+            text = "palju"
+        intervals [4]:
+            xmin = 0.687
+            xmax = 0.714
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.714
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.714
+            text = "Ja palju."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.714
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.714
+            text = "neutral"

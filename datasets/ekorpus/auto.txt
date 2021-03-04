@@ -1,0 +1,5 @@
+package require emu::autobuild
+proc AutoBuildInit {templ} {}
+proc AutoBuild {templ hier} {
+    LinkAllFromTimes $templ $hier
+}

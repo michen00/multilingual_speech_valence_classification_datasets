@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 5.106
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 5.106
+        intervals: size = 2
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.05
+            text = ""
+        intervals [2]:
+            xmin = 5.05
+            xmax = 5.106
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 5.106
+        intervals: size = 16
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.506
+            text = "Pakkusin"
+        intervals [2]:
+            xmin = 0.506
+            xmax = 0.843
+            text = "siis"
+        intervals [3]:
+            xmin = 0.843
+            xmax = 1.234
+            text = ","
+        intervals [4]:
+            xmin = 1.234
+            xmax = 1.339
+            text = "et"
+        intervals [5]:
+            xmin = 1.339
+            xmax = 1.608
+            text = "lähme"
+        intervals [6]:
+            xmin = 1.608
+            xmax = 2.28
+            text = "kohvikusse"
+        intervals [7]:
+            xmin = 2.28
+            xmax = 2.662
+            text = ","
+        intervals [8]:
+            xmin = 2.662
+            xmax = 2.918
+            text = "saad"
+        intervals [9]:
+            xmin = 2.918
+            xmax = 3.316
+            text = "sooja"
+        intervals [10]:
+            xmin = 3.316
+            xmax = 3.506
+            text = "ja"
+        intervals [11]:
+            xmin = 3.506
+            xmax = 3.974
+            text = "kooki"
+        intervals [12]:
+            xmin = 3.974
+            xmax = 4.094
+            text = "või"
+        intervals [13]:
+            xmin = 4.094
+            xmax = 4.457
+            text = "midagi"
+        intervals [14]:
+            xmin = 4.457
+            xmax = 4.789
+            text = "hamba"
+        intervals [15]:
+            xmin = 4.789
+            xmax = 5.05
+            text = "alla"
+        intervals [16]:
+            xmin = 5.05
+            xmax = 5.106
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 5.106
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.106
+            text = "Pakkusin siis, et lähme kohvikusse, saad sooja ja kooki või midagi hamba alla."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 5.106
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 5.106
+            text = "neutral"

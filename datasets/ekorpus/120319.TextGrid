@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 0.943
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 0.943
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = ""
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.089
+            text = "i"
+        intervals [3]:
+            xmin = 0.089
+            xmax = 0.277
+            text = "k::"
+        intervals [4]:
+            xmin = 0.277
+            xmax = 0.338
+            text = "a"
+        intervals [5]:
+            xmin = 0.338
+            xmax = 0.39
+            text = "n"
+        intervals [6]:
+            xmin = 0.39
+            xmax = 0.484
+            text = "u"
+        intervals [7]:
+            xmin = 0.484
+            xmax = 0.597
+            text = "t:"
+        intervals [8]:
+            xmin = 0.597
+            xmax = 0.695
+            text = "a"
+        intervals [9]:
+            xmin = 0.695
+            xmax = 0.799
+            text = "p"
+        intervals [10]:
+            xmin = 0.799
+            xmax = 0.943
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 0.943
+        intervals: size = 4
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.003
+            text = "."
+        intervals [2]:
+            xmin = 0.003
+            xmax = 0.338
+            text = "Ikka"
+        intervals [3]:
+            xmin = 0.338
+            xmax = 0.799
+            text = "nutab"
+        intervals [4]:
+            xmin = 0.799
+            xmax = 0.943
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 0.943
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.943
+            text = "Ikka nutab."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 0.943
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.943
+            text = "sadness"

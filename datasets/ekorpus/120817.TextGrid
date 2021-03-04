@@ -1,0 +1,236 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 2.785
+tiers? <exists>
+size = 4
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "phoneme"
+        xmin = 0.0
+        xmax = 2.785
+        intervals: size = 40
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.044
+            text = "m"
+        intervals [2]:
+            xmin = 0.044
+            xmax = 0.099
+            text = "u"
+        intervals [3]:
+            xmin = 0.099
+            xmax = 0.155
+            text = "l::"
+        intervals [4]:
+            xmin = 0.155
+            xmax = 0.183
+            text = "e"
+        intervals [5]:
+            xmin = 0.183
+            xmax = 0.24
+            text = "o"
+        intervals [6]:
+            xmin = 0.24
+            xmax = 0.305
+            text = "n"
+        intervals [7]:
+            xmin = 0.305
+            xmax = 0.374
+            text = "t"
+        intervals [8]:
+            xmin = 0.374
+            xmax = 0.476
+            text = "a"
+        intervals [9]:
+            xmin = 0.476
+            xmax = 0.526
+            text = "r"
+        intervals [10]:
+            xmin = 0.526
+            xmax = 0.636
+            text = "t:"
+        intervals [11]:
+            xmin = 0.636
+            xmax = 0.679
+            text = "u"
+        intervals [12]:
+            xmin = 0.679
+            xmax = 0.705
+            text = "r"
+        intervals [13]:
+            xmin = 0.705
+            xmax = 0.764
+            text = "a"
+        intervals [14]:
+            xmin = 0.764
+            xmax = 0.833
+            text = "h1"
+        intervals [15]:
+            xmin = 0.833
+            xmax = 0.882
+            text = "u"
+        intervals [16]:
+            xmin = 0.882
+            xmax = 0.996
+            text = "7"
+        intervals [17]:
+            xmin = 0.996
+            xmax = 1.116
+            text = "i:"
+        intervals [18]:
+            xmin = 1.116
+            xmax = 1.182
+            text = "k"
+        intervals [19]:
+            xmin = 1.182
+            xmax = 1.315
+            text = "e"
+        intervals [20]:
+            xmin = 1.315
+            xmax = 1.422
+            text = "m+"
+        intervals [21]:
+            xmin = 1.422
+            xmax = 1.502
+            text = "i"
+        intervals [22]:
+            xmin = 1.502
+            xmax = 1.601
+            text = "t::"
+        intervals [23]:
+            xmin = 1.601
+            xmax = 1.646
+            text = "m"
+        intervals [24]:
+            xmin = 1.646
+            xmax = 1.693
+            text = "e"
+        intervals [25]:
+            xmin = 1.693
+            xmax = 1.748
+            text = "l"
+        intervals [26]:
+            xmin = 1.748
+            xmax = 1.799
+            text = "p"
+        intervals [27]:
+            xmin = 1.799
+            xmax = 1.872
+            text = "7"
+        intervals [28]:
+            xmin = 1.872
+            xmax = 1.958
+            text = "h1"
+        intervals [29]:
+            xmin = 1.958
+            xmax = 1.986
+            text = "j"
+        intervals [30]:
+            xmin = 1.986
+            xmax = 2.021
+            text = "u"
+        intervals [31]:
+            xmin = 2.021
+            xmax = 2.088
+            text = "s"
+        intervals [32]:
+            xmin = 2.088
+            xmax = 2.117
+            text = "e"
+        intervals [33]:
+            xmin = 2.117
+            xmax = 2.14
+            text = "l"
+        intervals [34]:
+            xmin = 2.14
+            xmax = 2.197
+            text = "v"
+        intervals [35]:
+            xmin = 2.197
+            xmax = 2.285
+            text = "a"
+        intervals [36]:
+            xmin = 2.285
+            xmax = 2.349
+            text = "s’"
+        intervals [37]:
+            xmin = 2.349
+            xmax = 2.433
+            text = "t:"
+        intervals [38]:
+            xmin = 2.433
+            xmax = 2.494
+            text = "i"
+        intervals [39]:
+            xmin = 2.494
+            xmax = 2.704
+            text = "k:"
+        intervals [40]:
+            xmin = 2.704
+            xmax = 2.785
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "word"
+        xmin = 0.0
+        xmax = 2.785
+        intervals: size = 9
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.183
+            text = "Mulle"
+        intervals [2]:
+            xmin = 0.183
+            xmax = 0.305
+            text = "on"
+        intervals [3]:
+            xmin = 0.305
+            xmax = 0.679
+            text = "Tartu"
+        intervals [4]:
+            xmin = 0.679
+            xmax = 0.882
+            text = "rahu"
+        intervals [5]:
+            xmin = 0.882
+            xmax = 1.315
+            text = "õige"
+        intervals [6]:
+            xmin = 1.315
+            xmax = 1.748
+            text = "mitmel"
+        intervals [7]:
+            xmin = 1.748
+            xmax = 2.14
+            text = "põhjusel"
+        intervals [8]:
+            xmin = 2.14
+            xmax = 2.704
+            text = "vastik"
+        intervals [9]:
+            xmin = 2.704
+            xmax = 2.785
+            text = "."
+    item [3]:
+        class = "IntervalTier"
+        name = "sentence"
+        xmin = 0.0
+        xmax = 2.785
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.785
+            text = "Mulle on Tartu rahu õige mitmel põhjusel vastik."
+    item [4]:
+        class = "IntervalTier"
+        name = "emotion"
+        xmin = 0.0
+        xmax = 2.785
+        intervals: size = 1
+        intervals [1]:
+            xmin = 0.0
+            xmax = 2.785
+            text = "neutral"
