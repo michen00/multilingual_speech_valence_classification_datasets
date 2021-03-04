@@ -11,23 +11,24 @@ English audio samples with emotion labels are publicly available from the [Carne
 
 Most of the English-language datasets are of North American English. The Surrey Audio-Visual Expressed Emotion Database [[17]](#17) is of British English and the JL Corpus [[15]](#15) is of New Zealand English; the Crowd-sourced Emotional Multimodal Actors Dataset [[11]](#11)–[[12]](#12) consists of a variety of other English accents.
 
-Similar spoken corpora with emotion labels are freely available for Arabic ([Arabic Natural Audio Dataset](https://www.kaggle.com/suso172/arabic-natural-audio-dataset)) [[]](#), Canadian French ([Canadian French Emotional Speech Database](https://www.gel.usherbrooke.ca/audio/cafe.htm)) [[]](#), Estonian ([Estonian Emotional Speech Corpus](https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/)) [[]](#), French ([French Emotional Speech Database - Oréau](https://zenodo.org/record/4405783)) [[]](#), German ([Berlin Database of Emotional Speech](https://www.kaggle.com/piyushagni5/berlin-database-of-emotional-speech-emodb)) [[]](#), Greek ([Acted Emotional Speech Dynamic Database](https://mega.nz/folder/0ShVXY7C#-73kVoK05OjTPEA95UUvMw)) [[]](#), Persian ([Sharif Emotional Speech Database](https://github.com/mansourehk/ShEMO)) [[]](#), and Urdu ([Urdu Language Speech Dataset](https://www.kaggle.com/bitlord/urdu-language-speech-dataset)) [[]](#).
+Similar spoken corpora with emotion labels are freely available for Arabic ([Arabic Natural Audio Dataset](https://www.kaggle.com/suso172/arabic-natural-audio-dataset)) [[20]](#20), Canadian French ([Canadian French Emotional Speech Database](https://www.gel.usherbrooke.ca/audio/cafe.htm)) [[21]](#21), Estonian ([Estonian Emotional Speech Corpus](https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/)) [[22]](#22), French ([French Emotional Speech Database - Oréau](https://zenodo.org/record/4405783)) [[]](#), German ([Berlin Database of Emotional Speech](https://www.kaggle.com/piyushagni5/berlin-database-of-emotional-speech-emodb)) [[]](#), Greek ([Acted Emotional Speech Dynamic Database](https://mega.nz/folder/0ShVXY7C#-73kVoK05OjTPEA95UUvMw)) [[]](#), Persian ([Sharif Emotional Speech Database](https://github.com/mansourehk/ShEMO)) [[]](#), and Urdu ([Urdu Language Speech Dataset](https://www.kaggle.com/bitlord/urdu-language-speech-dataset)) [[]](#).
 
-I was able to obtain labeled datasets for Turkish ([BAUM-1](https://archive.ics.uci.edu/ml/datasets/BAUM-1) [[]](#) and [BAUM-2](https://archive.ics.uci.edu/ml/datasets/BAUM-2)) [[]](#) as well, but the end-user license agreements (for [BAUM-1]() and [BAUM-2]()) do not allow for distribution in any way.
+I obtained labeled datasets for Turkish ([BAUM-1](https://archive.ics.uci.edu/ml/datasets/BAUM-1) [[]](#) and [BAUM-2](https://archive.ics.uci.edu/ml/datasets/BAUM-2)) [[]](#) as well, but the end-user license agreements (for [BAUM-1]() and [BAUM-2]()) do not allow for distribution in any way.
 
 I considered several other datasets [##], but many of these required an active academic affiliation or were otherwise inaccessible.
 
 Each dataset was created with different methods, but they share common features that make them suitable for this project:
 1. Public or educational access.
 1. An audio file per record of natural human speech. These were variously obtained from participant elicitation [#], trained actors [#], or television media samples [#]. Some were also associated with video content (not used for this project) [#].
-1. A valence classification of either positive, negative, or neutral per record. Each dataset utilized some kind(s) of human verification for these labels. Some were accompanied by intensity ratings (not used for this project) [#].
+1. A valence classification of either positive, negative, or neutral per record. Each dataset utilized some kind(s) of human verification for these labels. Some were accompanied by intensity ratings [#] or categorical emotion labels [#]; these features were not used for this project.
 1. Demonstrated academic or practical application in some context (e.g., conference or journal publication, Kaggle, etc.).
+1. Gender for all samples?
 
 emodb, ravdess is actors
 
 ## Datasets
 * English
-  * [CREMA-D](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/Emotional_EMA)
+  * [CREMA-D](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/Emotional_EMA) | Crowd-sourced Emotional Multimodal Actors Dataset
     * H. Cao, D. G. Cooper, M. K. Keutmann, R. C. Gur, A. Nenkova, and R. Verma, "CREMA-D: Crowd-sourced Emotional Multimodal Actors Dataset," *IEEE Trans. Affect Comput.,* vol. 5, no. 4, pp. 377–390, Oct./Dec. 2014, doi: https://doi.org/10.1109/TAFFC.2014.2336244.
     * M. K. Keutmann, S. L. Moore, A. Savitt, and R. C. Gur, "Generating an item pool for translational social cognition research: Methodology and initial validation," *Behav. Res. Methods,* vol. 47, no. 1, pp. 228–234, Mar. 2015, doi: https://doi.org/10.3758/s13428-014-0464-0.
   * [Emotional_EMA](https://github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/Emotional_EMA) | Electromagnetic Articulography Database
@@ -146,4 +147,40 @@ emodb, ravdess is actors
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>20</sup></sub></sup></sub></h6></span>
 
-20. 
+20. S. Klaylat, *Arabic Natural Audio Dataset Automatic Emotion Recognition. V11.* Dec. 1, 2017. Distributed by Kaggle. Accessed: Feb. 8, 2021. [Online]. Available: https://www.kaggle.com/suso172/arabic-natural-audio-dataset/version/11
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>21</sup></sub></sup></sub></h6></span>
+
+21. O. Lahaie and P. Gournay, *Canadian French Emotionnal Speech Database. V1.1.* 2017. Distributed by Groupe de Recherche sur la Parole et l'Audio. Accessed: Feb. 8, 2021. [Online]. Available: https://www.gel.usherbrooke.ca/audio/cafe.htm
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>22</sup></sub></sup></sub></h6></span>
+
+22. H. Pajupuu, H, *Eesti Emotsionaalse Kõne Korpus. V5.* Jun. 12, 2012. Distributed by Center of Estonian Language Resources. Accessed: Feb. 9, 2021. [Online]. doi: https://doi.org/10.15155/EKI.000A.
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>23</sup></sub></sup></sub></h6></span>
+
+23. 
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>24</sup></sub></sup></sub></h6></span>
+
+24. 
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>25</sup></sub></sup></sub></h6></span>
+
+25. 
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>26</sup></sub></sup></sub></h6></span>
+
+26. 
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>27</sup></sub></sup></sub></h6></span>
+
+27. 
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>28</sup></sub></sup></sub></h6></span>
+
+28. 
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>29</sup></sub></sup></sub></h6></span>
+
+29. 
