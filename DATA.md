@@ -9,7 +9,7 @@ Emotion recognition is an important part of natural language understanding. Conv
 ## Data
 English audio samples with emotion labels are publicly available from the [Carnegie Mellon University Let’s Go Spoken Dialogue Corpus](https://www.ultes.eu/ressources/lego-spoken-dialogue-corpus/) [[10]](#10)–[[11]](#11), [Crowd-sourced Emotional Multimodal Actors Dataset](https://github.com/CheyneyComputerScience/CREMA-D) [[12]](#12)–[[13]](#13), the [Electromagnetic Articulography Database](https://span.usc.edu/owncloud/index.php/s/RTttck1EJ6Vcoyu) [[14]](#14), the [Emotional Voices Database](https://mega.nz/folder/KBp32apT#gLIgyWf9iQ-yqnWFUFuUHg) [[15]](#15), the [JL-Corpus](https://www.kaggle.com/tli725/jl-corpus) [[16]](#16), the [Ryerson Audio-Visual Database of Emotional Speech and Song](https://zenodo.org/record/1188976) [[17]](#17), the [Surrey Audio-Visual Expressed Emotion Database](http://personal.ee.surrey.ac.uk/Personal/P.Jackson/SAVEE/Download.html) [[18]](#18), the [Toronto Emotional Speech Set](https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi%3A10.5683%2FSP2%2FE8H2MF) [[19]](#19), and the [Variably Intense Vocalizations of Affect and Emotion Corpus](https://zenodo.org/record/4066235) [[20]](#20).
 
-Most of the English-language datasets are of North American English. The Surrey Audio-Visual Expressed Emotion Database [[18]](#18) is of British English and the JL Corpus [[16]](#16) is of New Zealand English; the Crowd-sourced Emotional Multimodal Actors Dataset [[12]](#12)–[[13]](#13) consists of a variety of other English accents.
+Most of the English-language datasets are of North American English. The Surrey Audio-Visual Expressed Emotion Database [[18]](#18) is of British English and the JL Corpus [[16]](#16) is of New Zealand English; the Crowd-sourced Emotional Multimodal Actors Dataset [[12]](#12)–[[13]](#13) consists of a variety of other English accents. Although not a full dataset, [[21]](#21) provides six samples (two each of positive, negative, and neutral valence) in Australian English.
 
 Similar spoken corpora with emotion labels are freely available for Arabic ([Arabic Natural Audio Dataset](https://www.kaggle.com/suso172/arabic-natural-audio-dataset)) [[21]](#21), Canadian French ([Canadian French Emotional Speech Database](https://www.gel.usherbrooke.ca/audio/cafe.htm)) [[22]](#22), Estonian ([Estonian Emotional Speech Corpus](https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/)) [[23]](#23), French ([French Emotional Speech Database - Oréau](https://zenodo.org/record/4405783)) [[24]](#24), German ([Berlin Database of Emotional Speech](https://www.kaggle.com/piyushagni5/berlin-database-of-emotional-speech-emodb)) [[25]](#25), Greek ([Acted Emotional Speech Dynamic Database](https://mega.nz/folder/0ShVXY7C#-73kVoK05OjTPEA95UUvMw)) [[26]](#26)–[[27]](#27), Persian ([Sharif Emotional Speech Database](https://github.com/mansourehk/ShEMO)) [[28]](#28), and Urdu ([Urdu Language Speech Dataset](https://www.kaggle.com/bitlord/urdu-language-speech-dataset)) [[6]](#6).
 
@@ -19,7 +19,7 @@ I considered several other datasets [##], but many of these required an active a
 
 Each dataset was created with different methods, but they share common features that make them suitable for this project:
 1. Public or free-use non-commercial access.
-1. An audio file per record of natural human speech. These were variously obtained from participant elicitation [#], trained actors [#], or television media samples [#]. Some were also associated with video content (not used for this project) [#].
+1. Audio data per record of natural human speech at the word or utterance level from a single speaker. These were variously obtained from participant elicitation [#], trained actors [#], or television media samples [#]. Some were also associated with video content (not used for this project) [#].
 1. A valence classification of either positive, negative, or neutral per record. Each dataset utilized some kind(s) of human verification for these labels. Some were accompanied by intensity ratings [#] or categorical emotion labels [#]; these features were not used for this project.
 1. Demonstrated academic or practical application in some context (e.g., conference or journal publication, Kaggle, etc.).
 1. Gender for all samples?
@@ -130,6 +130,12 @@ urdu is tv media
 <span aria-hidden="true"><h6><sub><sup><sub><sup>20</sup></sub></sup></sub></h6></span>
 
 20. N. Holz, P. Larrouy-Maestri, and D. Poeppel, *The Variably Intense Vocalizations of Affect and Emotion Corpus (VIVAE). V1.* Oct. 5, 2020. Distributed by Zenodo. Accessed: Feb. 8, 2021. [Dataset]. doi: https://doi.org/10.5281/zenodo.4066235.
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>21</sup></sub></sup></sub></h6></span>
+
+21. I. Dzafic, *Example emotion videos used in investigation of emotion perception in schizophrenia.* 2017. Distributed by the University of Queensland. Accessed: Mar. 3, 2021. [Online]. doi: https://doi.org/10.14264/uql.2017.120.
+
+!!!
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>21</sup></sub></sup></sub></h6></span>
 
