@@ -15,7 +15,7 @@ Similar spoken corpora with emotion labels are freely available for Arabic ([Ara
 
 I obtained labeled datasets for Turkish ([BAUM-1](https://archive.ics.uci.edu/ml/datasets/BAUM-1) [[28]](#28) and [BAUM-2](https://archive.ics.uci.edu/ml/datasets/BAUM-2)) [[29]](#29) as well, but the end-user license agreements do not allow for distribution in any way, so they are not uploaded to this project's repository.
 
-I considered several other datasets [##], but many of these required an active academic affiliation or were otherwise inaccessible.
+I considered several other datasets [##], but many of these required an active academic affiliation, were paywalled, or were otherwise inaccessible.
 
 Each dataset was created with different methods, but they share common features that make them suitable for this project:
 1. Public or free-use non-commercial access.
@@ -141,7 +141,7 @@ urdu is tv media
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>23</sup></sub></sup></sub></h6></span>
 
-23. H. Pajupuu, H, *Eesti Emotsionaalse Kõne Korpus. V5.* Jun. 12, 2012. Distributed by Center of Estonian Language Resources. Accessed: Feb. 9, 2021. [Online]. doi: https://doi.org/10.15155/EKI.000A.
+23. H. Pajupuu, *Eesti Emotsionaalse Kõne Korpus. V5.* Jun. 12, 2012. Distributed by Center of Estonian Language Resources. Accessed: Feb. 9, 2021. [Online]. doi: https://doi.org/10.15155/EKI.000A.
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>24</sup></sub></sup></sub></h6></span>
 
