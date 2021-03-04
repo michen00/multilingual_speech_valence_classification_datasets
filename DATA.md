@@ -7,17 +7,17 @@ Emotion recognition is an important part of natural language understanding. Conv
 [[4]](#4) combined five corpora (German, Italian, and English variants) and attained F1 scores between 89% and 98% and corresponding accuracy scores between 92% and 98% for valence classification. Using a model trained on English and French data, [[3]](#3) achieved an unweighted average recall of 61.73% (English) and 49.33% (French) for valence. [[5]](#5) trained a model on English, German, Italian, and Urdu to obtain an unweighted average recall score of 70.98% for binary (negative and non-negative) valence classification in Urdu. Others have developed multilingual speech emotion recognition systems to classify utterances into affective categories (e.g., happy, sad, angry, neutral, etc.) [[6]](#6)–[[9]](#9). This project builds on prior research by incorporating a broader set of multilingual data: nine English datasets and eleven non-English datasets in nine other languages.
 
 ## Data
-English audio samples with emotion labels are publicly available from the [Carnegie Mellon University Let’s Go Spoken Dialogue Corpus](https://www.ultes.eu/ressources/lego-spoken-dialogue-corpus/) [[10]](#10)–[[11]](#11), [Crowd-sourced Emotional Multimodal Actors Dataset](https://github.com/CheyneyComputerScience/CREMA-D) [[12]](#12)–[[13]](#13), the [Electromagnetic Articulography Database](https://span.usc.edu/owncloud/index.php/s/RTttck1EJ6Vcoyu) [[14]](#14), the [Emotional Voices Database](https://mega.nz/folder/KBp32apT#gLIgyWf9iQ-yqnWFUFuUHg) [[15]](#15), the [JL-Corpus](https://www.kaggle.com/tli725/jl-corpus) [[16]](#16), the [Ryerson Audio-Visual Database of Emotional Speech and Song](https://zenodo.org/record/1188976) [[17]](#17), the [Surrey Audio-Visual Expressed Emotion Database](http://personal.ee.surrey.ac.uk/Personal/P.Jackson/SAVEE/Download.html) [[18]](#18), the [Toronto Emotional Speech Set](https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi%3A10.5683%2FSP2%2FE8H2MF) [[19]](#19), and the [Variably Intense Vocalizations of Affect and Emotion Corpus](https://zenodo.org/record/4066235) [[20]](#20).
+English audio samples with emotion labels are publicly available from the [Carnegie Mellon University Let’s Go Spoken Dialogue Corpus](https://www.ultes.eu/ressources/lego-spoken-dialogue-corpus/) [[10]](#10)–[[11]](#11), [Crowd-sourced Emotional Multimodal Actors Dataset](https://github.com/CheyneyComputerScience/CREMA-D) [[12]](#12)–[[13]](#13), the [Electromagnetic Articulography Database](https://span.usc.edu/owncloud/index.php/s/RTttck1EJ6Vcoyu) [[14]](#14), the [Emotional Voices Database](https://mega.nz/folder/KBp32apT#gLIgyWf9iQ-yqnWFUFuUHg) [[15]](#15), the [JL-Corpus](https://www.kaggle.com/tli725/jl-corpus) [[16]](#16), the [Multimodal EmotionLines Dataset](https://affective-meld.github.io/) [[17]](#17)–[[18]](#18), the [Ryerson Audio-Visual Database of Emotional Speech and Song](https://zenodo.org/record/1188976) [[19]](#19), the [Surrey Audio-Visual Expressed Emotion Database](http://personal.ee.surrey.ac.uk/Personal/P.Jackson/SAVEE/Download.html) [[20]](#20), the [Toronto Emotional Speech Set](https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi%3A10.5683%2FSP2%2FE8H2MF) [[21]](#21), and the [Variably Intense Vocalizations of Affect and Emotion Corpus](https://zenodo.org/record/4066235) [[22]](#22).
 
-Most of the English-language datasets are of North American English. The Surrey Audio-Visual Expressed Emotion Database [[18]](#18) is of British English and the JL Corpus [[16]](#16) is of New Zealand English; the Crowd-sourced Emotional Multimodal Actors Dataset [[12]](#12)–[[13]](#13) consists of a variety of other English accents. Although not a full dataset, [[21]](#21) provides six samples (two each of positive, negative, and neutral valence) in Australian English (prepared for investigation of emotion perception in patients with schizophrenia).
+Most of the English-language datasets are of North American English. The Surrey Audio-Visual Expressed Emotion Database [[20]](#20) is of British English and the JL Corpus [[16]](#16) is of New Zealand English; the Crowd-sourced Emotional Multimodal Actors Dataset [[12]](#12)–[[13]](#13) consists of a variety of other English accents. Although not a full dataset, !!! [[2]](#2) provides six samples (two each of positive, negative, and neutral valence) in Australian English (prepared for investigation of emotion perception in patients with schizophrenia).
 
 Similar spoken corpora with emotion labels are freely available for Arabic ([Arabic Natural Audio Dataset](https://www.kaggle.com/suso172/arabic-natural-audio-dataset)) [[]](#), Canadian French ([Canadian French Emotional Speech Database](https://www.gel.usherbrooke.ca/audio/cafe.htm)) [[]](#), Estonian ([Estonian Emotional Speech Corpus](https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/)) [[]](#2), French ([French Emotional Speech Database - Oréau](https://zenodo.org/record/4405783)) [[2]](#2), German ([Berlin Database of Emotional Speech](https://www.kaggle.com/piyushagni5/berlin-database-of-emotional-speech-emodb)) [[2]](#2), Greek ([Acted Emotional Speech Dynamic Database](https://mega.nz/folder/0ShVXY7C#-73kVoK05OjTPEA95UUvMw)) [[2]](#2)–[[2]](#2), Persian ([Sharif Emotional Speech Database](https://github.com/mansourehk/ShEMO)) [[2]](#2), and Urdu ([Urdu Language Speech Dataset](https://www.kaggle.com/bitlord/urdu-language-speech-dataset)) [[6]](#6).
 
 In addition, the [Emotional Speech Dataset](https://github.com/HLTSingapore/Emotional-Speech-Data) [[]](#) contains utterances in both English and Mandarin Chinese.
 
-I obtained labeled datasets for Turkish ([BAUM-1](https://archive.ics.uci.edu/ml/datasets/BAUM-1) [[]](#28) and [BAUM-2](https://archive.ics.uci.edu/ml/datasets/BAUM-2)) [[]](#29) as well, but the end-user license agreements do not allow for distribution in any way, so they are not uploaded to this project's repository. The same was true of the Surrey Audio-Visual Expressed Emotion Database [[18]](#18).
+I obtained labeled datasets for Turkish ([BAUM-1](https://archive.ics.uci.edu/ml/datasets/BAUM-1) [[]](#2) and [BAUM-2](https://archive.ics.uci.edu/ml/datasets/BAUM-2)) [[]](#2) as well, but the end-user license agreements do not allow for distribution in any way, so they are not uploaded to this project's repository. The same was true of the Surrey Audio-Visual Expressed Emotion Database [[1]](#1).
 
-I considered several other datasets [##], but many of these required an active academic affiliation, were paywalled, or were otherwise inaccessible.
+I considered several other datasets [[3]](#3), but many of these required an active academic affiliation, were paywalled, or were otherwise inaccessible.
 
 Each dataset was created with different methods, but they share common features that make them suitable for this project:
 1. Public or free-use non-commercial access.
@@ -38,20 +38,21 @@ urdu, meld is tv media
   * [enterface_db](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/enterface_db) | name [[]](#)
   * [jl-corpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/jl-corpus) | JL-Corpus [[16]](#16)
   * [LEGOv2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/LEGOv2) | Carnegie Mellon University Let’s Go Spoken Dialogue Corpus [[10]](#10)–[[11]](#11)
-  * [ravdess](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ravdess) | Ryerson Audio-Visual Database of Emotional Speech and Song [[17]](#17)
-  * [savee](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/savee) | Surrey Audio-Visual Expressed Emotion Database [[18]](#18)
-  * [tess](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/tess) | Toronto Emotional Speech Set [[19]](#19)
-  * [vivae](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/vivae) | Variably Intense Vocalizations of Affect and Emotion Corpus [[20]](#20)
+  * [MELD](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/MELD) | Multimodal EmotionLines Dataset [[17]](#17)–[[18]](#18)
+  * [ravdess](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ravdess) | Ryerson Audio-Visual Database of Emotional Speech and Song [[1]](#1)
+  * savee | Surrey Audio-Visual Expressed Emotion Database [[1]](#1)
+  * [tess](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/tess) | Toronto Emotional Speech Set [[1]](#1)
+  * [vivae](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/vivae) | Variably Intense Vocalizations of Affect and Emotion Corpus [[2]](#2)
 * Non-English
-  * BAUM-1
-  * [aesdd](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/aesdd) | Acted Emotional Speech Dynamic Database (Greek) [[26]](#26)–[[27]](#27)
-  * [anad](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/anad) | Arabic Natural Audio Dataset [[21]](#21)
-  * [cafe](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/cafe) | Canadian French Emotional Speech Database [[22]](#22)
-  * [ekorpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ekorpus) | Estonian Emotional Speech Corpus [[23]](#23)
-  * [EmoDB](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoDB) | Berlin Database of Emotional Speech (German) [[25]](#25)
-  * [esd](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/esd) | Emotional Speech Dataset (Mandarin Chinese and English) [[]](#)
-  * [oreau2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/oreau2) | French Emotional Speech Database - Oréau [[24]](#24)
-  * [ShEMO](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ShEMO) | Sharif Emotional Speech Database (Persian) [[28]](#28)
+  * [aesdd](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/aesdd) | Acted Emotional Speech Dynamic Database (Greek) [[2]](#2)–[[2]](#2)
+  * [anad](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/anad) | Arabic Natural Audio Dataset [[2]](#2)
+  * BAUM-1 & BAUM-2 | (Turkish) [[]](#)–[[]](#)
+  * [cafe](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/cafe) | Canadian French Emotional Speech Database [[2]](#2)
+  * [ekorpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ekorpus) | Estonian Emotional Speech Corpus [[2]](#2)
+  * [EmoDB](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoDB) | Berlin Database of Emotional Speech (German) [[2]](#2)
+  * [esd](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/esd) | Emotional Speech Dataset (Mandarin Chinese and English) [[2]](#2)
+  * [oreau2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/oreau2) | French Emotional Speech Database - Oréau [[2]](#2)
+  * [ShEMO](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ShEMO) | Sharif Emotional Speech Database (Persian) [[2]](#2)
   * [urdu](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/urdu) | Urdu Language Speech Dataset [[5]](#5)
 
 ## References
@@ -122,7 +123,16 @@ urdu, meld is tv media
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>17</sup></sub></sup></sub></h6></span>
 
-17. S. R. Livingstone and F. A. Russo, "The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal expressions in North American English," *PLoS ONE,* vol. 13, no. 5, p. e0196391, May 16, 2018, doi: https://doi.org/10.1371/journal.pone.0196391.
+17. S.-Y. Chen, C.-C. Hsu, C.-C. Kuo, T.-H. Huang, and L.-W. Ku, "EmotionLines: An emotion corpus of multi-party conversations," 2018, *arXiv:1802.08379v2*. Accessed: Mar. 4, 2021. [Online]. Available: https://arxiv.org/pdf/1802.08379.pdf
+
+<span aria-hidden="true"><h6><sub><sup><sub><sup>18</sup></sub></sup></sub></h6></span>
+
+18. S. Poria, D. Hazarika, N. Majumder, G. Naik, E. Cambria, and R. Mihalcea, "MELD: A multimodal multi-party dataset for emotion recognition in conversations," 2018, *arXiv:1810.02508v6*. Accessed: Mar. 4, 2021. [Online]. Available: https://arxiv.org/pdf/1810.02508.pdf
+
+!!!
+<span aria-hidden="true"><h6><sub><sup><sub><sup>19</sup></sub></sup></sub></h6></span>
+
+19. S. R. Livingstone and F. A. Russo, "The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS): A dynamic, multimodal set of facial and vocal expressions in North American English," *PLoS ONE,* vol. 13, no. 5, p. e0196391, May 16, 2018, doi: https://doi.org/10.1371/journal.pone.0196391.
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>18</sup></sub></sup></sub></h6></span>
 
@@ -136,11 +146,9 @@ urdu, meld is tv media
 
 20. N. Holz, P. Larrouy-Maestri, and D. Poeppel, *The Variably Intense Vocalizations of Affect and Emotion Corpus (VIVAE). V1.* Oct. 5, 2020. Distributed by Zenodo. Accessed: Feb. 8, 2021. [Dataset]. doi: https://doi.org/10.5281/zenodo.4066235.
 
-<span aria-hidden="true"><h6><sub><sup><sub><sup>21</sup></sub></sup></sub></h6></span>
+<span aria-hidden="true"><h6><sub><sup><sub><sup>23</sup></sub></sup></sub></h6></span>
 
-21. I. Dzafic, *Example emotion videos used in investigation of emotion perception in schizophrenia.* 2017. Distributed by the University of Queensland. Accessed: Mar. 3, 2021. [Online]. doi: https://doi.org/10.14264/uql.2017.120.
-
-!!!
+23. I. Dzafic, *Example emotion videos used in investigation of emotion perception in schizophrenia.* 2017. Distributed by the University of Queensland. Accessed: Mar. 3, 2021. [Online]. doi: https://doi.org/10.14264/uql.2017.120.
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>21</sup></sub></sup></sub></h6></span>
 
@@ -186,5 +194,9 @@ urdu, meld is tv media
 
 30. C. E. Erdem, C. Turan, Z. Aydin, "BAUM-2: A multilingual audio-visual affective face database," *Multimedia Tools and Applications,* vol. 74, no. 18, pp. 7429–7459, May 9, 2015, doi: https://doi.org/10.1007/s11042-014-1986-2.
 
-add meld
+<span aria-hidden="true"><h6><sub><sup><sub><sup>30</sup></sub></sup></sub></h6></span>
+
+35. A. Malek. "SER-datasets." Github. https://github.com/SuperKogito/SER-datasets (accessed Mar. 4, 2021).
+
 add enterface_db
+check out cmu datasets (sdk)
