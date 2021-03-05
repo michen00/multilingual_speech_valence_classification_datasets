@@ -1,0 +1,1970 @@
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\fbs_main.c(1210): Previous logfile: '..\..\logs\LetsGoPublic\20061122\010\LetsGoPublic-20061122-010-sphinx_male.log'
+sphinx_client \
+ -live TRUE \
+ -normmean TRUE \
+ -nmprior TRUE \
+ -samp 8000 \
+ -topsenfrm 4 \
+ -topsenthresh \
+ -80000 \
+ -fwdflat FALSE \
+ -compallsen TRUE \
+ -bestpath FALSE \
+ -latsize 500000 \
+ -top 4 \
+ -fillpen 1e-10 \
+ -nwpen 0.01 \
+ -silpen 0.005 \
+ -inspen 0.65 \
+ -langwt 8.5 \
+ -ugwt 0.7 \
+ -beam 2e-6 \
+ -npbeam 2e-6 \
+ -nwbeam 5e-4 \
+ -lpbeam 2e-5 \
+ -lponlybeam 5e-4 \
+ -fwdflatbeam 1e-8 \
+ -fwdflatnwbeam 3e-4 \
+ -rescorelw 9.5 \
+ -lmctlfn LanguageModel/LetsGoPublic2.371/LetsGoPublic_LM.ctl \
+ -dictfn Dictionary/LetsGoPublic2.371/vocab.dic \
+ -ndictfn Dictionary/LetsGoPublic2.371/noise.dic \
+ -phnfn adapted\LetsGoPublic2.615\male.sphinx2\phone \
+ -mapfn adapted\LetsGoPublic2.615\male.sphinx2\map \
+ -sendumpfn adapted\LetsGoPublic2.615\male.sphinx2\sendump \
+ -hmmdir adapted\LetsGoPublic2.615\male.sphinx2 \
+ -hmmdirlist adapted\LetsGoPublic2.615\male.sphinx2 \
+ -cbdir adapted\LetsGoPublic2.615\male.sphinx2 \
+ -8bsen TRUE \
+ -logfn .\sphinx_male.log \
+ -argfile male-phone.arg 
+
+[19:50:51.527] Processing input...
+[19:50:51.527] Received 27 bytes...
+[19:50:51.527] Processing command: engine_set_lm first_query 
+
+[19:50:51.527] set lm: first_query
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 339 root, 50227 non-root channels, 30 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "first_query"
+[19:51:10.814] Processing input...
+[19:51:10.814] Received 6706 bytes...
+[19:51:10.814] Processing command: engine_begin_utt 000 126336
+
+[19:51:10.814] begin utt: 000 (126336)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:51:10.815] Processing command: engine_proc_raw 6656 
+
+[19:51:10.815] prepare to proc raw
+[19:51:10.815] Processing raw data ...
+[19:51:10.815] 6656 bytes raw data received
+[19:51:11.061] Processing input...
+[19:51:11.061] Received 298 bytes...
+[19:51:11.061] Processing command: engine_proc_raw 256 
+
+[19:51:11.061] prepare to proc raw
+[19:51:11.061] Processing raw data ...
+[19:51:11.061] 256 bytes raw data received
+[19:51:11.070] Processing command: engine_proc_partial 
+
+[19:51:11.070] proc partial result (30): 
+[19:51:11.372] Processing input...
+[19:51:11.373] Received 22 bytes...
+[19:51:11.373] Processing command: engine_proc_raw 5120 
+
+[19:51:11.373] prepare to proc raw
+[19:51:11.373] Processing input...
+[19:51:11.373] Received 5141 bytes...
+[19:51:11.373] Processing raw data ...
+[19:51:11.373] 5120 bytes raw data received
+[19:51:11.725] Processing command: engine_proc_partial 
+
+[19:51:11.725] proc partial result (62): 
+[19:51:11.725] Processing input...
+[19:51:11.725] Received 4907 bytes...
+[19:51:11.725] Processing command: engine_proc_raw 4864 
+
+[19:51:11.725] prepare to proc raw
+[19:51:11.725] Processing raw data ...
+[19:51:11.725] 4864 bytes raw data received
+[19:51:12.063] Processing command: engine_proc_partial 
+
+[19:51:12.064] proc partial result (93): 
+[19:51:12.064] Processing input...
+[19:51:12.064] Received 5163 bytes...
+[19:51:12.064] Processing command: engine_proc_raw 5120 
+
+[19:51:12.064] prepare to proc raw
+[19:51:12.064] Processing raw data ...
+[19:51:12.064] 5120 bytes raw data received
+[19:51:12.435] Processing command: engine_proc_partial 
+
+[19:51:12.435] proc partial result (125): 
+[19:51:12.435] Processing input...
+[19:51:12.436] Received 4907 bytes...
+[19:51:12.436] Processing command: engine_proc_raw 4864 
+
+[19:51:12.436] prepare to proc raw
+[19:51:12.436] Processing raw data ...
+[19:51:12.436] 4864 bytes raw data received
+[19:51:12.727] Processing command: engine_proc_partial 
+
+[19:51:12.727] proc partial result (155): 
+[19:51:12.727] Processing input...
+[19:51:12.727] Received 5163 bytes...
+[19:51:12.727] Processing command: engine_proc_raw 5120 
+
+[19:51:12.727] prepare to proc raw
+[19:51:12.727] Processing raw data ...
+[19:51:12.727] 5120 bytes raw data received
+[19:51:12.912] Processing command: engine_proc_partial 
+
+[19:51:12.913] proc partial result (187): WOULD 
+[19:51:12.913] Sending:
+ {c properties 											:partial_hyp "WOULD " 											:engine_name "male"											:start_timestamp "126336" 											:end_timestamp "128206" 											:frame_num "187" 										}
+[19:51:12.913] Sent
+
+[19:51:12.936] Processing input...
+[19:51:12.936] Received 22 bytes...
+[19:51:12.936] Processing command: engine_proc_raw 4864 
+
+[19:51:12.936] prepare to proc raw
+[19:51:12.936] Processing input...
+[19:51:12.936] Received 4885 bytes...
+[19:51:12.936] Processing raw data ...
+[19:51:12.936] 4864 bytes raw data received
+[19:51:13.199] Processing command: engine_proc_partial 
+
+[19:51:13.202] proc partial result (217): WOULD TO 
+[19:51:13.202] Sending:
+ {c properties 											:partial_hyp "WOULD TO " 											:engine_name "male"											:start_timestamp "126336" 											:end_timestamp "128506" 											:frame_num "217" 										}
+[19:51:13.202] Sent
+
+[19:51:13.248] Processing input...
+[19:51:13.248] Received 22 bytes...
+[19:51:13.248] Processing command: engine_proc_raw 5120 
+
+[19:51:13.248] prepare to proc raw
+[19:51:13.248] Processing input...
+[19:51:13.248] Received 5141 bytes...
+[19:51:13.248] Processing raw data ...
+[19:51:13.248] 5120 bytes raw data received
+[19:51:13.432] Processing command: engine_proc_partial 
+
+[19:51:13.432] proc partial result (249): WOULD TOWN 
+[19:51:13.432] Sending:
+ {c properties 											:partial_hyp "WOULD TOWN " 											:engine_name "male"											:start_timestamp "126336" 											:end_timestamp "128826" 											:frame_num "249" 										}
+[19:51:13.433] Sent
+
+[19:51:13.528] Processing input...
+[19:51:13.528] Received 22 bytes...
+[19:51:13.529] Processing command: engine_proc_raw 4864 
+
+[19:51:13.529] prepare to proc raw
+[19:51:13.529] Processing input...
+[19:51:13.530] Received 4885 bytes...
+[19:51:13.530] Processing raw data ...
+[19:51:13.530] 4864 bytes raw data received
+[19:51:13.803] Processing command: engine_proc_partial 
+
+[19:51:13.803] proc partial result (280): WOULD TOWN DOES THE 
+[19:51:13.803] Sending:
+ {c properties 											:partial_hyp "WOULD TOWN DOES THE " 											:engine_name "male"											:start_timestamp "126336" 											:end_timestamp "129136" 											:frame_num "280" 										}
+[19:51:13.803] Sent
+
+[19:51:13.841] Processing input...
+[19:51:13.841] Received 22 bytes...
+[19:51:13.841] Processing command: engine_proc_raw 7168 
+
+[19:51:13.841] prepare to proc raw
+[19:51:13.841] Processing input...
+[19:51:13.842] Received 7189 bytes...
+[19:51:13.842] Processing raw data ...
+[19:51:13.842] 7168 bytes raw data received
+[19:51:14.082] Processing command: engine_proc_partial 
+
+[19:51:14.083] proc partial result (325): WOULD TOWN DOES THE 
+[19:51:14.083] Sending:
+ {c properties 											:partial_hyp "WOULD TOWN DOES THE " 											:engine_name "male"											:start_timestamp "126336" 											:end_timestamp "129586" 											:frame_num "325" 										}
+[19:51:14.083] Sent
+
+[19:51:14.200] Processing input...
+[19:51:14.201] Received 36 bytes...
+[19:51:14.201] Processing command: engine_end_utt 
+
+[19:51:14.201] end utt: 000
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (000) (4/8/16/30/32K): 97.3%(26278) 2.0%(533) 0.6%(164) 0.1%(33) 0.0%(0); max: 20686
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.7sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from < 10.24  0.22 -0.53 -0.13 -0.35 -0.15 -0.34 -0.20 -0.21 -0.11 -0.17 -0.11 -0.13 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   < 10.33  0.40 -0.51 -0.11 -0.37 -0.19 -0.37 -0.17 -0.23 -0.17 -0.15 -0.11 -0.13 >
+[19:51:14.203] Processing command: engine_proc_result 
+
+[19:51:14.203] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (000)
+	---------------------------------------------------------------------
+	   0   20    -4553468          0   -34094   -54942  -1.00      6 <s>
+	  21   64    -8082573    -230270   -72991   -35354  -1.00     18 ++COUGH++
+	  65   90    -5412880     -52986   -57066   -48049  -1.00     17 SIL
+	  91  132    -8174985    -230270   -24098   -43236  -1.00     33 ++COUGH++
+	 133  146    -2713039     -52986   -67677   -30826  -1.00     15 SIL
+	 147  178    -5185591    -598101  -478085   -29665   0.31     36 WOULD
+	 179  198    -3816967     -52986  -139958   -28902  -1.00     17 SIL
+	 199  241    -7104521    -626567  -552794   -31648   0.25     36 TOWN
+	 242  265    -4185783    -626601  -416889   -38684   0.35     47 DOES(2)
+	 266  308    -6853240     -63204  -476401   -30901   0.32     11 THE(2)
+	 309  328    -4052211    -301212  -418261   -46655  -1.00     18 </s>
+	---------------------------------------------------------------------
+	   0  328   -60135258   -2835183  -552794   -54942               000(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: WOULD TOWN DOES THE  (000 -62970441 (A=-60135258 L=-2835183))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):     5873 words recognized (18/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):    13883 phones in topsen (42/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):  2069410 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   808346 channels searched (2456/fr), 106645 1st, 75236 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):    12012 words for which last channels evaluated (36/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):    35090 candidate words for entering last phone (106/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   3.28 SoS,   3.42 sec elapsed,  1.04 xRT,   2.67 sec CPU,  0.81 xRT
+
+[19:51:14.240] 328 frames
+
+[19:51:14.240] Acoustic confidence: (-47699968 - -60135256.000000) / 328 = 37912.464844
+
+[19:51:14.240] hyp: WOULD TOWN DOES THE 
+
+[19:51:14.240] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "WOULD TOWN DOES THE " :confhyp ".?WOULD?. .?TOWN?. .?DOES?. .?THE?. " :uttid "000" :engine_name "male" :nbest_index 0 :decoder_score -62970440.000000 :lm_score -2835183.000000 :am_score -60135256.000000 :frame_num 328 :acoustic_gap_norm 37912.464844 :avg_sphinxwordconf 0.201857 :min_sphinxwordconf 0.089210 :max_sphinxwordconf 0.307329 :avg_wordconf 0.229167 :min_wordconf 0.166667 :max_wordconf 0.416667 :avg_validwordconf 0.000000 :min_validwordconf 1.000000 :max_validwordconf 0.000000 :startframes "147 199 242 266" :endframes "178 241 265 308" :init_timestamp 126336 :end_timestamp 129616 }  ) }
+
+[19:51:14.243] Processing input...
+[19:51:14.243] Received 19 bytes...
+[19:51:14.243] Processing command: engine_cancel_utt 
+
+[19:51:14.539] Processing input...
+[19:51:14.539] Received 27 bytes...
+[19:51:14.539] Processing command: engine_set_lm first_query 
+
+[19:51:14.539] set lm: first_query
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 339 root, 50227 non-root channels, 30 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "first_query"
+[19:51:14.642] Processing input...
+[19:51:14.642] Received 6706 bytes...
+[19:51:14.642] Processing command: engine_begin_utt 001 154880
+
+[19:51:14.642] begin utt: 001 (154880)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:51:14.643] Processing command: engine_proc_raw 6656 
+
+[19:51:14.643] prepare to proc raw
+[19:51:14.643] Processing raw data ...
+[19:51:14.643] 6656 bytes raw data received
+[19:51:14.896] Processing input...
+[19:51:14.896] Received 3115 bytes...
+[19:51:14.896] Processing command: engine_proc_raw 3072 
+
+[19:51:14.896] prepare to proc raw
+[19:51:14.896] Processing raw data ...
+[19:51:14.896] 3072 bytes raw data received
+[19:51:14.979] Processing command: engine_proc_partial 
+
+[19:51:14.979] proc partial result (48): SIXTY 
+[19:51:14.979] Sending:
+ {c properties 											:partial_hyp "SIXTY " 											:engine_name "male"											:start_timestamp "154880" 											:end_timestamp "155360" 											:frame_num "48" 										}
+[19:51:14.979] Sent
+
+[19:51:15.123] Processing input...
+[19:51:15.123] Received 22 bytes...
+[19:51:15.123] Processing command: engine_proc_raw 5120 
+
+[19:51:15.123] prepare to proc raw
+[19:51:15.123] Processing input...
+[19:51:15.123] Received 5141 bytes...
+[19:51:15.123] Processing raw data ...
+[19:51:15.123] 5120 bytes raw data received
+[19:51:15.243] Processing command: engine_proc_partial 
+
+[19:51:15.244] proc partial result (80): 61A   
+[19:51:15.244] Sending:
+ {c properties 											:partial_hyp "61A   " 											:engine_name "male"											:start_timestamp "154880" 											:end_timestamp "155680" 											:frame_num "80" 										}
+[19:51:15.244] Sent
+
+[19:51:15.419] Processing input...
+[19:51:15.419] Received 3627 bytes...
+[19:51:15.419] Processing command: engine_proc_raw 3584 
+
+[19:51:15.419] prepare to proc raw
+[19:51:15.419] Processing raw data ...
+[19:51:15.419] 3584 bytes raw data received
+[19:51:15.633] Processing command: engine_proc_partial 
+
+[19:51:15.634] proc partial result (102): 61A   
+[19:51:15.732] Processing input...
+[19:51:15.732] Received 36 bytes...
+[19:51:15.732] Processing command: engine_end_utt 
+
+[19:51:15.732] end utt: 001
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (001) (4/8/16/30/32K): 100.0%(9216) 0.0%(0) 0.0%(0) 0.0%(0) 0.0%(0); max: 4044
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.0sec, SCR-TIME= 0.2sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from < 10.33  0.40 -0.51 -0.11 -0.37 -0.19 -0.37 -0.17 -0.23 -0.17 -0.15 -0.11 -0.13 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   < 10.27  0.41 -0.47 -0.08 -0.41 -0.20 -0.36 -0.18 -0.23 -0.18 -0.13 -0.12 -0.12 >
+[19:51:15.735] Processing command: engine_proc_result 
+
+[19:51:15.735] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (001)
+	---------------------------------------------------------------------
+	   0    3     -922643          0   -80747   -72452  -1.00      3 <s>
+	   4   83   -12353713    -269567   -40331   -32565   0.31     18 61A:b
+	  84   94    -2180901    -230270  -296531   -51180  -1.00     46 ++UH++
+	  95  105    -2201214     -77297  -337073   -46882  -1.00     38 </s>
+	---------------------------------------------------------------------
+	   0  105   -17658471    -577134  -337073   -72452               001(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: 61A:b  (001 -18235605 (A=-17658471 L=-577134))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):     1282 words recognized (12/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     4119 phones in topsen (38/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   666740 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   134053 channels searched (1264/fr), 27259 1st, 21489 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     3062 words for which last channels evaluated (28/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     5631 candidate words for entering last phone (53/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   1.05 SoS,   1.13 sec elapsed,  1.07 xRT,   0.55 sec CPU,  0.52 xRT
+
+[19:51:15.774] 105 frames
+
+[19:51:15.774] Acoustic confidence: (-13522944 - -17658472.000000) / 105 = 39385.980469
+
+[19:51:15.774] hyp: 61A 
+
+[19:51:15.774] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "61A " :confhyp "61A " :uttid "001" :engine_name "male" :nbest_index 0 :decoder_score -18235604.000000 :lm_score -577134.000000 :am_score -17658472.000000 :frame_num 105 :acoustic_gap_norm 39385.980469 :avg_sphinxwordconf 0.309691 :min_sphinxwordconf 0.309691 :max_sphinxwordconf 0.309691 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "4" :endframes "83" :init_timestamp 154880 :end_timestamp 155930 }  ) }
+
+[19:51:15.798] Processing input...
+[19:51:15.798] Received 19 bytes...
+[19:51:15.798] Processing command: engine_cancel_utt 
+
+[19:51:16.076] Processing input...
+[19:51:16.076] Received 22 bytes...
+[19:51:16.076] Processing command: engine_set_lm yes_no 
+
+[19:51:16.076] set lm: yes_no
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 354 root, 50406 non-root channels, 35 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "yes_no"
+[19:51:20.484] Processing input...
+[19:51:20.484] Received 28 bytes...
+[19:51:20.484] Processing command: engine_begin_utt 002 202880
+
+[19:51:20.484] begin utt: 002 (202880)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:51:20.485] Processing input...
+[19:51:20.485] Received 22 bytes...
+[19:51:20.485] Processing command: engine_proc_raw 6656 
+
+[19:51:20.485] prepare to proc raw
+[19:51:20.486] Processing input...
+[19:51:20.486] Received 6656 bytes...
+[19:51:20.486] Processing raw data ...
+[19:51:20.486] 6656 bytes raw data received
+[19:51:20.732] Processing input...
+[19:51:20.732] Received 22 bytes...
+[19:51:20.732] Processing command: engine_proc_raw 4096 
+
+[19:51:20.732] prepare to proc raw
+[19:51:20.732] Processing input...
+[19:51:20.732] Received 4096 bytes...
+[19:51:20.732] Processing raw data ...
+[19:51:20.732] 4096 bytes raw data received
+[19:51:20.835] Processing input...
+[19:51:20.835] Received 21 bytes...
+[19:51:20.835] Processing command: engine_proc_partial 
+
+[19:51:20.835] proc partial result (54): USE 
+[19:51:20.835] Sending:
+ {c properties 											:partial_hyp "USE " 											:engine_name "male"											:start_timestamp "202880" 											:end_timestamp "203420" 											:frame_num "54" 										}
+[19:51:20.836] Sent
+
+[19:51:21.075] Processing input...
+[19:51:21.075] Received 36 bytes...
+[19:51:21.076] Processing command: engine_end_utt 
+
+[19:51:21.076] end utt: 002
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (002) (4/8/16/30/32K): 100.0%(5376) 0.0%(0) 0.0%(0) 0.0%(0) 0.0%(0); max: 3720
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.1sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from < 10.14  0.41 -0.45 -0.05 -0.43 -0.20 -0.34 -0.19 -0.23 -0.19 -0.13 -0.13 -0.12 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   < 10.09  0.41 -0.45 -0.05 -0.43 -0.20 -0.34 -0.19 -0.23 -0.19 -0.13 -0.13 -0.12 >
+[19:51:21.078] Processing command: engine_proc_result 
+
+[19:51:21.078] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (002)
+	---------------------------------------------------------------------
+	   0   15    -2794176          0   -16893   -14444  -1.00      5 <s>
+	  16   53    -6083876    -640124  -507242   -28221   0.12     13 USE
+	  54   57     -927140    -256290  -767002   -54633  -1.00      8 </s>
+	---------------------------------------------------------------------
+	   0   57    -9805192    -896414  -767002   -54633               002(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: USE  (002 -10701606 (A=-9805192 L=-896414))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):      539 words recognized (9/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     2077 phones in topsen (35/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   364820 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):    65274 channels searched (1125/fr), 15889 1st, 9072 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     1440 words for which last channels evaluated (24/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     3331 candidate words for entering last phone (57/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   0.57 SoS,   0.61 sec elapsed,  1.07 xRT,   0.28 sec CPU,  0.49 xRT
+
+[19:51:21.093] 57 frames
+
+[19:51:21.093] Acoustic confidence: (-8113152 - -9805192.000000) / 57 = 29684.912109
+
+[19:51:21.093] hyp: USE 
+
+[19:51:21.093] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "USE " :confhyp "USE " :uttid "002" :engine_name "male" :nbest_index 0 :decoder_score -10701606.000000 :lm_score -896414.000000 :am_score -9805192.000000 :frame_num 57 :acoustic_gap_norm 29684.912109 :avg_sphinxwordconf 0.119327 :min_sphinxwordconf 0.119327 :max_sphinxwordconf 0.119327 :avg_wordconf 0.500000 :min_wordconf 0.500000 :max_wordconf 0.500000 :avg_validwordconf 0.500000 :min_validwordconf 0.500000 :max_validwordconf 0.500000 :startframes "16" :endframes "53" :init_timestamp 202880 :end_timestamp 203450 }  ) }
+
+[19:51:21.102] Processing input...
+[19:51:21.102] Received 19 bytes...
+[19:51:21.102] Processing command: engine_cancel_utt 
+
+[19:51:21.372] Processing input...
+[19:51:21.372] Received 27 bytes...
+[19:51:21.372] Processing command: engine_set_lm first_query 
+
+[19:51:21.372] set lm: first_query
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 339 root, 50227 non-root channels, 30 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "first_query"
+[19:51:24.546] Processing input...
+[19:51:24.546] Received 28 bytes...
+[19:51:24.546] Processing command: engine_begin_utt 003 234368
+
+[19:51:24.546] begin utt: 003 (234368)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:51:24.548] Processing input...
+[19:51:24.548] Received 22 bytes...
+[19:51:24.548] Processing command: engine_proc_raw 6656 
+
+[19:51:24.548] prepare to proc raw
+[19:51:24.548] Processing input...
+[19:51:24.548] Received 6656 bytes...
+[19:51:24.549] Processing raw data ...
+[19:51:24.549] 6656 bytes raw data received
+[19:51:24.779] Processing input...
+[19:51:24.779] Received 22 bytes...
+[19:51:24.779] Processing command: engine_proc_raw 4096 
+
+[19:51:24.779] prepare to proc raw
+[19:51:24.779] Processing input...
+[19:51:24.779] Received 4096 bytes...
+[19:51:24.779] Processing raw data ...
+[19:51:24.779] 4096 bytes raw data received
+[19:51:24.969] Processing input...
+[19:51:24.969] Received 21 bytes...
+[19:51:24.969] Processing command: engine_proc_partial 
+
+[19:51:24.970] proc partial result (54): WANT THE 
+[19:51:24.970] Sending:
+ {c properties 											:partial_hyp "WANT THE " 											:engine_name "male"											:start_timestamp "234368" 											:end_timestamp "234908" 											:frame_num "54" 										}
+[19:51:24.970] Sent
+
+[19:51:25.107] Processing input...
+[19:51:25.107] Received 22 bytes...
+[19:51:25.107] Processing command: engine_proc_raw 5120 
+
+[19:51:25.107] prepare to proc raw
+[19:51:25.107] Processing input...
+[19:51:25.107] Received 5141 bytes...
+[19:51:25.107] Processing raw data ...
+[19:51:25.107] 5120 bytes raw data received
+[19:51:25.397] Processing command: engine_proc_partial 
+
+[19:51:25.397] proc partial result (86): WHAT TIME DOES THE 
+[19:51:25.397] Sending:
+ {c properties 											:partial_hyp "WHAT TIME DOES THE " 											:engine_name "male"											:start_timestamp "234368" 											:end_timestamp "235228" 											:frame_num "86" 										}
+[19:51:25.398] Sent
+
+[19:51:25.419] Processing input...
+[19:51:25.419] Received 22 bytes...
+[19:51:25.419] Processing command: engine_proc_raw 4864 
+
+[19:51:25.419] prepare to proc raw
+[19:51:25.419] Processing input...
+[19:51:25.419] Received 4885 bytes...
+[19:51:25.419] Processing raw data ...
+[19:51:25.419] 4864 bytes raw data received
+[19:51:25.706] Processing command: engine_proc_partial 
+
+[19:51:25.706] proc partial result (117): WHAT TIME DOES THE GO 
+[19:51:25.706] Sending:
+ {c properties 											:partial_hyp "WHAT TIME DOES THE GO " 											:engine_name "male"											:start_timestamp "234368" 											:end_timestamp "235538" 											:frame_num "117" 										}
+[19:51:25.707] Sent
+
+[19:51:25.748] Processing input...
+[19:51:25.748] Received 16 bytes...
+[19:51:25.748] Processing command: engine_end_utt 
+
+[19:51:25.748] end utt: 003
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (003) (4/8/16/30/32K): 97.9%(10146) 2.1%(222) 0.0%(0) 0.0%(0) 0.0%(0); max: 7770
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.2sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from < 10.09  0.41 -0.45 -0.05 -0.43 -0.20 -0.34 -0.19 -0.23 -0.19 -0.13 -0.13 -0.12 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   < 10.10  0.50 -0.47 -0.02 -0.46 -0.21 -0.35 -0.20 -0.22 -0.21 -0.12 -0.13 -0.13 >
+[19:51:25.750] Processing input...
+[19:51:25.751] Received 20 bytes...
+[19:51:25.751] Processing command: engine_proc_result 
+
+[19:51:25.751] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (003)
+	---------------------------------------------------------------------
+	   0    9    -1710848          0   -16893   -21990  -1.00      5 <s>
+	  10   30    -3321134    -584118  -595683   -26540   0.16     35 WHAT(2)
+	  31   59    -4868913    -228631  -976100   -54335   0.25     33 TIME
+	  60   74    -2270304    -215541  -409844   -23558   0.27     32 DOES
+	  75   82    -1256707     -63204   -10500   -34336   0.50     19 THE(2)
+	  83  116    -5247431    -636486  -518006   -32179   0.17     27 GO
+	 117  120     -823225    -317890  -978517   -59118  -1.00     19 </s>
+	---------------------------------------------------------------------
+	   0  120   -19498562   -2045870  -978517   -59118               003(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: WHAT TIME DOES THE GO  (003 -21544432 (A=-19498562 L=-2045870))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):     1998 words recognized (17/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     4354 phones in topsen (35/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   761090 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   274026 channels searched (2264/fr), 36471 1st, 46141 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     4722 words for which last channels evaluated (39/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     8482 candidate words for entering last phone (70/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   1.20 SoS,   1.22 sec elapsed,  1.02 xRT,   0.94 sec CPU,  0.78 xRT
+
+[19:51:25.765] 120 frames
+
+[19:51:25.765] Acoustic confidence: (-15046656 - -19498562.000000) / 120 = 37099.214844
+
+[19:51:25.765] hyp: WHAT TIME DOES THE GO 
+
+[19:51:25.765] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "WHAT TIME DOES THE GO " :confhyp "WHAT TIME DOES THE GO " :uttid "003" :engine_name "male" :nbest_index 0 :decoder_score -21544432.000000 :lm_score -2045870.000000 :am_score -19498562.000000 :frame_num 120 :acoustic_gap_norm 37099.214844 :avg_sphinxwordconf 0.167947 :min_sphinxwordconf 0.026282 :max_sphinxwordconf 0.273826 :avg_wordconf 0.733333 :min_wordconf 0.500000 :max_wordconf 0.916667 :avg_validwordconf 0.733333 :min_validwordconf 0.500000 :max_validwordconf 0.916667 :startframes "10 31 60 75 83" :endframes "30 59 74 82 116" :init_timestamp 234368 :end_timestamp 235568 }  ) }
+
+[19:51:25.799] Processing input...
+[19:51:25.799] Received 19 bytes...
+[19:51:25.799] Processing command: engine_cancel_utt 
+
+[19:51:26.100] Processing input...
+[19:51:26.100] Received 27 bytes...
+[19:51:26.100] Processing command: engine_set_lm first_query 
+
+[19:51:26.100] set lm: first_query
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 339 root, 50227 non-root channels, 30 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "first_query"
+[19:51:38.563] Processing input...
+[19:51:38.563] Received 28 bytes...
+[19:51:38.563] Processing command: engine_begin_utt 004 346624
+
+[19:51:38.563] begin utt: 004 (346624)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:51:38.564] Processing input...
+[19:51:38.564] Received 6678 bytes...
+[19:51:38.564] Processing command: engine_proc_raw 6656 
+
+[19:51:38.564] prepare to proc raw
+[19:51:38.564] Processing raw data ...
+[19:51:38.564] 6656 bytes raw data received
+[19:51:38.872] Processing input...
+[19:51:38.872] Received 22 bytes...
+[19:51:38.872] Processing command: engine_proc_raw 4608 
+
+[19:51:38.872] prepare to proc raw
+[19:51:38.873] Processing input...
+[19:51:38.873] Received 4629 bytes...
+[19:51:38.873] Processing raw data ...
+[19:51:38.873] 4608 bytes raw data received
+[19:51:39.067] Processing command: engine_proc_partial 
+
+[19:51:39.067] proc partial result (57): THE 
+[19:51:39.067] Sending:
+ {c properties 											:partial_hyp "THE " 											:engine_name "male"											:start_timestamp "346624" 											:end_timestamp "347194" 											:frame_num "57" 										}
+[19:51:39.068] Sent
+
+[19:51:39.138] Processing input...
+[19:51:39.138] Received 22 bytes...
+[19:51:39.138] Processing command: engine_proc_raw 5120 
+
+[19:51:39.138] prepare to proc raw
+[19:51:39.138] Processing input...
+[19:51:39.138] Received 5141 bytes...
+[19:51:39.138] Processing raw data ...
+[19:51:39.138] 5120 bytes raw data received
+[19:51:39.427] Processing command: engine_proc_partial 
+
+[19:51:39.428] proc partial result (89): THE LIKE TO 
+[19:51:39.428] Sending:
+ {c properties 											:partial_hyp "THE LIKE TO " 											:engine_name "male"											:start_timestamp "346624" 											:end_timestamp "347514" 											:frame_num "89" 										}
+[19:51:39.428] Sent
+
+[19:51:39.466] Processing input...
+[19:51:39.466] Received 22 bytes...
+[19:51:39.466] Processing command: engine_proc_raw 4864 
+
+[19:51:39.466] prepare to proc raw
+[19:51:39.467] Processing input...
+[19:51:39.467] Received 4885 bytes...
+[19:51:39.467] Processing raw data ...
+[19:51:39.467] 4864 bytes raw data received
+[19:51:39.711] Processing command: engine_proc_partial 
+
+[19:51:39.712] proc partial result (120): THE LIKE TO GO 
+[19:51:39.712] Sending:
+ {c properties 											:partial_hyp "THE LIKE TO GO " 											:engine_name "male"											:start_timestamp "346624" 											:end_timestamp "347824" 											:frame_num "120" 										}
+[19:51:39.712] Sent
+
+[19:51:39.780] Processing input...
+[19:51:39.780] Received 5163 bytes...
+[19:51:39.780] Processing command: engine_proc_raw 5120 
+
+[19:51:39.780] prepare to proc raw
+[19:51:39.780] Processing raw data ...
+[19:51:39.780] 5120 bytes raw data received
+[19:51:39.986] Processing command: engine_proc_partial 
+
+[19:51:39.987] proc partial result (152): THE LIKE TO GO FROM 
+[19:51:39.987] Sending:
+ {c properties 											:partial_hyp "THE LIKE TO GO FROM " 											:engine_name "male"											:start_timestamp "346624" 											:end_timestamp "348144" 											:frame_num "152" 										}
+[19:51:39.987] Sent
+
+[19:51:40.091] Processing input...
+[19:51:40.091] Received 22 bytes...
+[19:51:40.091] Processing command: engine_proc_raw 4864 
+
+[19:51:40.091] prepare to proc raw
+[19:51:40.091] Processing input...
+[19:51:40.091] Received 4885 bytes...
+[19:51:40.091] Processing raw data ...
+[19:51:40.091] 4864 bytes raw data received
+[19:51:40.381] Processing command: engine_proc_partial 
+
+[19:51:40.382] proc partial result (182): THE LIKE TO GO FROM 
+[19:51:40.382] Sending:
+ {c properties 											:partial_hyp "THE LIKE TO GO FROM " 											:engine_name "male"											:start_timestamp "346624" 											:end_timestamp "348444" 											:frame_num "182" 										}
+[19:51:40.383] Sent
+
+[19:51:40.435] Processing input...
+[19:51:40.435] Received 22 bytes...
+[19:51:40.435] Processing command: engine_proc_raw 3840 
+
+[19:51:40.435] prepare to proc raw
+[19:51:40.435] Processing input...
+[19:51:40.435] Received 3861 bytes...
+[19:51:40.435] Processing raw data ...
+[19:51:40.435] 3840 bytes raw data received
+[19:51:40.633] Processing command: engine_proc_partial 
+
+[19:51:40.634] proc partial result (206): THE LIKE TO GO FROM 
+[19:51:40.763] Processing input...
+[19:51:40.763] Received 36 bytes...
+[19:51:40.763] Processing command: engine_end_utt 
+
+[19:51:40.763] end utt: 004
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (004) (4/8/16/30/32K): 96.1%(16858) 3.5%(610) 0.4%(68) 0.0%(0) 0.0%(0); max: 10769
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.2sec, SCR-TIME= 0.3sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from < 10.31  0.59 -0.54 -0.01 -0.46 -0.21 -0.37 -0.21 -0.21 -0.23 -0.12 -0.13 -0.13 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   < 10.24  0.52 -0.58  0.00 -0.45 -0.23 -0.35 -0.21 -0.20 -0.22 -0.11 -0.13 -0.13 >
+[19:51:40.766] Processing command: engine_proc_result 
+
+[19:51:40.766] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (004)
+	---------------------------------------------------------------------
+	   0   17    -3582940          0  -112942   -36008  -1.00     13 <s>
+	  18   50    -4852712    -357245  -178287   -27026   0.16     18 THE
+	  51   73    -3494043    -608419  -557048   -44617   0.31     43 LIKE
+	  74   82    -1427940     -82168  -235571   -30432   0.31     43 TO
+	  83  110    -4062945    -122160   -13552   -20762   0.28      9 GO
+	 111  148    -6616515    -163419    -7422   -46037   0.25     21 FROM
+	 149  199    -9356605    -230270   -29838   -29099  -1.00     13 ++LAUGH++
+	 200  209    -1775548    -330665  -347415   -29484  -1.00      8 </s>
+	---------------------------------------------------------------------
+	   0  209   -35169248   -1894346  -557048   -46037               004(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: THE LIKE TO GO FROM  (004 -37063594 (A=-35169248 L=-1894346))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):     3030 words recognized (14/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     8342 phones in topsen (39/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):  1320900 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   462363 channels searched (2201/fr), 66933 1st, 33208 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     6989 words for which last channels evaluated (33/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):    19939 candidate words for entering last phone (94/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   2.09 SoS,   2.22 sec elapsed,  1.06 xRT,   1.53 sec CPU,  0.73 xRT
+
+[19:51:40.791] 209 frames
+
+[19:51:40.791] Acoustic confidence: (-28063744 - -35169248.000000) / 209 = 33997.625000
+
+[19:51:40.791] hyp: THE LIKE TO GO FROM 
+
+[19:51:40.791] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "THE LIKE TO GO FROM " :confhyp ".?THE?. LIKE TO GO FROM " :uttid "004" :engine_name "male" :nbest_index 0 :decoder_score -37063592.000000 :lm_score -1894346.000000 :am_score -35169248.000000 :frame_num 209 :acoustic_gap_norm 33997.625000 :avg_sphinxwordconf 0.264807 :min_sphinxwordconf 0.164708 :max_sphinxwordconf 0.312244 :avg_wordconf 0.666667 :min_wordconf 0.416667 :max_wordconf 0.833333 :avg_validwordconf 0.729167 :min_validwordconf 0.583333 :max_validwordconf 0.833333 :startframes "18 51 74 83 111" :endframes "50 73 82 110 148" :init_timestamp 346624 :end_timestamp 348714 }  ) }
+
+[19:51:40.815] Processing input...
+[19:51:40.815] Received 19 bytes...
+[19:51:40.815] Processing command: engine_cancel_utt 
+
+[19:51:40.879] Processing input...
+[19:51:40.879] Received 28 bytes...
+[19:51:40.879] Processing command: engine_begin_utt 005 364800
+
+[19:51:40.879] begin utt: 005 (364800)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:51:40.881] Processing input...
+[19:51:40.881] Received 22 bytes...
+[19:51:40.881] Processing command: engine_proc_raw 6656 
+
+[19:51:40.881] prepare to proc raw
+[19:51:40.881] Processing input...
+[19:51:40.882] Received 6656 bytes...
+[19:51:40.882] Processing raw data ...
+[19:51:40.882] 6656 bytes raw data received
+[19:51:41.089] Processing input...
+[19:51:41.089] Received 3371 bytes...
+[19:51:41.089] Processing command: engine_proc_raw 3328 
+
+[19:51:41.089] prepare to proc raw
+[19:51:41.089] Processing raw data ...
+[19:51:41.089] 3328 bytes raw data received
+[19:51:41.286] Processing command: engine_proc_partial 
+
+[19:51:41.286] proc partial result (49): HELLO 
+[19:51:41.286] Sending:
+ {c properties 											:partial_hyp "HELLO " 											:engine_name "male"											:start_timestamp "364800" 											:end_timestamp "365290" 											:frame_num "49" 										}
+[19:51:41.286] Sent
+
+[19:51:41.373] Processing input...
+[19:51:41.373] Received 22 bytes...
+[19:51:41.373] Processing command: engine_proc_raw 5120 
+
+[19:51:41.373] prepare to proc raw
+[19:51:41.373] Processing input...
+[19:51:41.373] Received 5141 bytes...
+[19:51:41.373] Processing raw data ...
+[19:51:41.373] 5120 bytes raw data received
+[19:51:41.552] Processing command: engine_proc_partial 
+
+[19:51:41.552] proc partial result (81): TOLD 
+[19:51:41.552] Sending:
+ {c properties 											:partial_hyp "TOLD " 											:engine_name "male"											:start_timestamp "364800" 											:end_timestamp "365610" 											:frame_num "81" 										}
+[19:51:41.553] Sent
+
+[19:51:41.553] Processing input...
+[19:51:41.553] Received 21 bytes...
+[19:51:41.553] Processing command: engine_set_lm place 
+
+[19:51:41.553] Warning: set lm called during an utterance. Ignored.
+[19:51:41.669] Processing input...
+[19:51:41.669] Received 22 bytes...
+[19:51:41.669] Processing command: engine_proc_raw 4864 
+
+[19:51:41.669] prepare to proc raw
+[19:51:41.670] Processing input...
+[19:51:41.670] Received 4864 bytes...
+[19:51:41.670] Processing raw data ...
+[19:51:41.670] 4864 bytes raw data received
+[19:51:41.808] Processing input...
+[19:51:41.808] Received 21 bytes...
+[19:51:41.808] Processing command: engine_proc_partial 
+
+[19:51:41.812] proc partial result (112): WILKINSBURG   
+[19:51:41.812] Sending:
+ {c properties 											:partial_hyp "WILKINSBURG   " 											:engine_name "male"											:start_timestamp "364800" 											:end_timestamp "365920" 											:frame_num "112" 										}
+[19:51:41.812] Sent
+
+[19:51:41.950] Processing input...
+[19:51:41.951] Received 22 bytes...
+[19:51:41.951] Processing command: engine_proc_raw 5120 
+
+[19:51:41.951] prepare to proc raw
+[19:51:41.951] Processing input...
+[19:51:41.951] Received 5141 bytes...
+[19:51:41.951] Processing raw data ...
+[19:51:41.951] 5120 bytes raw data received
+[19:51:42.117] Processing command: engine_proc_partial 
+
+[19:51:42.118] proc partial result (144): WILKINSBURG   TO 
+[19:51:42.118] Sending:
+ {c properties 											:partial_hyp "WILKINSBURG   TO " 											:engine_name "male"											:start_timestamp "364800" 											:end_timestamp "366240" 											:frame_num "144" 										}
+[19:51:42.118] Sent
+
+[19:51:42.263] Processing input...
+[19:51:42.263] Received 4907 bytes...
+[19:51:42.263] Processing command: engine_proc_raw 4864 
+
+[19:51:42.263] prepare to proc raw
+[19:51:42.263] Processing raw data ...
+[19:51:42.263] 4864 bytes raw data received
+[19:51:42.355] Processing command: engine_proc_partial 
+
+[19:51:42.358] proc partial result (174): WILKINSBURG   TO 
+[19:51:42.358] Sending:
+ {c properties 											:partial_hyp "WILKINSBURG   TO " 											:engine_name "male"											:start_timestamp "364800" 											:end_timestamp "366540" 											:frame_num "174" 										}
+[19:51:42.358] Sent
+
+[19:51:42.622] Processing input...
+[19:51:42.622] Received 22 bytes...
+[19:51:42.622] Processing command: engine_proc_raw 5120 
+
+[19:51:42.622] prepare to proc raw
+[19:51:42.623] Processing input...
+[19:51:42.623] Received 4320 bytes...
+[19:51:42.623] Processing input...
+[19:51:42.623] Received 800 bytes...
+[19:51:42.623] Processing raw data ...
+[19:51:42.623] 5120 bytes raw data received
+[19:51:42.851] Processing input...
+[19:51:42.851] Received 21 bytes...
+[19:51:42.851] Processing command: engine_proc_partial 
+
+[19:51:42.852] proc partial result (206): WILKINSBURG   TO 
+[19:51:42.852] Sending:
+ {c properties 											:partial_hyp "WILKINSBURG   TO " 											:engine_name "male"											:start_timestamp "364800" 											:end_timestamp "366860" 											:frame_num "206" 										}
+[19:51:42.852] Sent
+
+[19:51:42.935] Processing input...
+[19:51:42.935] Received 22 bytes...
+[19:51:42.935] Processing command: engine_proc_raw 5888 
+
+[19:51:42.935] prepare to proc raw
+[19:51:42.935] Processing input...
+[19:51:42.935] Received 5909 bytes...
+[19:51:42.935] Processing raw data ...
+[19:51:42.935] 5888 bytes raw data received
+[19:51:43.120] Processing command: engine_proc_partial 
+
+[19:51:43.122] proc partial result (243): WILKINSBURG   TO SHH 
+[19:51:43.123] Sending:
+ {c properties 											:partial_hyp "WILKINSBURG   TO SHH " 											:engine_name "male"											:start_timestamp "364800" 											:end_timestamp "367230" 											:frame_num "243" 										}
+[19:51:43.123] Sent
+
+[19:51:43.247] Processing input...
+[19:51:43.247] Received 36 bytes...
+[19:51:43.247] Processing command: engine_end_utt 
+
+[19:51:43.248] end utt: 005
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (005) (4/8/16/30/32K): 97.6%(19991) 2.4%(489) 0.0%(0) 0.0%(0) 0.0%(0); max: 8008
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.2sec, SCR-TIME= 0.3sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from < 10.30  0.63 -0.54 -0.04 -0.43 -0.21 -0.33 -0.27 -0.18 -0.24 -0.11 -0.13 -0.14 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   < 10.28  0.63 -0.54 -0.04 -0.43 -0.21 -0.33 -0.27 -0.17 -0.24 -0.11 -0.13 -0.14 >
+[19:51:43.250] Processing command: engine_proc_result 
+
+[19:51:43.250] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (005)
+	---------------------------------------------------------------------
+	   0   17    -3478092          0   -16893   -30980  -1.00      7 <s>
+	  18   46    -5056925    -230270  -664730   -46517  -1.00     47 ++UM++
+	  47  113   -10635664    -571360  -563974   -35387   0.22     17 WILKINSBURG:n
+	 114  174    -8406200    -338043   -18499   -15111   0.46      8 TO(2)
+	 175  197    -4426417     -52986   -29921   -31996  -1.00     14 SIL
+	 198  221    -4744617    -613664  -935659   -45756   0.12     25 SHHHHH
+	 222  246    -4538757     -63204  -279397   -25533  -1.00     17 </s>
+	---------------------------------------------------------------------
+	   0  246   -41286672   -1869527  -935659   -46517               005(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: WILKINSBURG:n TO SHHHHH  (005 -43156199 (A=-41286672 L=-1869527))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):     3340 words recognized (14/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     9372 phones in topsen (37/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):  1553630 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   303342 channels searched (1228/fr), 67584 1st, 40569 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     7237 words for which last channels evaluated (29/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):    10510 candidate words for entering last phone (42/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   2.46 SoS,   2.39 sec elapsed,  0.97 xRT,   1.23 sec CPU,  0.50 xRT
+
+[19:51:43.275] 246 frames
+
+[19:51:43.275] Acoustic confidence: (-33436672 - -41286672.000000) / 246 = 31910.568359
+
+[19:51:43.275] hyp: WILKINSBURG TO SHHHHH 
+
+[19:51:43.275] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "WILKINSBURG TO SHHHHH " :confhyp "WILKINSBURG .?TO?. SHHHHH " :uttid "005" :engine_name "male" :nbest_index 0 :decoder_score -43156200.000000 :lm_score -1869527.000000 :am_score -41286672.000000 :frame_num 246 :acoustic_gap_norm 31910.568359 :avg_sphinxwordconf 0.154060 :min_sphinxwordconf 0.115849 :max_sphinxwordconf 0.222314 :avg_wordconf 0.555556 :min_wordconf 0.416667 :max_wordconf 0.666667 :avg_validwordconf 0.625000 :min_validwordconf 0.583333 :max_validwordconf 0.666667 :startframes "47 114 198" :endframes "113 174 221" :init_timestamp 364800 :end_timestamp 367260 }  ) }
+
+[19:51:43.283] Processing input...
+[19:51:43.283] Received 19 bytes...
+[19:51:43.283] Processing command: engine_cancel_utt 
+
+[19:51:43.780] Processing input...
+[19:51:43.780] Received 22 bytes...
+[19:51:43.780] Processing command: engine_set_lm yes_no 
+
+[19:51:43.780] set lm: yes_no
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 354 root, 50406 non-root channels, 35 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "yes_no"
+[19:51:43.906] Processing input...
+[19:51:43.906] Received 28 bytes...
+[19:51:43.906] Processing command: engine_begin_utt 006 391552
+
+[19:51:43.906] begin utt: 006 (391552)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:51:43.907] Processing input...
+[19:51:43.908] Received 22 bytes...
+[19:51:43.908] Processing command: engine_proc_raw 6656 
+
+[19:51:43.908] prepare to proc raw
+[19:51:43.908] Processing input...
+[19:51:43.908] Received 6656 bytes...
+[19:51:43.908] Processing raw data ...
+[19:51:43.908] 6656 bytes raw data received
+[19:51:44.466] Processing input...
+[19:51:44.466] Received 22 bytes...
+[19:51:44.466] Processing command: engine_proc_raw 4864 
+
+[19:51:44.466] prepare to proc raw
+[19:51:44.467] Processing input...
+[19:51:44.467] Received 4885 bytes...
+[19:51:44.467] Processing raw data ...
+[19:51:44.467] 4864 bytes raw data received
+[19:51:44.654] Processing command: engine_proc_partial 
+
+[19:51:44.654] proc partial result (59): WILKINS   
+[19:51:44.654] Sending:
+ {c properties 											:partial_hyp "WILKINS   " 											:engine_name "male"											:start_timestamp "391552" 											:end_timestamp "392142" 											:frame_num "59" 										}
+[19:51:44.654] Sent
+
+[19:51:44.778] Processing input...
+[19:51:44.778] Received 22 bytes...
+[19:51:44.778] Processing command: engine_proc_raw 5120 
+
+[19:51:44.778] prepare to proc raw
+[19:51:44.779] Processing input...
+[19:51:44.779] Received 5141 bytes...
+[19:51:44.779] Processing raw data ...
+[19:51:44.779] 5120 bytes raw data received
+[19:51:44.871] Processing command: engine_proc_partial 
+
+[19:51:44.875] proc partial result (91): WILKINSBURG   
+[19:51:44.875] Sending:
+ {c properties 											:partial_hyp "WILKINSBURG   " 											:engine_name "male"											:start_timestamp "391552" 											:end_timestamp "392462" 											:frame_num "91" 										}
+[19:51:44.875] Sent
+
+[19:51:45.107] Processing input...
+[19:51:45.107] Received 36 bytes...
+[19:51:45.107] Processing command: engine_end_utt 
+
+[19:51:45.107] end utt: 006
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (006) (4/8/16/30/32K): 98.6%(8203) 1.4%(117) 0.0%(0) 0.0%(0) 0.0%(0); max: 6481
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.1sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from < 10.28  0.63 -0.54 -0.04 -0.43 -0.21 -0.33 -0.27 -0.17 -0.24 -0.11 -0.13 -0.14 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   < 10.11  0.68 -0.54 -0.05 -0.41 -0.22 -0.32 -0.27 -0.18 -0.23 -0.13 -0.12 -0.14 >
+[19:51:45.109] Processing command: engine_proc_result 
+
+[19:51:45.109] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (006)
+	---------------------------------------------------------------------
+	   0   17    -3265536          0   -68099   -22414  -1.00     10 <s>
+	  18   91   -11518519    -601696  -523830   -29648   0.33     18 WILKINSBURG:n
+	  92   94     -595104     -71033  -582816   -44768  -1.00      1 </s>
+	---------------------------------------------------------------------
+	   0   94   -15379159    -672729  -582816   -44768               006(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: WILKINSBURG:n  (006 -16051888 (A=-15379159 L=-672729))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):      893 words recognized (9/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     3582 phones in topsen (37/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   597550 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):    75057 channels searched (790/fr), 18071 1st, 16453 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     2187 words for which last channels evaluated (23/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     2871 candidate words for entering last phone (30/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   0.94 SoS,   1.20 sec elapsed,  1.28 xRT,   0.38 sec CPU,  0.40 xRT
+
+[19:51:45.117] 94 frames
+
+[19:51:45.117] Acoustic confidence: (-12493824 - -15379159.000000) / 94 = 30695.052734
+
+[19:51:45.117] hyp: WILKINSBURG 
+
+[19:51:45.117] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "WILKINSBURG " :confhyp "WILKINSBURG " :uttid "006" :engine_name "male" :nbest_index 0 :decoder_score -16051888.000000 :lm_score -672729.000000 :am_score -15379159.000000 :frame_num 94 :acoustic_gap_norm 30695.052734 :avg_sphinxwordconf 0.334745 :min_sphinxwordconf 0.334745 :max_sphinxwordconf 0.334745 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "18" :endframes "91" :init_timestamp 391552 :end_timestamp 392492 }  ) }
+
+[19:51:45.125] Processing input...
+[19:51:45.125] Received 19 bytes...
+[19:51:45.125] Processing command: engine_cancel_utt 
+
+[19:51:45.462] Processing input...
+[19:51:45.462] Received 22 bytes...
+[19:51:45.462] Processing command: engine_set_lm yes_no 
+
+[19:51:45.462] set lm: yes_no
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 354 root, 50406 non-root channels, 35 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "yes_no"
+[19:51:49.203] Processing input...
+[19:51:49.203] Received 28 bytes...
+[19:51:49.203] Processing command: engine_begin_utt 007 433152
+
+[19:51:49.203] begin utt: 007 (433152)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:51:49.203] Processing input...
+[19:51:49.203] Received 22 bytes...
+[19:51:49.204] Processing command: engine_proc_raw 6656 
+
+[19:51:49.204] prepare to proc raw
+[19:51:49.204] Processing input...
+[19:51:49.204] Received 6656 bytes...
+[19:51:49.204] Processing raw data ...
+[19:51:49.204] 6656 bytes raw data received
+[19:51:49.450] Processing input...
+[19:51:49.450] Received 22 bytes...
+[19:51:49.450] Processing command: engine_proc_raw 1536 
+
+[19:51:49.450] prepare to proc raw
+[19:51:49.451] Processing input...
+[19:51:49.451] Received 1536 bytes...
+[19:51:49.451] Processing raw data ...
+[19:51:49.451] 1536 bytes raw data received
+[19:51:49.500] Processing input...
+[19:51:49.500] Received 21 bytes...
+[19:51:49.500] Processing command: engine_proc_partial 
+
+[19:51:49.500] proc partial result (38): YEAH 
+[19:51:49.500] Sending:
+ {c properties 											:partial_hyp "YEAH " 											:engine_name "male"											:start_timestamp "433152" 											:end_timestamp "433532" 											:frame_num "38" 										}
+[19:51:49.500] Sent
+
+[19:51:49.778] Processing input...
+[19:51:49.779] Received 22 bytes...
+[19:51:49.779] Processing command: engine_proc_raw 5120 
+
+[19:51:49.779] prepare to proc raw
+[19:51:49.779] Processing input...
+[19:51:49.779] Received 5141 bytes...
+[19:51:49.779] Processing raw data ...
+[19:51:49.779] 5120 bytes raw data received
+[19:51:49.957] Processing command: engine_proc_partial 
+
+[19:51:49.957] proc partial result (70): USE 
+[19:51:49.957] Sending:
+ {c properties 											:partial_hyp "USE " 											:engine_name "male"											:start_timestamp "433152" 											:end_timestamp "433852" 											:frame_num "70" 										}
+[19:51:49.957] Sent
+
+[19:51:50.091] Processing input...
+[19:51:50.091] Received 36 bytes...
+[19:51:50.091] Processing command: engine_end_utt 
+
+[19:51:50.091] end utt: 007
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (007) (4/8/16/30/32K): 99.9%(6650) 0.1%(6) 0.0%(0) 0.0%(0) 0.0%(0); max: 4558
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.0sec, SCR-TIME= 0.1sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from < 10.11  0.68 -0.54 -0.05 -0.41 -0.22 -0.32 -0.27 -0.18 -0.23 -0.13 -0.12 -0.14 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  9.90  0.62 -0.52 -0.01 -0.41 -0.24 -0.30 -0.27 -0.17 -0.24 -0.12 -0.11 -0.14 >
+[19:51:50.094] Processing command: engine_proc_result 
+
+[19:51:50.094] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (007)
+	---------------------------------------------------------------------
+	   0   12    -2269920          0   -16893   -16598  -1.00      5 <s>
+	  13   70    -9389326    -640124   -14839   -27740   0.34     18 USE(2)
+	  71   73     -716843    -256290  -309072   -81934  -1.00      7 </s>
+	---------------------------------------------------------------------
+	   0   73   -12376089    -896414  -309072   -81934               007(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: USE  (007 -13272503 (A=-12376089 L=-896414))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):      818 words recognized (11/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     2679 phones in topsen (36/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   465460 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):    97453 channels searched (1316/fr), 22911 1st, 13730 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     2353 words for which last channels evaluated (31/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     4363 candidate words for entering last phone (58/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   0.73 SoS,   0.90 sec elapsed,  1.24 xRT,   0.41 sec CPU,  0.56 xRT
+
+[19:51:50.112] 73 frames
+
+[19:51:50.112] Acoustic confidence: (-10159104 - -12376089.000000) / 73 = 30369.658203
+
+[19:51:50.112] hyp: USE 
+
+[19:51:50.112] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "USE " :confhyp "USE " :uttid "007" :engine_name "male" :nbest_index 0 :decoder_score -13272503.000000 :lm_score -896414.000000 :am_score -12376089.000000 :frame_num 73 :acoustic_gap_norm 30369.658203 :avg_sphinxwordconf 0.359962 :min_sphinxwordconf 0.359962 :max_sphinxwordconf 0.359962 :avg_wordconf 0.500000 :min_wordconf 0.500000 :max_wordconf 0.500000 :avg_validwordconf 0.500000 :min_validwordconf 0.500000 :max_validwordconf 0.500000 :startframes "13" :endframes "70" :init_timestamp 433152 :end_timestamp 433882 }  ) }
+
+[19:51:50.119] Processing input...
+[19:51:50.119] Received 19 bytes...
+[19:51:50.119] Processing command: engine_cancel_utt 
+
+[19:51:50.444] Processing input...
+[19:51:50.444] Received 22 bytes...
+[19:51:50.444] Processing command: engine_set_lm yes_no 
+
+[19:51:50.444] set lm: yes_no
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 354 root, 50406 non-root channels, 35 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "yes_no"
+[19:51:56.374] Processing input...
+[19:51:56.375] Received 50 bytes...
+[19:51:56.375] Processing command: engine_begin_utt 008 489344
+
+[19:51:56.375] begin utt: 008 (489344)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:51:56.376] Processing command: engine_proc_raw 6656 
+
+[19:51:56.376] prepare to proc raw
+[19:51:56.376] Processing input...
+[19:51:56.376] Received 6656 bytes...
+[19:51:56.376] Processing raw data ...
+[19:51:56.376] 6656 bytes raw data received
+[19:51:56.684] Processing input...
+[19:51:56.685] Received 3883 bytes...
+[19:51:56.685] Processing command: engine_proc_raw 3840 
+
+[19:51:56.685] prepare to proc raw
+[19:51:56.685] Processing raw data ...
+[19:51:56.685] 3840 bytes raw data received
+[19:51:56.936] Processing command: engine_proc_partial 
+
+[19:51:56.936] proc partial result (53): PUT 
+[19:51:56.936] Sending:
+ {c properties 											:partial_hyp "PUT " 											:engine_name "male"											:start_timestamp "489344" 											:end_timestamp "489874" 											:frame_num "53" 										}
+[19:51:56.936] Sent
+
+[19:51:57.013] Processing input...
+[19:51:57.013] Received 36 bytes...
+[19:51:57.013] Processing command: engine_end_utt 
+
+[19:51:57.013] end utt: 008
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (008) (4/8/16/30/32K): 87.3%(4583) 7.8%(408) 4.9%(257) 0.0%(0) 0.0%(0); max: 14534
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.1sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from <  9.90  0.62 -0.52 -0.01 -0.41 -0.24 -0.30 -0.27 -0.17 -0.24 -0.12 -0.11 -0.14 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  9.76  0.61 -0.51 -0.02 -0.40 -0.23 -0.30 -0.25 -0.16 -0.23 -0.14 -0.12 -0.13 >
+[19:51:57.016] Processing command: engine_proc_result 
+
+[19:51:57.016] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (008)
+	---------------------------------------------------------------------
+	   0    6    -1173280          0   -16893   -26445  -1.00      4 <s>
+	   7   30    -4404055    -640124  -541297   -43726   0.20     72 PUT
+	  31   47    -3470124    -230270  -256224   -48537  -1.00     40 ++NOISE++
+	  48   56    -1780702    -256290  -321379   -40614  -1.00      8 </s>
+	---------------------------------------------------------------------
+	   0   56   -10828161   -1126684  -541297   -48537               008(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: PUT  (008 -11954845 (A=-10828161 L=-1126684))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):     1429 words recognized (25/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     2239 phones in topsen (39/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   358530 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   154754 channels searched (2714/fr), 18896 1st, 28009 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     2992 words for which last channels evaluated (52/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     6464 candidate words for entering last phone (113/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   0.56 SoS,   0.67 sec elapsed,  1.20 xRT,   0.52 sec CPU,  0.92 xRT
+
+[19:51:57.051] 56 frames
+
+[19:51:57.051] Acoustic confidence: (-8235008 - -10828161.000000) / 56 = 46306.304688
+
+[19:51:57.051] hyp: PUT 
+
+[19:51:57.051] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "PUT " :confhyp "PUT " :uttid "008" :engine_name "male" :nbest_index 0 :decoder_score -11954845.000000 :lm_score -1126684.000000 :am_score -10828161.000000 :frame_num 56 :acoustic_gap_norm 46306.304688 :avg_sphinxwordconf 0.198854 :min_sphinxwordconf 0.198854 :max_sphinxwordconf 0.198854 :avg_wordconf 0.500000 :min_wordconf 0.500000 :max_wordconf 0.500000 :avg_validwordconf 0.500000 :min_validwordconf 0.500000 :max_validwordconf 0.500000 :startframes "7" :endframes "30" :init_timestamp 489344 :end_timestamp 489904 }  ) }
+
+[19:51:57.092] Processing input...
+[19:51:57.092] Received 19 bytes...
+[19:51:57.092] Processing command: engine_cancel_utt 
+
+[19:51:57.501] Processing input...
+[19:51:57.502] Received 21 bytes...
+[19:51:57.502] Processing command: engine_set_lm place 
+
+[19:51:57.502] set lm: place
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 350 root, 50319 non-root channels, 31 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "place"
+[19:52:01.406] Processing input...
+[19:52:01.406] Received 28 bytes...
+[19:52:01.406] Processing command: engine_begin_utt 009 531456
+
+[19:52:01.406] begin utt: 009 (531456)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:52:01.407] Processing input...
+[19:52:01.407] Received 6678 bytes...
+[19:52:01.407] Processing command: engine_proc_raw 6656 
+
+[19:52:01.407] prepare to proc raw
+[19:52:01.407] Processing raw data ...
+[19:52:01.407] 6656 bytes raw data received
+[19:52:01.966] Processing input...
+[19:52:01.966] Received 5163 bytes...
+[19:52:01.966] Processing command: engine_proc_raw 5120 
+
+[19:52:01.966] prepare to proc raw
+[19:52:01.966] Processing raw data ...
+[19:52:01.966] 5120 bytes raw data received
+[19:52:02.154] Processing command: engine_proc_partial 
+
+[19:52:02.155] proc partial result (61): THIS LIST 
+[19:52:02.155] Sending:
+ {c properties 											:partial_hyp "THIS LIST " 											:engine_name "male"											:start_timestamp "531456" 											:end_timestamp "532066" 											:frame_num "61" 										}
+[19:52:02.155] Sent
+
+[19:52:02.279] Processing input...
+[19:52:02.279] Received 7211 bytes...
+[19:52:02.279] Processing command: engine_proc_raw 7168 
+
+[19:52:02.279] prepare to proc raw
+[19:52:02.279] Processing raw data ...
+[19:52:02.279] 7168 bytes raw data received
+[19:52:02.446] Processing command: engine_proc_partial 
+
+[19:52:02.446] proc partial result (105): SWISSVALE   
+[19:52:02.446] Sending:
+ {c properties 											:partial_hyp "SWISSVALE   " 											:engine_name "male"											:start_timestamp "531456" 											:end_timestamp "532506" 											:frame_num "105" 										}
+[19:52:02.446] Sent
+
+[19:52:02.606] Processing input...
+[19:52:02.606] Received 36 bytes...
+[19:52:02.606] Processing command: engine_end_utt 
+
+[19:52:02.606] end utt: 009
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (009) (4/8/16/30/32K): 99.2%(9398) 0.8%(74) 0.0%(0) 0.0%(0) 0.0%(0); max: 6334
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.1sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from <  9.57  0.57 -0.50 -0.03 -0.38 -0.23 -0.29 -0.25 -0.16 -0.22 -0.14 -0.12 -0.13 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  9.67  0.60 -0.52 -0.02 -0.37 -0.24 -0.29 -0.27 -0.16 -0.25 -0.14 -0.11 -0.14 >
+[19:52:02.608] Processing command: engine_proc_result 
+
+[19:52:02.608] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (009)
+	---------------------------------------------------------------------
+	   0   16    -2637152          0   -16893   -13573  -1.00      5 <s>
+	  17   97   -13209174    -458242  -122461   -30588   0.31     24 SWISSVALE:n
+	  98  108    -1980290     -70540   -34447   -20096  -1.00     12 </s>
+	---------------------------------------------------------------------
+	   0  108   -17826616    -528782  -122461   -30588               009(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: SWISSVALE:n  (009 -18355398 (A=-17826616 L=-528782))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):     1303 words recognized (12/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     4007 phones in topsen (36/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   685610 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   114321 channels searched (1048/fr), 23687 1st, 20301 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     2814 words for which last channels evaluated (25/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     4480 candidate words for entering last phone (41/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   1.08 SoS,   1.22 sec elapsed,  1.13 xRT,   0.53 sec CPU,  0.49 xRT
+
+[19:52:02.628] 108 frames
+
+[19:52:02.628] Acoustic confidence: (-14741504 - -17826616.000000) / 108 = 28565.851563
+
+[19:52:02.628] hyp: SWISSVALE 
+
+[19:52:02.628] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "SWISSVALE " :confhyp "SWISSVALE " :uttid "009" :engine_name "male" :nbest_index 0 :decoder_score -18355398.000000 :lm_score -528782.000000 :am_score -17826616.000000 :frame_num 108 :acoustic_gap_norm 28565.851563 :avg_sphinxwordconf 0.310462 :min_sphinxwordconf 0.310462 :max_sphinxwordconf 0.310462 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "17" :endframes "97" :init_timestamp 531456 :end_timestamp 532536 }  ) }
+
+[19:52:02.635] Processing input...
+[19:52:02.635] Received 19 bytes...
+[19:52:02.635] Processing command: engine_cancel_utt 
+
+[19:52:02.921] Processing input...
+[19:52:02.921] Received 22 bytes...
+[19:52:02.921] Processing command: engine_set_lm yes_no 
+
+[19:52:02.921] set lm: yes_no
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 354 root, 50406 non-root channels, 35 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "yes_no"
+[19:52:05.178] Processing input...
+[19:52:05.179] Received 28 bytes...
+[19:52:05.179] Processing command: engine_begin_utt 010 559744
+
+[19:52:05.179] begin utt: 010 (559744)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:52:05.180] Processing input...
+[19:52:05.180] Received 6678 bytes...
+[19:52:05.180] Processing command: engine_proc_raw 6656 
+
+[19:52:05.180] prepare to proc raw
+[19:52:05.180] Processing raw data ...
+[19:52:05.180] 6656 bytes raw data received
+[19:52:05.419] Processing input...
+[19:52:05.419] Received 22 bytes...
+[19:52:05.419] Processing command: engine_proc_raw 3328 
+
+[19:52:05.419] prepare to proc raw
+[19:52:05.419] Processing input...
+[19:52:05.419] Received 3349 bytes...
+[19:52:05.419] Processing raw data ...
+[19:52:05.419] 3328 bytes raw data received
+[19:52:05.536] Processing command: engine_proc_partial 
+
+[19:52:05.536] proc partial result (49): 
+[19:52:05.747] Processing input...
+[19:52:05.747] Received 22 bytes...
+[19:52:05.747] Processing command: engine_proc_raw 5120 
+
+[19:52:05.747] prepare to proc raw
+[19:52:05.747] Processing input...
+[19:52:05.747] Received 5120 bytes...
+[19:52:05.747] Processing raw data ...
+[19:52:05.747] 5120 bytes raw data received
+[19:52:05.940] Processing input...
+[19:52:05.941] Received 21 bytes...
+[19:52:05.941] Processing command: engine_proc_partial 
+
+[19:52:05.941] proc partial result (81): 
+[19:52:06.060] Processing input...
+[19:52:06.060] Received 22 bytes...
+[19:52:06.060] Processing command: engine_proc_raw 2816 
+
+[19:52:06.060] prepare to proc raw
+[19:52:06.061] Processing input...
+[19:52:06.061] Received 2837 bytes...
+[19:52:06.061] Processing raw data ...
+[19:52:06.061] 2816 bytes raw data received
+[19:52:06.193] Processing command: engine_proc_partial 
+
+[19:52:06.193] proc partial result (99): 
+[19:52:06.325] Processing input...
+[19:52:06.325] Received 36 bytes...
+[19:52:06.326] Processing command: engine_end_utt 
+
+[19:52:06.326] end utt: 010
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (010) (4/8/16/30/32K): 100.0%(8960) 0.0%(0) 0.0%(0) 0.0%(0) 0.0%(0); max: 980
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.1sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from <  9.67  0.60 -0.52 -0.02 -0.37 -0.24 -0.29 -0.27 -0.16 -0.25 -0.14 -0.11 -0.14 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  9.24  0.52 -0.50 -0.01 -0.36 -0.22 -0.27 -0.25 -0.14 -0.22 -0.14 -0.10 -0.14 >
+[19:52:06.328] Processing command: engine_proc_result 
+
+[19:52:06.328] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (010)
+	---------------------------------------------------------------------
+	   0   14    -2574368          0   -33111   -21164  -1.00      7 <s>
+	  15   57    -8063671    -230270  -436231   -33236  -1.00     15 ++BREATH++
+	  58  102    -8297288    -237947  -235439   -17403  -1.00      9 </s>
+	---------------------------------------------------------------------
+	   0  102   -18935327    -468217  -436231   -33236               010(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE:  (010 -19403544 (A=-18935327 L=-468217))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):     1156 words recognized (11/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     4122 phones in topsen (40/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   647870 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   162538 channels searched (1578/fr), 34971 1st, 8841 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     3154 words for which last channels evaluated (30/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     9103 candidate words for entering last phone (88/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   1.02 SoS,   1.17 sec elapsed,  1.15 xRT,   0.58 sec CPU,  0.57 xRT
+
+[19:52:06.345] 102 frames
+
+[19:52:06.346] Acoustic confidence: (-16253952 - -18935328.000000) / 102 = 26288.000000
+
+[19:52:06.346] hyp: 
+
+[19:52:06.346] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "010" :engine_name "male" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 102 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 559744 :end_timestamp 560764 }  ) }
+
+[19:52:06.376] Processing input...
+[19:52:06.376] Received 19 bytes...
+[19:52:06.376] Processing command: engine_cancel_utt 
+
+[19:52:06.749] Processing input...
+[19:52:06.749] Received 28 bytes...
+[19:52:06.749] Processing command: engine_begin_utt 011 572928
+
+[19:52:06.749] begin utt: 011 (572928)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:52:06.752] Processing input...
+[19:52:06.752] Received 6678 bytes...
+[19:52:06.752] Processing command: engine_proc_raw 6656 
+
+[19:52:06.752] prepare to proc raw
+[19:52:06.752] Processing raw data ...
+[19:52:06.752] 6656 bytes raw data received
+[19:52:06.997] Processing input...
+[19:52:06.997] Received 2091 bytes...
+[19:52:06.997] Processing command: engine_proc_raw 2048 
+
+[19:52:06.997] prepare to proc raw
+[19:52:06.997] Processing raw data ...
+[19:52:06.997] 2048 bytes raw data received
+[19:52:07.062] Processing command: engine_proc_partial 
+
+[19:52:07.062] proc partial result (41): YEAH 
+[19:52:07.062] Sending:
+ {c properties 											:partial_hyp "YEAH " 											:engine_name "male"											:start_timestamp "572928" 											:end_timestamp "573338" 											:frame_num "41" 										}
+[19:52:07.062] Sent
+
+[19:52:07.309] Processing input...
+[19:52:07.309] Received 22 bytes...
+[19:52:07.310] Processing command: engine_proc_raw 6400 
+
+[19:52:07.310] prepare to proc raw
+[19:52:07.310] Processing input...
+[19:52:07.310] Received 6400 bytes...
+[19:52:07.310] Processing raw data ...
+[19:52:07.310] 6400 bytes raw data received
+[19:52:07.521] Processing input...
+[19:52:07.521] Received 21 bytes...
+[19:52:07.521] Processing command: engine_proc_partial 
+
+[19:52:07.521] proc partial result (81): YES 
+[19:52:07.521] Sending:
+ {c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "572928" 											:end_timestamp "573738" 											:frame_num "81" 										}
+[19:52:07.521] Sent
+
+[19:52:07.622] Processing input...
+[19:52:07.622] Received 16 bytes...
+[19:52:07.622] Processing command: engine_end_utt 
+
+[19:52:07.622] end utt: 011
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (011) (4/8/16/30/32K): 96.3%(7276) 3.5%(268) 0.1%(8) 0.0%(0) 0.0%(0); max: 9352
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.1sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from <  9.24  0.52 -0.50 -0.01 -0.36 -0.22 -0.27 -0.25 -0.14 -0.22 -0.14 -0.10 -0.14 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  9.26  0.49 -0.50  0.01 -0.38 -0.24 -0.26 -0.25 -0.13 -0.22 -0.13 -0.10 -0.14 >
+[19:52:07.624] Processing input...
+[19:52:07.624] Received 20 bytes...
+[19:52:07.624] Processing command: engine_proc_result 
+
+[19:52:07.624] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (011)
+	---------------------------------------------------------------------
+	   0   13    -2504821          0   -16893   -22170  -1.00      7 <s>
+	  14   76    -9878919    -130550   -10032   -23476   0.48     10 YES
+	  77   84    -1464756     -65474   -48630   -18998  -1.00      9 </s>
+	---------------------------------------------------------------------
+	   0   84   -13848496    -196024   -48630   -23476               011(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: YES  (011 -14044520 (A=-13848496 L=-196024))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):      671 words recognized (8/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     3443 phones in topsen (40/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   534650 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   113731 channels searched (1338/fr), 28026 1st, 9535 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     2681 words for which last channels evaluated (31/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     6376 candidate words for entering last phone (75/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   0.84 SoS,   0.89 sec elapsed,  1.06 xRT,   0.47 sec CPU,  0.56 xRT
+
+[19:52:07.640] 84 frames
+
+[19:52:07.640] Acoustic confidence: (-11731968 - -13848496.000000) / 84 = 25196.761719
+
+[19:52:07.640] hyp: YES 
+
+[19:52:07.640] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "011" :engine_name "male" :nbest_index 0 :decoder_score -14044520.000000 :lm_score -196024.000000 :am_score -13848496.000000 :frame_num 84 :acoustic_gap_norm 25196.761719 :avg_sphinxwordconf 0.478126 :min_sphinxwordconf 0.478126 :max_sphinxwordconf 0.478126 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "14" :endframes "76" :init_timestamp 572928 :end_timestamp 573768 }  ) }
+
+[19:52:07.645] Processing input...
+[19:52:07.645] Received 19 bytes...
+[19:52:07.645] Processing command: engine_cancel_utt 
+
+[19:52:08.006] Processing input...
+[19:52:08.006] Received 20 bytes...
+[19:52:08.006] Processing command: engine_set_lm time 
+
+[19:52:08.006] set lm: time
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 358 root, 50454 non-root channels, 32 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "time"
+[19:52:12.062] Processing input...
+[19:52:12.062] Received 28 bytes...
+[19:52:12.062] Processing command: engine_begin_utt 012 614528
+
+[19:52:12.062] begin utt: 012 (614528)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:52:12.063] Processing input...
+[19:52:12.063] Received 22 bytes...
+[19:52:12.063] Processing command: engine_proc_raw 6656 
+
+[19:52:12.063] prepare to proc raw
+[19:52:12.063] Processing input...
+[19:52:12.064] Received 6656 bytes...
+[19:52:12.064] Processing raw data ...
+[19:52:12.064] 6656 bytes raw data received
+[19:52:12.309] Processing input...
+[19:52:12.309] Received 22 bytes...
+[19:52:12.309] Processing command: engine_proc_raw 3840 
+
+[19:52:12.309] prepare to proc raw
+[19:52:12.310] Processing input...
+[19:52:12.310] Received 3861 bytes...
+[19:52:12.310] Processing raw data ...
+[19:52:12.310] 3840 bytes raw data received
+[19:52:12.445] Processing command: engine_proc_partial 
+
+[19:52:12.445] proc partial result (53): 
+[19:52:12.576] Processing input...
+[19:52:12.576] Received 22 bytes...
+[19:52:12.576] Processing command: engine_proc_raw 5120 
+
+[19:52:12.576] prepare to proc raw
+[19:52:12.576] Processing input...
+[19:52:12.577] Received 5141 bytes...
+[19:52:12.577] Processing raw data ...
+[19:52:12.577] 5120 bytes raw data received
+[19:52:12.855] Processing command: engine_proc_partial 
+
+[19:52:12.855] proc partial result (85): DOES 
+[19:52:12.855] Sending:
+ {c properties 											:partial_hyp "DOES " 											:engine_name "male"											:start_timestamp "614528" 											:end_timestamp "615378" 											:frame_num "85" 										}
+[19:52:12.857] Sent
+
+[19:52:12.888] Processing input...
+[19:52:12.888] Received 22 bytes...
+[19:52:12.888] Processing command: engine_proc_raw 4864 
+
+[19:52:12.888] prepare to proc raw
+[19:52:12.888] Processing input...
+[19:52:12.888] Received 4885 bytes...
+[19:52:12.888] Processing raw data ...
+[19:52:12.889] 4864 bytes raw data received
+[19:52:13.071] Processing command: engine_proc_partial 
+
+[19:52:13.071] proc partial result (115): THE SOONER 
+[19:52:13.071] Sending:
+ {c properties 											:partial_hyp "THE SOONER " 											:engine_name "male"											:start_timestamp "614528" 											:end_timestamp "615678" 											:frame_num "115" 										}
+[19:52:13.072] Sent
+
+[19:52:13.216] Processing input...
+[19:52:13.216] Received 22 bytes...
+[19:52:13.216] Processing command: engine_proc_raw 5120 
+
+[19:52:13.216] prepare to proc raw
+[19:52:13.216] Processing input...
+[19:52:13.216] Received 5141 bytes...
+[19:52:13.216] Processing raw data ...
+[19:52:13.216] 5120 bytes raw data received
+[19:52:13.497] Processing command: engine_proc_partial 
+
+[19:52:13.498] proc partial result (147): THE SOONEST YOU'VE 
+[19:52:13.498] Sending:
+ {c properties 											:partial_hyp "THE SOONEST YOU'VE " 											:engine_name "male"											:start_timestamp "614528" 											:end_timestamp "615998" 											:frame_num "147" 										}
+[19:52:13.498] Sent
+
+[19:52:13.529] Processing input...
+[19:52:13.529] Received 22 bytes...
+[19:52:13.529] Processing command: engine_proc_raw 4864 
+
+[19:52:13.529] prepare to proc raw
+[19:52:13.529] Processing input...
+[19:52:13.529] Received 4885 bytes...
+[19:52:13.529] Processing raw data ...
+[19:52:13.529] 4864 bytes raw data received
+[19:52:13.741] Processing command: engine_proc_partial 
+
+[19:52:13.742] proc partial result (177): THE SOONEST TO LEAVE 
+[19:52:13.742] Sending:
+ {c properties 											:partial_hyp "THE SOONEST TO LEAVE " 											:engine_name "male"											:start_timestamp "614528" 											:end_timestamp "616298" 											:frame_num "177" 										}
+[19:52:13.742] Sent
+
+[19:52:13.811] Processing input...
+[19:52:13.811] Received 22 bytes...
+[19:52:13.811] Processing command: engine_proc_raw 4608 
+
+[19:52:13.811] prepare to proc raw
+[19:52:13.812] Processing input...
+[19:52:13.812] Received 4629 bytes...
+[19:52:13.812] Processing raw data ...
+[19:52:13.812] 4608 bytes raw data received
+[19:52:14.057] Processing command: engine_proc_partial 
+
+[19:52:14.058] proc partial result (206): THE SOONEST TO LEAVES 
+[19:52:14.058] Sending:
+ {c properties 											:partial_hyp "THE SOONEST TO LEAVES " 											:engine_name "male"											:start_timestamp "614528" 											:end_timestamp "616588" 											:frame_num "206" 										}
+[19:52:14.058] Sent
+
+[19:52:14.153] Processing input...
+[19:52:14.153] Received 36 bytes...
+[19:52:14.153] Processing command: engine_end_utt 
+
+[19:52:14.153] end utt: 012
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (012) (4/8/16/30/32K): 100.0%(17536) 0.0%(0) 0.0%(0) 0.0%(0) 0.0%(0); max: 3698
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.2sec, SCR-TIME= 0.2sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from <  9.15  0.48 -0.50  0.02 -0.38 -0.23 -0.25 -0.25 -0.13 -0.22 -0.14 -0.10 -0.13 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  9.23  0.52 -0.46  0.09 -0.38 -0.24 -0.23 -0.28 -0.12 -0.25 -0.15 -0.09 -0.14 >
+[19:52:14.156] Processing command: engine_proc_result 
+
+[19:52:14.156] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (012)
+	---------------------------------------------------------------------
+	   0   19    -3893833          0   -79417   -33821  -1.00     13 <s>
+	  20   56    -6630014    -230270  -198481   -34445  -1.00     18 ++MM++
+	  57   74    -3206562    -322293  -566378   -48208   0.18     36 THE(2)
+	  75  122    -8017667    -472981  -312706   -32144   0.48     16 SOONEST
+	 123  139    -2823418    -492318  -299137   -27241   0.42     32 TO(2)
+	 140  200   -10689189    -622955  -387276   -44697   0.16     22 LEAVES
+	 201  209    -1572948    -290537  -287789   -20603  -1.00     12 </s>
+	---------------------------------------------------------------------
+	   0  209   -36833631   -2431354  -566378   -48208               012(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: THE SOONEST TO LEAVES  (012 -39264985 (A=-36833631 L=-2431354))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):     3333 words recognized (16/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     8497 phones in topsen (40/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):  1320900 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   421855 channels searched (2008/fr), 71556 1st, 46824 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     7427 words for which last channels evaluated (35/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):    16224 candidate words for entering last phone (77/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   2.09 SoS,   2.11 sec elapsed,  1.01 xRT,   1.47 sec CPU,  0.70 xRT
+
+[19:52:14.181] 209 frames
+
+[19:52:14.181] Acoustic confidence: (-28964864 - -36833632.000000) / 209 = 37649.609375
+
+[19:52:14.181] hyp: THE SOONEST TO LEAVES 
+
+[19:52:14.181] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "THE SOONEST TO LEAVES " :confhyp "THE .?SOONEST?. .?TO?. .?LEAVES?. " :uttid "012" :engine_name "male" :nbest_index 0 :decoder_score -39264984.000000 :lm_score -2431354.000000 :am_score -36833632.000000 :frame_num 209 :acoustic_gap_norm 37649.609375 :avg_sphinxwordconf 0.225526 :min_sphinxwordconf 0.029561 :max_sphinxwordconf 0.481807 :avg_wordconf 0.333333 :min_wordconf 0.166667 :max_wordconf 0.583333 :avg_validwordconf 0.583333 :min_validwordconf 0.583333 :max_validwordconf 0.583333 :startframes "57 75 123 140" :endframes "74 122 139 200" :init_timestamp 614528 :end_timestamp 616618 }  ) }
+
+[19:52:14.191] Processing input...
+[19:52:14.191] Received 19 bytes...
+[19:52:14.191] Processing command: engine_cancel_utt 
+
+[19:52:14.504] Processing input...
+[19:52:14.504] Received 20 bytes...
+[19:52:14.504] Processing command: engine_set_lm time 
+
+[19:52:14.504] set lm: time
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 358 root, 50454 non-root channels, 32 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "time"
+[19:52:20.125] Processing input...
+[19:52:20.125] Received 28 bytes...
+[19:52:20.125] Processing command: engine_begin_utt 013 680064
+
+[19:52:20.125] begin utt: 013 (680064)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:52:20.126] Processing input...
+[19:52:20.127] Received 6678 bytes...
+[19:52:20.127] Processing command: engine_proc_raw 6656 
+
+[19:52:20.127] prepare to proc raw
+[19:52:20.127] Processing raw data ...
+[19:52:20.127] 6656 bytes raw data received
+[19:52:20.434] Processing input...
+[19:52:20.434] Received 22 bytes...
+[19:52:20.434] Processing command: engine_proc_raw 2816 
+
+[19:52:20.434] prepare to proc raw
+[19:52:20.435] Processing input...
+[19:52:20.435] Received 2837 bytes...
+[19:52:20.435] Processing raw data ...
+[19:52:20.435] 2816 bytes raw data received
+[19:52:20.526] Processing command: engine_proc_partial 
+
+[19:52:20.526] proc partial result (46): NOW 
+[19:52:20.526] Sending:
+ {c properties 											:partial_hyp "NOW " 											:engine_name "male"											:start_timestamp "680064" 											:end_timestamp "680524" 											:frame_num "46" 										}
+[19:52:20.526] Sent
+
+[19:52:20.716] Processing input...
+[19:52:20.716] Received 7211 bytes...
+[19:52:20.716] Processing command: engine_proc_raw 7168 
+
+[19:52:20.716] prepare to proc raw
+[19:52:20.716] Processing raw data ...
+[19:52:20.716] 7168 bytes raw data received
+[19:52:21.011] Processing command: engine_proc_partial 
+
+[19:52:21.011] proc partial result (91): NOW 
+[19:52:21.011] Sending:
+ {c properties 											:partial_hyp "NOW " 											:engine_name "male"											:start_timestamp "680064" 											:end_timestamp "680974" 											:frame_num "91" 										}
+[19:52:21.013] Sent
+
+[19:52:21.044] Processing input...
+[19:52:21.044] Received 36 bytes...
+[19:52:21.044] Processing command: engine_end_utt 
+
+[19:52:21.044] end utt: 013
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (013) (4/8/16/30/32K): 97.1%(8081) 2.8%(237) 0.0%(2) 0.0%(0) 0.0%(0); max: 8454
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.2sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from <  9.23  0.52 -0.46  0.09 -0.38 -0.24 -0.23 -0.28 -0.12 -0.25 -0.15 -0.09 -0.14 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  9.18  0.53 -0.51  0.06 -0.40 -0.23 -0.23 -0.26 -0.10 -0.25 -0.14 -0.08 -0.15 >
+[19:52:21.046] Processing command: engine_proc_result 
+
+[19:52:21.047] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (013)
+	---------------------------------------------------------------------
+	   0   19    -3493184          0   -16893   -19984  -1.00      6 <s>
+	  20   64    -6081206    -315714    -8292   -23886   0.41     10 NOW
+	  65   94    -5688015     -66434   -96485   -27228  -1.00     13 </s>
+	---------------------------------------------------------------------
+	   0   94   -15262405    -382148   -96485   -27228               013(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: NOW  (013 -15644553 (A=-15262405 L=-382148))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):      949 words recognized (10/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     3593 phones in topsen (37/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   597550 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   142715 channels searched (1502/fr), 29967 1st, 10805 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     2959 words for which last channels evaluated (31/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     7261 candidate words for entering last phone (76/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   0.94 SoS,   0.94 sec elapsed,  1.00 xRT,   0.53 sec CPU,  0.57 xRT
+
+[19:52:21.061] 94 frames
+
+[19:52:21.061] Acoustic confidence: (-12806144 - -15262405.000000) / 94 = 26130.435547
+
+[19:52:21.061] hyp: NOW 
+
+[19:52:21.061] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "NOW " :confhyp "NOW " :uttid "013" :engine_name "male" :nbest_index 0 :decoder_score -15644553.000000 :lm_score -382148.000000 :am_score -15262405.000000 :frame_num 94 :acoustic_gap_norm 26130.435547 :avg_sphinxwordconf 0.413590 :min_sphinxwordconf 0.413590 :max_sphinxwordconf 0.413590 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "20" :endframes "64" :init_timestamp 680064 :end_timestamp 681004 }  ) }
+
+[19:52:21.069] Processing input...
+[19:52:21.069] Received 19 bytes...
+[19:52:21.069] Processing command: engine_cancel_utt 
+
+[19:52:21.399] Processing input...
+[19:52:21.399] Received 22 bytes...
+[19:52:21.399] Processing command: engine_set_lm yes_no 
+
+[19:52:21.399] set lm: yes_no
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 354 root, 50406 non-root channels, 35 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "yes_no"
+[19:52:25.142] Processing input...
+[19:52:25.142] Received 28 bytes...
+[19:52:25.142] Processing command: engine_begin_utt 014 720256
+
+[19:52:25.142] begin utt: 014 (720256)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:52:25.143] Processing input...
+[19:52:25.143] Received 22 bytes...
+[19:52:25.143] Processing command: engine_proc_raw 6656 
+
+[19:52:25.143] prepare to proc raw
+[19:52:25.145] Processing input...
+[19:52:25.145] Received 6656 bytes...
+[19:52:25.145] Processing raw data ...
+[19:52:25.145] 6656 bytes raw data received
+[19:52:25.391] Processing input...
+[19:52:25.391] Received 2326 bytes...
+[19:52:25.391] Processing command: engine_proc_raw 2304 
+
+[19:52:25.391] prepare to proc raw
+[19:52:25.391] Processing raw data ...
+[19:52:25.391] 2304 bytes raw data received
+[19:52:25.461] Processing input...
+[19:52:25.461] Received 21 bytes...
+[19:52:25.461] Processing command: engine_proc_partial 
+
+[19:52:25.462] proc partial result (43): YEAH 
+[19:52:25.462] Sending:
+ {c properties 											:partial_hyp "YEAH " 											:engine_name "male"											:start_timestamp "720256" 											:end_timestamp "720686" 											:frame_num "43" 										}
+[19:52:25.462] Sent
+
+[19:52:25.716] Processing input...
+[19:52:25.716] Received 6443 bytes...
+[19:52:25.716] Processing command: engine_proc_raw 6400 
+
+[19:52:25.716] prepare to proc raw
+[19:52:25.716] Processing raw data ...
+[19:52:25.716] 6400 bytes raw data received
+[19:52:25.908] Processing command: engine_proc_partial 
+
+[19:52:25.909] proc partial result (83): YES 
+[19:52:25.909] Sending:
+ {c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "720256" 											:end_timestamp "721086" 											:frame_num "83" 										}
+[19:52:25.909] Sent
+
+[19:52:26.043] Processing input...
+[19:52:26.043] Received 36 bytes...
+[19:52:26.043] Processing command: engine_end_utt 
+
+[19:52:26.043] end utt: 014
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (014) (4/8/16/30/32K): 95.3%(7319) 3.8%(294) 0.9%(67) 0.0%(0) 0.0%(0); max: 11535
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.1sec, SCR-TIME= 0.2sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from <  9.15  0.52 -0.51  0.06 -0.40 -0.23 -0.23 -0.26 -0.10 -0.25 -0.14 -0.08 -0.15 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  9.12  0.48 -0.49  0.06 -0.40 -0.25 -0.22 -0.25 -0.11 -0.24 -0.12 -0.08 -0.15 >
+[19:52:26.046] Processing command: engine_proc_result 
+
+[19:52:26.046] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (014)
+	---------------------------------------------------------------------
+	   0   13    -2369920          0   -32896   -21165  -1.00      7 <s>
+	  14   18    -1017512     -52986  -132491   -45192  -1.00     24 SIL
+	  19   78    -8625615    -130550   -10032   -15504   0.52      7 YES
+	  79   86    -1394312     -65474   -29381   -15825  -1.00     10 </s>
+	---------------------------------------------------------------------
+	   0   86   -13407359    -249010  -132491   -45192               014(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: YES  (014 -13656369 (A=-13407359 L=-249010))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):      623 words recognized (7/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     3234 phones in topsen (37/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   547230 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   101921 channels searched (1171/fr), 27459 1st, 10266 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     2656 words for which last channels evaluated (30/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     5283 candidate words for entering last phone (60/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   0.86 SoS,   0.92 sec elapsed,  1.07 xRT,   0.42 sec CPU,  0.49 xRT
+
+[19:52:26.059] 86 frames
+
+[19:52:26.059] Acoustic confidence: (-11674624 - -13407359.000000) / 86 = 20148.082031
+
+[19:52:26.059] hyp: YES 
+
+[19:52:26.059] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "014" :engine_name "male" :nbest_index 0 :decoder_score -13656369.000000 :lm_score -249010.000000 :am_score -13407359.000000 :frame_num 86 :acoustic_gap_norm 20148.082031 :avg_sphinxwordconf 0.519301 :min_sphinxwordconf 0.519301 :max_sphinxwordconf 0.519301 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "19" :endframes "78" :init_timestamp 720256 :end_timestamp 721116 }  ) }
+
+[19:52:26.067] Processing input...
+[19:52:26.067] Received 19 bytes...
+[19:52:26.067] Processing command: engine_cancel_utt 
+
+[19:52:27.254] Processing input...
+[19:52:27.254] Received 26 bytes...
+[19:52:27.254] Processing command: engine_set_lm next_query 
+
+[19:52:27.254] set lm: next_query
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3619): Creating search tree
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(3742): 335 root, 50233 non-root channels, 30 single-phone words
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1752): LM= "next_query"
+[19:52:29.249] Processing input...
+[19:52:29.249] Received 28 bytes...
+[19:52:29.249] Processing command: engine_begin_utt 015 753664
+
+[19:52:29.249] begin utt: 015 (753664)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:52:29.251] Processing input...
+[19:52:29.251] Received 6678 bytes...
+[19:52:29.251] Processing command: engine_proc_raw 6656 
+
+[19:52:29.251] prepare to proc raw
+[19:52:29.251] Processing raw data ...
+[19:52:29.251] 6656 bytes raw data received
+[19:52:29.497] Processing input...
+[19:52:29.498] Received 554 bytes...
+[19:52:29.498] Processing command: engine_proc_raw 512 
+
+[19:52:29.498] prepare to proc raw
+[19:52:29.498] Processing raw data ...
+[19:52:29.498] 512 bytes raw data received
+[19:52:29.524] Processing command: engine_proc_partial 
+
+[19:52:29.524] proc partial result (32): 
+[19:52:29.811] Processing input...
+[19:52:29.811] Received 5163 bytes...
+[19:52:29.811] Processing command: engine_proc_raw 5120 
+
+[19:52:29.811] prepare to proc raw
+[19:52:29.811] Processing raw data ...
+[19:52:29.811] 5120 bytes raw data received
+[19:52:30.053] Processing command: engine_proc_partial 
+
+[19:52:30.053] proc partial result (64): 
+[19:52:30.066] Processing input...
+[19:52:30.066] Received 16 bytes...
+[19:52:30.066] Processing command: engine_end_utt 
+
+[19:52:30.066] end utt: 015
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (015) (4/8/16/30/32K): 100.0%(6144) 0.0%(0) 0.0%(0) 0.0%(0) 0.0%(0); max: 2184
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.0sec, SCR-TIME= 0.1sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from <  9.12  0.48 -0.49  0.06 -0.40 -0.25 -0.22 -0.25 -0.11 -0.24 -0.12 -0.08 -0.15 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  9.00  0.43 -0.48  0.05 -0.40 -0.23 -0.22 -0.24 -0.12 -0.23 -0.12 -0.08 -0.14 >
+[19:52:43.281] Processing input...
+[19:52:43.281] Received 28 bytes...
+[19:52:43.281] Processing command: engine_begin_utt 016 866048
+
+[19:52:43.281] begin utt: 016 (866048)
+ERROR: "\Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c", line 1182: uttproc_begin_utt called when not in IDLE state
+[19:52:43.283] Processing input...
+[19:52:43.283] Received 22 bytes...
+[19:52:43.283] Processing command: engine_proc_raw 6656 
+
+[19:52:43.283] prepare to proc raw
+[19:52:43.283] Processing input...
+[19:52:43.283] Received 6656 bytes...
+[19:52:43.283] Processing raw data ...
+[19:52:43.284] 6656 bytes raw data received
+ERROR: "\Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c", line 1282: uttproc_rawdata called when utterance not begun
+[19:52:43.528] Processing input...
+[19:52:43.528] Received 810 bytes...
+[19:52:43.528] Processing command: engine_proc_raw 768 
+
+[19:52:43.528] prepare to proc raw
+[19:52:43.528] Processing raw data ...
+[19:52:43.528] 768 bytes raw data received
+ERROR: "\Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c", line 1282: uttproc_rawdata called when utterance not begun
+[19:52:43.528] Processing command: engine_proc_partial 
+
+[19:52:43.528] proc partial result (64): 
+[19:52:43.841] Processing input...
+[19:52:43.841] Received 22 bytes...
+[19:52:43.841] Processing command: engine_proc_raw 4608 
+
+[19:52:43.841] prepare to proc raw
+[19:52:43.841] Processing input...
+[19:52:43.841] Received 4629 bytes...
+[19:52:43.841] Processing raw data ...
+[19:52:43.841] 4608 bytes raw data received
+ERROR: "\Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c", line 1282: uttproc_rawdata called when utterance not begun
+[19:52:43.841] Processing command: engine_proc_partial 
+
+[19:52:43.841] proc partial result (64): 
+[19:52:44.169] Processing input...
+[19:52:44.169] Received 36 bytes...
+[19:52:44.169] Processing command: engine_end_utt 
+
+[19:52:44.169] end utt: 016
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (015) (4/8/16/30/32K): 94.9%(5711) 3.8%(228) 1.3%(77) 0.0%(0) 0.0%(0); max: 14437
+ERROR: "\Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c", line 1398: uttproc_end_utt called when utterance not begun
+[19:52:44.171] Processing command: engine_proc_result 
+
+[19:52:44.171] proc result
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (015)
+	---------------------------------------------------------------------
+	   0   15    -3276244          0  -116092   -53789  -1.00      7 <s>
+	  16   56    -7944625    -230270  -300008   -40870  -1.00     18 ++NOISE++
+	  57   67    -2447116    -265513  -511312   -56670  -1.00     13 </s>
+	---------------------------------------------------------------------
+	   0   67   -13667985    -495783  -511312   -56670               015(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE:  (015 -14163768 (A=-13667985 L=-495783))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):      980 words recognized (14/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     2945 phones in topsen (43/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   427720 senones evaluated (6290/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):   139703 channels searched (2054/fr), 21775 1st, 6514 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     1985 words for which last channels evaluated (29/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     6662 candidate words for entering last phone (97/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   0.67 SoS,  14.94 sec elapsed, 22.29 xRT,   0.45 sec CPU,  0.68 xRT
+
+[19:52:44.197] 67 frames
+
+[19:52:44.197] Acoustic confidence: (-10352640 - -13667985.000000) / 67 = 49482.761719
+
+[19:52:44.197] hyp: 
+
+[19:52:44.197] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "015" :engine_name "male" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 67 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 866048 :end_timestamp 866718 }  ) }
+
+[19:52:44.202] Processing input...
+[19:52:44.202] Received 19 bytes...
+[19:52:44.203] Processing command: engine_cancel_utt 
+
+[19:52:45.139] Processing input...
+[19:52:45.139] Received 28 bytes...
+[19:52:45.139] Processing command: engine_begin_utt 017 881536
+
+[19:52:45.139] begin utt: 017 (881536)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1195): Livemode
+[19:52:45.141] Processing input...
+[19:52:45.141] Received 22 bytes...
+[19:52:45.141] Processing command: engine_proc_raw 6656 
+
+[19:52:45.141] prepare to proc raw
+[19:52:45.142] Processing input...
+[19:52:45.142] Received 6656 bytes...
+[19:52:45.142] Processing raw data ...
+[19:52:45.142] 6656 bytes raw data received
+[19:52:45.341] Processing input...
+[19:52:45.341] Received 16 bytes...
+[19:52:45.341] Processing command: engine_end_utt 
+
+[19:52:45.341] end utt: 017
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(1391): Samples histogram (017) (4/8/16/30/32K): 99.7%(3317) 0.3%(10) 0.0%(1) 0.0%(0) 0.0%(0); max: 11114
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\sc_vq.c(576): VQ-TIME= 0.0sec, SCR-TIME= 0.1sec (CPU)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(168): mean_norm_update: from <  9.00  0.43 -0.48  0.05 -0.40 -0.23 -0.22 -0.24 -0.12 -0.23 -0.12 -0.08 -0.14 >
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\live_norm.c(185): mean_norm_update: to   <  8.89  0.41 -0.46  0.05 -0.40 -0.23 -0.21 -0.22 -0.13 -0.22 -0.12 -0.08 -0.13 >
+[19:52:45.344] Processing input...
+[19:52:45.344] Received 20 bytes...
+[19:52:45.344] Processing command: engine_proc_result 
+
+[19:52:45.344] proc result
+WARNING: "\Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c", line 2703: Failed to terminate in final state
+
+WARNING: "\Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c", line 3919: Segment acoustic score = 241038; should be < 0 ??
+	SFrm Efrm        AScr       LScr   BSDiff TSDiffPF   Conf LatDen Word (FWDTREE) (017)
+	---------------------------------------------------------------------
+	   0   16    -2970340          0   -16893   -18836  -1.00      4 <s>
+	  17   32    -3072781    -572116  -625771   -46448   0.16     45 THAT(2)
+	  33   33           0    -165553  -164204   142336  -1.00     20 </s>
+	---------------------------------------------------------------------
+	   0   33    -6043121    -737669  -625771   -46448               017(TOTAL)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2756): FWDTREE: THAT  (017 -6780790 (A=-6043121 L=-737669))
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2842):      537 words recognized (16/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2845):     1336 phones in topsen (39/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2847):   207570 senones evaluated (6105/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2849):    55583 channels searched (1634/fr), 10026 1st, 10143 last
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2853):     1303 words for which last channels evaluated (38/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\search.c(2855):     2738 candidate words for entering last phone (80/fr)
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\uttproc.c(517):   0.33 SoS,   0.25 sec elapsed,  0.76 xRT,   0.20 sec CPU,  0.62 xRT
+
+[19:52:45.392] 33 frames
+
+[19:52:45.392] Acoustic confidence: (-4979712 - -6043121.000000) / 33 = 32224.515625
+
+[19:52:45.392] hyp: THAT 
+
+[19:52:45.392] Sending final hypotheses frame:
+{c result :results ( {c hypothesis :hyp "THAT " :confhyp "THAT " :uttid "017" :engine_name "male" :nbest_index 0 :decoder_score -6780790.000000 :lm_score -737669.000000 :am_score -6043121.000000 :frame_num 33 :acoustic_gap_norm 32224.515625 :avg_sphinxwordconf 0.135902 :min_sphinxwordconf 0.135902 :max_sphinxwordconf 0.135902 :avg_wordconf 0.666667 :min_wordconf 0.666667 :max_wordconf 0.666667 :avg_validwordconf 0.666667 :min_validwordconf 0.666667 :max_validwordconf 0.666667 :startframes "17" :endframes "32" :init_timestamp 881536 :end_timestamp 881866 }  ) }
+
+[19:52:45.408] Processing input...
+[19:52:45.408] Received 19 bytes...
+[19:52:45.408] Processing command: engine_cancel_utt 
+
+[20:00:51.383] Processing input...
+[20:00:51.383] Received 82 bytes...
+[20:00:51.383] Processing command: engine_new_session ..\..\logs\LetsGoPublic\20061122\012\LetsGoPublic-20061122-012
+
+[20:00:51.383] new session
+INFO: \Projects\RoomLine-Blackmore\Agents\sphinx2\src\libsphinx2\fbs_main.c(1186): uttproc_set_logfile(..\..\logs\LetsGoPublic\20061122\012\LetsGoPublic-20061122-012-sphinx_male.log)

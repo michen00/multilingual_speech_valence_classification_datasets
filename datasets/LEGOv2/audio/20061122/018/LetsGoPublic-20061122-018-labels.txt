@@ -1,0 +1,31 @@
+auto_barge_in_labeled	YES
+auto_timeout_labeled	YES
+auto_transcript_labeled	YES
+auto_task_fail	NO
+auto_task_fail.description	0/0/0/1/0
+auto_nonu_recovery_labeled	YES
+auto_understanding_error_labeled	YES
+auto_nonu_labeled	YES
+auto_concept_transfer_labeled	YES
+utterance0	{
+auto_timeout	NO
+auto_transcript_noparse	NO
+auto_barge_in	NO
+auto_concept_transfer	1/0
+auto_nonunderstanding	NO
+auto_nonu_recovery	NO
+auto_understanding_error	1/0/0/0
+auto_transcript_label	OK
+}
+utterance1	{
+auto_transcript_label	OK
+auto_timeout	NO
+auto_understanding_error	1/0/0/0
+auto_nonu_recovery	NO
+auto_nonunderstanding	NO
+auto_concept_transfer	1/0
+auto_transcript_noparse	NO
+auto_barge_in	NO
+}
+utterance2	{
+}

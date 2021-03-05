@@ -1,0 +1,481 @@
+auto_concept_transfer_labeled	YES
+auto_barge_in_labeled	YES
+auto_task_fail.description	0/0/0/0/0
+auto_timeout_labeled	YES
+auto_understanding_error_labeled	YES
+auto_task_fail	YES
+auto_transcript_labeled	YES
+auto_nonu_recovery_labeled	YES
+auto_nonu_labeled	YES
+utterance0	{
+auto_transcript_noparse	YES
+auto_barge_in	YES
+auto_understanding_error	0/0/1/0
+auto_concept_transfer	0/1
+auto_timeout	NO
+auto_transcript_label	VOID
+auto_nonunderstanding	NO
+auto_nonu_recovery	NO
+}
+utterance1	{
+auto_transcript_noparse	YES
+auto_barge_in	NO
+auto_nonu_recovery	NO
+auto_concept_transfer	0/0
+auto_timeout	NO
+auto_understanding_error	0/0/0/0
+auto_transcript_label	VOID
+auto_nonunderstanding	YES
+}
+utterance2	{
+auto_barge_in	YES
+auto_transcript_noparse	YES
+auto_nonu_recovery	NO
+auto_timeout	NO
+auto_nonunderstanding	YES
+auto_understanding_error	0/0/0/0
+auto_concept_transfer	0/0
+auto_transcript_label	VOID
+}
+utterance3	{
+auto_nonu_recovery	NO
+auto_understanding_error	0/0/0/0
+auto_transcript_noparse	YES
+auto_concept_transfer	0/0
+auto_timeout	NO
+auto_transcript_label	VOID
+auto_nonunderstanding	NO
+auto_barge_in	YES
+}
+utterance4	{
+auto_concept_transfer	0/0
+auto_barge_in	NO
+auto_transcript_label	VOID
+auto_nonu_recovery	NO
+auto_nonunderstanding	YES
+auto_understanding_error	0/0/0/0
+auto_timeout	NO
+auto_transcript_noparse	YES
+}
+utterance5	{
+auto_understanding_error	0/0/0/2
+auto_transcript_noparse	NO
+auto_timeout	NO
+auto_transcript_label	OK
+auto_nonu_recovery	NO
+auto_concept_transfer	0/0
+auto_nonunderstanding	YES
+auto_barge_in	NO
+}
+utterance6	{
+auto_transcript_label	OK
+auto_nonu_recovery	NO
+auto_barge_in	YES
+auto_concept_transfer	1/1
+auto_transcript_noparse	NO
+auto_understanding_error	1/0/1/1
+auto_nonunderstanding	NO
+auto_timeout	NO
+}
+utterance7	{
+auto_transcript_label	VOID
+auto_nonunderstanding	YES
+auto_nonu_recovery	NO
+auto_concept_transfer	0/0
+auto_understanding_error	0/0/0/0
+auto_timeout	NO
+auto_barge_in	YES
+auto_transcript_noparse	YES
+}
+utterance8	{
+auto_barge_in	YES
+auto_nonu_recovery	NO
+auto_timeout	NO
+auto_nonunderstanding	NO
+auto_transcript_noparse	NO
+auto_understanding_error	0/0/2/1
+auto_concept_transfer	0/2
+auto_transcript_label	OK
+}
+utterance9	{
+auto_concept_transfer	0/0
+auto_barge_in	NO
+auto_timeout	NO
+auto_nonunderstanding	YES
+auto_transcript_noparse	YES
+auto_nonu_recovery	NO
+auto_understanding_error	0/0/0/0
+auto_transcript_label	VOID
+}
+utterance10	{
+auto_nonu_recovery	NO
+auto_transcript_noparse	NO
+auto_concept_transfer	0/1
+auto_nonunderstanding	NO
+auto_barge_in	NO
+auto_timeout	NO
+auto_understanding_error	0/0/1/2
+auto_transcript_label	OK
+}
+utterance11	{
+auto_transcript_label	OK
+auto_timeout	NO
+auto_nonu_recovery	NO
+auto_transcript_noparse	NO
+auto_barge_in	NO
+auto_nonunderstanding	NO
+auto_understanding_error	1/0/0/1
+auto_concept_transfer	1/0
+}
+utterance12	{
+auto_timeout	NO
+auto_nonunderstanding	YES
+auto_transcript_noparse	NO
+auto_understanding_error	0/0/0/1
+auto_nonu_recovery	NO
+auto_barge_in	NO
+auto_concept_transfer	0/0
+auto_transcript_label	OK
+}
+utterance13	{
+auto_understanding_error	1/0/0/0
+auto_concept_transfer	1/0
+auto_transcript_noparse	NO
+auto_timeout	NO
+auto_barge_in	YES
+auto_nonunderstanding	NO
+auto_transcript_label	OK
+auto_nonu_recovery	NO
+}
+utterance14	{
+auto_understanding_error	0/0/0/0
+auto_nonu_recovery	NO
+auto_timeout	NO
+auto_transcript_noparse	NO
+auto_nonunderstanding	NO
+auto_concept_transfer	0/0
+auto_barge_in	NO
+auto_transcript_label	OOR
+}
+utterance15	{
+auto_transcript_noparse	NO
+auto_transcript_label	OK
+auto_barge_in	NO
+auto_concept_transfer	2/0
+auto_timeout	NO
+auto_nonu_recovery	NO
+auto_nonunderstanding	NO
+auto_understanding_error	2/0/0/0
+}
+utterance16	{
+auto_timeout	NO
+auto_understanding_error	2/0/1/1
+auto_barge_in	NO
+auto_concept_transfer	2/1
+auto_nonunderstanding	NO
+auto_transcript_label	OK
+auto_transcript_noparse	NO
+auto_nonu_recovery	NO
+}
+utterance17	{
+auto_concept_transfer	1/0
+auto_timeout	NO
+auto_barge_in	NO
+auto_nonu_recovery	NO
+auto_transcript_label	OK
+auto_nonunderstanding	NO
+auto_understanding_error	1/0/0/0
+auto_transcript_noparse	NO
+}
+utterance18	{
+auto_timeout	NO
+auto_transcript_noparse	NO
+auto_concept_transfer	0/1
+auto_understanding_error	0/0/1/2
+auto_nonunderstanding	NO
+auto_barge_in	NO
+auto_nonu_recovery	NO
+auto_transcript_label	OK
+}
+utterance19	{
+auto_understanding_error	0/0/1/0
+auto_barge_in	NO
+auto_transcript_label	OOG
+auto_nonu_recovery	NO
+auto_timeout	NO
+auto_transcript_noparse	YES
+auto_concept_transfer	0/1
+auto_nonunderstanding	NO
+}
+utterance20	{
+auto_concept_transfer	0/0
+auto_nonunderstanding	YES
+auto_barge_in	NO
+auto_transcript_noparse	NO
+auto_timeout	NO
+auto_understanding_error	0/0/1/1
+auto_nonu_recovery	NO
+auto_transcript_label	OK
+}
+utterance21	{
+auto_understanding_error	0/0/0/1
+auto_nonunderstanding	NO
+auto_transcript_noparse	NO
+auto_timeout	NO
+auto_nonu_recovery	NO
+auto_transcript_label	OK
+auto_concept_transfer	0/0
+auto_barge_in	YES
+}
+utterance22	{
+auto_transcript_label	OK
+auto_concept_transfer	1/0
+auto_timeout	NO
+auto_understanding_error	1/0/0/0
+auto_transcript_noparse	NO
+auto_nonu_recovery	NO
+auto_nonunderstanding	NO
+auto_barge_in	NO
+}
+utterance23	{
+auto_transcript_label	VOID
+auto_barge_in	YES
+auto_understanding_error	0/0/0/0
+auto_nonu_recovery	NO
+auto_concept_transfer	0/0
+auto_timeout	NO
+auto_nonunderstanding	YES
+auto_transcript_noparse	YES
+}
+utterance24	{
+auto_nonunderstanding	NO
+auto_barge_in	YES
+auto_concept_transfer	1/0
+auto_nonu_recovery	NO
+auto_understanding_error	1/0/0/2
+auto_transcript_noparse	NO
+auto_transcript_label	OK
+auto_timeout	NO
+}
+utterance25	{
+auto_transcript_noparse	NO
+auto_concept_transfer	0/0
+auto_transcript_label	OK
+auto_timeout	NO
+auto_nonu_recovery	NO
+auto_barge_in	NO
+auto_nonunderstanding	YES
+auto_understanding_error	0/0/0/2
+}
+utterance26	{
+auto_nonu_recovery	NO
+auto_concept_transfer	0/0
+auto_transcript_label	OOG
+auto_transcript_noparse	YES
+auto_nonunderstanding	YES
+auto_timeout	NO
+auto_understanding_error	0/0/0/0
+auto_barge_in	YES
+}
+utterance27	{
+auto_transcript_noparse	YES
+auto_concept_transfer	1/0
+auto_nonunderstanding	NO
+auto_understanding_error	1/0/0/0
+auto_barge_in	YES
+auto_transcript_label	VOID
+auto_timeout	NO
+auto_nonu_recovery	NO
+}
+utterance28	{
+auto_nonunderstanding	YES
+auto_barge_in	NO
+auto_concept_transfer	0/0
+auto_transcript_noparse	NO
+auto_nonu_recovery	NO
+auto_understanding_error	0/0/1/1
+auto_timeout	NO
+auto_transcript_label	OK
+}
+utterance29	{
+auto_timeout	NO
+auto_concept_transfer	0/0
+auto_understanding_error	0/1/0/3
+auto_transcript_label	OK
+auto_nonunderstanding	YES
+auto_nonu_recovery	NO
+auto_transcript_noparse	NO
+auto_barge_in	NO
+}
+utterance30	{
+auto_concept_transfer	0/0
+auto_transcript_label	VOID
+auto_barge_in	NO
+auto_nonu_recovery	NO
+auto_timeout	NO
+auto_nonunderstanding	YES
+auto_transcript_noparse	YES
+auto_understanding_error	0/0/0/0
+}
+utterance31	{
+auto_understanding_error	0/1/0/1
+auto_barge_in	NO
+auto_concept_transfer	0/1
+auto_transcript_noparse	NO
+auto_transcript_label	OK
+auto_nonunderstanding	NO
+auto_nonu_recovery	NO
+auto_timeout	NO
+}
+utterance32	{
+auto_nonunderstanding	YES
+auto_transcript_noparse	NO
+auto_barge_in	YES
+auto_understanding_error	0/0/1/1
+auto_concept_transfer	0/0
+auto_timeout	NO
+auto_nonu_recovery	NO
+auto_transcript_label	OK
+}
+utterance33	{
+auto_barge_in	NO
+auto_concept_transfer	0/0
+auto_nonu_recovery	NO
+auto_understanding_error	0/0/1/0
+auto_nonunderstanding	YES
+auto_transcript_noparse	YES
+auto_transcript_label	OOG
+auto_timeout	NO
+}
+utterance34	{
+auto_understanding_error	0/0/1/1
+auto_nonu_recovery	NO
+auto_transcript_noparse	NO
+auto_barge_in	YES
+auto_transcript_label	OK
+auto_concept_transfer	0/1
+auto_nonunderstanding	NO
+auto_timeout	NO
+}
+utterance35	{
+auto_nonu_recovery	NO
+auto_transcript_noparse	NO
+auto_barge_in	NO
+auto_understanding_error	0/1/0/0
+auto_timeout	NO
+auto_nonunderstanding	NO
+auto_transcript_label	OK
+auto_concept_transfer	0/1
+}
+utterance36	{
+auto_concept_transfer	0/1
+auto_transcript_noparse	YES
+auto_timeout	NO
+auto_nonu_recovery	NO
+auto_understanding_error	0/0/1/0
+auto_barge_in	NO
+auto_nonunderstanding	NO
+auto_transcript_label	VOID
+}
+utterance37	{
+auto_timeout	NO
+auto_barge_in	NO
+auto_transcript_noparse	YES
+auto_nonu_recovery	NO
+auto_nonunderstanding	YES
+auto_concept_transfer	0/0
+auto_transcript_label	VOID
+auto_understanding_error	0/0/1/0
+}
+utterance38	{
+auto_transcript_noparse	NO
+auto_barge_in	YES
+auto_timeout	NO
+auto_nonu_recovery	NO
+auto_transcript_label	OK
+auto_concept_transfer	0/0
+auto_understanding_error	0/0/1/1
+auto_nonunderstanding	YES
+}
+utterance39	{
+auto_nonu_recovery	NO
+auto_concept_transfer	0/0
+auto_transcript_label	OK
+auto_nonunderstanding	YES
+auto_transcript_noparse	NO
+auto_timeout	NO
+auto_understanding_error	1/1/0/3
+auto_barge_in	YES
+}
+utterance40	{
+auto_transcript_label	VOID
+auto_transcript_noparse	YES
+auto_understanding_error	0/0/2/0
+auto_concept_transfer	0/0
+auto_nonu_recovery	NO
+auto_barge_in	NO
+auto_timeout	NO
+auto_nonunderstanding	YES
+}
+utterance41	{
+auto_understanding_error	1/0/0/0
+auto_nonu_recovery	NO
+auto_barge_in	NO
+auto_timeout	NO
+auto_transcript_noparse	NO
+auto_nonunderstanding	NO
+auto_concept_transfer	1/0
+auto_transcript_label	OK
+}
+utterance42	{
+auto_concept_transfer	0/0
+auto_nonu_recovery	NO
+auto_nonunderstanding	YES
+auto_understanding_error	0/0/0/0
+auto_transcript_label	VOID
+auto_barge_in	YES
+auto_transcript_noparse	YES
+auto_timeout	NO
+}
+utterance43	{
+auto_concept_transfer	0/0
+auto_nonunderstanding	YES
+auto_transcript_noparse	NO
+auto_transcript_label	OK
+auto_barge_in	YES
+auto_timeout	NO
+auto_understanding_error	1/0/0/2
+auto_nonu_recovery	NO
+}
+utterance44	{
+auto_understanding_error	1/0/0/0
+auto_transcript_label	OK
+auto_nonu_recovery	NO
+auto_timeout	NO
+auto_barge_in	YES
+auto_transcript_noparse	NO
+auto_concept_transfer	1/0
+auto_nonunderstanding	NO
+}
+utterance45	{
+auto_transcript_noparse	NO
+auto_concept_transfer	0/1
+auto_nonu_recovery	NO
+auto_understanding_error	0/1/0/1
+auto_transcript_label	OK
+auto_barge_in	NO
+auto_nonunderstanding	NO
+auto_timeout	NO
+}
+utterance46	{
+auto_barge_in	NO
+auto_nonunderstanding	YES
+auto_transcript_label	OK
+auto_transcript_noparse	NO
+auto_nonu_recovery	NO
+auto_timeout	NO
+auto_understanding_error	0/0/2/2
+auto_concept_transfer	0/0
+}
+utterance47	{
+}

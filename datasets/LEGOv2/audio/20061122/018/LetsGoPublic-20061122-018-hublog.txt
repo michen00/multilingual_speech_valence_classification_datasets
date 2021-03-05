@@ -1,0 +1,840 @@
+LOGFILE_FORMAT_VERSION: 1.0
+
+SESSION_ID: Default
+
+
+
+
+:BEGIN_UTT (-01)
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE Builtin(<Builtin>:-1) 6955 new_session at 21:14:14.85 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE AudioRecorder(localhost:19000) 6955 start_recording at 21:14:14.85 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE AudioRecorder(localhost:19000) 6955 start_recording at 21:14:14.85 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6955 start_listening at 21:14:14.85 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 6955 start_listening at 21:14:14.88 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 6955 begin_session at 21:14:14.88 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 6955 begin_session at 21:14:14.88 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6955 begin_session at 21:14:14.90 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6956 launch_query at 21:14:14.99 on 22-NOV-2006]
+:dont_listen (-01): "1"
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6956 launch_query at 21:14:14.99 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6957 launch_query at 21:14:14.99 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6957 launch_query at 21:14:15.01 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6958 main at 21:14:15.01 on 22-NOV-2006]
+:dont_listen (-01): 1
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6959 main at 21:14:15.01 on 22-NOV-2006]
+:dont_listen (-01): 0
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6958 speak at 21:14:15.01 on 22-NOV-2006]
+:phrase (-01): " {audio src=\"../../Resources/audio/intro1.wav\"}Welcome to the CMU Let's Go bus information system.{/audio}
+"
+:id (-01): "DialogManager-491:0"
+:dont_listen (-01): 1
+:interruptable (-01): 1
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6960 launch_query at 21:14:15.01 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6960 launch_query at 21:14:15.01 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 6958 speak at 21:14:15.02 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6959 speak at 21:14:15.02 on 22-NOV-2006]
+:phrase (-01): " {audio src=\"../../Resources/audio/intro4.wav\"}To get help at any time, just say Help or press zero.{/audio}
+"
+:id (-01): "DialogManager-491:1"
+:dont_listen (-01): 0
+:interruptable (-01): 1
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 6958 speak at 21:14:15.02 on 22-NOV-2006]
+:tty-phrase (-01): " {audio src=\"../../Resources/audio/intro1.wav\"}Welcome to the CMU Let's Go bus information system.{/audio}
+"
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 6958 speak at 21:14:15.02 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 6959 speak at 21:14:15.02 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 6959 speak at 21:14:15.02 on 22-NOV-2006]
+:tty-phrase (-01): " {audio src=\"../../Resources/audio/intro4.wav\"}To get help at any time, just say Help or press zero.{/audio}
+"
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6961 main at 21:14:15.04 on 22-NOV-2006]
+:dont_listen (-01): 0
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6961 speak at 21:14:15.04 on 22-NOV-2006]
+:phrase (-01): " What can I do for you?
+"
+:id (-01): "DialogManager-491:2"
+:dont_listen (-01): 0
+:interruptable (-01): 1
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 6959 speak at 21:14:15.04 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 6961 speak at 21:14:15.04 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 6961 speak at 21:14:15.04 on 22-NOV-2006]
+:tty-phrase (-01): " What can I do for you?
+"
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 6961 speak at 21:14:15.05 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6963 set_config at 21:14:15.05 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6955 begin_session at 21:14:15.05 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6963 set_config at 21:14:15.07 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6955 begin_session at 21:14:15.13 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6964 main at 21:14:15.54 on 22-NOV-2006]
+:beginout (-01): "beginout message from kalliope"
+:dont_listen (-01): 1
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6964 cancel_inactivity_timeout at 21:14:15.54 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6964 cancel_inactivity_timeout at 21:14:15.54 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 6955 begin_session at 21:14:18.30 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6964 stop_decoding at 21:14:18.32 on 22-NOV-2006]
+:id (-01): "DialogManager-491:0"
+:beginout (-01): "beginout message from kalliope"
+:dont_listen (-01): 1
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 6964 stop_decoding at 21:14:18.32 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6965 main at 21:14:19.38 on 22-NOV-2006]
+:endout (-01): "endout message from kalliope"
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6965 start_inactivity_timeout at 21:14:19.38 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6965 start_inactivity_timeout at 21:14:19.38 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6965 start_decoding at 21:14:19.38 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6966 main at 21:14:19.38 on 22-NOV-2006]
+:beginout (-01): "beginout message from kalliope"
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6966 cancel_inactivity_timeout at 21:14:19.38 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 6965 start_decoding at 21:14:19.38 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6966 cancel_inactivity_timeout at 21:14:19.38 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6965 notify_output_manager at 21:14:19.38 on 22-NOV-2006]
+:conveyance (-01): ""
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6965 notify_output_manager at 21:14:19.38 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 6965 notify_helios_bargein at 21:14:19.38 on 22-NOV-2006]
+:conveyance (-01): ""
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 6965 notify_helios_bargein at 21:14:19.38 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6967 main at 21:14:23.52 on 22-NOV-2006]
+:endout (-01): "endout message from kalliope"
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6967 start_inactivity_timeout at 21:14:23.52 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6967 start_inactivity_timeout at 21:14:23.52 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6967 start_decoding at 21:14:23.52 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6968 main at 21:14:23.52 on 22-NOV-2006]
+:beginout (-01): "beginout message from kalliope"
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6968 cancel_inactivity_timeout at 21:14:23.52 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 6967 start_decoding at 21:14:23.52 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6968 cancel_inactivity_timeout at 21:14:23.52 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6967 notify_output_manager at 21:14:23.52 on 22-NOV-2006]
+:conveyance (-01): ""
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6967 notify_output_manager at 21:14:23.54 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 6967 notify_helios_bargein at 21:14:23.54 on 22-NOV-2006]
+:conveyance (-01): ""
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 6967 notify_helios_bargein at 21:14:23.54 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6969 main at 21:14:24.63 on 22-NOV-2006]
+:startutt (-01): "this space intentionally left blank"
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE Builtin(<Builtin>:-1) 6969 increment_utterance at 21:14:24.63 on 22-NOV-2006]
+
+
+:END_UTT (-01)
+
+
+:BEGIN_UTT (000)
+[Timestamp (000): read:GAL_REPLY_MSG_TYPE Builtin(<Builtin>:-1) 6969 increment_utterance at 21:14:24.69 on 22-NOV-2006]
+[Timestamp (000): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6969 cancel_inactivity_timeout at 21:14:24.72 on 22-NOV-2006]
+[Timestamp (000): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6969 cancel_inactivity_timeout at 21:14:24.72 on 22-NOV-2006]
+[Timestamp (000): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6970 main at 21:14:25.11 on 22-NOV-2006]
+:endout (000): "endout message from kalliope"
+[Timestamp (000): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6970 start_inactivity_timeout at 21:14:25.11 on 22-NOV-2006]
+[Timestamp (000): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6970 start_inactivity_timeout at 21:14:25.11 on 22-NOV-2006]
+[Timestamp (000): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6970 start_decoding at 21:14:25.11 on 22-NOV-2006]
+[Timestamp (000): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 6970 start_decoding at 21:14:25.11 on 22-NOV-2006]
+[Timestamp (000): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6970 notify_output_manager at 21:14:25.11 on 22-NOV-2006]
+:conveyance (000): ""
+[Timestamp (000): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6970 notify_output_manager at 21:14:25.11 on 22-NOV-2006]
+[Timestamp (000): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 6970 notify_helios_bargein at 21:14:25.11 on 22-NOV-2006]
+:conveyance (000): ""
+[Timestamp (000): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 6970 notify_helios_bargein at 21:14:25.11 on 22-NOV-2006]
+[Timestamp (000): read:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6971 main at 21:14:25.26 on 22-NOV-2006]
+:endutt (000): "this space intentionally left blank"
+[Timestamp (000): read:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6972 main at 21:14:25.33 on 22-NOV-2006]
+:emptyhyp (000): "This space intentionally left blank"
+[Timestamp (000): read:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6973 main at 21:14:27.15 on 22-NOV-2006]
+:startutt (000): "this space intentionally left blank"
+[Timestamp (000): send:GAL_MESSAGE_MSG_TYPE Builtin(<Builtin>:-1) 6973 increment_utterance at 21:14:27.15 on 22-NOV-2006]
+
+
+:END_UTT (000)
+
+
+:BEGIN_UTT (001)
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE Builtin(<Builtin>:-1) 6973 increment_utterance at 21:14:27.21 on 22-NOV-2006]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6973 cancel_inactivity_timeout at 21:14:27.27 on 22-NOV-2006]
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6973 cancel_inactivity_timeout at 21:14:27.27 on 22-NOV-2006]
+[Timestamp (001): read:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6978 main at 21:14:28.35 on 22-NOV-2006]
+:endutt (001): "this space intentionally left blank"
+[Timestamp (001): read:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6979 main at 21:14:28.40 on 22-NOV-2006]
+[Begin :confhyps (001)]
+( {c hypothesis :hyp "ROSS PARK MALL " :confhyp "ROSS PARK MALL " :uttid "001" :engine_name "male" :nbest_index 0 :decoder_score -2.007008e+007 :lm_score -9.256880e+005 :am_score -1.914439e+007 :frame_num 108 :acoustic_gap_norm 4.054941e+004 :avg_sphinxwordconf 2.631240e-001 :min_sphinxwordconf 2.631240e-001 :max_sphinxwordconf 2.631240e-001 :avg_wordconf 9.166670e-001 :min_wordconf 9.166670e-001 :max_wordconf 9.166670e-001 :avg_validwordconf 9.166670e-001 :min_validwordconf 9.166670e-001 :max_validwordconf 9.166670e-001 :startframes "19" :endframes "105" :init_timestamp 68352 :end_timestamp 69432 :hyp_index 0 } {c hypothesis :hyp "ROSS PARK MALL " :confhyp "ROSS PARK MALL " :uttid "001" :engine_name "female" :nbest_index 0 :decoder_score -2.057721e+007 :lm_score -9.256880e+005 :am_score -1.965152e+007 :frame_num 108 :acoustic_gap_norm 4.027674e+004 :avg_sphinxwordconf 2.320710e-001 :min_sphinxwordconf 2.320710e-001 :max_sphinxwordconf 2.320710e-001 :avg_wordconf 9.166670e-001 :min_wordconf 9.166670e-001 :max_wordconf 9.166670e-001 :avg_validwordconf 9.166670e-001 :min_validwordconf 9.166670e-001 :max_validwordconf 9.166670e-001 :startframes "19" :endframes "105" :init_timestamp 68352 :end_timestamp 69432 :hyp_index 1 } {c hypothesis :hyp "" :confhyp "" :uttid "001" :engine_name "dtmf" :decoder_score 1.000000e+000 :lm_score 0 :am_score 0 :frame_num 9472 :acoustic_gap_norm 0 :avg_wordconf 0 :min_wordconf 0 :max_wordconf 0 :avg_validwordconf 0 :min_validwordconf 0 :max_validwordconf 0 :startframes "" :endframes "" :init_timestamp 68352 :end_timestamp 69536 :hyp_index 2 } )
+[End :confhyps (001)]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6979 reset at 21:14:28.40 on 22-NOV-2006]
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 6979 reset at 21:14:28.40 on 22-NOV-2006]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE phoenix(localhost:13000) 6979 phoenixparse at 21:14:28.40 on 22-NOV-2006]
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE phoenix(localhost:13000) 6979 phoenixparse at 21:14:28.41 on 22-NOV-2006]
+[Begin :parses (001)]
+( {c parse :slots ( {c slot :name "[SinglePlace]" :contents "ROSS PARK MALL" :nets ( {c net :name "[stop_name]" :contents "ROSS PARK MALL" :nets ( {c net :name "[uncovered_place]" :contents "ROSS PARK MALL" :nets ( {c net :name "[uncovered_stop]" :contents "ROSS PARK MALL" } ) :numnets 1 } ) :numnets 1 } ) :numnets 1 :frame "PlaceInformation" } ) :numslots 1 :numtokens 4 :uttid "001" :engine_name "male" :hyp "ROSS PARK MALL " :hyp_num_parses 1 :decoder_score -2.007008e+007 :am_score -1.914439e+007 :lm_score -9.256880e+005 :frame_num 108 :hyp_index 0 :nbest_index 0 :acoustic_gap_norm 4.054941e+004 :avg_sphinxwordconf 2.631240e-001 :min_sphinxwordconf 2.631240e-001 :max_sphinxwordconf 2.631240e-001 :avg_wordconf 9.166670e-001 :min_wordconf 9.166670e-001 :max_wordconf 9.166670e-001 :avg_validwordconf 9.166670e-001 :min_validwordconf 9.166670e-001 :max_validwordconf 9.166670e-001 :parsestring "PlaceInformation
+[SinglePlace] ( [stop_name] ( [uncovered_place] ( [uncovered_stop] ( ROSS PARK MALL ) ) ) ) 
+
+" :startframes "19" :endframes "105" } {c parse :slots ( {c slot :name "[SinglePlace]" :contents "ROSS PARK MALL" :nets ( {c net :name "[stop_name]" :contents "ROSS PARK MALL" :nets ( {c net :name "[uncovered_place]" :contents "ROSS PARK MALL" :nets ( {c net :name "[uncovered_stop]" :contents "ROSS PARK MALL" } ) :numnets 1 } ) :numnets 1 } ) :numnets 1 :frame "PlaceInformation" } ) :numslots 1 :numtokens 4 :uttid "001" :engine_name "female" :hyp "ROSS PARK MALL " :hyp_num_parses 1 :decoder_score -2.057721e+007 :am_score -1.965152e+007 :lm_score -9.256880e+005 :frame_num 108 :hyp_index 1 :nbest_index 0 :acoustic_gap_norm 4.027674e+004 :avg_sphinxwordconf 2.320710e-001 :min_sphinxwordconf 2.320710e-001 :max_sphinxwordconf 2.320710e-001 :avg_wordconf 9.166670e-001 :min_wordconf 9.166670e-001 :max_wordconf 9.166670e-001 :avg_validwordconf 9.166670e-001 :min_validwordconf 9.166670e-001 :max_validwordconf 9.166670e-001 :parsestring "PlaceInformation
+[SinglePlace] ( [stop_name] ( [uncovered_place] ( [uncovered_stop] ( ROSS PARK MALL ) ) ) ) 
+
+" :startframes "19" :endframes "105" } {c parse :no_parse 1 :uttid "001" :engine_name "dtmf" :hyp "" :hyp_num_parses 0 :decoder_score 1.000000e+000 :am_score 0.000000e+000 :lm_score 0.000000e+000 :frame_num 9472 :hyp_index 2 :nbest_index 0 :acoustic_gap_norm 0.000000e+000 :avg_sphinxwordconf 0.000000e+000 :min_sphinxwordconf 0.000000e+000 :max_sphinxwordconf 0.000000e+000 :avg_wordconf 0.000000e+000 :min_wordconf 0.000000e+000 :max_wordconf 0.000000e+000 :avg_validwordconf 0.000000e+000 :min_validwordconf 0.000000e+000 :max_validwordconf 0.000000e+000 :parsestring "" :startframes "" :endframes "" } )
+[End :parses (001)]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 6979 choose_parse at 21:14:28.41 on 22-NOV-2006]
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 6979 choose_parse at 21:14:28.49 on 22-NOV-2006]
+[Begin :parse (001)]
+{c parse
+   :slots ( {c slot
+               :name "[SinglePlace]"
+               :contents "ROSS PARK MALL"
+               :nets ( {c net
+                          :name "[stop_name]"
+                          :contents "ROSS PARK MALL"
+                          :nets ( {c net
+                                     :name "[uncovered_place]"
+                                     :contents "ROSS PARK MALL"
+                                     :nets ( {c net
+                                                :name "[uncovered_stop]"
+                                                :contents "ROSS PARK MALL" } )
+                                     :numnets 1 } )
+                          :numnets 1 } )
+               :numnets 1
+               :frame "PlaceInformation" } )
+   :numslots 1
+   :numtokens 4
+   :uttid "001"
+   :engine_name "male"
+   :hyp "ROSS PARK MALL "
+   :hyp_num_parses 1
+   :decoder_score -2.007008e+007
+   :am_score -1.914439e+007
+   :lm_score -9.256880e+005
+   :frame_num 108
+   :hyp_index 0
+   :nbest_index 0
+   :acoustic_gap_norm 4.054941e+004
+   :avg_sphinxwordconf 2.631240e-001
+   :min_sphinxwordconf 2.631240e-001
+   :max_sphinxwordconf 2.631240e-001
+   :avg_wordconf 9.166670e-001
+   :min_wordconf 9.166670e-001
+   :max_wordconf 9.166670e-001
+   :avg_validwordconf 9.166670e-001
+   :min_validwordconf 9.166670e-001
+   :max_validwordconf 9.166670e-001
+   :parsestring "PlaceInformation
+[SinglePlace] ( [stop_name] ( [uncovered_place] ( [uncovered_stop] ( ROSS PARK MALL ) ) ) ) 
+
+"
+   :startframes "19"
+   :endframes "105" }
+[End :parse (001)]
+[Begin :input_features (001)]
+{c input_features
+   :h3_acoustic_gap_norm "40549.40625"
+   :h3_acoustic_gap_norm_gtm "0"
+   :h3_am_score "-19144392.00000"
+   :h3_am_score_norm "-177262.89063"
+   :h3_am_score_norm_gtm "1"
+   :h3_answer_type "2"
+   :h3_avg_sphinxwordconf "0.26312"
+   :h3_avg_sphinxwordconf_gt_30 "0"
+   :h3_avg_validwordconf "0.91667"
+   :h3_avg_validwordconf_gt_50 "1"
+   :h3_avg_wordconf "0.91667"
+   :h3_avg_wordconf_gt_50 "1"
+   :h3_barge_in "1"
+   :h3_clip_info_1 "0.00106"
+   :h3_clip_info_10 "1.00000"
+   :h3_clip_info_2 "0.00771"
+   :h3_clip_info_3 "0.01446"
+   :h3_clip_info_4 "0.02428"
+   :h3_clip_info_5 "0.04160"
+   :h3_clip_info_6 "0.06345"
+   :h3_clip_info_7 "0.09671"
+   :h3_clip_info_8 "0.15350"
+   :h3_clip_info_9 "0.26605"
+   :h3_confidence "0.37832"
+   :h3_confidence_gt_25 "1"
+   :h3_confidence_gt_50 "0"
+   :h3_confidence_gt_75 "0"
+   :h3_confidence_gtm "0"
+   :h3_decoder_garble "0"
+   :h3_decoder_score "-20070080.00000"
+   :h3_decoder_score_norm "-185834.07813"
+   :h3_decoder_score_norm_gtm "1"
+   :h3_dialog_state "/LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou"
+   :h3_endframes "105"
+   :h3_engine_name "male"
+   :h3_first_level_matched "1"
+   :h3_first_level_matched_gt_0 "1"
+   :h3_first_level_matched_gt_1 "0"
+   :h3_frag_and_gap_num "1"
+   :h3_frag_and_gap_num_gt_1 "0"
+   :h3_frag_mode "ppp"
+   :h3_frag_num "1"
+   :h3_frag_num_gt_1 "0"
+   :h3_frag_ratio "0.33333"
+   :h3_frag_ratio_gtm "1"
+   :h3_frame_num "108"
+   :h3_frame_num_gtm "0"
+   :h3_gap_num "0"
+   :h3_gap_num_bool "0"
+   :h3_gap_num_gt_1 "0"
+   :h3_garble "clear"
+   :h3_garble_clear "1"
+   :h3_h_avg_am_score_norm "-184754.53125"
+   :h3_h_avg_am_score_norm_gtm "1"
+   :h3_h_avg_confidence "0.53916"
+   :h3_h_avg_confidence_2 "1.07832"
+   :h3_h_avg_confidence_2_gt_25 "1"
+   :h3_h_avg_confidence_2_gt_50 "1"
+   :h3_h_avg_confidence_2_gt_75 "1"
+   :h3_h_avg_confidence_2_gtm "0"
+   :h3_h_avg_confidence_gt_25 "1"
+   :h3_h_avg_confidence_gt_50 "1"
+   :h3_h_avg_confidence_gt_75 "0"
+   :h3_h_avg_confidence_gtm "0"
+   :h3_h_avg_gap_num "0.16000"
+   :h3_h_avg_gap_num_gtm "0"
+   :h3_h_avg_lm_score_norm_1 "-8918.94727"
+   :h3_h_avg_lm_score_norm_1_gtm "1"
+   :h3_h_avg_lm_score_norm_2 "-406442.00000"
+   :h3_h_avg_lm_score_norm_2_gtm "1"
+   :h3_h_avg_slots_matched "1.00000"
+   :h3_h_avg_slots_matched_gtm "0"
+   :h3_h_avg_uncov_num "0.25000"
+   :h3_h_avg_uncov_num_gtm "0"
+   :h3_h_ratio_nonu "0.08500"
+   :h3_hyp_index "0"
+   :h3_hyp_num_parses "1"
+   :h3_hypothesis "ROSS PARK MALL "
+   :h3_ih_am_score_norm_diff_to_max "-177262.89063"
+   :h3_ih_am_score_norm_diff_to_max_bool "1"
+   :h3_ih_am_score_norm_diff_to_min "4695.62500"
+   :h3_ih_am_score_norm_diff_to_min_bool "1"
+   :h3_ih_diff_lexical "1"
+   :h3_ih_diff_lexical_one_word "0"
+   :h3_ih_frag_ratio_diff_to_max "0.00000"
+   :h3_ih_frag_ratio_diff_to_max_bool "0.00000"
+   :h3_ih_frag_ratio_diff_to_min "0.33333"
+   :h3_ih_frag_ratio_diff_to_min_bool "1.00000"
+   :h3_ih_lm_score_norm_diff_to_max "-8571.18555"
+   :h3_ih_lm_score_norm_diff_to_max_bool "1"
+   :h3_ih_lm_score_norm_diff_to_min "0.00000"
+   :h3_ih_lm_score_norm_diff_to_min_bool "0"
+   :h3_last_level_matched "1"
+   :h3_last_level_matched_gt_0 "1"
+   :h3_last_level_matched_gt_1 "0"
+   :h3_last_level_touched "1"
+   :h3_last_level_touched_gt_0 "1"
+   :h3_last_level_touched_gt_1 "0"
+   :h3_last_turn_nonu "0"
+   :h3_lm_score "-925688.00000"
+   :h3_lm_score_norm_1 "-8571.18555"
+   :h3_lm_score_norm_1_gtm "1"
+   :h3_lm_score_norm_2 "-308562.65625"
+   :h3_lm_score_norm_2_gtm "1"
+   :h3_mark_confirm "0"
+   :h3_mark_confirm_bool "0"
+   :h3_mark_confirm_bool_barge_in "0"
+   :h3_mark_discomfirm "0"
+   :h3_mark_discomfirm_bool "0"
+   :h3_mark_discomfirm_bool_barge_in "0"
+   :h3_matched_in_focus "0"
+   :h3_max_sphinxwordconf "0.26312"
+   :h3_max_validwordconf "0.91667"
+   :h3_max_wordconf "0.91667"
+   :h3_min_sphinxwordconf "0.26312"
+   :h3_min_validwordconf "0.91667"
+   :h3_min_wordconf "0.91667"
+   :h3_nbest_index "0"
+   :h3_new_slots_num "1"
+   :h3_new_slots_num_bool "1"
+   :h3_no_parse "0"
+   :h3_nonu "0"
+   :h3_npow "25.00000"
+   :h3_npow_gtm "1"
+   :h3_num_parses_ratio "0.50000"
+   :h3_num_prev_nonu "0"
+   :h3_num_prev_nonu_gt_1 "0"
+   :h3_num_prev_nonu_gt_2 "0"
+   :h3_num_prev_not_nonu "3"
+   :h3_num_prev_not_nonu_gt_1 "1"
+   :h3_num_prev_not_nonu_gt_2 "1"
+   :h3_num_prev_not_nonu_gt_5 "1"
+   :h3_parse_str "PlaceInformation [SinglePlace] ( [stop_name] ( [uncovered_place] ( [uncovered_stop] ( ROSS PARK MALL ) ) ) )   "
+   :h3_parser_garble "0"
+   :h3_pow "82.00000"
+   :h3_pow_gtm "1"
+   :h3_pow_npow_diff "57.00000"
+   :h3_pow_npow_diff_gtm "0"
+   :h3_rep_slots_num "0"
+   :h3_rep_slots_num_bool "0"
+   :h3_slot_num "1"
+   :h3_slot_num_gt_1 "0"
+   :h3_slot_num_gt_2 "0"
+   :h3_slots_blocked "0"
+   :h3_slots_blocked_bool "0"
+   :h3_slots_blocked_gt_1 "0"
+   :h3_slots_matched "1"
+   :h3_slots_matched_bool "1"
+   :h3_slots_matched_gt_1 "0"
+   :h3_slots_relevant_num "1"
+   :h3_slots_relevant_num_bool "1"
+   :h3_slots_relevant_num_gt_1 "0"
+   :h3_speak_rate "0.02778"
+   :h3_speak_rate_gtm "1"
+   :h3_speak_rate_phones "0.02778"
+   :h3_speak_rate_phones_gtm "0"
+   :h3_speak_rate_syl "0.00926"
+   :h3_speak_rate_syl_gtm "0"
+   :h3_startframes "19"
+   :h3_targetprompt "_goodbye"
+   :h3_targetprompt_score "10.00000"
+   :h3_top_slots "SinglePlace"
+   :h3_total_num_parses "2"
+   :h3_turn_number "0"
+   :h3_turn_number_gt_0 "0"
+   :h3_turn_number_gt_1 "0"
+   :h3_turn_number_gtm "0"
+   :h3_unconf_mark_confirm "0"
+   :h3_unconf_mark_confirm_bool "0"
+   :h3_unconf_mark_discomfirm "0"
+   :h3_unconf_mark_discomfirm_bool "0"
+   :h3_unconf_num "0"
+   :h3_unconf_num_bool "0"
+   :h3_unconf_num_gt_1 "0"
+   :h3_unconf_num_norm "0.00000"
+   :h3_unconf_ratio "0.00000"
+   :h3_unconf_ratio_gtm "0"
+   :h3_uncov_num "0"
+   :h3_uncov_num_bool "0"
+   :h3_uncov_num_gt_1 "0"
+   :h3_uncov_num_norm "0.00000"
+   :h3_uncov_ratio "0.00000"
+   :h3_uncov_ratio_gtm "0"
+   :h3_uttid "001"
+   :h3_word_num "3"
+   :h3_word_num_class "2"
+   :h3_word_num_gt_1 "1"
+   :h3_word_num_gt_2 "1"
+   :h3_word_num_gt_4 "0"
+   :h3_word_num_norm "1.73205"
+   :h3_words_per_slot "3.00000" }
+[End :input_features (001)]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 6979 process_parse at 21:14:28.49 on 22-NOV-2006]
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 6979 process_parse at 21:14:28.51 on 22-NOV-2006]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6979 process_parse at 21:14:28.51 on 22-NOV-2006]
+[Timestamp (001): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6980 launch_query at 21:14:28.63 on 22-NOV-2006]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6980 launch_query at 21:14:28.63 on 22-NOV-2006]
+[Timestamp (001): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6981 main at 21:14:28.68 on 22-NOV-2006]
+:dont_listen (001): 0
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6981 speak at 21:14:28.68 on 22-NOV-2006]
+:phrase (001): " <uncovered_place.name ROSS PARK MALL>.  {BREAK TIME=\"0.5s\"/} Did I get that right?
+"
+:id (001): "DialogManager-491:3"
+:dont_listen (001): 0
+:interruptable (001): 1
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 6981 speak at 21:14:28.68 on 22-NOV-2006]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 6981 speak at 21:14:28.68 on 22-NOV-2006]
+:tty-phrase (001): " <uncovered_place.name ROSS PARK MALL>.  {BREAK TIME=\"0.5s\"/} Did I get that right?
+"
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 6981 speak at 21:14:28.69 on 22-NOV-2006]
+[Timestamp (001): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6983 set_config at 21:14:28.69 on 22-NOV-2006]
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6979 process_parse at 21:14:28.69 on 22-NOV-2006]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6983 set_config at 21:14:28.69 on 22-NOV-2006]
+[Timestamp (001): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6984 main at 21:14:28.90 on 22-NOV-2006]
+:beginout (001): "beginout message from kalliope"
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6984 cancel_inactivity_timeout at 21:14:28.90 on 22-NOV-2006]
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6984 cancel_inactivity_timeout at 21:14:28.90 on 22-NOV-2006]
+[Timestamp (001): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6985 main at 21:14:31.55 on 22-NOV-2006]
+:endout (001): "endout message from kalliope"
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6985 start_inactivity_timeout at 21:14:31.55 on 22-NOV-2006]
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6985 start_inactivity_timeout at 21:14:31.55 on 22-NOV-2006]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6985 start_decoding at 21:14:31.55 on 22-NOV-2006]
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 6985 start_decoding at 21:14:31.55 on 22-NOV-2006]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6985 notify_output_manager at 21:14:31.55 on 22-NOV-2006]
+:conveyance (001): "uncovered_place.name 3 "
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6985 notify_output_manager at 21:14:31.55 on 22-NOV-2006]
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 6985 notify_helios_bargein at 21:14:31.55 on 22-NOV-2006]
+:conveyance (001): "uncovered_place.name 3 "
+[Timestamp (001): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 6985 notify_helios_bargein at 21:14:31.55 on 22-NOV-2006]
+[Timestamp (001): read:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6986 main at 21:14:32.18 on 22-NOV-2006]
+:startutt (001): "this space intentionally left blank"
+[Timestamp (001): send:GAL_MESSAGE_MSG_TYPE Builtin(<Builtin>:-1) 6986 increment_utterance at 21:14:32.18 on 22-NOV-2006]
+
+
+:END_UTT (001)
+
+
+:BEGIN_UTT (002)
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE Builtin(<Builtin>:-1) 6986 increment_utterance at 21:14:32.18 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6986 cancel_inactivity_timeout at 21:14:32.18 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6986 cancel_inactivity_timeout at 21:14:32.18 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6991 main at 21:14:32.90 on 22-NOV-2006]
+:endutt (002): "this space intentionally left blank"
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 6992 main at 21:14:32.91 on 22-NOV-2006]
+[Begin :confhyps (002)]
+( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "002" :engine_name "male" :nbest_index 0 :decoder_score -1.030180e+007 :lm_score -1.960240e+005 :am_score -1.010577e+007 :frame_num 59 :acoustic_gap_norm 2.886147e+004 :avg_sphinxwordconf 3.415360e-001 :min_sphinxwordconf 3.415360e-001 :max_sphinxwordconf 3.415360e-001 :avg_wordconf 9.166670e-001 :min_wordconf 9.166670e-001 :max_wordconf 9.166670e-001 :avg_validwordconf 9.166670e-001 :min_validwordconf 9.166670e-001 :max_validwordconf 9.166670e-001 :startframes "19" :endframes "49" :init_timestamp 108032 :end_timestamp 108622 :hyp_index 0 } {c hypothesis :hyp "YES " :confhyp "YES " :uttid "002" :engine_name "female" :nbest_index 0 :decoder_score -1.028368e+007 :lm_score -1.960240e+005 :am_score -1.008766e+007 :frame_num 59 :acoustic_gap_norm 2.928339e+004 :avg_sphinxwordconf 3.966300e-001 :min_sphinxwordconf 3.966300e-001 :max_sphinxwordconf 3.966300e-001 :avg_wordconf 9.166670e-001 :min_wordconf 9.166670e-001 :max_wordconf 9.166670e-001 :avg_validwordconf 9.166670e-001 :min_validwordconf 9.166670e-001 :max_validwordconf 9.166670e-001 :startframes "19" :endframes "49" :init_timestamp 108032 :end_timestamp 108622 :hyp_index 1 } {c hypothesis :hyp "" :confhyp "" :uttid "002" :engine_name "dtmf" :decoder_score 1.000000e+000 :lm_score 0 :am_score 0 :frame_num 5504 :acoustic_gap_norm 0 :avg_wordconf 0 :min_wordconf 0 :max_wordconf 0 :avg_validwordconf 0 :min_validwordconf 0 :max_validwordconf 0 :startframes "" :endframes "" :init_timestamp 108032 :end_timestamp 108720 :hyp_index 2 } )
+[End :confhyps (002)]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6992 reset at 21:14:32.91 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 6992 reset at 21:14:32.91 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE phoenix(localhost:13000) 6992 phoenixparse at 21:14:32.93 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE phoenix(localhost:13000) 6992 phoenixparse at 21:14:32.93 on 22-NOV-2006]
+[Begin :parses (002)]
+( {c parse :slots ( {c slot :name "[Generic]" :contents "YES" :nets ( {c net :name "[Yes]" :contents "YES" } ) :numnets 1 :frame "Generic" } ) :numslots 1 :numtokens 2 :uttid "002" :engine_name "male" :hyp "YES " :hyp_num_parses 1 :decoder_score -1.030180e+007 :am_score -1.010577e+007 :lm_score -1.960240e+005 :frame_num 59 :hyp_index 0 :nbest_index 0 :acoustic_gap_norm 2.886147e+004 :avg_sphinxwordconf 3.415360e-001 :min_sphinxwordconf 3.415360e-001 :max_sphinxwordconf 3.415360e-001 :avg_wordconf 9.166670e-001 :min_wordconf 9.166670e-001 :max_wordconf 9.166670e-001 :avg_validwordconf 9.166670e-001 :min_validwordconf 9.166670e-001 :max_validwordconf 9.166670e-001 :parsestring "Generic
+[Generic] ( [Yes] ( YES ) ) 
+
+" :startframes "19" :endframes "49" } {c parse :slots ( {c slot :name "[Generic]" :contents "YES" :nets ( {c net :name "[Yes]" :contents "YES" } ) :numnets 1 :frame "Generic" } ) :numslots 1 :numtokens 2 :uttid "002" :engine_name "female" :hyp "YES " :hyp_num_parses 1 :decoder_score -1.028368e+007 :am_score -1.008766e+007 :lm_score -1.960240e+005 :frame_num 59 :hyp_index 1 :nbest_index 0 :acoustic_gap_norm 2.928339e+004 :avg_sphinxwordconf 3.966300e-001 :min_sphinxwordconf 3.966300e-001 :max_sphinxwordconf 3.966300e-001 :avg_wordconf 9.166670e-001 :min_wordconf 9.166670e-001 :max_wordconf 9.166670e-001 :avg_validwordconf 9.166670e-001 :min_validwordconf 9.166670e-001 :max_validwordconf 9.166670e-001 :parsestring "Generic
+[Generic] ( [Yes] ( YES ) ) 
+
+" :startframes "19" :endframes "49" } {c parse :no_parse 1 :uttid "002" :engine_name "dtmf" :hyp "" :hyp_num_parses 0 :decoder_score 1.000000e+000 :am_score 0.000000e+000 :lm_score 0.000000e+000 :frame_num 5504 :hyp_index 2 :nbest_index 0 :acoustic_gap_norm 0.000000e+000 :avg_sphinxwordconf 0.000000e+000 :min_sphinxwordconf 0.000000e+000 :max_sphinxwordconf 0.000000e+000 :avg_wordconf 0.000000e+000 :min_wordconf 0.000000e+000 :max_wordconf 0.000000e+000 :avg_validwordconf 0.000000e+000 :min_validwordconf 0.000000e+000 :max_validwordconf 0.000000e+000 :parsestring "" :startframes "" :endframes "" } )
+[End :parses (002)]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 6992 choose_parse at 21:14:32.93 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 6992 choose_parse at 21:14:32.99 on 22-NOV-2006]
+[Begin :parse (002)]
+{c parse
+   :slots ( {c slot
+               :name "[Generic]"
+               :contents "YES"
+               :nets ( {c net
+                          :name "[Yes]"
+                          :contents "YES" } )
+               :numnets 1
+               :frame "Generic" } )
+   :numslots 1
+   :numtokens 2
+   :uttid "002"
+   :engine_name "male"
+   :hyp "YES "
+   :hyp_num_parses 1
+   :decoder_score -1.030180e+007
+   :am_score -1.010577e+007
+   :lm_score -1.960240e+005
+   :frame_num 59
+   :hyp_index 0
+   :nbest_index 0
+   :acoustic_gap_norm 2.886147e+004
+   :avg_sphinxwordconf 3.415360e-001
+   :min_sphinxwordconf 3.415360e-001
+   :max_sphinxwordconf 3.415360e-001
+   :avg_wordconf 9.166670e-001
+   :min_wordconf 9.166670e-001
+   :max_wordconf 9.166670e-001
+   :avg_validwordconf 9.166670e-001
+   :min_validwordconf 9.166670e-001
+   :max_validwordconf 9.166670e-001
+   :parsestring "Generic
+[Generic] ( [Yes] ( YES ) ) 
+
+"
+   :startframes "19"
+   :endframes "49" }
+[End :parse (002)]
+[Begin :input_features (002)]
+{c input_features
+   :h3_acoustic_gap_norm "28861.47461"
+   :h3_acoustic_gap_norm_gtm "0"
+   :h3_am_score "-10105771.00000"
+   :h3_am_score_norm "-171284.25000"
+   :h3_am_score_norm_gtm "1"
+   :h3_answer_type "0"
+   :h3_avg_sphinxwordconf "0.34154"
+   :h3_avg_sphinxwordconf_gt_30 "1"
+   :h3_avg_validwordconf "0.91667"
+   :h3_avg_validwordconf_gt_50 "1"
+   :h3_avg_wordconf "0.91667"
+   :h3_avg_wordconf_gt_50 "1"
+   :h3_barge_in "0"
+   :h3_clip_info_1 "0.00109"
+   :h3_clip_info_10 "1.00000"
+   :h3_clip_info_2 "0.00291"
+   :h3_clip_info_3 "0.00654"
+   :h3_clip_info_4 "0.01145"
+   :h3_clip_info_5 "0.01926"
+   :h3_clip_info_6 "0.03070"
+   :h3_clip_info_7 "0.04960"
+   :h3_clip_info_8 "0.07813"
+   :h3_clip_info_9 "0.12391"
+   :h3_confidence "0.94026"
+   :h3_confidence_gt_25 "1"
+   :h3_confidence_gt_50 "1"
+   :h3_confidence_gt_75 "1"
+   :h3_confidence_gtm "1"
+   :h3_decoder_garble "0"
+   :h3_decoder_score "-10301795.00000"
+   :h3_decoder_score_norm "-174606.68750"
+   :h3_decoder_score_norm_gtm "1"
+   :h3_dialog_state "/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]"
+   :h3_endframes "49"
+   :h3_engine_name "male"
+   :h3_first_level_matched "0"
+   :h3_first_level_matched_gt_0 "0"
+   :h3_first_level_matched_gt_1 "0"
+   :h3_frag_and_gap_num "1"
+   :h3_frag_and_gap_num_gt_1 "0"
+   :h3_frag_mode "p"
+   :h3_frag_num "1"
+   :h3_frag_num_gt_1 "0"
+   :h3_frag_ratio "1.00000"
+   :h3_frag_ratio_gtm "1"
+   :h3_frame_num "59"
+   :h3_frame_num_gtm "0"
+   :h3_gap_num "0"
+   :h3_gap_num_bool "0"
+   :h3_gap_num_gt_1 "0"
+   :h3_garble "clear"
+   :h3_garble_clear "1"
+   :h3_h_avg_am_score_norm "-180264.43750"
+   :h3_h_avg_am_score_norm_gtm "1"
+   :h3_h_avg_confidence "0.67286"
+   :h3_h_avg_confidence_2 "0.82013"
+   :h3_h_avg_confidence_2_gt_25 "1"
+   :h3_h_avg_confidence_2_gt_50 "1"
+   :h3_h_avg_confidence_2_gt_75 "1"
+   :h3_h_avg_confidence_2_gtm "0"
+   :h3_h_avg_confidence_gt_25 "1"
+   :h3_h_avg_confidence_gt_50 "1"
+   :h3_h_avg_confidence_gt_75 "0"
+   :h3_h_avg_confidence_gtm "0"
+   :h3_h_avg_gap_num "0.10667"
+   :h3_h_avg_gap_num_gtm "0"
+   :h3_h_avg_lm_score_norm_1 "-7053.44531"
+   :h3_h_avg_lm_score_norm_1_gtm "1"
+   :h3_h_avg_lm_score_norm_2 "-336302.65625"
+   :h3_h_avg_lm_score_norm_2_gtm "1"
+   :h3_h_avg_slots_matched "1.00000"
+   :h3_h_avg_slots_matched_gtm "0"
+   :h3_h_avg_uncov_num "0.16667"
+   :h3_h_avg_uncov_num_gtm "0"
+   :h3_h_ratio_nonu "0.05667"
+   :h3_hyp_index "0"
+   :h3_hyp_num_parses "1"
+   :h3_hypothesis "YES "
+   :h3_ih_am_score_norm_diff_to_max "-171284.25000"
+   :h3_ih_am_score_norm_diff_to_max_bool "1"
+   :h3_ih_am_score_norm_diff_to_min "0.00000"
+   :h3_ih_am_score_norm_diff_to_min_bool "0"
+   :h3_ih_diff_lexical "1"
+   :h3_ih_diff_lexical_one_word "1"
+   :h3_ih_frag_ratio_diff_to_max "0.00000"
+   :h3_ih_frag_ratio_diff_to_max_bool "0.00000"
+   :h3_ih_frag_ratio_diff_to_min "1.00000"
+   :h3_ih_frag_ratio_diff_to_min_bool "1.00000"
+   :h3_ih_lm_score_norm_diff_to_max "-3322.44067"
+   :h3_ih_lm_score_norm_diff_to_max_bool "1"
+   :h3_ih_lm_score_norm_diff_to_min "0.00000"
+   :h3_ih_lm_score_norm_diff_to_min_bool "0"
+   :h3_last_level_matched "0"
+   :h3_last_level_matched_gt_0 "0"
+   :h3_last_level_matched_gt_1 "0"
+   :h3_last_level_touched "0"
+   :h3_last_level_touched_gt_0 "0"
+   :h3_last_level_touched_gt_1 "0"
+   :h3_last_turn_nonu "0"
+   :h3_lm_score "-196024.00000"
+   :h3_lm_score_norm_1 "-3322.44067"
+   :h3_lm_score_norm_1_gtm "1"
+   :h3_lm_score_norm_2 "-196024.00000"
+   :h3_lm_score_norm_2_gtm "1"
+   :h3_mark_confirm "1"
+   :h3_mark_confirm_bool "1"
+   :h3_mark_confirm_bool_barge_in "0"
+   :h3_mark_discomfirm "0"
+   :h3_mark_discomfirm_bool "0"
+   :h3_mark_discomfirm_bool_barge_in "0"
+   :h3_matched_in_focus "1"
+   :h3_max_sphinxwordconf "0.34154"
+   :h3_max_validwordconf "0.91667"
+   :h3_max_wordconf "0.91667"
+   :h3_min_sphinxwordconf "0.34154"
+   :h3_min_validwordconf "0.91667"
+   :h3_min_wordconf "0.91667"
+   :h3_nbest_index "0"
+   :h3_new_slots_num "1"
+   :h3_new_slots_num_bool "1"
+   :h3_no_parse "0"
+   :h3_nonu "0"
+   :h3_npow "22.00000"
+   :h3_npow_gtm "1"
+   :h3_num_parses_ratio "0.50000"
+   :h3_num_prev_nonu "0"
+   :h3_num_prev_nonu_gt_1 "0"
+   :h3_num_prev_nonu_gt_2 "0"
+   :h3_num_prev_not_nonu "1"
+   :h3_num_prev_not_nonu_gt_1 "0"
+   :h3_num_prev_not_nonu_gt_2 "0"
+   :h3_num_prev_not_nonu_gt_5 "0"
+   :h3_parse_str "Generic [Generic] ( [Yes] ( YES ) )   "
+   :h3_parser_garble "0"
+   :h3_pow "82.00000"
+   :h3_pow_gtm "1"
+   :h3_pow_npow_diff "60.00000"
+   :h3_pow_npow_diff_gtm "1"
+   :h3_rep_slots_num "0"
+   :h3_rep_slots_num_bool "0"
+   :h3_slot_num "1"
+   :h3_slot_num_gt_1 "0"
+   :h3_slot_num_gt_2 "0"
+   :h3_slots_blocked "0"
+   :h3_slots_blocked_bool "0"
+   :h3_slots_blocked_gt_1 "0"
+   :h3_slots_matched "1"
+   :h3_slots_matched_bool "1"
+   :h3_slots_matched_gt_1 "0"
+   :h3_slots_relevant_num "1"
+   :h3_slots_relevant_num_bool "1"
+   :h3_slots_relevant_num_gt_1 "0"
+   :h3_speak_rate "0.01695"
+   :h3_speak_rate_gtm "0"
+   :h3_speak_rate_phones "0.05085"
+   :h3_speak_rate_phones_gtm "0"
+   :h3_speak_rate_syl "0.01695"
+   :h3_speak_rate_syl_gtm "0"
+   :h3_startframes "19"
+   :h3_targetprompt "yes"
+   :h3_targetprompt_score "0.00000"
+   :h3_top_slots "Generic"
+   :h3_total_num_parses "2"
+   :h3_turn_number "1"
+   :h3_turn_number_gt_0 "1"
+   :h3_turn_number_gt_1 "0"
+   :h3_turn_number_gtm "0"
+   :h3_unconf_mark_confirm "0"
+   :h3_unconf_mark_confirm_bool "0"
+   :h3_unconf_mark_discomfirm "0"
+   :h3_unconf_mark_discomfirm_bool "0"
+   :h3_unconf_num "0"
+   :h3_unconf_num_bool "0"
+   :h3_unconf_num_gt_1 "0"
+   :h3_unconf_num_norm "0.00000"
+   :h3_unconf_ratio "0.00000"
+   :h3_unconf_ratio_gtm "0"
+   :h3_uncov_num "0"
+   :h3_uncov_num_bool "0"
+   :h3_uncov_num_gt_1 "0"
+   :h3_uncov_num_norm "0.00000"
+   :h3_uncov_ratio "0.00000"
+   :h3_uncov_ratio_gtm "0"
+   :h3_uttid "002"
+   :h3_word_num "1"
+   :h3_word_num_class "0"
+   :h3_word_num_gt_1 "0"
+   :h3_word_num_gt_2 "0"
+   :h3_word_num_gt_4 "0"
+   :h3_word_num_norm "1.00000"
+   :h3_words_per_slot "1.00000" }
+[End :input_features (002)]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 6992 process_parse at 21:14:32.99 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 6992 process_parse at 21:14:33.01 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6992 process_parse at 21:14:33.01 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6993 launch_query at 21:14:33.10 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6993 launch_query at 21:14:33.10 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6994 main at 21:14:33.10 on 22-NOV-2006]
+:dont_listen (002): 0
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6994 speak at 21:14:33.10 on 22-NOV-2006]
+:phrase (002): " Right
+"
+:id (002): "DialogManager-491:4"
+:dont_listen (002): 0
+:interruptable (002): 1
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 6994 speak at 21:14:33.10 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 6994 speak at 21:14:33.10 on 22-NOV-2006]
+:tty-phrase (002): " Right
+"
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6995 launch_query at 21:14:33.10 on 22-NOV-2006]
+:dont_listen (002): "1"
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6995 launch_query at 21:14:33.10 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 6994 speak at 21:14:33.11 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6996 main at 21:14:33.11 on 22-NOV-2006]
+:dont_listen (002): 1
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6996 speak at 21:14:33.11 on 22-NOV-2006]
+:phrase (002): " I'm sorry but I do not have the schedule for buses serving <uncovered_place.name ROSS PARK MALL>. {BREAK TIME=\"0.5s\"/} Currently, I only cover some routes in the following neighborhoods: Downtown, Oakland, Shadyside, Squirrel Hill, Homestead, McKeesport, and the airport. 
+"
+:id (002): "DialogManager-491:5"
+:dont_listen (002): 1
+:interruptable (002): 1
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 6997 launch_query at 21:14:33.11 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6997 launch_query at 21:14:33.13 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 6996 speak at 21:14:33.13 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 6996 speak at 21:14:33.13 on 22-NOV-2006]
+:tty-phrase (002): " I'm sorry but I do not have the schedule for buses serving <uncovered_place.name ROSS PARK MALL>. {BREAK TIME=\"0.5s\"/} Currently, I only cover some routes in the following neighborhoods: Downtown, Oakland, Shadyside, Squirrel Hill, Homestead, McKeesport, and the airport. 
+"
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 6998 main at 21:14:33.13 on 22-NOV-2006]
+:dont_listen (002): 0
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 6998 speak at 21:14:33.13 on 22-NOV-2006]
+:phrase (002): " What can I do for you?
+"
+:id (002): "DialogManager-491:6"
+:dont_listen (002): 0
+:interruptable (002): 1
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 6996 speak at 21:14:33.13 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 6998 speak at 21:14:33.13 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 6998 speak at 21:14:33.15 on 22-NOV-2006]
+:tty-phrase (002): " What can I do for you?
+"
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 6998 speak at 21:14:33.15 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7000 set_config at 21:14:33.18 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 6992 process_parse at 21:14:33.18 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 7000 set_config at 21:14:33.19 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 7001 main at 21:14:33.29 on 22-NOV-2006]
+:beginout (002): "beginout message from kalliope"
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7001 cancel_inactivity_timeout at 21:14:33.29 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7001 cancel_inactivity_timeout at 21:14:33.29 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 7002 main at 21:14:34.07 on 22-NOV-2006]
+:endout (002): "endout message from kalliope"
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7002 start_inactivity_timeout at 21:14:34.07 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7002 start_inactivity_timeout at 21:14:34.07 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 7002 start_decoding at 21:14:34.07 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 7002 start_decoding at 21:14:34.07 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7002 notify_output_manager at 21:14:34.07 on 22-NOV-2006]
+:conveyance (002): ""
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 7003 main at 21:14:34.07 on 22-NOV-2006]
+:beginout (002): "beginout message from kalliope"
+:dont_listen (002): 1
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7002 notify_output_manager at 21:14:34.07 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7003 cancel_inactivity_timeout at 21:14:34.07 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 7002 notify_helios_bargein at 21:14:34.07 on 22-NOV-2006]
+:conveyance (002): ""
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7003 cancel_inactivity_timeout at 21:14:34.07 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 7003 stop_decoding at 21:14:34.07 on 22-NOV-2006]
+:id (002): "DialogManager-491:5"
+:beginout (002): "beginout message from kalliope"
+:dont_listen (002): 1
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 7002 notify_helios_bargein at 21:14:34.07 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 7003 stop_decoding at 21:14:34.08 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 7004 main at 21:14:49.93 on 22-NOV-2006]
+:endout (002): "endout message from kalliope"
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7004 start_inactivity_timeout at 21:14:49.93 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7004 start_inactivity_timeout at 21:14:49.93 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 7004 start_decoding at 21:14:49.93 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 7005 main at 21:14:49.93 on 22-NOV-2006]
+:beginout (002): "beginout message from kalliope"
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7005 cancel_inactivity_timeout at 21:14:49.93 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 7004 start_decoding at 21:14:49.93 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7005 cancel_inactivity_timeout at 21:14:49.93 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7004 notify_output_manager at 21:14:49.93 on 22-NOV-2006]
+:conveyance (002): "uncovered_place.name 15 "
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7004 notify_output_manager at 21:14:49.93 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 7004 notify_helios_bargein at 21:14:49.93 on 22-NOV-2006]
+:conveyance (002): "uncovered_place.name 15 "
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 7004 notify_helios_bargein at 21:14:49.93 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 7006 main at 21:14:51.49 on 22-NOV-2006]
+:endout (002): "endout message from kalliope"
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7006 start_inactivity_timeout at 21:14:51.49 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7006 start_inactivity_timeout at 21:14:51.49 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 7006 start_decoding at 21:14:51.49 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 7006 start_decoding at 21:14:51.49 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7006 notify_output_manager at 21:14:51.49 on 22-NOV-2006]
+:conveyance (002): ""
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7006 notify_output_manager at 21:14:51.49 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 7006 notify_helios_bargein at 21:14:51.49 on 22-NOV-2006]
+:conveyance (002): ""
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 7006 notify_helios_bargein at 21:14:51.49 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE gentner(localhost:10000) 7007 main at 21:14:56.63 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 7007 stop_listening at 21:14:56.63 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 7007 stop_listening at 21:14:56.63 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 7007 reset at 21:14:56.63 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 7007 reset at 21:14:56.63 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE AudioRecorder(localhost:19000) 7007 stop_recording at 21:14:56.63 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE AudioRecorder(localhost:19000) 7007 stop_recording at 21:14:56.65 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7007 end_session at 21:14:56.65 on 22-NOV-2006]
+[Timestamp (002): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7008 main at 21:14:56.66 on 22-NOV-2006]
+:close_session (002): ""
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 7008 stop_listening at 21:14:56.66 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7007 end_session at 21:14:56.66 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 7007 cancel_inactivity_timeout at 21:14:56.66 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 7008 stop_listening at 21:14:56.66 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 7008 reset at 21:14:56.68 on 22-NOV-2006]
+[Timestamp (002): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 7007 cancel_inactivity_timeout at 21:14:56.68 on 22-NOV-2006]
+[Timestamp (002): send:GAL_MESSAGE_MSG_TYPE Builtin(<Builtin>:-1) 7007 end_session at 21:14:56.68 on 22-NOV-2006]
+
+
+:END_UTT (002)

@@ -1,0 +1,29 @@
+[STD@19:13:57.246] hub_logdir= |..\..\logs\LetsGoPublic\20061122\005\|
+[STD@19:13:57.246] hub_log_prefix= |LetsGoPublic-20061122-005|
+[DBG@19:13:57.246] Message sent to male engine:
+engine_new_session ..\..\logs\LetsGoPublic\20061122\005\LetsGoPublic-20061122-005
+
+[DBG@19:13:57.277] Message sent to female engine:
+engine_new_session ..\..\logs\LetsGoPublic\20061122\005\LetsGoPublic-20061122-005
+
+[DBG@19:13:57.277] Message sent to dtmf engine:
+engine_new_session ..\..\logs\LetsGoPublic\20061122\005\LetsGoPublic-20061122-005
+
+[DBG@19:13:57.277] *** IDLE -> LISTEN ***
+[DBG@19:13:57.496] :set_lm found
+[STD@19:13:57.496] Setting LM for engine male to first_query
+[DBG@19:13:57.496] Message sent to male engine:
+engine_set_lm first_query 
+
+[STD@19:13:57.496] Setting LM for engine female to first_query
+[DBG@19:13:57.496] Message sent to female engine:
+engine_set_lm first_query 
+
+[DBG@19:13:57.496] :set_dtmf_len found
+[STD@19:13:57.496] Setting LM for engine dtmf to 1
+[DBG@19:13:57.543] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[STD@19:14:00.683] received stop_decoding
+[STD@19:14:01.933] flushing audio buffer
+[DBG@19:14:01.949] *** LISTEN -> IDLE ***

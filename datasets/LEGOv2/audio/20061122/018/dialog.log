@@ -1,0 +1,1638 @@
+[CTH@21:14:15.613] Initializing Core ...
+[CTH@21:14:15.613] Core initialization parameters dumped below:
+broadcast_state = helios.set_dialog_state
+default_nonunderstanding_threshold = 0.0
+default_timeout = 8
+displayed_streams = GMS:1101;COR:1111
+dmi_verbosity = 1
+exit_on_fatal_error = true
+grounding_manager_configuration = turns:moffo_letsgopublic;concepts:default
+grounding_policies_file = grounding.policies
+log_dir = ..\..\logs\LetsGoPublic\20061122\018\
+logged_streams = CTH;REG;COR;AGN;DTT;INP;OTP;OTH;STA;TMS;TMD;GMS;GMX;DTS;CON
+
+[REG@21:14:15.613] Clearing up the registry ...
+[REG@21:14:15.613] Deallocating remaining registered agents ...
+[REG@21:14:15.613] Deallocating remaining registered agents completed.
+[REG@21:14:15.614] Agent type CDMCoreAgent registered successfully.
+[REG@21:14:15.614] Agent DMCoreAgent created successfully.
+[REG@21:14:15.614] Agent DMCoreAgent registered successfully.
+[CTH@21:14:15.614] Creating auxiliary core dialog core agents ...
+[REG@21:14:15.614] Agent type CInputManagerAgent registered successfully.
+[REG@21:14:15.614] Agent InputManagerAgent created successfully.
+[REG@21:14:15.614] Agent InputManagerAgent registered successfully.
+[REG@21:14:15.614] Agent type COutputManagerAgent registered successfully.
+[REG@21:14:15.614] Agent OutputManagerAgent created successfully.
+[REG@21:14:15.614] Agent OutputManagerAgent registered successfully.
+[REG@21:14:15.614] Agent type CTrafficManagerAgent registered successfully.
+[REG@21:14:15.614] Agent TrafficManagerAgent created successfully.
+[REG@21:14:15.614] Agent TrafficManagerAgent registered successfully.
+[REG@21:14:15.614] Agent type CStateManagerAgent registered successfully.
+[REG@21:14:15.614] Agent StateManagerAgent created successfully.
+[REG@21:14:15.614] Agent StateManagerAgent registered successfully.
+[REG@21:14:15.614] Agent type CDTTManagerAgent registered successfully.
+[REG@21:14:15.614] Agent DTTManagerAgent created successfully.
+[REG@21:14:15.614] Agent DTTManagerAgent registered successfully.
+[REG@21:14:15.614] Agent type CGroundingManagerAgent registered successfully.
+[REG@21:14:15.614] Agent GroundingManagerAgent created successfully.
+[REG@21:14:15.614] Agent GroundingManagerAgent registered successfully.
+[GMS@21:14:15.615] Setting configuration: turns:moffo_letsgopublic;concepts:default
+[GMS@21:14:15.616] Loading grounding models ...
+[GMS@21:14:15.616] Loaded grounding model expl from expl.pol .
+[GMS@21:14:15.617] Loaded grounding model moffo from moffo.pol .
+[GMS@21:14:15.618] 2 grounding model(s) loaded.
+[CTH@21:14:15.618] Auxiliary core dialog management agents created successfully.
+[CTH@21:14:15.618] Core initialization completed successfully.
+[GMS@21:14:15.618] Registering grounding action: NOA [NO_ACTION].
+[GMS@21:14:15.618] Registering grounding action: ACCEPT [ACCEPT].
+[GMS@21:14:15.618] Registering grounding action: EXPL_CONF [EXPL_CONF].
+[REG@21:14:15.618] Agent type _CExplicitConfirm registered successfully.
+[GMS@21:14:15.619] Registering grounding action: IMPL_CONF [IMPL_CONF].
+[REG@21:14:15.619] Agent type _CImplicitConfirmInform registered successfully.
+[REG@21:14:15.619] Agent type _CImplicitConfirmExpect registered successfully.
+[GMS@21:14:15.619] Registering grounding action: AREP [ASK_REPEAT].
+[REG@21:14:15.619] Agent type _CAskRepeat registered successfully.
+[GMS@21:14:15.619] Registering grounding action: ARPH [ASK_REPHRASE].
+[REG@21:14:15.619] Agent type _CAskRephrase registered successfully.
+[GMS@21:14:15.619] Registering grounding action: RP [REPEAT_PROMPT].
+[REG@21:14:15.619] Agent type _CRepeatPrompt registered successfully.
+[GMS@21:14:15.619] Registering grounding action: TYCS [WHAT_CAN_I_SAY].
+[REG@21:14:15.619] Agent type _CWhatCanISay registered successfully.
+[GMS@21:14:15.620] Registering grounding action: TYCS_SO [WHAT_CAN_I_SAY].
+[GMS@21:14:15.620] Registering grounding action: ASO [ASK_STARTOVER].
+[REG@21:14:15.620] Agent type _CAskStartOver registered successfully.
+[REG@21:14:15.620] Agent type _CAskStartOverAsk registered successfully.
+[REG@21:14:15.621] Agent type _CAskStartOverInform registered successfully.
+[REG@21:14:15.621] Agent type _CAskStartOverExecute registered successfully.
+[GMS@21:14:15.621] Registering grounding action: SLL_RP [SPEAKLESSLOUD_AND_REPROMPT].
+[REG@21:14:15.621] Agent type _CSpeakLessLoudAndReprompt registered successfully.
+[GMS@21:14:15.621] Registering grounding action: ASA_RP [ASK_SHORT_ANSWER_AND_REPROMPT].
+[REG@21:14:15.621] Agent type _CAskShortAnswerAndReprompt registered successfully.
+[GMS@21:14:15.621] Registering grounding action: IT [INTERACTION_TIPS].
+[REG@21:14:15.621] Agent type _CInteractionTips registered successfully.
+[GMS@21:14:15.622] Registering grounding action: GIVE_UP [GIVE_UP].
+[REG@21:14:15.622] Agent type _CGiveUp registered successfully.
+[GMS@21:14:15.622] Registering grounding action: MOVE [MOVE_ON].
+[REG@21:14:15.622] Agent type _CMoveOn registered successfully.
+[DTT@21:14:15.622] Starting Dialog Tree Creation Phase ...
+[DTT@21:14:15.622] Registering  dialog task agent types ...
+[REG@21:14:15.622] Agent type CLetsGoPublic registered successfully.
+[REG@21:14:15.622] Agent type CGiveIntroduction registered successfully.
+[REG@21:14:15.622] Agent type CInformWelcome registered successfully.
+[REG@21:14:15.622] Agent type CRepeatIntroduction registered successfully.
+[REG@21:14:15.622] Agent type CPerformTask registered successfully.
+[REG@21:14:15.622] Agent type CGetQuerySpecs registered successfully.
+[REG@21:14:15.622] Agent type CAskHowMayIHelpYou registered successfully.
+[REG@21:14:15.622] Agent type CGetDeparturePlace registered successfully.
+[REG@21:14:15.622] Agent type CRequestBusNumberOrDeparturePlace registered successfully.
+[REG@21:14:15.622] Agent type CExpectUncoveredRoute registered successfully.
+[REG@21:14:15.622] Agent type CInformUncoveredRoute registered successfully.
+[REG@21:14:15.622] Agent type CRequestDeparturePlace registered successfully.
+[REG@21:14:15.622] Agent type CRetrieveDepartureStops registered successfully.
+[REG@21:14:15.622] Agent type CQueryBackendForDepartureStops registered successfully.
+[REG@21:14:15.622] Agent type CInformNoDepartureStopMatching registered successfully.
+[REG@21:14:15.622] Agent type CGetDepartureNeighborhoodAndStop registered successfully.
+[REG@21:14:15.622] Agent type CInformDepartureNeighborhoodStrategy registered successfully.
+[REG@21:14:15.622] Agent type CRequestDepartureNeighborhood registered successfully.
+[REG@21:14:15.622] Agent type CRequestDepartureStopInNeighborhood registered successfully.
+[REG@21:14:15.622] Agent type CExpectDontKnowStop registered successfully.
+[REG@21:14:15.622] Agent type CInformUsingDefaultStop registered successfully.
+[REG@21:14:15.622] Agent type CGetArrivalPlace registered successfully.
+[REG@21:14:15.623] Agent type CRequestArrivalPlace registered successfully.
+[REG@21:14:15.623] Agent type CRetrieveArrivalStops registered successfully.
+[REG@21:14:15.623] Agent type CQueryBackendForArrivalStops registered successfully.
+[REG@21:14:15.623] Agent type CInformNoArrivalStopMatching registered successfully.
+[REG@21:14:15.623] Agent type CGetDepartureArrivalDisambiguation registered successfully.
+[REG@21:14:15.623] Agent type CRequestDepartureArrivalDisambiguation registered successfully.
+[REG@21:14:15.623] Agent type CGetTravelTime registered successfully.
+[REG@21:14:15.623] Agent type CRequestTravelTime registered successfully.
+[REG@21:14:15.623] Agent type CRequestExactTravelTime registered successfully.
+[REG@21:14:15.623] Agent type CHandleUncoveredPlace registered successfully.
+[REG@21:14:15.623] Agent type CExpectUncoveredPlace registered successfully.
+[REG@21:14:15.623] Agent type CInformUncoveredPlace registered successfully.
+[REG@21:14:15.623] Agent type CProcessQuery registered successfully.
+[REG@21:14:15.623] Agent type CInformFirstProcessing registered successfully.
+[REG@21:14:15.623] Agent type CInformSubsequentProcessing registered successfully.
+[REG@21:14:15.623] Agent type CExecutePreprocessing registered successfully.
+[REG@21:14:15.623] Agent type CExecuteBackendCall registered successfully.
+[REG@21:14:15.624] Agent type CGiveResults registered successfully.
+[REG@21:14:15.624] Agent type CInformSuccess registered successfully.
+[REG@21:14:15.624] Agent type CInformError registered successfully.
+[REG@21:14:15.624] Agent type CRequestNextQuery registered successfully.
+[REG@21:14:15.624] Agent type CRequestNextQueryError registered successfully.
+[REG@21:14:15.624] Agent type CRepeatResult registered successfully.
+[REG@21:14:15.624] Agent type CRepeatSuccess registered successfully.
+[REG@21:14:15.624] Agent type CRepeatError registered successfully.
+[REG@21:14:15.624] Agent type CExpectGoodbye registered successfully.
+[REG@21:14:15.624] Agent type CInformStartingNewQuery registered successfully.
+[REG@21:14:15.624] Agent type CGreetGoodbye registered successfully.
+[REG@21:14:15.624] Agent type CGiveCurrentTime registered successfully.
+[REG@21:14:15.624] Agent type CMakeCurrentTimeQuery registered successfully.
+[REG@21:14:15.624] Agent type CExecuteGetCurrentTime registered successfully.
+[REG@21:14:15.624] Agent type CInformCurrentTime registered successfully.
+[REG@21:14:15.625] Agent type CTimeoutTerminate registered successfully.
+[REG@21:14:15.625] Agent type CTT_HandleFirstTimeout registered successfully.
+[REG@21:14:15.625] Agent type CTT_HandleSecondTimeout registered successfully.
+[REG@21:14:15.625] Agent type CTT_TerminateOnTimeout registered successfully.
+[REG@21:14:15.625] Agent type CTT_InformYouNotThere registered successfully.
+[REG@21:14:15.625] Agent type CTT_Terminate registered successfully.
+[DTT@21:14:15.625] Creating Dialog Task Tree ...
+[REG@21:14:15.625] Agent InformWelcome created successfully.
+[REG@21:14:15.625] Agent RepeatIntroduction created successfully.
+[REG@21:14:15.625] Agent GiveIntroduction created successfully.
+[REG@21:14:15.631] Agent AskHowMayIHelpYou created successfully.
+[REG@21:14:15.637] Agent RequestBusNumberOrDeparturePlace created successfully.
+[REG@21:14:15.643] Agent ExpectUncoveredRoute created successfully.
+[REG@21:14:15.643] Agent InformUncoveredRoute created successfully.
+[REG@21:14:15.643] Agent RequestDeparturePlace created successfully.
+[REG@21:14:15.648] Agent QueryBackendForDepartureStops created successfully.
+[REG@21:14:15.649] Agent InformNoDepartureStopMatching created successfully.
+[REG@21:14:15.649] Agent RetrieveStopForDeparturePlace created successfully.
+[REG@21:14:15.649] Agent InformDepartureNeighborhoodStrategy created successfully.
+[REG@21:14:15.649] Agent RequestDepartureNeighborhood created successfully.
+[REG@21:14:15.654] Agent RequestDepartureStopInNeighborhood created successfully.
+[REG@21:14:15.660] Agent ExpectDontKnowStop created successfully.
+[REG@21:14:15.660] Agent InformUsingDefaultStop created successfully.
+[REG@21:14:15.660] Agent GetDepartureNeighborhoodAndStop created successfully.
+[REG@21:14:15.660] Agent GetDeparturePlace created successfully.
+[REG@21:14:15.661] Agent RequestArrivalPlace created successfully.
+[REG@21:14:15.666] Agent QueryBackendForArrivalStops created successfully.
+[REG@21:14:15.666] Agent InformNoArrivalStopMatching created successfully.
+[REG@21:14:15.666] Agent RetrieveArrivalStops created successfully.
+[REG@21:14:15.666] Agent RequestDepartureArrivalDisambiguation created successfully.
+[REG@21:14:15.672] Agent GetDepartureArrivalDisambiguation created successfully.
+[REG@21:14:15.672] Agent GetArrivalPlace created successfully.
+[REG@21:14:15.672] Agent RequestTravelTime created successfully.
+[REG@21:14:15.678] Agent RequestExactTravelTime created successfully.
+[REG@21:14:15.683] Agent GetTravelTime created successfully.
+[REG@21:14:15.683] Agent ExpectUncoveredPlace created successfully.
+[REG@21:14:15.683] Agent InformUncoveredPlace created successfully.
+[REG@21:14:15.683] Agent HandleUncoveredPlace created successfully.
+[REG@21:14:15.683] Agent GetQuerySpecs created successfully.
+[REG@21:14:15.683] Agent InformFirstProcessing created successfully.
+[REG@21:14:15.683] Agent InformSubsequentProcessing created successfully.
+[REG@21:14:15.684] Agent ExecutePreprocessing created successfully.
+[REG@21:14:15.684] Agent ExecuteBackendCall created successfully.
+[REG@21:14:15.684] Agent ProcessQuery created successfully.
+[REG@21:14:15.684] Agent InformSuccess created successfully.
+[REG@21:14:15.684] Agent InformError created successfully.
+[REG@21:14:15.684] Agent RequestNextQuery created successfully.
+[REG@21:14:15.690] Agent RequestNextQueryError created successfully.
+[REG@21:14:15.696] Agent RepeatSuccess created successfully.
+[REG@21:14:15.696] Agent RepeatError created successfully.
+[REG@21:14:15.696] Agent RepeatResult created successfully.
+[REG@21:14:15.696] Agent ExpectGoodbye created successfully.
+[REG@21:14:15.696] Agent InformStartingNewQuery created successfully.
+[REG@21:14:15.696] Agent GiveResults created successfully.
+[REG@21:14:15.696] Agent PerformTask created successfully.
+[REG@21:14:15.696] Agent GreetGoodbye created successfully.
+[REG@21:14:15.697] Agent MakeCurrentTimeQuery created successfully.
+[REG@21:14:15.697] Agent ExecuteGetCurrentTime created successfully.
+[REG@21:14:15.697] Agent InformCurrentTime created successfully.
+[REG@21:14:15.697] Agent GiveCurrentTime created successfully.
+[REG@21:14:15.697] Agent TT_HandleFirstTimeout created successfully.
+[REG@21:14:15.697] Agent TT_HandleSecondTimeout created successfully.
+[REG@21:14:15.697] Agent TT_InformYouNotThere created successfully.
+[REG@21:14:15.697] Agent TT_Terminate created successfully.
+[REG@21:14:15.697] Agent TT_TerminateOnTimeout created successfully.
+[REG@21:14:15.697] Agent TimeoutTerminate created successfully.
+[DTS@21:14:15.697] Condition: 1
+[REG@21:14:15.698] Agent LetsGoPublic created successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/GiveIntroduction registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/GiveIntroduction/InformWelcome registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/GiveIntroduction/RepeatIntroduction registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/InformUncoveredRoute registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace/QueryBackendForDepartureStops registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace/InformNoDepartureStopMatching registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/InformDepartureNeighborhoodStrategy registered successfully.
+[REG@21:14:15.698] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/InformUsingDefaultStop registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops/QueryBackendForArrivalStops registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops/InformNoArrivalStopMatching registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/InformUncoveredPlace registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/ProcessQuery registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/ProcessQuery/InformFirstProcessing registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/ProcessQuery/InformSubsequentProcessing registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/ProcessQuery/ExecutePreprocessing registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/ProcessQuery/ExecuteBackendCall registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GiveResults registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GiveResults/InformSuccess registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GiveResults/InformError registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GiveResults/RequestNextQuery registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GiveResults/RequestNextQueryError registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult/RepeatSuccess registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult/RepeatError registered successfully.
+[REG@21:14:15.699] Agent /LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/PerformTask/GiveResults/InformStartingNewQuery registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/GreetGoodbye registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/GiveCurrentTime registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/GiveCurrentTime/MakeCurrentTimeQuery registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/GiveCurrentTime/ExecuteGetCurrentTime registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/GiveCurrentTime/InformCurrentTime registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/TimeoutTerminate registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/TT_InformYouNotThere registered successfully.
+[REG@21:14:15.700] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/TT_Terminate registered successfully.
+[REG@21:14:15.700] Agent type CTerminate registered successfully.
+[REG@21:14:15.700] Agent type CHelp registered successfully.
+[REG@21:14:15.700] Agent type CHelpExecutionAgency registered successfully.
+[REG@21:14:15.700] Agent type CHEstablishContext registered successfully.
+[REG@21:14:15.700] Agent type CHExplainMore registered successfully.
+[REG@21:14:15.700] Agent type CHWhatCanISay registered successfully.
+[REG@21:14:15.700] Agent type CHTriggerInputPass registered successfully.
+[REG@21:14:15.700] Agent type CHelpGetTips registered successfully.
+[REG@21:14:15.700] Agent type CHelpEstablishContext registered successfully.
+[REG@21:14:15.700] Agent type CHelpWhatCanISay registered successfully.
+[REG@21:14:15.700] Agent type CRepeat registered successfully.
+[REG@21:14:15.700] Agent type CStartOver registered successfully.
+[REG@21:14:15.700] Agent type CAskAreYouSureStartOver registered successfully.
+[REG@21:14:15.700] Agent type CInformStartingOver registered successfully.
+[REG@21:14:15.700] Agent type CExecuteStartOver registered successfully.
+[REG@21:14:15.700] Agent Terminate created successfully.
+[DTT@21:14:15.700] Mounting Terminate as last child of /LetsGoPublic .
+[REG@21:14:15.700] Agent /LetsGoPublic/Terminate registered successfully.
+[REG@21:14:15.701] Agent HEstablishContext created successfully.
+[REG@21:14:15.701] Agent HExplainMore created successfully.
+[REG@21:14:15.701] Agent HWhatCanISay created successfully.
+[REG@21:14:15.701] Agent HTriggerInputPass created successfully.
+[REG@21:14:15.701] Agent HelpExecutionAgency created successfully.
+[REG@21:14:15.701] Agent HelpExecutionAgency registered successfully.
+[REG@21:14:15.701] Agent HelpExecutionAgency/HEstablishContext registered successfully.
+[REG@21:14:15.701] Agent HelpExecutionAgency/HExplainMore registered successfully.
+[REG@21:14:15.701] Agent HelpExecutionAgency/HWhatCanISay registered successfully.
+[REG@21:14:15.701] Agent HelpExecutionAgency/HTriggerInputPass registered successfully.
+[REG@21:14:15.701] Agent Help created successfully.
+[DTT@21:14:15.701] Mounting Help as last child of /LetsGoPublic .
+[REG@21:14:15.701] Agent /LetsGoPublic/Help registered successfully.
+[REG@21:14:15.701] Agent HelpGetTips created successfully.
+[DTT@21:14:15.702] Mounting HelpGetTips as last child of /LetsGoPublic .
+[REG@21:14:15.702] Agent /LetsGoPublic/HelpGetTips registered successfully.
+[REG@21:14:15.702] Agent HelpEstablishContext created successfully.
+[DTT@21:14:15.702] Mounting HelpEstablishContext as last child of /LetsGoPublic .
+[REG@21:14:15.702] Agent /LetsGoPublic/HelpEstablishContext registered successfully.
+[REG@21:14:15.702] Agent HelpWhatCanISay created successfully.
+[DTT@21:14:15.702] Mounting HelpWhatCanISay as last child of /LetsGoPublic .
+[REG@21:14:15.702] Agent /LetsGoPublic/HelpWhatCanISay registered successfully.
+[REG@21:14:15.702] Agent Repeat created successfully.
+[DTT@21:14:15.702] Mounting Repeat as last child of /LetsGoPublic .
+[REG@21:14:15.702] Agent /LetsGoPublic/Repeat registered successfully.
+[REG@21:14:15.703] Agent AskAreYouSureStartOver created successfully.
+[REG@21:14:15.708] Agent InformStartingOver created successfully.
+[REG@21:14:15.708] Agent ExecuteStartOver created successfully.
+[REG@21:14:15.708] Agent StartOver created successfully.
+[DTT@21:14:15.708] Mounting StartOver as last child of /LetsGoPublic .
+[REG@21:14:15.708] Agent /LetsGoPublic/StartOver registered successfully.
+[REG@21:14:15.708] Agent /LetsGoPublic/StartOver/AskAreYouSureStartOver registered successfully.
+[REG@21:14:15.708] Agent /LetsGoPublic/StartOver/InformStartingOver registered successfully.
+[REG@21:14:15.708] Agent /LetsGoPublic/StartOver/ExecuteStartOver registered successfully.
+[DTT@21:14:15.708] Dialog Tree Creation Phase completed successfully.
+[COR@21:14:15.709] Starting Dialog Task execution.
+[COR@21:14:15.709] Agent /LetsGoPublic added on the execution stack by DMCoreAgent.
+[COR@21:14:15.709] Executing dialog agent /LetsGoPublic ...
+[COR@21:14:15.709] Agent /LetsGoPublic/GiveIntroduction added on the execution stack by /LetsGoPublic.
+[COR@21:14:15.710] Executing dialog agent /LetsGoPublic/GiveIntroduction ...
+[COR@21:14:15.710] Agent /LetsGoPublic/GiveIntroduction/InformWelcome added on the execution stack by /LetsGoPublic/GiveIntroduction.
+[COR@21:14:15.710] Executing dialog agent /LetsGoPublic/GiveIntroduction/InformWelcome ...
+[OTP@21:14:15.710] Processing output prompt 0 from /LetsGoPublic/GiveIntroduction/InformWelcome. (dump below)
+{:non-listening :non-repeatable inform welcome}
+[OTP@21:14:15.711] Processed output prompt 0 and sent it to nlg (dump below)
+start
+{
+act	inform
+object	welcome
+_repeat_counter	0
+system_version	1
+}
+end
+
+[OTP@21:14:15.711] Processing output prompt 1 from /LetsGoPublic/GiveIntroduction/InformWelcome. (dump below)
+{inform how_to_get_help}
+[OTP@21:14:15.712] Processed output prompt 1 and sent it to nlg (dump below)
+start
+{
+act	inform
+object	how_to_get_help
+_repeat_counter	0
+system_version	1
+}
+end
+
+[COR@21:14:15.712] Eliminated 2 completed agent(s) (dumped below) from the execution stack.
+/LetsGoPublic/GiveIntroduction/InformWelcome
+/LetsGoPublic/GiveIntroduction
+[COR@21:14:15.712] Executing dialog agent /LetsGoPublic ...
+[COR@21:14:15.712] Agent /LetsGoPublic/PerformTask added on the execution stack by /LetsGoPublic.
+[COR@21:14:15.713] Executing dialog agent /LetsGoPublic/PerformTask ...
+[COR@21:14:15.714] Agent /LetsGoPublic/PerformTask/GetQuerySpecs added on the execution stack by /LetsGoPublic/PerformTask.
+[COR@21:14:15.714] Executing dialog agent /LetsGoPublic/PerformTask/GetQuerySpecs ...
+[COR@21:14:15.715] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou added on the execution stack by /LetsGoPublic/PerformTask/GetQuerySpecs.
+[COR@21:14:15.716] Executing dialog agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou ...
+[OTP@21:14:15.716] Processing output prompt 2 from /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou. (dump below)
+{request how_may_i_help_you}
+[OTP@21:14:15.717] Processed output prompt 2 and sent it to nlg (dump below)
+start
+{
+act	request
+object	how_may_i_help_you
+_repeat_counter	0
+system_version	1
+}
+end
+
+[COR@21:14:15.717] Starting INPUT Pass.
+[COR@21:14:15.718] Timeout period: 20
+[COR@21:14:15.719] Nonunderstanding threshold: 0.00
+[CON@21:14:15.720] Grounding-relevant concepts dumped below:
+Concept: /LetsGoPublic/PerformTask/query.type
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/query.travel_time.time
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.departure_place
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.arrival_place
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.route_number
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/query.direction
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/uncovered_route
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/neighborhood
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/uncovered_place
+<UNDEFINED>
+
+[COR@21:14:15.721] Execution stack dumped below:
+  /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+  /LetsGoPublic/PerformTask/GetQuerySpecs
+  /LetsGoPublic/PerformTask
+  /LetsGoPublic
+
+[COR@21:14:15.721] Expectation Agenda Assembly Phase initiated.
+[COR@21:14:15.721] Compiling Expectation Agenda ...
+[COR@21:14:15.759] Compiling Expectation Agenda completed.
+[COR@21:14:15.759] Enforcing binding policies ...
+[COR@21:14:15.759] Enforcing binding policies completed.
+[AGN@21:14:15.761] Concept expectation agenda dumped below:
+ Level 0: generated by /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+ Level 1: generated by /LetsGoPublic/PerformTask/GetQuerySpecs
+  O [1_departureplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [1_departureplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [2_arrivalplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [2_arrivalplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime)/LetsGoPublic/PerformTask/query.travel_time
+  X [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime)/LetsGoPublic/PerformTask/query.travel_time [X-![] not under focus]
+  X [ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood)/LetsGoPublic/PerformTask/neighborhood [X-![] not under focus]
+  X [anystop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop)/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/dont_know [X-@(../RequestDepartureStopInNeighborhood) not containing focus]
+  X [busnumber.covered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace)/LetsGoPublic/PerformTask/query.route_number [X-![] not under focus]
+  X [busnumber.uncovered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute)/LetsGoPublic/PerformTask/uncovered_route [X-@(../RequestBusNumberOrDeparturePlace) not containing focus]
+  X [covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood)/LetsGoPublic/PerformTask/neighborhood [X-![] not under focus]
+  O [covered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace)/LetsGoPublic/PerformTask/query.route_number
+  O [date_time] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime)/LetsGoPublic/PerformTask/query.travel_time
+  X [date_time] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime)/LetsGoPublic/PerformTask/query.travel_time [X-![] not under focus]
+  X [disambiguatearrival] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [disambiguatedeparture] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [dontknow] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop)/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/dont_know [X-@(../RequestDepartureStopInNeighborhood) not containing focus]
+  X [dtmf_one] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [dtmf_three] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [singleplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  X [stop_name.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-@(../RequestDepartureNeighborhood) not containing focus]
+  X [stop_name.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-@(../RequestDepartureNeighborhood) not containing focus]
+  O [uncovered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute)/LetsGoPublic/PerformTask/uncovered_route
+ Level 2: generated by /LetsGoPublic/PerformTask
+  X [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [3_busbeforethatrequest] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [finalquit] -> (/LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye)/LetsGoPublic/PerformTask/GiveResults/goodbye [X-[] not under topic]
+  X [quit] -> (/LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye)/LetsGoPublic/PerformTask/GiveResults/goodbye [X-[] not under topic]
+  X [repeat] -> (/LetsGoPublic/PerformTask/GiveResults/RepeatResult)/LetsGoPublic/PerformTask/GiveResults/RepeatResult/_RepeatResult_trigger [X-[] not under topic]
+  X [startover] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [startover] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQueryError)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+ Level 3: generated by /LetsGoPublic
+  X [dtmf_one] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  X [dtmf_three] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  O [dtmf_zero] -> (/LetsGoPublic/Help)/LetsGoPublic/Help/_Help_trigger
+  O [establishcontext] -> (/LetsGoPublic/HelpEstablishContext)/LetsGoPublic/HelpEstablishContext/_HelpEstablishContext_trigger
+  O [event:terminatesession] -> (/LetsGoPublic/Terminate)/LetsGoPublic/Terminate/_Terminate_trigger
+  O [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout)/LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout/_TT_HandleFirstTimeout_trigger
+  X [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout)/LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout/_TT_HandleSecondTimeout_trigger [X-expect condition false]
+  X [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout)/LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/_TT_TerminateOnTimeout_trigger [X-expect condition false]
+  O [help.general_help] -> (/LetsGoPublic/Help)/LetsGoPublic/Help/_Help_trigger
+  O [help.give_me_tips] -> (/LetsGoPublic/HelpGetTips)/LetsGoPublic/HelpGetTips/_HelpGetTips_trigger
+  O [help.what_can_i_say] -> (/LetsGoPublic/HelpWhatCanISay)/LetsGoPublic/HelpWhatCanISay/_HelpWhatCanISay_trigger
+  O [help.where_are_we] -> (/LetsGoPublic/HelpEstablishContext)/LetsGoPublic/HelpEstablishContext/_HelpEstablishContext_trigger
+  X [no] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  X [repeat] -> (/LetsGoPublic/GiveIntroduction/RepeatIntroduction)/LetsGoPublic/GiveIntroduction/RepeatIntroduction/_RepeatIntroduction_trigger [X-@(/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace) not containing focus]
+  O [repeat] -> (/LetsGoPublic/Repeat)/LetsGoPublic/Repeat/_Repeat_trigger
+  O [startover] -> (/LetsGoPublic/StartOver)/LetsGoPublic/StartOver/_StartOver_trigger
+  O [whattimeisitrequest] -> (/LetsGoPublic/GiveCurrentTime)/LetsGoPublic/GiveCurrentTime/_GiveCurrentTime_trigger
+  X [yes] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+[COR@21:14:15.762] Expectation Agenda Assembly Phase completed (4 levels).
+[STA@21:14:15.762] Updating dialog state ...
+[STA@21:14:15.768] Dialog state update completed.
+[STA@21:14:15.773] Broadcasting dialog manager state to helios.set_dialog_state
+[STA@21:14:15.773] Dialog manager state broadcast completed.
+[COR@21:14:15.774] Input line configuration dumped below.
+set_dtmf_len = 1
+set_lm = first_query
+[COR@21:14:15.775] System action dumped below.
+REQUEST()
+EXPL_CONF()
+IMPL_CONF()
+UNPLANNED_IMPL_CONF()
+[INP@21:14:15.775] Waiting for input ...
+[OTP@21:14:20.103] Received final output notification frame. id: 0; bargein: -1; Conveyance Info: (dump below)
+
+Tagged Utterance: (dump below)
+ {audio src="../../Resources/audio/intro1.wav"}Welcome to the CMU Let's Go bus information system.{/audio}
+
+[OTH@21:14:20.103] OUTPUT HISTORY
+id	 utterance
+--------------------------------------------------------------------------------
+0	{audio src="../../Resources/audio/intro1.wav"}Welcome to the CMU Let's Go bus information system.{/audio}
+
+[OTP@21:14:24.243] Received final output notification frame. id: 1; bargein: -1; Conveyance Info: (dump below)
+
+Tagged Utterance: (dump below)
+ {audio src="../../Resources/audio/intro4.wav"}To get help at any time, just say Help or press zero.{/audio}
+
+[OTH@21:14:24.243] OUTPUT HISTORY
+id	 utterance
+--------------------------------------------------------------------------------
+1	{audio src="../../Resources/audio/intro4.wav"}To get help at any time, just say Help or press zero.{/audio}
+0	{audio src="../../Resources/audio/intro1.wav"}Welcome to the CMU Let's Go bus information system.{/audio}
+
+[OTP@21:14:25.833] Received final output notification frame. id: 2; bargein: -1; Conveyance Info: (dump below)
+
+Tagged Utterance: (dump below)
+ What can I do for you?
+
+[OTH@21:14:25.833] OUTPUT HISTORY
+id	 utterance
+--------------------------------------------------------------------------------
+2	What can I do for you?
+1	{audio src="../../Resources/audio/intro4.wav"}To get help at any time, just say Help or press zero.{/audio}
+0	{audio src="../../Resources/audio/intro1.wav"}Welcome to the CMU Let's Go bus information system.{/audio}
+
+[INP@21:14:29.241] New input arrived (dump below).
+  [h3_acoustic_gap_norm] = 40549.40625
+  [h3_acoustic_gap_norm_gtm] = 0
+  [h3_am_score] = -19144392.00000
+  [h3_am_score_norm] = -177262.89063
+  [h3_am_score_norm_gtm] = 1
+  [h3_answer_type] = 2
+  [h3_avg_sphinxwordconf] = 0.26312
+  [h3_avg_sphinxwordconf_gt_30] = 0
+  [h3_avg_validwordconf] = 0.91667
+  [h3_avg_validwordconf_gt_50] = 1
+  [h3_avg_wordconf] = 0.91667
+  [h3_avg_wordconf_gt_50] = 1
+  [h3_barge_in] = 1
+  [h3_clip_info_10] = 1.00000
+  [h3_clip_info_1] = 0.00106
+  [h3_clip_info_2] = 0.00771
+  [h3_clip_info_3] = 0.01446
+  [h3_clip_info_4] = 0.02428
+  [h3_clip_info_5] = 0.04160
+  [h3_clip_info_6] = 0.06345
+  [h3_clip_info_7] = 0.09671
+  [h3_clip_info_8] = 0.15350
+  [h3_clip_info_9] = 0.26605
+  [h3_confidence] = 0.37832
+  [h3_confidence_gt_25] = 1
+  [h3_confidence_gt_50] = 0
+  [h3_confidence_gt_75] = 0
+  [h3_confidence_gtm] = 0
+  [h3_decoder_garble] = 0
+  [h3_decoder_score] = -20070080.00000
+  [h3_decoder_score_norm] = -185834.07813
+  [h3_decoder_score_norm_gtm] = 1
+  [h3_dialog_state] = /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+  [h3_endframes] = 105
+  [h3_engine_name] = male
+  [h3_first_level_matched] = 1
+  [h3_first_level_matched_gt_0] = 1
+  [h3_first_level_matched_gt_1] = 0
+  [h3_frag_and_gap_num] = 1
+  [h3_frag_and_gap_num_gt_1] = 0
+  [h3_frag_mode] = ppp
+  [h3_frag_num] = 1
+  [h3_frag_num_gt_1] = 0
+  [h3_frag_ratio] = 0.33333
+  [h3_frag_ratio_gtm] = 1
+  [h3_frame_num] = 108
+  [h3_frame_num_gtm] = 0
+  [h3_gap_num] = 0
+  [h3_gap_num_bool] = 0
+  [h3_gap_num_gt_1] = 0
+  [h3_garble] = clear
+  [h3_garble_clear] = 1
+  [h3_h_avg_am_score_norm] = -184754.53125
+  [h3_h_avg_am_score_norm_gtm] = 1
+  [h3_h_avg_confidence] = 0.53916
+  [h3_h_avg_confidence_2] = 1.07832
+  [h3_h_avg_confidence_2_gt_25] = 1
+  [h3_h_avg_confidence_2_gt_50] = 1
+  [h3_h_avg_confidence_2_gt_75] = 1
+  [h3_h_avg_confidence_2_gtm] = 0
+  [h3_h_avg_confidence_gt_25] = 1
+  [h3_h_avg_confidence_gt_50] = 1
+  [h3_h_avg_confidence_gt_75] = 0
+  [h3_h_avg_confidence_gtm] = 0
+  [h3_h_avg_gap_num] = 0.16000
+  [h3_h_avg_gap_num_gtm] = 0
+  [h3_h_avg_lm_score_norm_1] = -8918.94727
+  [h3_h_avg_lm_score_norm_1_gtm] = 1
+  [h3_h_avg_lm_score_norm_2] = -406442.00000
+  [h3_h_avg_lm_score_norm_2_gtm] = 1
+  [h3_h_avg_slots_matched] = 1.00000
+  [h3_h_avg_slots_matched_gtm] = 0
+  [h3_h_avg_uncov_num] = 0.25000
+  [h3_h_avg_uncov_num_gtm] = 0
+  [h3_h_ratio_nonu] = 0.08500
+  [h3_hyp_index] = 0
+  [h3_hyp_num_parses] = 1
+  [h3_hypothesis] = ROSS PARK MALL 
+  [h3_ih_am_score_norm_diff_to_max] = -177262.89063
+  [h3_ih_am_score_norm_diff_to_max_bool] = 1
+  [h3_ih_am_score_norm_diff_to_min] = 4695.62500
+  [h3_ih_am_score_norm_diff_to_min_bool] = 1
+  [h3_ih_diff_lexical] = 1
+  [h3_ih_diff_lexical_one_word] = 0
+  [h3_ih_frag_ratio_diff_to_max] = 0.00000
+  [h3_ih_frag_ratio_diff_to_max_bool] = 0.00000
+  [h3_ih_frag_ratio_diff_to_min] = 0.33333
+  [h3_ih_frag_ratio_diff_to_min_bool] = 1.00000
+  [h3_ih_lm_score_norm_diff_to_max] = -8571.18555
+  [h3_ih_lm_score_norm_diff_to_max_bool] = 1
+  [h3_ih_lm_score_norm_diff_to_min] = 0.00000
+  [h3_ih_lm_score_norm_diff_to_min_bool] = 0
+  [h3_last_level_matched] = 1
+  [h3_last_level_matched_gt_0] = 1
+  [h3_last_level_matched_gt_1] = 0
+  [h3_last_level_touched] = 1
+  [h3_last_level_touched_gt_0] = 1
+  [h3_last_level_touched_gt_1] = 0
+  [h3_last_turn_nonu] = 0
+  [h3_lm_score] = -925688.00000
+  [h3_lm_score_norm_1] = -8571.18555
+  [h3_lm_score_norm_1_gtm] = 1
+  [h3_lm_score_norm_2] = -308562.65625
+  [h3_lm_score_norm_2_gtm] = 1
+  [h3_mark_confirm] = 0
+  [h3_mark_confirm_bool] = 0
+  [h3_mark_confirm_bool_barge_in] = 0
+  [h3_mark_discomfirm] = 0
+  [h3_mark_discomfirm_bool] = 0
+  [h3_mark_discomfirm_bool_barge_in] = 0
+  [h3_matched_in_focus] = 0
+  [h3_max_sphinxwordconf] = 0.26312
+  [h3_max_validwordconf] = 0.91667
+  [h3_max_wordconf] = 0.91667
+  [h3_min_sphinxwordconf] = 0.26312
+  [h3_min_validwordconf] = 0.91667
+  [h3_min_wordconf] = 0.91667
+  [h3_nbest_index] = 0
+  [h3_new_slots_num] = 1
+  [h3_new_slots_num_bool] = 1
+  [h3_no_parse] = 0
+  [h3_nonu] = 0
+  [h3_npow] = 25.00000
+  [h3_npow_gtm] = 1
+  [h3_num_parses_ratio] = 0.50000
+  [h3_num_prev_nonu] = 0
+  [h3_num_prev_nonu_gt_1] = 0
+  [h3_num_prev_nonu_gt_2] = 0
+  [h3_num_prev_not_nonu] = 3
+  [h3_num_prev_not_nonu_gt_1] = 1
+  [h3_num_prev_not_nonu_gt_2] = 1
+  [h3_num_prev_not_nonu_gt_5] = 1
+  [h3_parse_str] = PlaceInformation [SinglePlace] ( [stop_name] ( [uncovered_place] ( [uncovered_stop] ( ROSS PARK MALL ) ) ) )   
+  [h3_parser_garble] = 0
+  [h3_pow] = 82.00000
+  [h3_pow_gtm] = 1
+  [h3_pow_npow_diff] = 57.00000
+  [h3_pow_npow_diff_gtm] = 0
+  [h3_rep_slots_num] = 0
+  [h3_rep_slots_num_bool] = 0
+  [h3_slot_num] = 1
+  [h3_slot_num_gt_1] = 0
+  [h3_slot_num_gt_2] = 0
+  [h3_slots_blocked] = 0
+  [h3_slots_blocked_bool] = 0
+  [h3_slots_blocked_gt_1] = 0
+  [h3_slots_matched] = 1
+  [h3_slots_matched_bool] = 1
+  [h3_slots_matched_gt_1] = 0
+  [h3_slots_relevant_num] = 1
+  [h3_slots_relevant_num_bool] = 1
+  [h3_slots_relevant_num_gt_1] = 0
+  [h3_speak_rate] = 0.02778
+  [h3_speak_rate_gtm] = 1
+  [h3_speak_rate_phones] = 0.02778
+  [h3_speak_rate_phones_gtm] = 0
+  [h3_speak_rate_syl] = 0.00926
+  [h3_speak_rate_syl_gtm] = 0
+  [h3_startframes] = 19
+  [h3_targetprompt] = _goodbye
+  [h3_targetprompt_score] = 10.00000
+  [h3_top_slots] = SinglePlace
+  [h3_total_num_parses] = 2
+  [h3_turn_number] = 0
+  [h3_turn_number_gt_0] = 0
+  [h3_turn_number_gt_1] = 0
+  [h3_turn_number_gtm] = 0
+  [h3_unconf_mark_confirm] = 0
+  [h3_unconf_mark_confirm_bool] = 0
+  [h3_unconf_mark_discomfirm] = 0
+  [h3_unconf_mark_discomfirm_bool] = 0
+  [h3_unconf_num] = 0
+  [h3_unconf_num_bool] = 0
+  [h3_unconf_num_gt_1] = 0
+  [h3_unconf_num_norm] = 0.00000
+  [h3_unconf_ratio] = 0.00000
+  [h3_unconf_ratio_gtm] = 0
+  [h3_uncov_num] = 0
+  [h3_uncov_num_bool] = 0
+  [h3_uncov_num_gt_1] = 0
+  [h3_uncov_num_norm] = 0.00000
+  [h3_uncov_ratio] = 0.00000
+  [h3_uncov_ratio_gtm] = 0
+  [h3_uttid] = 001
+  [h3_word_num] = 3
+  [h3_word_num_class] = 2
+  [h3_word_num_gt_1] = 1
+  [h3_word_num_gt_2] = 1
+  [h3_word_num_gt_4] = 0
+  [h3_word_num_norm] = 1.73205
+  [h3_words_per_slot] = 3.00000
+  [singleplace.stop_name.uncovered_place.uncovered_stop] = ROSS PARK MALL
+  [singleplace.stop_name.uncovered_place] = ROSS PARK MALL
+  [singleplace.stop_name] = ROSS PARK MALL
+  [singleplace] = ROSS PARK MALL
+
+[COR@21:14:29.241] Concepts Binding Phase initiated.
+[CON@21:14:29.292] Concept update [update_with_concept] on /LetsGoPublic/PerformTask/uncovered_place:
+Initial value dumped below:
+<UNDEFINED>
+Updated value dumped below:
+{
+name	ROSS PARK MALL|0.38
+type	stop|0.38
+}
+[COR@21:14:29.293] Slot [singleplace.stop_name.uncovered_place.uncovered_stop]({
+name	ROSS PARK MALL
+type	stop
+}
+|0.378320) bound to concept (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place.
+[COR@21:14:29.333] Performing forced concept updates ...
+[COR@21:14:29.334] Forced concept updates completed.
+[COR@21:14:29.334] Attempted bindings dumped below:
+Success: Level.1	[singleplace.stop_name.uncovered_place.uncovered_stop](ROSS PARK MALL|0.378320)->(/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+
+[COR@21:14:29.334] Concepts Binding Phase completed (1 concept(s) bound, 0 concept(s) blocked out, 0 forced concept update(s)).
+[COR@21:14:29.334] INPUT Pass completed.
+[GMS@21:14:29.335] Running grounding process ...
+[GMS@21:14:29.335] Grounding last user turn ...
+[GMS@21:14:29.336] Last turn: successful bindings.
+[GMS@21:14:29.336] Grounding last user turn completed.
+[GMS@21:14:29.337] Grounding concepts ...
+[GMS@21:14:29.337] Concept grounding requests dumped below:
+[PENDING]   /LetsGoPublic/PerformTask/uncovered_place (turn=1)
+
+[GMX@21:14:29.337] Concept /LetsGoPublic/PerformTask/uncovered_place dumped below:
+{
+name	ROSS PARK MALL|0.38
+type	stop|0.38
+}
+[GMX@21:14:29.337] Grounding model /LetsGoPublic/PerformTask/uncovered_place [TYPE=concept_default;POLICY=expl;EM=epsilon-greedy;EP=0.10]:
+Full state: 
+grounded = false
+top_confidence = 0.378320
+updated = true
+Belief state: INACTIVE:0.00  CONFIDENT:0.38  UNCONFIDENT:0.62  GROUNDED:0.00  
+Action values (dumped below):
+  ACCEPT: -
+  EXPL_CONF:10.0000
+  IMPL_CONF: -
+
+Suggested action: EXPL_CONF
+
+[GMS@21:14:29.337] Executing concept grounding action:
+EXPL_CONF <- /LetsGoPublic/PerformTask/uncovered_place
+[REG@21:14:29.337] Agent /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place] created successfully.
+[REG@21:14:29.344] Agent /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place] registered successfully.
+[COR@21:14:29.344] Agent /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place] added on the execution stack by GroundingManagerAgent.
+[GMS@21:14:29.344] Setting concept grounding request for /LetsGoPublic/PerformTask/uncovered_place to [EXECUTING]
+[GMS@21:14:29.345] Grounding concepts completed.
+[GMS@21:14:29.345] Grounding process completed.
+[COR@21:14:29.345] Focus Claims Assembly Phase initiated.
+[COR@21:14:29.345] 0 agent(s) claiming focus.
+[COR@21:14:29.346] Pruning Focus Claims list.
+[COR@21:14:29.346] 0 agents(s) eliminated from the focus claims list.
+[COR@21:14:29.346] Focus Claims Assembly Phase completed (0 claim(s)).
+[COR@21:14:29.346] Executing dialog agent /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place] ...
+[OTP@21:14:29.346] Processing output prompt 3 from /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]. (dump below)
+{explicit_confirm /LetsGoPublic/PerformTask/uncovered_place uncovered_place="{
+name	ROSS PARK MALL
+type	stop
+}
+"}
+[OTP@21:14:29.347] Processed output prompt 3 and sent it to nlg (dump below)
+start
+{
+act	explicit_confirm
+object	/LetsGoPublic/PerformTask/uncovered_place
+_repeat_counter	0
+uncovered_place	{
+name	ROSS PARK MALL
+type	stop
+}
+system_version	1
+}
+end
+
+[COR@21:14:29.347] Starting INPUT Pass.
+[COR@21:14:29.347] Timeout period: 20
+[COR@21:14:29.347] Nonunderstanding threshold: 0.00
+[CON@21:14:29.348] Grounding-relevant concepts dumped below:
+Concept: /LetsGoPublic/PerformTask/query.type
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/query.travel_time.time
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.departure_place
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.arrival_place
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.route_number
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/query.direction
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/uncovered_route
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/neighborhood
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/uncovered_place
+{
+name	ROSS PARK MALL|0.38
+type	stop|0.38
+}
+
+[COR@21:14:29.349] Execution stack dumped below:
+  /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]
+  /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+  /LetsGoPublic/PerformTask/GetQuerySpecs
+  /LetsGoPublic/PerformTask
+  /LetsGoPublic
+
+[COR@21:14:29.349] Expectation Agenda Assembly Phase initiated.
+[COR@21:14:29.349] Compiling Expectation Agenda ...
+[COR@21:14:29.382] Compiling Expectation Agenda completed.
+[COR@21:14:29.382] Enforcing binding policies ...
+[COR@21:14:29.383] Enforcing binding policies completed.
+[AGN@21:14:29.385] Concept expectation agenda dumped below:
+ Level 0: generated by /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]
+  O [dtmf_one] -> (/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place])/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]/confirm
+  O [dtmf_three] -> (/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place])/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]/confirm
+  O [no] -> (/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place])/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]/confirm
+  O [yes] -> (/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place])/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]/confirm
+ Level 1: generated by /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+ Level 2: generated by /LetsGoPublic/PerformTask/GetQuerySpecs
+  O [1_departureplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [1_departureplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [2_arrivalplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [2_arrivalplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime)/LetsGoPublic/PerformTask/query.travel_time
+  X [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime)/LetsGoPublic/PerformTask/query.travel_time [X-![] not under focus]
+  X [ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood)/LetsGoPublic/PerformTask/neighborhood [X-![] not under focus]
+  X [anystop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop)/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/dont_know [X-@(../RequestDepartureStopInNeighborhood) not containing focus]
+  X [busnumber.covered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace)/LetsGoPublic/PerformTask/query.route_number [X-![] not under focus]
+  X [busnumber.uncovered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute)/LetsGoPublic/PerformTask/uncovered_route [X-@(../RequestBusNumberOrDeparturePlace) not containing focus]
+  X [covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood)/LetsGoPublic/PerformTask/neighborhood [X-![] not under focus]
+  O [covered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace)/LetsGoPublic/PerformTask/query.route_number
+  O [date_time] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime)/LetsGoPublic/PerformTask/query.travel_time
+  X [date_time] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime)/LetsGoPublic/PerformTask/query.travel_time [X-![] not under focus]
+  X [disambiguatearrival] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [disambiguatedeparture] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [dontknow] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop)/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/dont_know [X-@(../RequestDepartureStopInNeighborhood) not containing focus]
+  X [dtmf_one] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [dtmf_three] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [singleplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  X [stop_name.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-@(../RequestDepartureNeighborhood) not containing focus]
+  X [stop_name.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-@(../RequestDepartureNeighborhood) not containing focus]
+  O [uncovered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute)/LetsGoPublic/PerformTask/uncovered_route
+ Level 3: generated by /LetsGoPublic/PerformTask
+  X [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [3_busbeforethatrequest] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [finalquit] -> (/LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye)/LetsGoPublic/PerformTask/GiveResults/goodbye [X-[] not under topic]
+  X [quit] -> (/LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye)/LetsGoPublic/PerformTask/GiveResults/goodbye [X-[] not under topic]
+  X [repeat] -> (/LetsGoPublic/PerformTask/GiveResults/RepeatResult)/LetsGoPublic/PerformTask/GiveResults/RepeatResult/_RepeatResult_trigger [X-[] not under topic]
+  X [startover] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [startover] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQueryError)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+ Level 4: generated by /LetsGoPublic
+  X [dtmf_one] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  X [dtmf_three] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  O [dtmf_zero] -> (/LetsGoPublic/Help)/LetsGoPublic/Help/_Help_trigger
+  O [establishcontext] -> (/LetsGoPublic/HelpEstablishContext)/LetsGoPublic/HelpEstablishContext/_HelpEstablishContext_trigger
+  O [event:terminatesession] -> (/LetsGoPublic/Terminate)/LetsGoPublic/Terminate/_Terminate_trigger
+  O [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout)/LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout/_TT_HandleFirstTimeout_trigger
+  X [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout)/LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout/_TT_HandleSecondTimeout_trigger [X-expect condition false]
+  X [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout)/LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/_TT_TerminateOnTimeout_trigger [X-expect condition false]
+  O [help.general_help] -> (/LetsGoPublic/Help)/LetsGoPublic/Help/_Help_trigger
+  O [help.give_me_tips] -> (/LetsGoPublic/HelpGetTips)/LetsGoPublic/HelpGetTips/_HelpGetTips_trigger
+  O [help.what_can_i_say] -> (/LetsGoPublic/HelpWhatCanISay)/LetsGoPublic/HelpWhatCanISay/_HelpWhatCanISay_trigger
+  O [help.where_are_we] -> (/LetsGoPublic/HelpEstablishContext)/LetsGoPublic/HelpEstablishContext/_HelpEstablishContext_trigger
+  X [no] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  X [repeat] -> (/LetsGoPublic/GiveIntroduction/RepeatIntroduction)/LetsGoPublic/GiveIntroduction/RepeatIntroduction/_RepeatIntroduction_trigger [X-@(/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace) not containing focus]
+  O [repeat] -> (/LetsGoPublic/Repeat)/LetsGoPublic/Repeat/_Repeat_trigger
+  O [startover] -> (/LetsGoPublic/StartOver)/LetsGoPublic/StartOver/_StartOver_trigger
+  O [whattimeisitrequest] -> (/LetsGoPublic/GiveCurrentTime)/LetsGoPublic/GiveCurrentTime/_GiveCurrentTime_trigger
+  X [yes] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+[COR@21:14:29.386] Expectation Agenda Assembly Phase completed (5 levels).
+[STA@21:14:29.386] Updating dialog state ...
+[STA@21:14:29.394] Dialog state update completed.
+[STA@21:14:29.400] Broadcasting dialog manager state to helios.set_dialog_state
+[STA@21:14:29.401] Dialog manager state broadcast completed.
+[COR@21:14:29.401] Input line configuration dumped below.
+set_dtmf_len = 1
+set_lm = yes_no
+[COR@21:14:29.403] System action dumped below.
+REQUEST(/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]/confirm)
+EXPL_CONF(/LetsGoPublic/PerformTask/uncovered_place)
+IMPL_CONF()
+UNPLANNED_IMPL_CONF()
+[INP@21:14:29.403] Waiting for input ...
+[OTP@21:14:32.271] Received final output notification frame. id: 3; bargein: -1; Conveyance Info: (dump below)
+uncovered_place.name 3 
+Tagged Utterance: (dump below)
+ <uncovered_place.name ROSS PARK MALL>.  {BREAK TIME="0.5s"/} Did I get that right?
+
+[OTH@21:14:32.271] OUTPUT HISTORY
+id	 utterance
+--------------------------------------------------------------------------------
+3	<uncovered_place.name ROSS PARK MALL>.  {BREAK TIME="0.5s"/} Did I get that right?
+2	What can I do for you?
+1	{audio src="../../Resources/audio/intro4.wav"}To get help at any time, just say Help or press zero.{/audio}
+0	{audio src="../../Resources/audio/intro1.wav"}Welcome to the CMU Let's Go bus information system.{/audio}
+
+[INP@21:14:33.731] New input arrived (dump below).
+  [generic.yes] = YES
+  [generic] = YES
+  [h3_acoustic_gap_norm] = 28861.47461
+  [h3_acoustic_gap_norm_gtm] = 0
+  [h3_am_score] = -10105771.00000
+  [h3_am_score_norm] = -171284.25000
+  [h3_am_score_norm_gtm] = 1
+  [h3_answer_type] = 0
+  [h3_avg_sphinxwordconf] = 0.34154
+  [h3_avg_sphinxwordconf_gt_30] = 1
+  [h3_avg_validwordconf] = 0.91667
+  [h3_avg_validwordconf_gt_50] = 1
+  [h3_avg_wordconf] = 0.91667
+  [h3_avg_wordconf_gt_50] = 1
+  [h3_barge_in] = 0
+  [h3_clip_info_10] = 1.00000
+  [h3_clip_info_1] = 0.00109
+  [h3_clip_info_2] = 0.00291
+  [h3_clip_info_3] = 0.00654
+  [h3_clip_info_4] = 0.01145
+  [h3_clip_info_5] = 0.01926
+  [h3_clip_info_6] = 0.03070
+  [h3_clip_info_7] = 0.04960
+  [h3_clip_info_8] = 0.07813
+  [h3_clip_info_9] = 0.12391
+  [h3_confidence] = 0.94026
+  [h3_confidence_gt_25] = 1
+  [h3_confidence_gt_50] = 1
+  [h3_confidence_gt_75] = 1
+  [h3_confidence_gtm] = 1
+  [h3_decoder_garble] = 0
+  [h3_decoder_score] = -10301795.00000
+  [h3_decoder_score_norm] = -174606.68750
+  [h3_decoder_score_norm_gtm] = 1
+  [h3_dialog_state] = /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]
+  [h3_endframes] = 49
+  [h3_engine_name] = male
+  [h3_first_level_matched] = 0
+  [h3_first_level_matched_gt_0] = 0
+  [h3_first_level_matched_gt_1] = 0
+  [h3_frag_and_gap_num] = 1
+  [h3_frag_and_gap_num_gt_1] = 0
+  [h3_frag_mode] = p
+  [h3_frag_num] = 1
+  [h3_frag_num_gt_1] = 0
+  [h3_frag_ratio] = 1.00000
+  [h3_frag_ratio_gtm] = 1
+  [h3_frame_num] = 59
+  [h3_frame_num_gtm] = 0
+  [h3_gap_num] = 0
+  [h3_gap_num_bool] = 0
+  [h3_gap_num_gt_1] = 0
+  [h3_garble] = clear
+  [h3_garble_clear] = 1
+  [h3_h_avg_am_score_norm] = -180264.43750
+  [h3_h_avg_am_score_norm_gtm] = 1
+  [h3_h_avg_confidence] = 0.67286
+  [h3_h_avg_confidence_2] = 0.82013
+  [h3_h_avg_confidence_2_gt_25] = 1
+  [h3_h_avg_confidence_2_gt_50] = 1
+  [h3_h_avg_confidence_2_gt_75] = 1
+  [h3_h_avg_confidence_2_gtm] = 0
+  [h3_h_avg_confidence_gt_25] = 1
+  [h3_h_avg_confidence_gt_50] = 1
+  [h3_h_avg_confidence_gt_75] = 0
+  [h3_h_avg_confidence_gtm] = 0
+  [h3_h_avg_gap_num] = 0.10667
+  [h3_h_avg_gap_num_gtm] = 0
+  [h3_h_avg_lm_score_norm_1] = -7053.44531
+  [h3_h_avg_lm_score_norm_1_gtm] = 1
+  [h3_h_avg_lm_score_norm_2] = -336302.65625
+  [h3_h_avg_lm_score_norm_2_gtm] = 1
+  [h3_h_avg_slots_matched] = 1.00000
+  [h3_h_avg_slots_matched_gtm] = 0
+  [h3_h_avg_uncov_num] = 0.16667
+  [h3_h_avg_uncov_num_gtm] = 0
+  [h3_h_ratio_nonu] = 0.05667
+  [h3_hyp_index] = 0
+  [h3_hyp_num_parses] = 1
+  [h3_hypothesis] = YES 
+  [h3_ih_am_score_norm_diff_to_max] = -171284.25000
+  [h3_ih_am_score_norm_diff_to_max_bool] = 1
+  [h3_ih_am_score_norm_diff_to_min] = 0.00000
+  [h3_ih_am_score_norm_diff_to_min_bool] = 0
+  [h3_ih_diff_lexical] = 1
+  [h3_ih_diff_lexical_one_word] = 1
+  [h3_ih_frag_ratio_diff_to_max] = 0.00000
+  [h3_ih_frag_ratio_diff_to_max_bool] = 0.00000
+  [h3_ih_frag_ratio_diff_to_min] = 1.00000
+  [h3_ih_frag_ratio_diff_to_min_bool] = 1.00000
+  [h3_ih_lm_score_norm_diff_to_max] = -3322.44067
+  [h3_ih_lm_score_norm_diff_to_max_bool] = 1
+  [h3_ih_lm_score_norm_diff_to_min] = 0.00000
+  [h3_ih_lm_score_norm_diff_to_min_bool] = 0
+  [h3_last_level_matched] = 0
+  [h3_last_level_matched_gt_0] = 0
+  [h3_last_level_matched_gt_1] = 0
+  [h3_last_level_touched] = 0
+  [h3_last_level_touched_gt_0] = 0
+  [h3_last_level_touched_gt_1] = 0
+  [h3_last_turn_nonu] = 0
+  [h3_lm_score] = -196024.00000
+  [h3_lm_score_norm_1] = -3322.44067
+  [h3_lm_score_norm_1_gtm] = 1
+  [h3_lm_score_norm_2] = -196024.00000
+  [h3_lm_score_norm_2_gtm] = 1
+  [h3_mark_confirm] = 1
+  [h3_mark_confirm_bool] = 1
+  [h3_mark_confirm_bool_barge_in] = 0
+  [h3_mark_discomfirm] = 0
+  [h3_mark_discomfirm_bool] = 0
+  [h3_mark_discomfirm_bool_barge_in] = 0
+  [h3_matched_in_focus] = 1
+  [h3_max_sphinxwordconf] = 0.34154
+  [h3_max_validwordconf] = 0.91667
+  [h3_max_wordconf] = 0.91667
+  [h3_min_sphinxwordconf] = 0.34154
+  [h3_min_validwordconf] = 0.91667
+  [h3_min_wordconf] = 0.91667
+  [h3_nbest_index] = 0
+  [h3_new_slots_num] = 1
+  [h3_new_slots_num_bool] = 1
+  [h3_no_parse] = 0
+  [h3_nonu] = 0
+  [h3_npow] = 22.00000
+  [h3_npow_gtm] = 1
+  [h3_num_parses_ratio] = 0.50000
+  [h3_num_prev_nonu] = 0
+  [h3_num_prev_nonu_gt_1] = 0
+  [h3_num_prev_nonu_gt_2] = 0
+  [h3_num_prev_not_nonu] = 1
+  [h3_num_prev_not_nonu_gt_1] = 0
+  [h3_num_prev_not_nonu_gt_2] = 0
+  [h3_num_prev_not_nonu_gt_5] = 0
+  [h3_parse_str] = Generic [Generic] ( [Yes] ( YES ) )   
+  [h3_parser_garble] = 0
+  [h3_pow] = 82.00000
+  [h3_pow_gtm] = 1
+  [h3_pow_npow_diff] = 60.00000
+  [h3_pow_npow_diff_gtm] = 1
+  [h3_rep_slots_num] = 0
+  [h3_rep_slots_num_bool] = 0
+  [h3_slot_num] = 1
+  [h3_slot_num_gt_1] = 0
+  [h3_slot_num_gt_2] = 0
+  [h3_slots_blocked] = 0
+  [h3_slots_blocked_bool] = 0
+  [h3_slots_blocked_gt_1] = 0
+  [h3_slots_matched] = 1
+  [h3_slots_matched_bool] = 1
+  [h3_slots_matched_gt_1] = 0
+  [h3_slots_relevant_num] = 1
+  [h3_slots_relevant_num_bool] = 1
+  [h3_slots_relevant_num_gt_1] = 0
+  [h3_speak_rate] = 0.01695
+  [h3_speak_rate_gtm] = 0
+  [h3_speak_rate_phones] = 0.05085
+  [h3_speak_rate_phones_gtm] = 0
+  [h3_speak_rate_syl] = 0.01695
+  [h3_speak_rate_syl_gtm] = 0
+  [h3_startframes] = 19
+  [h3_targetprompt] = yes
+  [h3_targetprompt_score] = 0.00000
+  [h3_top_slots] = Generic
+  [h3_total_num_parses] = 2
+  [h3_turn_number] = 1
+  [h3_turn_number_gt_0] = 1
+  [h3_turn_number_gt_1] = 0
+  [h3_turn_number_gtm] = 0
+  [h3_unconf_mark_confirm] = 0
+  [h3_unconf_mark_confirm_bool] = 0
+  [h3_unconf_mark_discomfirm] = 0
+  [h3_unconf_mark_discomfirm_bool] = 0
+  [h3_unconf_num] = 0
+  [h3_unconf_num_bool] = 0
+  [h3_unconf_num_gt_1] = 0
+  [h3_unconf_num_norm] = 0.00000
+  [h3_unconf_ratio] = 0.00000
+  [h3_unconf_ratio_gtm] = 0
+  [h3_uncov_num] = 0
+  [h3_uncov_num_bool] = 0
+  [h3_uncov_num_gt_1] = 0
+  [h3_uncov_num_norm] = 0.00000
+  [h3_uncov_ratio] = 0.00000
+  [h3_uncov_ratio_gtm] = 0
+  [h3_uttid] = 002
+  [h3_word_num] = 1
+  [h3_word_num_class] = 0
+  [h3_word_num_gt_1] = 0
+  [h3_word_num_gt_2] = 0
+  [h3_word_num_gt_4] = 0
+  [h3_word_num_norm] = 1.00000
+  [h3_words_per_slot] = 1.00000
+
+[COR@21:14:33.732] Concepts Binding Phase initiated.
+[COR@21:14:33.736] Slot [yes](true|0.940260) bound to concept (/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place])/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]/confirm.
+[COR@21:14:33.808] Performing forced concept updates ...
+[COR@21:14:33.808] Performing forced concept update on uncovered_place ...
+[CON@21:14:33.809] Concept update [update_with_concept] on /LetsGoPublic/PerformTask/uncovered_place:
+Initial value dumped below:
+{
+name	ROSS PARK MALL|0.38
+type	stop|0.38
+}
+Updated value dumped below:
+{
+name	ROSS PARK MALL|0.95
+type	stop|0.95
+}
+[GMS@21:14:33.809] Scheduling concept grounding for concept uncovered_place
+[GMX@21:14:33.809] Concept /LetsGoPublic/PerformTask/uncovered_place dumped below:
+{
+name	ROSS PARK MALL|0.95
+type	stop|0.95
+}
+[GMX@21:14:33.809] Grounding model /LetsGoPublic/PerformTask/uncovered_place [TYPE=concept_default;POLICY=expl;EM=epsilon-greedy;EP=0.10]:
+Full state: 
+grounded = true
+top_confidence = 0.950000
+updated = true
+Belief state: INACTIVE:0.00  CONFIDENT:0.00  UNCONFIDENT:0.00  GROUNDED:1.00  
+Action values (dumped below):
+  ACCEPT:1.0000
+  EXPL_CONF: -
+  IMPL_CONF: -
+
+Suggested action: ACCEPT
+
+[COR@21:14:33.809] Forced concept updates completed.
+[COR@21:14:33.809] Attempted bindings dumped below:
+Success: Level.0	[yes](YES|0.940260)->(/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place])/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]/confirm
+Forced update [explicit_confirm] on uncovered_place: understanding
+[COR@21:14:33.809] Concepts Binding Phase completed (1 concept(s) bound, 0 concept(s) blocked out, 1 forced concept update(s)).
+[COR@21:14:33.810] INPUT Pass completed.
+[OTP@21:14:33.810] Processing output prompt 4 from /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]. (dump below)
+{ inform confirm_okay }
+[OTP@21:14:33.811] Processed output prompt 4 and sent it to nlg (dump below)
+start
+{
+act	inform
+object	confirm_okay
+_repeat_counter	0
+system_version	1
+}
+end
+
+[COR@21:14:33.812] Eliminated 2 completed agent(s) (dumped below) from the execution stack.
+/_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place]
+/LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+[GMS@21:14:33.812] Running grounding process ...
+[GMS@21:14:33.812] Grounding last user turn ...
+[GMS@21:14:33.815] Last turn: successful bindings.
+[GMS@21:14:33.816] Grounding last user turn completed.
+[GMS@21:14:33.816] Grounding concepts ...
+[GMS@21:14:33.817] Concept grounding requests dumped below:
+[SCHEDULED] /LetsGoPublic/PerformTask/uncovered_place (turn=2)
+
+[GMS@21:14:33.817] Executing concept grounding action:
+ACCEPT <- /LetsGoPublic/PerformTask/uncovered_place
+[GMS@21:14:33.817] Setting concept grounding request for /LetsGoPublic/PerformTask/uncovered_place to [EXECUTING]
+[GMS@21:14:33.818] Grounding concepts completed.
+[GMS@21:14:33.818] Grounding process completed.
+[COR@21:14:33.818] Focus Claims Assembly Phase initiated.
+[COR@21:14:33.819] 1 agent(s) claiming focus (dumped below):
+  /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace
+
+[COR@21:14:33.819] Pruning Focus Claims list.
+[COR@21:14:33.819] 0 agents(s) eliminated from the focus claims list.
+[COR@21:14:33.820] Focus Claims Assembly Phase completed (1 claim(s)).
+[COR@21:14:33.820] Adding focus-claiming agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace on the execution stack.
+[COR@21:14:33.821] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace added on the execution stack by DMCoreAgent.
+[COR@21:14:33.821] Executing dialog agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace ...
+[COR@21:14:33.822] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/InformUncoveredPlace added on the execution stack by /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace.
+[COR@21:14:33.822] Executing dialog agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/InformUncoveredPlace ...
+[OTP@21:14:33.822] Processing output prompt 5 from /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/InformUncoveredPlace. (dump below)
+{:non-listening inform uncovered_place <uncovered_place}
+[OTP@21:14:33.823] Processed output prompt 5 and sent it to nlg (dump below)
+start
+{
+act	inform
+object	uncovered_place
+_repeat_counter	0
+uncovered_place	{
+name	ROSS PARK MALL
+type	stop
+}
+
+system_version	1
+}
+end
+
+[CON@21:14:33.823] Concept update [clear] on /LetsGoPublic/PerformTask/query.type:
+Initial value dumped below:
+<UNDEFINED>
+Updated value dumped below:
+<UNDEFINED>
+[CON@21:14:33.823] Concept update [clear] on /LetsGoPublic/PerformTask/query.travel_time.time:
+Initial value dumped below:
+<UNDEFINED>
+Updated value dumped below:
+<UNDEFINED>
+[CON@21:14:33.823] Concept update [clear] on /LetsGoPublic/PerformTask/query.departure_place:
+Initial value dumped below:
+<UNDEFINED>
+Updated value dumped below:
+<UNDEFINED>
+[CON@21:14:33.824] Concept update [clear] on /LetsGoPublic/PerformTask/query.arrival_place:
+Initial value dumped below:
+<UNDEFINED>
+Updated value dumped below:
+<UNDEFINED>
+[CON@21:14:33.824] Concept update [clear] on /LetsGoPublic/PerformTask/query.route_number:
+Initial value dumped below:
+<UNDEFINED>
+Updated value dumped below:
+<UNDEFINED>
+[CON@21:14:33.824] Concept update [clear] on /LetsGoPublic/PerformTask/query.direction:
+Initial value dumped below:
+<UNDEFINED>
+Updated value dumped below:
+<UNDEFINED>
+[CON@21:14:33.824] Concept update [clear] on /LetsGoPublic/PerformTask/uncovered_route:
+Initial value dumped below:
+<UNDEFINED>
+Updated value dumped below:
+<UNDEFINED>
+[CON@21:14:33.824] Concept update [clear] on /LetsGoPublic/PerformTask/neighborhood:
+Initial value dumped below:
+<UNDEFINED>
+Updated value dumped below:
+<UNDEFINED>
+[CON@21:14:33.824] Concept update [clear] on /LetsGoPublic/PerformTask/uncovered_place:
+Initial value dumped below:
+{
+name	ROSS PARK MALL|0.95
+type	stop|0.95
+}
+Updated value dumped below:
+<UNDEFINED>
+[COR@21:14:33.824] Eliminated 2 agent(s) (dumped below) from the execution stack.
+/LetsGoPublic/PerformTask
+/LetsGoPublic/PerformTask/GetQuerySpecs
+[COR@21:14:33.825] Eliminated 2 completed agent(s) (dumped below) from the execution stack.
+/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/InformUncoveredPlace
+/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace
+[GMS@21:14:33.825] Running grounding process ...
+[GMS@21:14:33.825] Grounding concepts ...
+[GMS@21:14:33.825] Concept grounding requests dumped below:
+[PENDING]   /LetsGoPublic/PerformTask/uncovered_place (turn=2)
+
+[GMX@21:14:33.826] Concept /LetsGoPublic/PerformTask/uncovered_place dumped below:
+<UNDEFINED>
+[GMX@21:14:33.826] Grounding model /LetsGoPublic/PerformTask/uncovered_place [TYPE=concept_default;POLICY=expl;EM=epsilon-greedy;EP=0.10]:
+Full state: 
+grounded = false
+top_confidence = 0.000000
+updated = false
+Belief state: INACTIVE:1.00  CONFIDENT:0.00  UNCONFIDENT:0.00  GROUNDED:0.00  
+Action values (dumped below):
+  ACCEPT:1.0000
+  EXPL_CONF: -
+  IMPL_CONF: -
+
+Suggested action: ACCEPT
+
+[GMS@21:14:33.828] Executing concept grounding action:
+ACCEPT <- /LetsGoPublic/PerformTask/uncovered_place
+[GMS@21:14:33.828] Setting concept grounding request for /LetsGoPublic/PerformTask/uncovered_place to [EXECUTING]
+[GMS@21:14:33.828] Grounding concepts completed.
+[GMS@21:14:33.829] Grounding process completed.
+[COR@21:14:33.829] Executing dialog agent /LetsGoPublic ...
+[COR@21:14:33.830] Agent /LetsGoPublic/PerformTask added on the execution stack by /LetsGoPublic.
+[COR@21:14:33.831] Executing dialog agent /LetsGoPublic/PerformTask ...
+[COR@21:14:33.831] Agent /LetsGoPublic/PerformTask/GetQuerySpecs added on the execution stack by /LetsGoPublic/PerformTask.
+[COR@21:14:33.836] Executing dialog agent /LetsGoPublic/PerformTask/GetQuerySpecs ...
+[COR@21:14:33.837] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou added on the execution stack by /LetsGoPublic/PerformTask/GetQuerySpecs.
+[COR@21:14:33.837] Executing dialog agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou ...
+[OTP@21:14:33.837] Processing output prompt 6 from /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou. (dump below)
+{request how_may_i_help_you}
+[OTP@21:14:33.838] Processed output prompt 6 and sent it to nlg (dump below)
+start
+{
+act	request
+object	how_may_i_help_you
+_repeat_counter	0
+system_version	1
+}
+end
+
+[COR@21:14:33.838] Starting INPUT Pass.
+[COR@21:14:33.838] Timeout period: 20
+[COR@21:14:33.839] Nonunderstanding threshold: 0.00
+[CON@21:14:33.840] Grounding-relevant concepts dumped below:
+Concept: /LetsGoPublic/PerformTask/query.type
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/query.travel_time.time
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.departure_place
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.arrival_place
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.route_number
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/query.direction
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/uncovered_route
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/neighborhood
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/uncovered_place
+<UNDEFINED>
+
+[COR@21:14:33.841] Execution stack dumped below:
+  /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+  /LetsGoPublic/PerformTask/GetQuerySpecs
+  /LetsGoPublic/PerformTask
+  /LetsGoPublic
+
+[COR@21:14:33.841] Expectation Agenda Assembly Phase initiated.
+[COR@21:14:33.841] Compiling Expectation Agenda ...
+[COR@21:14:33.877] Compiling Expectation Agenda completed.
+[COR@21:14:33.877] Enforcing binding policies ...
+[COR@21:14:33.877] Enforcing binding policies completed.
+[AGN@21:14:33.879] Concept expectation agenda dumped below:
+ Level 0: generated by /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+ Level 1: generated by /LetsGoPublic/PerformTask/GetQuerySpecs
+  O [1_departureplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [1_departureplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [2_arrivalplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [2_arrivalplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime)/LetsGoPublic/PerformTask/query.travel_time
+  X [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime)/LetsGoPublic/PerformTask/query.travel_time [X-![] not under focus]
+  X [ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood)/LetsGoPublic/PerformTask/neighborhood [X-![] not under focus]
+  X [anystop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop)/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/dont_know [X-@(../RequestDepartureStopInNeighborhood) not containing focus]
+  X [busnumber.covered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace)/LetsGoPublic/PerformTask/query.route_number [X-![] not under focus]
+  X [busnumber.uncovered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute)/LetsGoPublic/PerformTask/uncovered_route [X-@(../RequestBusNumberOrDeparturePlace) not containing focus]
+  X [covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood)/LetsGoPublic/PerformTask/neighborhood [X-![] not under focus]
+  O [covered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace)/LetsGoPublic/PerformTask/query.route_number
+  O [date_time] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime)/LetsGoPublic/PerformTask/query.travel_time
+  X [date_time] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime)/LetsGoPublic/PerformTask/query.travel_time [X-![] not under focus]
+  X [disambiguatearrival] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [disambiguatedeparture] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [dontknow] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop)/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/dont_know [X-@(../RequestDepartureStopInNeighborhood) not containing focus]
+  X [dtmf_one] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [dtmf_three] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [singleplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  X [stop_name.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-@(../RequestDepartureNeighborhood) not containing focus]
+  X [stop_name.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-@(../RequestDepartureNeighborhood) not containing focus]
+  O [uncovered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute)/LetsGoPublic/PerformTask/uncovered_route
+ Level 2: generated by /LetsGoPublic/PerformTask
+  X [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [3_busbeforethatrequest] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [finalquit] -> (/LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye)/LetsGoPublic/PerformTask/GiveResults/goodbye [X-[] not under topic]
+  X [quit] -> (/LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye)/LetsGoPublic/PerformTask/GiveResults/goodbye [X-[] not under topic]
+  X [repeat] -> (/LetsGoPublic/PerformTask/GiveResults/RepeatResult)/LetsGoPublic/PerformTask/GiveResults/RepeatResult/_RepeatResult_trigger [X-[] not under topic]
+  X [startover] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [startover] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQueryError)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+ Level 3: generated by /LetsGoPublic
+  X [dtmf_one] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  X [dtmf_three] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  O [dtmf_zero] -> (/LetsGoPublic/Help)/LetsGoPublic/Help/_Help_trigger
+  O [establishcontext] -> (/LetsGoPublic/HelpEstablishContext)/LetsGoPublic/HelpEstablishContext/_HelpEstablishContext_trigger
+  O [event:terminatesession] -> (/LetsGoPublic/Terminate)/LetsGoPublic/Terminate/_Terminate_trigger
+  O [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout)/LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout/_TT_HandleFirstTimeout_trigger
+  X [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout)/LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout/_TT_HandleSecondTimeout_trigger [X-expect condition false]
+  X [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout)/LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/_TT_TerminateOnTimeout_trigger [X-expect condition false]
+  O [help.general_help] -> (/LetsGoPublic/Help)/LetsGoPublic/Help/_Help_trigger
+  O [help.give_me_tips] -> (/LetsGoPublic/HelpGetTips)/LetsGoPublic/HelpGetTips/_HelpGetTips_trigger
+  O [help.what_can_i_say] -> (/LetsGoPublic/HelpWhatCanISay)/LetsGoPublic/HelpWhatCanISay/_HelpWhatCanISay_trigger
+  O [help.where_are_we] -> (/LetsGoPublic/HelpEstablishContext)/LetsGoPublic/HelpEstablishContext/_HelpEstablishContext_trigger
+  X [no] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  X [repeat] -> (/LetsGoPublic/GiveIntroduction/RepeatIntroduction)/LetsGoPublic/GiveIntroduction/RepeatIntroduction/_RepeatIntroduction_trigger [X-@(/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace) not containing focus]
+  O [repeat] -> (/LetsGoPublic/Repeat)/LetsGoPublic/Repeat/_Repeat_trigger
+  O [startover] -> (/LetsGoPublic/StartOver)/LetsGoPublic/StartOver/_StartOver_trigger
+  O [whattimeisitrequest] -> (/LetsGoPublic/GiveCurrentTime)/LetsGoPublic/GiveCurrentTime/_GiveCurrentTime_trigger
+  X [yes] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+[COR@21:14:33.880] Expectation Agenda Assembly Phase completed (4 levels).
+[STA@21:14:33.880] Updating dialog state ...
+[STA@21:14:33.888] Dialog state update completed.
+[STA@21:14:33.893] Broadcasting dialog manager state to helios.set_dialog_state
+[STA@21:14:33.894] Dialog manager state broadcast completed.
+[COR@21:14:33.894] Input line configuration dumped below.
+set_dtmf_len = 1
+set_lm = first_query
+[COR@21:14:33.895] System action dumped below.
+REQUEST()
+EXPL_CONF()
+IMPL_CONF()
+UNPLANNED_IMPL_CONF()
+[INP@21:14:33.895] Waiting for input ...
+[OTP@21:14:34.790] Received final output notification frame. id: 4; bargein: -1; Conveyance Info: (dump below)
+
+Tagged Utterance: (dump below)
+ Right
+
+[OTH@21:14:34.790] OUTPUT HISTORY
+id	 utterance
+--------------------------------------------------------------------------------
+4	Right
+3	<uncovered_place.name ROSS PARK MALL>.  {BREAK TIME="0.5s"/} Did I get that right?
+2	What can I do for you?
+1	{audio src="../../Resources/audio/intro4.wav"}To get help at any time, just say Help or press zero.{/audio}
+0	{audio src="../../Resources/audio/intro1.wav"}Welcome to the CMU Let's Go bus information system.{/audio}
+
+[OTP@21:14:50.650] Received final output notification frame. id: 5; bargein: -1; Conveyance Info: (dump below)
+uncovered_place.name 15 
+Tagged Utterance: (dump below)
+ I'm sorry but I do not have the schedule for buses serving <uncovered_place.name ROSS PARK MALL>. {BREAK TIME="0.5s"/} Currently, I only cover some routes in the following neighborhoods: Downtown, Oakland, Shadyside, Squirrel Hill, Homestead, McKeesport, and the airport. 
+
+[OTH@21:14:50.650] OUTPUT HISTORY
+id	 utterance
+--------------------------------------------------------------------------------
+5	I'm sorry but I do not have the schedule for buses serving <uncovered_place.name ROSS PARK MALL>. {BREAK TIME="0.5s"/} Currently, I only cover some routes in the following neighborhoods: Downtown, Oakland, Shadyside, Squirrel Hill, Homestead, McKeesport, and the airport.
+4	Right
+3	<uncovered_place.name ROSS PARK MALL>.  {BREAK TIME="0.5s"/} Did I get that right?
+2	What can I do for you?
+1	{audio src="../../Resources/audio/intro4.wav"}To get help at any time, just say Help or press zero.{/audio}
+
+[OTP@21:14:52.208] Received final output notification frame. id: 6; bargein: -1; Conveyance Info: (dump below)
+
+Tagged Utterance: (dump below)
+ What can I do for you?
+
+[OTH@21:14:52.208] OUTPUT HISTORY
+id	 utterance
+--------------------------------------------------------------------------------
+6	What can I do for you?
+5	I'm sorry but I do not have the schedule for buses serving <uncovered_place.name ROSS PARK MALL>. {BREAK TIME="0.5s"/} Currently, I only cover some routes in the following neighborhoods: Downtown, Oakland, Shadyside, Squirrel Hill, Homestead, McKeesport, and the airport.
+4	Right
+3	<uncovered_place.name ROSS PARK MALL>.  {BREAK TIME="0.5s"/} Did I get that right?
+2	What can I do for you?
+
+[INP@21:14:57.368] New input arrived (dump below).
+  [EVENT:EVENT] = true
+  [EVENT:TerminateSession] = true
+  [h3_confidence] = 1.0
+
+[COR@21:14:57.368] Concepts Binding Phase initiated.
+[COR@21:14:57.369] Slot [event:terminatesession](true|1.000000) bound to concept (/LetsGoPublic/Terminate)/LetsGoPublic/Terminate/_Terminate_trigger.
+[COR@21:14:57.370] Attempted bindings dumped below:
+Success: Level.3	[event:terminatesession](true|1.000000)->(/LetsGoPublic/Terminate)/LetsGoPublic/Terminate/_Terminate_trigger
+
+[COR@21:14:57.370] Concepts Binding Phase completed (1 concept(s) bound, 0 concept(s) blocked out, 0 forced concept update(s)).
+[COR@21:14:57.370] INPUT Pass completed.
+[GMS@21:14:57.370] Running grounding process ...
+[GMS@21:14:57.370] Grounding last user turn ...
+[GMS@21:14:57.372] Last turn: successful bindings.
+[GMS@21:14:57.372] Grounding last user turn completed.
+[GMS@21:14:57.372] Grounding process completed.
+[COR@21:14:57.372] Focus Claims Assembly Phase initiated.
+[COR@21:14:57.373] 1 agent(s) claiming focus (dumped below):
+  /LetsGoPublic/Terminate
+
+[COR@21:14:57.374] Pruning Focus Claims list.
+[COR@21:14:57.375] 0 agents(s) eliminated from the focus claims list.
+[COR@21:14:57.375] Focus Claims Assembly Phase completed (1 claim(s)).
+[COR@21:14:57.375] Adding focus-claiming agent /LetsGoPublic/Terminate on the execution stack.
+[COR@21:14:57.376] Agent /LetsGoPublic/Terminate added on the execution stack by DMCoreAgent.
+[COR@21:14:57.376] Executing dialog agent /LetsGoPublic/Terminate ...
+[COR@21:14:57.376] Dialog Task Execution completed. Dialog finished
+[CTH@21:14:57.376] Terminating Core ...
+[REG@21:14:57.377] Agent DMCoreAgent unregistered successfully.
+[DTT@21:14:57.377] Deallocating the dialog task tree.
+[REG@21:14:57.377] Agent HelpExecutionAgency/HEstablishContext unregistered successfully.
+[REG@21:14:57.377] Agent HelpExecutionAgency/HExplainMore unregistered successfully.
+[REG@21:14:57.377] Agent HelpExecutionAgency/HWhatCanISay unregistered successfully.
+[REG@21:14:57.377] Agent HelpExecutionAgency/HTriggerInputPass unregistered successfully.
+[REG@21:14:57.377] Agent HelpExecutionAgency unregistered successfully.
+[REG@21:14:57.377] Agent /LetsGoPublic/GiveIntroduction/InformWelcome unregistered successfully.
+[REG@21:14:57.377] Agent /LetsGoPublic/GiveIntroduction/RepeatIntroduction unregistered successfully.
+[REG@21:14:57.377] Agent /LetsGoPublic/GiveIntroduction unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/InformUncoveredRoute unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace/QueryBackendForDepartureStops unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace/InformNoDepartureStopMatching unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/InformDepartureNeighborhoodStrategy unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop unregistered successfully.
+[REG@21:14:57.378] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/InformUsingDefaultStop unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops/QueryBackendForArrivalStops unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops/InformNoArrivalStopMatching unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/InformUncoveredPlace unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GetQuerySpecs unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/ProcessQuery/InformFirstProcessing unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/ProcessQuery/InformSubsequentProcessing unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/ProcessQuery/ExecutePreprocessing unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/ProcessQuery/ExecuteBackendCall unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/ProcessQuery unregistered successfully.
+[REG@21:14:57.379] Agent /LetsGoPublic/PerformTask/GiveResults/InformSuccess unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask/GiveResults/InformError unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask/GiveResults/RequestNextQuery unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask/GiveResults/RequestNextQueryError unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult/RepeatSuccess unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult/RepeatError unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask/GiveResults/InformStartingNewQuery unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask/GiveResults unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/PerformTask unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/GreetGoodbye unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/GiveCurrentTime/MakeCurrentTimeQuery unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/GiveCurrentTime/ExecuteGetCurrentTime unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/GiveCurrentTime/InformCurrentTime unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/GiveCurrentTime unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/TT_InformYouNotThere unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/TT_Terminate unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout unregistered successfully.
+[REG@21:14:57.380] Agent /LetsGoPublic/TimeoutTerminate unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/Terminate unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/Help unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/HelpGetTips unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/HelpEstablishContext unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/HelpWhatCanISay unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/Repeat unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/StartOver/AskAreYouSureStartOver unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/StartOver/InformStartingOver unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/StartOver/ExecuteStartOver unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic/StartOver unregistered successfully.
+[REG@21:14:57.381] Agent /LetsGoPublic unregistered successfully.
+[REG@21:14:57.381] Agent DTTManagerAgent unregistered successfully.
+[REG@21:14:57.381] Agent TrafficManagerAgent unregistered successfully.
+[REG@21:14:57.381] Agent OutputManagerAgent unregistered successfully.
+[REG@21:14:57.381] Agent InputManagerAgent unregistered successfully.
+[REG@21:14:57.383] Agent StateManagerAgent unregistered successfully.
+[REG@21:14:57.383] Agent GroundingManagerAgent unregistered successfully.
+[REG@21:14:57.383] Clearing up the registry ...
+[REG@21:14:57.383] Deallocating remaining registered agents ...
+[REG@21:14:57.383] Agent /_ExplicitConfirm[/LetsGoPublic/PerformTask/uncovered_place] unregistered successfully.
+[REG@21:14:57.383] Deallocating remaining registered agents completed.
+[CTH@21:14:57.383] Core terminated successfully.

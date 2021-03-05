@@ -1,0 +1,4766 @@
+[STD@00:24:37.242] hub_logdir= |..\..\logs\LetsGoPublic\20061122\000\|
+[STD@00:24:37.242] hub_log_prefix= |LetsGoPublic-20061122-000|
+[DBG@00:24:37.242] Message sent to male engine:
+engine_new_session ..\..\logs\LetsGoPublic\20061122\000\LetsGoPublic-20061122-000
+
+[DBG@00:24:37.242] Message sent to female engine:
+engine_new_session ..\..\logs\LetsGoPublic\20061122\000\LetsGoPublic-20061122-000
+
+[DBG@00:24:37.242] Message sent to dtmf engine:
+engine_new_session ..\..\logs\LetsGoPublic\20061122\000\LetsGoPublic-20061122-000
+
+[DBG@00:24:37.289] *** IDLE -> LISTEN ***
+[DBG@00:24:37.460] :set_lm found
+[STD@00:24:37.460] Setting LM for engine male to first_query
+[DBG@00:24:37.460] Message sent to male engine:
+engine_set_lm first_query 
+
+[STD@00:24:37.460] Setting LM for engine female to first_query
+[DBG@00:24:37.460] Message sent to female engine:
+engine_set_lm first_query 
+
+[DBG@00:24:37.460] :set_dtmf_len found
+[STD@00:24:37.460] Setting LM for engine dtmf to 1
+[DBG@00:24:37.476] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[STD@00:24:40.679] received stop_decoding
+[DBG@00:24:44.867] Flushing male: 0 bytes	
+[DBG@00:24:44.867] Flushing female: 0 bytes	
+[DBG@00:24:44.867] Flushing dtmf: 0 bytes	
+[STD@00:24:44.867] Start utt 000 at 29696 (SIL->SPEECH threshold: 38)
+PowHist:
+	  8      2
+	  9      3
+	 10      6
+	 11      9
+	 12     22
+	 13     43
+	 14     33
+	 15     21
+	 16     24
+	 17     17
+	 18     16
+	 19     18
+	 20     14
+	 21      9
+	 22     15
+	 23     18
+	 24     22
+	 25      9
+	 26     13
+	 27     10
+	 28     13
+	 29     11
+	 30      7
+	 31      8
+	 32      9
+	 33     10
+	 34      4
+	 35      5
+	 36      1
+	 38      5
+	 39      1
+	 40      1
+	 42      1
+	 43      1
+	 44      2
+	 47      2
+	 48      1
+	 49      1
+	 51      2
+PH[   4.35]:  0  0  0  0  0  0  0  0  2  3  6  9 22 43 33 21 24 17 16 18 14  9 15 18 22  9 13 10 13 11  7  8  9 10  4  5  1  0  5  1  1  0  1  1  2  0  0  2  1  1  0  2
+[DBG@00:24:44.867] Message sent to male engine:
+engine_begin_utt 000 29696
+
+[DBG@00:24:44.867] Message sent to female engine:
+engine_begin_utt 000 29696
+
+[DBG@00:24:44.867] Message sent to dtmf engine:
+engine_begin_utt 000 29696
+
+[DBG@00:24:44.867] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:44.867] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:44.898] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:44.898] *** LISTEN -> UTT ***
+[DBG@00:24:45.085] Message sent to male engine:
+engine_proc_raw 2560 
+
+[DBG@00:24:45.085] 2560 bytes raw data sent to male decoding engine
+[DBG@00:24:45.085] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:45.085] Message sent to female engine:
+engine_proc_raw 2560 
+
+[DBG@00:24:45.085] 2560 bytes raw data sent to female decoding engine
+[DBG@00:24:45.085] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:45.101] Message sent to dtmf engine:
+engine_proc_raw 2560 
+
+[DBG@00:24:45.101] 2560 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:45.101] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:24:45.413] End utt 000 at 34304 (SPEECH->SIL threshold: 29)
+PowHist:
+	  8      2
+	  9      3
+	 10      6
+	 11      8
+	 12     20
+	 13     45
+	 14     36
+	 15     24
+	 16     21
+	 17     17
+	 18     14
+	 19     21
+	 20     14
+	 21     10
+	 22     14
+	 23     16
+	 24     22
+	 25     10
+	 26     13
+	 27     10
+	 28     13
+	 29     10
+	 30      7
+	 31      7
+	 32      8
+	 33      9
+	 34      4
+	 35      5
+	 36      1
+	 38      5
+	 39      1
+	 40      1
+	 42      1
+	 43      1
+	 44      2
+	 47      2
+	 48      1
+	 49      1
+	 51      2
+PH[   4.98]:  0  0  0  0  0  0  0  0  2  3  6  8 20 45 36 24 21 17 14 21 14 10 14 16 22 10 13 10 13 10  7  7  8  9  4  5  1  0  5  1  1  0  1  1  2  0  0  2  1  1  0  2
+[DBG@00:24:45.413] *** UTT -> END ***
+[STD@00:24:45.429] end of utterance 000
+[DBG@00:24:45.429] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:24:45.429] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:24:45.429] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:24:45.445] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:24:45.445] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:24:45.445] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:24:45.445] wait for return: 0
+[DBG@00:24:45.445] Valid socket
+[DBG@00:24:45.445] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "000" :engine_name "male" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 48 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 29696 :end_timestamp 30176 }  ) }
+Rest:
+[STD@00:24:45.445] Received results from engine male
+[DBG@00:24:45.445] Valid socket
+[DBG@00:24:45.445] Valid socket
+[DBG@00:24:45.445] wait for return: 1
+[DBG@00:24:45.445] Valid socket
+[DBG@00:24:45.445] Valid socket
+[DBG@00:24:45.445] Valid socket
+[DBG@00:24:45.492] wait for return: 2
+[DBG@00:24:45.492] Valid socket
+[DBG@00:24:45.492] Valid socket
+[DBG@00:24:45.492] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "000" :engine_name "female" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 48 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 29696 :end_timestamp 30176 }  ) }
+Rest:
+[STD@00:24:45.492] Received results from engine female
+[DBG@00:24:45.492] Valid socket
+[DBG@00:24:45.492] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "000" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 4608 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 29696 								:end_timestamp 30272 							} 							) 						}
+Rest:
+[STD@00:24:45.492] Received results from engine dtmf
+[STD@00:24:45.492] Got results.
+[DBG@00:24:45.492] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:24:45.492] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:24:45.492] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:24:45.492] male(0): 
+[STD@00:24:45.492] female(0): 
+[STD@00:24:45.492] dtmf(0): 
+[DBG@00:24:45.492] *** END -> LISTEN ***
+[DBG@00:24:47.991] Flushing male: 0 bytes	
+[DBG@00:24:47.991] Flushing female: 0 bytes	
+[DBG@00:24:47.991] Flushing dtmf: 0 bytes	
+[STD@00:24:47.991] Start utt 001 at 55040 (SIL->SPEECH threshold: 35)
+PowHist:
+	  8      2
+	  9      3
+	 10      7
+	 11      7
+	 12     21
+	 13     54
+	 14     54
+	 15     30
+	 16     21
+	 17     23
+	 18     21
+	 19     22
+	 20     17
+	 21     12
+	 22     14
+	 23     19
+	 24     21
+	 25     11
+	 26     13
+	 27     13
+	 28     16
+	 29     15
+	 30      8
+	 31     14
+	 32     11
+	 33     12
+	 34      6
+	 35      7
+	 36      4
+	 37      3
+	 38      6
+	 39      4
+	 40      5
+	 41      2
+	 42      3
+	 43      1
+	 44      2
+	 47      2
+	 48      1
+	 49      2
+	 50      1
+	 51      2
+	 61      1
+	 64      2
+	 65      1
+	 66      2
+	 70      2
+PH[   7.49]:  0  0  0  0  0  0  0  0  2  3  7  7 21 54 54 30 21 23 21 22 17 12 14 19 21 11 13 13 16 15  8 14 11 12  6  7  4  3  6  4  5  2  3  1  2  0  0  2  1  2  1  2  0  0  0  0  0  0  0  0  0  1  0  0  2  1  2  0  0  0  2
+[DBG@00:24:47.991] Message sent to male engine:
+engine_begin_utt 001 55040
+
+[DBG@00:24:47.991] Message sent to female engine:
+engine_begin_utt 001 55040
+
+[DBG@00:24:47.991] Message sent to dtmf engine:
+engine_begin_utt 001 55040
+
+[DBG@00:24:47.991] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:47.991] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:47.991] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:47.991] *** LISTEN -> UTT ***
+[DBG@00:24:48.241] Message sent to male engine:
+engine_proc_raw 2816 
+
+[DBG@00:24:48.241] 2816 bytes raw data sent to male decoding engine
+[DBG@00:24:48.241] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:48.241] Message sent to female engine:
+engine_proc_raw 2816 
+
+[DBG@00:24:48.241] 2816 bytes raw data sent to female decoding engine
+[DBG@00:24:48.241] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:48.241] Message sent to dtmf engine:
+engine_proc_raw 2816 
+
+[DBG@00:24:48.241] 2816 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:48.241] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:48.554] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:48.554] 5120 bytes raw data sent to male decoding engine
+[DBG@00:24:48.554] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:48.554] Converting frame from male (engine_P=188):
+{c properties 											:partial_hyp "TAKE THE " 											:engine_name "male"											:start_timestamp "55040" 											:end_timestamp "55500" 											:frame_num "46" 										}
+Rest:
+[STD@00:24:48.554] Frame received from engine male:
+[DBG@00:24:48.554] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:48.554] 5120 bytes raw data sent to female decoding engine
+[DBG@00:24:48.554] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:48.570] Converting frame from female (engine_P=187):
+{c properties 											:partial_hyp "FIFTY " 											:engine_name "female"											:start_timestamp "55040" 											:end_timestamp "55500" 											:frame_num "46" 										}
+Rest:
+[STD@00:24:48.570] Frame received from engine female:
+[DBG@00:24:48.601] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:48.601] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:48.601] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:48.851] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:48.851] 4864 bytes raw data sent to male decoding engine
+[DBG@00:24:48.851] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:48.851] Converting frame from male (engine_P=185):
+{c properties 											:partial_hyp "84A   " 											:engine_name "male"											:start_timestamp "55040" 											:end_timestamp "55820" 											:frame_num "78" 										}
+Rest:
+[STD@00:24:48.851] Frame received from engine male:
+[DBG@00:24:48.851] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:48.851] 4864 bytes raw data sent to female decoding engine
+[DBG@00:24:48.882] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:48.882] Converting frame from female (engine_P=187):
+{c properties 											:partial_hyp "64A   " 											:engine_name "female"											:start_timestamp "55040" 											:end_timestamp "55820" 											:frame_num "78" 										}
+Rest:
+[STD@00:24:48.882] Frame received from engine female:
+[DBG@00:24:48.882] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:48.882] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:48.882] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:49.132] Message sent to male engine:
+engine_proc_raw 3328 
+
+[DBG@00:24:49.132] 3328 bytes raw data sent to male decoding engine
+[DBG@00:24:49.132] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:49.132] Converting frame from male (engine_P=186):
+{c properties 											:partial_hyp "54C   " 											:engine_name "male"											:start_timestamp "55040" 											:end_timestamp "56130" 											:frame_num "109" 										}
+Rest:
+[STD@00:24:49.132] Frame received from engine male:
+[DBG@00:24:49.132] Message sent to female engine:
+engine_proc_raw 3328 
+
+[DBG@00:24:49.132] 3328 bytes raw data sent to female decoding engine
+[DBG@00:24:49.179] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:49.179] Converting frame from female (engine_P=188):
+{c properties 											:partial_hyp "54C   " 											:engine_name "female"											:start_timestamp "55040" 											:end_timestamp "56130" 											:frame_num "109" 										}
+Rest:
+[STD@00:24:49.179] Frame received from engine female:
+[DBG@00:24:49.179] Message sent to dtmf engine:
+engine_proc_raw 3328 
+
+[DBG@00:24:49.179] 3328 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:49.179] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:24:49.491] End utt 001 at 66432 (SPEECH->SIL threshold: 27)
+PowHist:
+	  8      2
+	  9      3
+	 10      7
+	 11      7
+	 12     22
+	 13     55
+	 14     55
+	 15     32
+	 16     22
+	 17     25
+	 18     21
+	 19     23
+	 20     16
+	 21     12
+	 22     13
+	 23     22
+	 24     23
+	 25     11
+	 26     12
+	 27     14
+	 28     15
+	 29     17
+	 30     10
+	 31     14
+	 32     11
+	 33     13
+	 34      6
+	 35      7
+	 36      4
+	 37      4
+	 38      7
+	 39      6
+	 40      7
+	 41      3
+	 42      6
+	 43      2
+	 44      3
+	 46      1
+	 47      2
+	 48      1
+	 49      3
+	 50      2
+	 51      2
+	 54      2
+	 56      1
+	 57      1
+	 58      1
+	 61      2
+	 63      1
+	 64      3
+	 65      1
+	 66      4
+	 67      2
+	 69      2
+	 70      5
+	 71      2
+	 72      2
+	 73      1
+PH[   9.04]:  0  0  0  0  0  0  0  0  2  3  7  7 22 55 55 32 22 25 21 23 16 12 13 22 23 11 12 14 15 17 10 14 11 13  6  7  4  4  7  6  7  3  6  2  3  0  1  2  1  3  2  2  0  0  2  0  1  1  1  0  0  2  0  1  3  1  4  2  0  2  5  2  2  1
+[DBG@00:24:49.491] *** UTT -> END ***
+[STD@00:24:49.507] end of utterance 001
+[DBG@00:24:49.507] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:24:49.507] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:24:49.507] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:24:49.523] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:24:49.523] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:24:49.523] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:24:49.523] wait for return: 0
+[DBG@00:24:49.523] Valid socket
+[DBG@00:24:49.523] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "54C " :confhyp "54C " :uttid "001" :engine_name "male" :nbest_index 0 :decoder_score -23409464.000000 :lm_score -333732.000000 :am_score -23075732.000000 :frame_num 132 :acoustic_gap_norm 37227.789063 :avg_sphinxwordconf 0.226092 :min_sphinxwordconf 0.226092 :max_sphinxwordconf 0.226092 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "4" :endframes "127" :init_timestamp 55040 :end_timestamp 56360 }  ) }
+Rest:
+[STD@00:24:49.523] Received results from engine male
+[DBG@00:24:49.523] Valid socket
+[DBG@00:24:49.523] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "54C " :confhyp "54C " :uttid "001" :engine_name "female" :nbest_index 0 :decoder_score -22550248.000000 :lm_score -333732.000000 :am_score -22216516.000000 :frame_num 132 :acoustic_gap_norm 34496.515625 :avg_sphinxwordconf 0.201463 :min_sphinxwordconf 0.201463 :max_sphinxwordconf 0.201463 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "4" :endframes "128" :init_timestamp 55040 :end_timestamp 56360 }  ) }
+Rest:
+[STD@00:24:49.523] Received results from engine female
+[DBG@00:24:49.523] Valid socket
+[DBG@00:24:49.523] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "001" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 11392 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 55040 								:end_timestamp 56464 							} 							) 						}
+Rest:
+[STD@00:24:49.523] Received results from engine dtmf
+[STD@00:24:49.523] Got results.
+[DBG@00:24:49.523] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:24:49.523] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:24:49.523] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:24:49.538] male(0): 54C 
+[STD@00:24:49.538] female(0): 54C 
+[STD@00:24:49.538] dtmf(0): 
+[DBG@00:24:49.538] *** END -> LISTEN ***
+[DBG@00:24:49.788] :set_lm found
+[STD@00:24:49.788] Setting LM for engine male to yes_no
+[DBG@00:24:49.788] Message sent to male engine:
+engine_set_lm yes_no 
+
+[STD@00:24:49.788] Setting LM for engine female to yes_no
+[DBG@00:24:49.804] Message sent to female engine:
+engine_set_lm yes_no 
+
+[DBG@00:24:49.804] :set_dtmf_len found
+[STD@00:24:49.804] Setting LM for engine dtmf to 1
+[DBG@00:24:49.835] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[DBG@00:24:50.163] Flushing male: 0 bytes	
+[DBG@00:24:50.163] Flushing female: 0 bytes	
+[DBG@00:24:50.163] Flushing dtmf: 0 bytes	
+[STD@00:24:50.163] Start utt 002 at 73600 (SIL->SPEECH threshold: 33)
+PowHist:
+	  8      2
+	  9      3
+	 10      7
+	 11      7
+	 12     20
+	 13     49
+	 14     49
+	 15     31
+	 16     21
+	 17     23
+	 18     19
+	 19     21
+	 20     14
+	 21     13
+	 22     12
+	 23     23
+	 24     23
+	 25     14
+	 26     14
+	 27     14
+	 28     14
+	 29     15
+	 30     10
+	 31     13
+	 32     12
+	 33     14
+	 34      8
+	 35      7
+	 36      4
+	 37      5
+	 38      7
+	 39      6
+	 40      7
+	 41      3
+	 42      7
+	 43      2
+	 44      5
+	 45      1
+	 46      1
+	 47      2
+	 48      3
+	 49      3
+	 50      2
+	 51      2
+	 54      2
+	 56      1
+	 57      1
+	 58      1
+	 61      2
+	 63      1
+	 64      3
+	 65      1
+	 66      4
+	 67      2
+	 69      2
+	 70      5
+	 71      2
+	 72      2
+	 73      1
+PH[   9.66]:  0  0  0  0  0  0  0  0  2  3  7  7 20 49 49 31 21 23 19 21 14 13 12 23 23 14 14 14 14 15 10 13 12 14  8  7  4  5  7  6  7  3  7  2  5  1  1  2  3  3  2  2  0  0  2  0  1  1  1  0  0  2  0  1  3  1  4  2  0  2  5  2  2  1
+[DBG@00:24:50.163] Message sent to male engine:
+engine_begin_utt 002 73600
+
+[DBG@00:24:50.163] Message sent to female engine:
+engine_begin_utt 002 73600
+
+[DBG@00:24:50.163] Message sent to dtmf engine:
+engine_begin_utt 002 73600
+
+[DBG@00:24:50.163] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:50.163] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:50.163] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:50.195] *** LISTEN -> UTT ***
+[DBG@00:24:50.382] Message sent to male engine:
+engine_proc_raw 768 
+
+[DBG@00:24:50.382] 768 bytes raw data sent to male decoding engine
+[DBG@00:24:50.382] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:50.382] Message sent to female engine:
+engine_proc_raw 768 
+
+[DBG@00:24:50.382] 768 bytes raw data sent to female decoding engine
+[DBG@00:24:50.382] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:50.382] Message sent to dtmf engine:
+engine_proc_raw 768 
+
+[DBG@00:24:50.382] 768 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:50.382] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:50.695] Message sent to male engine:
+engine_proc_raw 6400 
+
+[DBG@00:24:50.695] 6400 bytes raw data sent to male decoding engine
+[DBG@00:24:50.695] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:50.695] Message sent to female engine:
+engine_proc_raw 6400 
+
+[DBG@00:24:50.695] 6400 bytes raw data sent to female decoding engine
+[DBG@00:24:50.726] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:50.726] Message sent to dtmf engine:
+engine_proc_raw 6400 
+
+[DBG@00:24:50.726] 6400 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:50.726] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:24:51.038] End utt 002 at 80512 (SPEECH->SIL threshold: 26)
+PowHist:
+	  8      2
+	  9      3
+	 10      9
+	 11     11
+	 12     22
+	 13     52
+	 14     51
+	 15     34
+	 16     21
+	 17     25
+	 18     19
+	 19     22
+	 20     15
+	 21     13
+	 22     13
+	 23     26
+	 24     27
+	 25     15
+	 26     16
+	 27     19
+	 28     15
+	 29     18
+	 30     12
+	 31     13
+	 32     16
+	 33     17
+	 34     12
+	 35      9
+	 36      5
+	 37      5
+	 38      7
+	 39      7
+	 40      7
+	 41      3
+	 42      7
+	 43      3
+	 44      6
+	 45      1
+	 46      1
+	 47      2
+	 48      3
+	 49      3
+	 50      2
+	 51      2
+	 54      2
+	 56      1
+	 57      1
+	 58      1
+	 61      2
+	 63      1
+	 64      3
+	 65      1
+	 66      4
+	 67      2
+	 69      2
+	 70      5
+	 71      2
+	 72      2
+	 73      1
+PH[  10.61]:  0  0  0  0  0  0  0  0  2  3  9 11 22 52 51 34 21 25 19 22 15 13 13 26 27 15 16 19 15 18 12 13 16 17 12  9  5  5  7  7  7  3  7  3  6  1  1  2  3  3  2  2  0  0  2  0  1  1  1  0  0  2  0  1  3  1  4  2  0  2  5  2  2  1
+[DBG@00:24:51.038] *** UTT -> END ***
+[STD@00:24:51.054] end of utterance 002
+[DBG@00:24:51.054] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:24:51.054] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:24:51.054] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:24:51.054] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:24:51.054] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:24:51.054] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:24:51.054] wait for return: 0
+[DBG@00:24:51.054] Valid socket
+[DBG@00:24:51.054] Valid socket
+[DBG@00:24:51.054] Valid socket
+[DBG@00:24:51.101] wait for return: 1
+[DBG@00:24:51.101] Valid socket
+[DBG@00:24:51.101] Valid socket
+[DBG@00:24:51.101] Valid socket
+[DBG@00:24:51.101] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "002" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 6912 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 73600 								:end_timestamp 74464 							} 							) 						}
+Rest:
+[STD@00:24:51.101] Received results from engine dtmf
+[DBG@00:24:51.116] wait for return: 2
+[DBG@00:24:51.116] Valid socket
+[DBG@00:24:51.116] Valid socket
+[DBG@00:24:51.116] Valid socket
+[DBG@00:24:51.163] wait for return: 3
+[DBG@00:24:51.163] Valid socket
+[DBG@00:24:51.163] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "002" :engine_name "male" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 76 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 73600 :end_timestamp 74360 }  ) }
+Rest:
+[STD@00:24:51.163] Received results from engine male
+[DBG@00:24:51.163] Valid socket
+[DBG@00:24:51.163] Valid socket
+[DBG@00:24:51.163] wait for return: 4
+[DBG@00:24:51.163] Valid socket
+[DBG@00:24:51.163] Valid socket
+[DBG@00:24:51.163] Valid socket
+[DBG@00:24:51.210] wait for return: 5
+[DBG@00:24:51.210] Valid socket
+[DBG@00:24:51.210] Valid socket
+[DBG@00:24:51.210] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "002" :engine_name "female" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 76 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 73600 :end_timestamp 74360 }  ) }
+Rest:
+[STD@00:24:51.210] Received results from engine female
+[DBG@00:24:51.210] Valid socket
+[STD@00:24:51.210] Got results.
+[DBG@00:24:51.210] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:24:51.210] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:24:51.210] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:24:51.210] male(0): 
+[STD@00:24:51.210] female(0): 
+[STD@00:24:51.210] dtmf(0): 
+[DBG@00:24:51.210] *** END -> LISTEN ***
+[DBG@00:24:51.398] Flushing male: 0 bytes	
+[DBG@00:24:51.398] Flushing female: 0 bytes	
+[DBG@00:24:51.398] Flushing dtmf: 0 bytes	
+[STD@00:24:51.398] Start utt 003 at 83840 (SIL->SPEECH threshold: 33)
+PowHist:
+	  8      2
+	  9      3
+	 10      9
+	 11     12
+	 12     24
+	 13     53
+	 14     52
+	 15     34
+	 16     21
+	 17     25
+	 18     21
+	 19     22
+	 20     15
+	 21     13
+	 22     13
+	 23     26
+	 24     28
+	 25     16
+	 26     16
+	 27     19
+	 28     15
+	 29     18
+	 30     12
+	 31     13
+	 32     16
+	 33     17
+	 34     12
+	 35     10
+	 36      7
+	 37      5
+	 38      7
+	 39      7
+	 40      7
+	 41      3
+	 42      7
+	 43      3
+	 44      6
+	 45      3
+	 46      2
+	 47      2
+	 48      4
+	 49      5
+	 50      3
+	 51      2
+	 54      2
+	 56      1
+	 57      1
+	 58      1
+	 61      2
+	 63      1
+	 64      3
+	 65      1
+	 66      4
+	 67      2
+	 69      2
+	 70      5
+	 71      2
+	 72      2
+	 73      1
+PH[  10.91]:  0  0  0  0  0  0  0  0  2  3  9 12 24 53 52 34 21 25 21 22 15 13 13 26 28 16 16 19 15 18 12 13 16 17 12 10  7  5  7  7  7  3  7  3  6  3  2  2  4  5  3  2  0  0  2  0  1  1  1  0  0  2  0  1  3  1  4  2  0  2  5  2  2  1
+[DBG@00:24:51.398] Message sent to male engine:
+engine_begin_utt 003 83840
+
+[DBG@00:24:51.398] Message sent to female engine:
+engine_begin_utt 003 83840
+
+[DBG@00:24:51.398] Message sent to dtmf engine:
+engine_begin_utt 003 83840
+
+[DBG@00:24:51.398] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:51.398] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:51.398] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:51.398] *** LISTEN -> UTT ***
+[DBG@00:24:51.648] Message sent to male engine:
+engine_proc_raw 256 
+
+[DBG@00:24:51.648] 256 bytes raw data sent to male decoding engine
+[DBG@00:24:51.648] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:51.648] Message sent to female engine:
+engine_proc_raw 256 
+
+[DBG@00:24:51.648] 256 bytes raw data sent to female decoding engine
+[DBG@00:24:51.648] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:51.648] Message sent to dtmf engine:
+engine_proc_raw 256 
+
+[DBG@00:24:51.648] 256 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:51.648] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:51.960] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:51.960] 4864 bytes raw data sent to male decoding engine
+[DBG@00:24:51.960] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:51.960] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:51.960] 4864 bytes raw data sent to female decoding engine
+[DBG@00:24:51.960] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:51.960] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:51.976] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:51.976] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:52.288] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:52.288] 5120 bytes raw data sent to male decoding engine
+[DBG@00:24:52.288] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:52.288] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:52.288] 5120 bytes raw data sent to female decoding engine
+[DBG@00:24:52.288] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:52.288] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:52.288] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:52.288] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:52.601] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:52.601] 5120 bytes raw data sent to male decoding engine
+[DBG@00:24:52.601] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:52.601] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:52.601] 5120 bytes raw data sent to female decoding engine
+[DBG@00:24:52.601] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:52.601] Converting frame from female (engine_P=186):
+{c properties 											:partial_hyp "WITH " 											:engine_name "female"											:start_timestamp "83840" 											:end_timestamp "84450" 											:frame_num "61" 										}
+Rest:
+[STD@00:24:52.601] Frame received from engine female:
+[DBG@00:24:52.616] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:52.616] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:52.616] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:52.929] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:52.929] 4864 bytes raw data sent to male decoding engine
+[DBG@00:24:52.929] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:52.929] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:52.929] 4864 bytes raw data sent to female decoding engine
+[DBG@00:24:52.929] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:52.929] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:52.929] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:52.929] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:53.241] Message sent to male engine:
+engine_proc_raw 4608 
+
+[DBG@00:24:53.241] 4608 bytes raw data sent to male decoding engine
+[DBG@00:24:53.241] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:53.241] Message sent to female engine:
+engine_proc_raw 4608 
+
+[DBG@00:24:53.241] 4608 bytes raw data sent to female decoding engine
+[DBG@00:24:53.241] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:53.241] Message sent to dtmf engine:
+engine_proc_raw 4608 
+
+[DBG@00:24:53.241] 4608 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:53.241] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:53.554] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:53.554] 6656 bytes raw data sent to male decoding engine
+[DBG@00:24:53.554] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:53.554] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:53.554] 6656 bytes raw data sent to female decoding engine
+[DBG@00:24:53.554] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:53.554] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:53.554] 6656 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:53.554] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:53.866] Message sent to male engine:
+engine_proc_raw 3840 
+
+[DBG@00:24:53.866] 3840 bytes raw data sent to male decoding engine
+[DBG@00:24:53.866] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:53.866] Message sent to female engine:
+engine_proc_raw 3840 
+
+[DBG@00:24:53.898] 3840 bytes raw data sent to female decoding engine
+[DBG@00:24:53.898] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:53.898] Message sent to dtmf engine:
+engine_proc_raw 3840 
+
+[DBG@00:24:53.898] 3840 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:53.898] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:54.148] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:54.148] 4864 bytes raw data sent to male decoding engine
+[DBG@00:24:54.148] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:54.148] Converting frame from male (engine_P=184):
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "83840" 											:end_timestamp "86330" 											:frame_num "249" 										}
+Rest:
+[STD@00:24:54.148] Frame received from engine male:
+[DBG@00:24:54.148] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:54.148] 4864 bytes raw data sent to female decoding engine
+[DBG@00:24:54.148] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:54.148] Converting frame from female (engine_P=186):
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "83840" 											:end_timestamp "86330" 											:frame_num "249" 										}
+Rest:
+[STD@00:24:54.148] Frame received from engine female:
+[DBG@00:24:54.179] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:24:54.179] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:54.179] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:54.491] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:54.491] 5120 bytes raw data sent to male decoding engine
+[DBG@00:24:54.491] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:54.491] Converting frame from male (engine_P=184):
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "83840" 											:end_timestamp "86640" 											:frame_num "280" 										}
+Rest:
+[STD@00:24:54.491] Frame received from engine male:
+[DBG@00:24:54.491] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:54.491] 5120 bytes raw data sent to female decoding engine
+[DBG@00:24:54.491] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:54.507] Converting frame from female (engine_P=186):
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "83840" 											:end_timestamp "86640" 											:frame_num "280" 										}
+Rest:
+[STD@00:24:54.507] Frame received from engine female:
+[DBG@00:24:54.538] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:54.538] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:54.538] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:54.788] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:54.788] 5120 bytes raw data sent to male decoding engine
+[DBG@00:24:54.788] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:54.788] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:54.788] 5120 bytes raw data sent to female decoding engine
+[DBG@00:24:54.788] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:54.788] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:24:54.788] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:54.788] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:24:55.101] End utt 003 at 112384 (SPEECH->SIL threshold: 25)
+PowHist:
+	  8      2
+	  9      7
+	 10     12
+	 11     14
+	 12     22
+	 13     45
+	 14     48
+	 15     32
+	 16     26
+	 17     20
+	 18     20
+	 19     16
+	 20     15
+	 21     14
+	 22     11
+	 23     21
+	 24     24
+	 25     15
+	 26     13
+	 27     21
+	 28     15
+	 29     15
+	 30     14
+	 31     13
+	 32     14
+	 33     14
+	 34     12
+	 35     11
+	 36     14
+	 37      7
+	 38     10
+	 39     11
+	 40      8
+	 41     12
+	 42     11
+	 43      8
+	 44     12
+	 45      7
+	 46      5
+	 47      6
+	 48      7
+	 49      6
+	 50      4
+	 51      4
+	 54      2
+	 55      1
+	 56      1
+	 57      1
+	 58      1
+	 59      1
+	 61      2
+	 63      1
+	 64      4
+	 65      1
+	 66      5
+	 67      3
+	 68      4
+	 69      5
+	 70      6
+	 71      2
+	 72      2
+	 73      1
+PH[  14.67]:  0  0  0  0  0  0  0  0  2  7 12 14 22 45 48 32 26 20 20 16 15 14 11 21 24 15 13 21 15 15 14 13 14 14 12 11 14  7 10 11  8 12 11  8 12  7  5  6  7  6  4  4  0  0  2  1  1  1  1  1  0  2  0  1  4  1  5  3  4  5  6  2  2  1
+[DBG@00:24:55.101] *** UTT -> END ***
+[STD@00:24:55.116] end of utterance 003
+[DBG@00:24:55.116] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:24:55.116] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:24:55.116] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:24:55.116] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:24:55.116] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:24:55.116] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:24:55.116] wait for return: 0
+[DBG@00:24:55.116] Valid socket
+[DBG@00:24:55.116] Converting frame from engine male:
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "83840" 											:end_timestamp "86960" 											:frame_num "312" 										}
+Rest:
+[STD@00:24:55.116] Received results from engine male
+[DBG@00:24:55.116] Valid socket
+[DBG@00:24:55.116] Converting frame from engine female:
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "83840" 											:end_timestamp "86960" 											:frame_num "312" 										}
+Rest:
+[STD@00:24:55.116] Received results from engine female
+[DBG@00:24:55.132] Valid socket
+[DBG@00:24:55.132] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "003" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 28544 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 83840 								:end_timestamp 87408 							} 							) 						}
+Rest:
+[STD@00:24:55.132] Received results from engine dtmf
+[DBG@00:24:55.132] wait for return: 1
+[DBG@00:24:55.132] Valid socket
+[DBG@00:24:55.132] Valid socket
+[DBG@00:24:55.132] Valid socket
+[DBG@00:24:55.179] wait for return: 2
+[DBG@00:24:55.179] Valid socket
+[DBG@00:24:55.179] Valid socket
+[DBG@00:24:55.179] Valid socket
+[DBG@00:24:55.226] wait for return: 3
+[DBG@00:24:55.226] Valid socket
+[DBG@00:24:55.226] Valid socket
+[DBG@00:24:55.226] Valid socket
+[DBG@00:24:55.273] wait for return: 4
+[DBG@00:24:55.273] Valid socket
+[DBG@00:24:55.273] Converting frame from engine male:
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "83840" 											:end_timestamp "87280" 											:frame_num "344" 										}
+Rest:
+[STD@00:24:55.273] Received results from engine male
+[DBG@00:24:55.273] Valid socket
+[DBG@00:24:55.273] Valid socket
+[DBG@00:24:55.273] wait for return: 5
+[DBG@00:24:55.273] Valid socket
+[DBG@00:24:55.273] Valid socket
+[DBG@00:24:55.273] Valid socket
+[DBG@00:24:55.319] wait for return: 6
+[DBG@00:24:55.319] Valid socket
+[DBG@00:24:55.319] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "003" :engine_name "male" :nbest_index 0 :decoder_score -67522344.000000 :lm_score -815522.000000 :am_score -66706824.000000 :frame_num 347 :acoustic_gap_norm 42746.488281 :avg_sphinxwordconf 0.536579 :min_sphinxwordconf 0.536579 :max_sphinxwordconf 0.536579 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "216" :endframes "264" :init_timestamp 83840 :end_timestamp 87310 }  ) }
+Rest:
+[STD@00:24:55.319] Received results from engine male
+[DBG@00:24:55.319] Valid socket
+[DBG@00:24:55.319] Valid socket
+[DBG@00:24:55.319] wait for return: 7
+[DBG@00:24:55.319] Valid socket
+[DBG@00:24:55.319] Valid socket
+[DBG@00:24:55.319] Valid socket
+[DBG@00:24:55.366] wait for return: 8
+[DBG@00:24:55.366] Valid socket
+[DBG@00:24:55.366] Valid socket
+[DBG@00:24:55.366] Converting frame from engine female:
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "83840" 											:end_timestamp "87280" 											:frame_num "344" 										}
+Rest:
+[STD@00:24:55.366] Received results from engine female
+[DBG@00:24:55.366] Valid socket
+[DBG@00:24:55.366] wait for return: 9
+[DBG@00:24:55.366] Valid socket
+[DBG@00:24:55.366] Valid socket
+[DBG@00:24:55.366] Valid socket
+[DBG@00:24:55.413] wait for return: 10
+[DBG@00:24:55.413] Valid socket
+[DBG@00:24:55.413] Valid socket
+[DBG@00:24:55.413] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "003" :engine_name "female" :nbest_index 0 :decoder_score -67039328.000000 :lm_score -815522.000000 :am_score -66223804.000000 :frame_num 347 :acoustic_gap_norm 43305.117188 :avg_sphinxwordconf 0.674370 :min_sphinxwordconf 0.674370 :max_sphinxwordconf 0.674370 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "216" :endframes "267" :init_timestamp 83840 :end_timestamp 87310 }  ) }
+Rest:
+[STD@00:24:55.413] Received results from engine female
+[DBG@00:24:55.413] Valid socket
+[STD@00:24:55.413] Got results.
+[DBG@00:24:55.413] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:24:55.413] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:24:55.413] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:24:55.413] male(0): YES 
+[STD@00:24:55.413] female(0): YES 
+[STD@00:24:55.413] dtmf(0): 
+[DBG@00:24:55.413] *** END -> LISTEN ***
+[DBG@00:24:55.679] :set_lm found
+[STD@00:24:55.694] Setting LM for engine male to place
+[DBG@00:24:55.694] Message sent to male engine:
+engine_set_lm place 
+
+[STD@00:24:55.694] Setting LM for engine female to place
+[DBG@00:24:55.694] Message sent to female engine:
+engine_set_lm place 
+
+[DBG@00:24:55.694] :set_dtmf_len found
+[STD@00:24:55.694] Setting LM for engine dtmf to 1
+[DBG@00:24:55.726] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[DBG@00:24:57.351] Flushing male: 0 bytes	
+[DBG@00:24:57.351] Flushing female: 0 bytes	
+[DBG@00:24:57.351] Flushing dtmf: 0 bytes	
+[STD@00:24:57.351] Start utt 004 at 130688 (SIL->SPEECH threshold: 32)
+PowHist:
+	  8      2
+	  9      7
+	 10     11
+	 11     14
+	 12     30
+	 13     45
+	 14     51
+	 15     46
+	 16     34
+	 17     26
+	 18     21
+	 19     19
+	 20     16
+	 21     16
+	 22     15
+	 23     23
+	 24     23
+	 25     17
+	 26     17
+	 27     27
+	 28     18
+	 29     16
+	 30     14
+	 31     13
+	 32     15
+	 33     14
+	 34     14
+	 35     12
+	 36     15
+	 37      7
+	 38     11
+	 39     11
+	 40      8
+	 41     11
+	 42     10
+	 43      7
+	 44     12
+	 45      7
+	 46      5
+	 47      6
+	 48      7
+	 49      6
+	 50      4
+	 51      4
+	 54      2
+	 55      1
+	 56      1
+	 57      1
+	 58      1
+	 59      1
+	 61      2
+	 63      1
+	 64      4
+	 65      1
+	 66      5
+	 67      3
+	 68      4
+	 69      5
+	 70      6
+	 71      2
+	 72      2
+	 73      1
+PH[  16.86]:  0  0  0  0  0  0  0  0  2  7 11 14 30 45 51 46 34 26 21 19 16 16 15 23 23 17 17 27 18 16 14 13 15 14 14 12 15  7 11 11  8 11 10  7 12  7  5  6  7  6  4  4  0  0  2  1  1  1  1  1  0  2  0  1  4  1  5  3  4  5  6  2  2  1
+[DBG@00:24:57.351] Message sent to male engine:
+engine_begin_utt 004 130688
+
+[DBG@00:24:57.351] Message sent to female engine:
+engine_begin_utt 004 130688
+
+[DBG@00:24:57.351] Message sent to dtmf engine:
+engine_begin_utt 004 130688
+
+[DBG@00:24:57.351] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:57.351] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:57.351] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:57.382] *** LISTEN -> UTT ***
+[DBG@00:24:57.569] Message sent to male engine:
+engine_proc_raw 1536 
+
+[DBG@00:24:57.569] 1536 bytes raw data sent to male decoding engine
+[DBG@00:24:57.569] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:57.569] Message sent to female engine:
+engine_proc_raw 1536 
+
+[DBG@00:24:57.569] 1536 bytes raw data sent to female decoding engine
+[DBG@00:24:57.569] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:57.569] Message sent to dtmf engine:
+engine_proc_raw 1536 
+
+[DBG@00:24:57.569] 1536 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:57.569] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:24:57.882] Message sent to male engine:
+engine_proc_raw 7424 
+
+[DBG@00:24:57.882] 7424 bytes raw data sent to male decoding engine
+[DBG@00:24:57.882] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:57.882] Message sent to female engine:
+engine_proc_raw 7424 
+
+[DBG@00:24:57.898] 7424 bytes raw data sent to female decoding engine
+[DBG@00:24:57.898] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:57.898] Message sent to dtmf engine:
+engine_proc_raw 7424 
+
+[DBG@00:24:57.898] 7424 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:57.898] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:24:58.210] End utt 004 at 138496 (SPEECH->SIL threshold: 25)
+PowHist:
+	  8      2
+	  9      7
+	 10     10
+	 11     13
+	 12     27
+	 13     40
+	 14     46
+	 15     46
+	 16     34
+	 17     24
+	 18     23
+	 19     20
+	 20     20
+	 21     20
+	 22     20
+	 23     26
+	 24     23
+	 25     16
+	 26     15
+	 27     25
+	 28     19
+	 29     14
+	 30     13
+	 31     12
+	 32     15
+	 33     14
+	 34     14
+	 35     11
+	 36     14
+	 37      7
+	 38     10
+	 39     10
+	 40      7
+	 41     10
+	 42      9
+	 43      7
+	 44     11
+	 45      7
+	 46      5
+	 47      6
+	 48      7
+	 49      6
+	 50      4
+	 51      4
+	 54      2
+	 55      1
+	 56      1
+	 57      1
+	 58      1
+	 59      1
+	 61      2
+	 63      1
+	 64      4
+	 65      1
+	 66      5
+	 67      3
+	 68      4
+	 69      5
+	 70      6
+	 71      2
+	 72      2
+	 73      1
+PH[  17.79]:  0  0  0  0  0  0  0  0  2  7 10 13 27 40 46 46 34 24 23 20 20 20 20 26 23 16 15 25 19 14 13 12 15 14 14 11 14  7 10 10  7 10  9  7 11  7  5  6  7  6  4  4  0  0  2  1  1  1  1  1  0  2  0  1  4  1  5  3  4  5  6  2  2  1
+[DBG@00:24:58.210] *** UTT -> END ***
+[STD@00:24:58.226] end of utterance 004
+[DBG@00:24:58.226] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:24:58.226] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:24:58.226] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:24:58.226] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:24:58.226] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:24:58.226] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:24:58.226] wait for return: 0
+[DBG@00:24:58.226] Valid socket
+[DBG@00:24:58.226] Valid socket
+[DBG@00:24:58.226] Valid socket
+[DBG@00:24:58.273] wait for return: 1
+[DBG@00:24:58.273] Valid socket
+[DBG@00:24:58.273] Valid socket
+[DBG@00:24:58.273] Valid socket
+[DBG@00:24:58.273] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "004" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 7808 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 130688 								:end_timestamp 131664 							} 							) 						}
+Rest:
+[STD@00:24:58.273] Received results from engine dtmf
+[DBG@00:24:58.288] wait for return: 2
+[DBG@00:24:58.288] Valid socket
+[DBG@00:24:58.288] Valid socket
+[DBG@00:24:58.288] Valid socket
+[DBG@00:24:58.335] wait for return: 3
+[DBG@00:24:58.335] Valid socket
+[DBG@00:24:58.335] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "004" :engine_name "male" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 88 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 130688 :end_timestamp 131568 }  ) }
+Rest:
+[STD@00:24:58.335] Received results from engine male
+[DBG@00:24:58.335] Valid socket
+[DBG@00:24:58.335] Valid socket
+[DBG@00:24:58.335] wait for return: 4
+[DBG@00:24:58.335] Valid socket
+[DBG@00:24:58.335] Valid socket
+[DBG@00:24:58.335] Valid socket
+[DBG@00:24:58.382] wait for return: 5
+[DBG@00:24:58.382] Valid socket
+[DBG@00:24:58.382] Valid socket
+[DBG@00:24:58.382] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "004" :engine_name "female" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 88 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 130688 :end_timestamp 131568 }  ) }
+Rest:
+[STD@00:24:58.382] Received results from engine female
+[DBG@00:24:58.382] Valid socket
+[STD@00:24:58.382] Got results.
+[DBG@00:24:58.382] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:24:58.382] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:24:58.382] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:24:58.382] male(0): 
+[STD@00:24:58.382] female(0): 
+[STD@00:24:58.382] dtmf(0): 
+[DBG@00:24:58.382] *** END -> LISTEN ***
+[DBG@00:24:59.507] Flushing male: 0 bytes	
+[DBG@00:24:59.507] Flushing female: 0 bytes	
+[DBG@00:24:59.507] Flushing dtmf: 0 bytes	
+[STD@00:24:59.507] Start utt 005 at 146816 (SIL->SPEECH threshold: 32)
+PowHist:
+	  8      2
+	  9      7
+	 10     10
+	 11     14
+	 12     29
+	 13     42
+	 14     59
+	 15     57
+	 16     38
+	 17     28
+	 18     24
+	 19     22
+	 20     20
+	 21     20
+	 22     20
+	 23     26
+	 24     23
+	 25     17
+	 26     15
+	 27     26
+	 28     21
+	 29     15
+	 30     15
+	 31     15
+	 32     15
+	 33     14
+	 34     16
+	 35     11
+	 36     14
+	 37      8
+	 38     10
+	 39     11
+	 40      7
+	 41     13
+	 42     10
+	 43      9
+	 44     13
+	 45      8
+	 46      6
+	 47      7
+	 48      7
+	 49      6
+	 50      4
+	 51      4
+	 52      1
+	 54      2
+	 55      1
+	 56      1
+	 57      1
+	 58      1
+	 59      1
+	 61      2
+	 62      1
+	 63      1
+	 64      4
+	 65      2
+	 66      5
+	 67      3
+	 68      4
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  19.04]:  0  0  0  0  0  0  0  0  2  7 10 14 29 42 59 57 38 28 24 22 20 20 20 26 23 17 15 26 21 15 15 15 15 14 16 11 14  8 10 11  7 13 10  9 13  8  6  7  7  6  4  4  1  0  2  1  1  1  1  1  0  2  1  1  4  2  5  3  4  5  6  5  3  5  2
+[DBG@00:24:59.507] Message sent to male engine:
+engine_begin_utt 005 146816
+
+[DBG@00:24:59.507] Message sent to female engine:
+engine_begin_utt 005 146816
+
+[DBG@00:24:59.507] Message sent to dtmf engine:
+engine_begin_utt 005 146816
+
+[DBG@00:24:59.507] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:59.507] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:59.507] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:24:59.523] *** LISTEN -> UTT ***
+[DBG@00:24:59.773] Message sent to male engine:
+engine_proc_raw 4352 
+
+[DBG@00:24:59.773] 4352 bytes raw data sent to male decoding engine
+[DBG@00:24:59.773] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:24:59.773] Message sent to female engine:
+engine_proc_raw 4352 
+
+[DBG@00:24:59.788] 4352 bytes raw data sent to female decoding engine
+[DBG@00:24:59.788] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:24:59.788] Message sent to dtmf engine:
+engine_proc_raw 4352 
+
+[DBG@00:24:59.788] 4352 bytes raw data sent to dtmf decoding engine
+[DBG@00:24:59.788] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:00.101] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:00.101] 4864 bytes raw data sent to male decoding engine
+[DBG@00:25:00.101] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:00.101] Converting frame from male (engine_P=187):
+{c properties 											:partial_hyp "SPELL " 											:engine_name "male"											:start_timestamp "146816" 											:end_timestamp "147376" 											:frame_num "56" 										}
+Rest:
+[STD@00:25:00.101] Frame received from engine male:
+[DBG@00:25:00.101] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:00.101] 4864 bytes raw data sent to female decoding engine
+[DBG@00:25:00.101] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:00.101] Converting frame from female (engine_P=189):
+{c properties 											:partial_hyp "SPELL " 											:engine_name "female"											:start_timestamp "146816" 											:end_timestamp "147376" 											:frame_num "56" 										}
+Rest:
+[STD@00:25:00.101] Frame received from engine female:
+[DBG@00:25:00.132] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:00.132] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:00.132] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:00.382] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:00.382] 5120 bytes raw data sent to male decoding engine
+[DBG@00:25:00.382] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:00.382] Converting frame from male (engine_P=195):
+{c properties 											:partial_hyp "SOUTH   STILL " 											:engine_name "male"											:start_timestamp "146816" 											:end_timestamp "147676" 											:frame_num "86" 										}
+Rest:
+[STD@00:25:00.382] Frame received from engine male:
+[DBG@00:25:00.382] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:00.382] 5120 bytes raw data sent to female decoding engine
+[DBG@00:25:00.382] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:00.382] Converting frame from female (engine_P=194):
+{c properties 											:partial_hyp "SOUTH HILL " 											:engine_name "female"											:start_timestamp "146816" 											:end_timestamp "147676" 											:frame_num "86" 										}
+Rest:
+[STD@00:25:00.382] Frame received from engine female:
+[DBG@00:25:00.413] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:00.413] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:00.413] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:00.726] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:00.726] 4864 bytes raw data sent to male decoding engine
+[DBG@00:25:00.726] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:00.726] Converting frame from male (engine_P=196):
+{c properties 											:partial_hyp "SOUTH HILLS   " 											:engine_name "male"											:start_timestamp "146816" 											:end_timestamp "147996" 											:frame_num "118" 										}
+Rest:
+[STD@00:25:00.726] Frame received from engine male:
+[DBG@00:25:00.726] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:00.726] 4864 bytes raw data sent to female decoding engine
+[DBG@00:25:00.741] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:00.741] Converting frame from female (engine_P=201):
+{c properties 											:partial_hyp "SOUTH HILLS   TO " 											:engine_name "female"											:start_timestamp "146816" 											:end_timestamp "147996" 											:frame_num "118" 										}
+Rest:
+[STD@00:25:00.741] Frame received from engine female:
+[DBG@00:25:00.772] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:00.772] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:00.772] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:01.022] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:01.022] 5120 bytes raw data sent to male decoding engine
+[DBG@00:25:01.022] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:01.022] Converting frame from male (engine_P=205):
+{c properties 											:partial_hyp "SOUTH HILLS JUNCTION   " 											:engine_name "male"											:start_timestamp "146816" 											:end_timestamp "148306" 											:frame_num "149" 										}
+Rest:
+[STD@00:25:01.022] Frame received from engine male:
+[DBG@00:25:01.022] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:01.022] 5120 bytes raw data sent to female decoding engine
+[DBG@00:25:01.022] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:01.022] Converting frame from female (engine_P=207):
+{c properties 											:partial_hyp "SOUTH HILLS JUNCTION   " 											:engine_name "female"											:start_timestamp "146816" 											:end_timestamp "148306" 											:frame_num "149" 										}
+Rest:
+[STD@00:25:01.022] Frame received from engine female:
+[DBG@00:25:01.054] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:01.054] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:01.054] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:01.366] Message sent to male engine:
+engine_proc_raw 3840 
+
+[DBG@00:25:01.366] 3840 bytes raw data sent to male decoding engine
+[DBG@00:25:01.366] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:01.366] Converting frame from male (engine_P=205):
+{c properties 											:partial_hyp "SOUTH HILLS JUNCTION   " 											:engine_name "male"											:start_timestamp "146816" 											:end_timestamp "148626" 											:frame_num "181" 										}
+Rest:
+[STD@00:25:01.366] Frame received from engine male:
+[DBG@00:25:01.366] Message sent to female engine:
+engine_proc_raw 3840 
+
+[DBG@00:25:01.366] 3840 bytes raw data sent to female decoding engine
+[DBG@00:25:01.429] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:01.429] Converting frame from female (engine_P=207):
+{c properties 											:partial_hyp "SOUTH HILLS JUNCTION   " 											:engine_name "female"											:start_timestamp "146816" 											:end_timestamp "148626" 											:frame_num "181" 										}
+Rest:
+[STD@00:25:01.429] Frame received from engine female:
+[DBG@00:25:01.429] Message sent to dtmf engine:
+engine_proc_raw 3840 
+
+[DBG@00:25:01.429] 3840 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:01.429] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:25:01.679] End utt 005 at 164224 (SPEECH->SIL threshold: 25)
+PowHist:
+	  8      2
+	  9      7
+	 10     14
+	 11     28
+	 12     34
+	 13     39
+	 14     49
+	 15     45
+	 16     31
+	 17     25
+	 18     21
+	 19     18
+	 20     18
+	 21     17
+	 22     18
+	 23     21
+	 24     21
+	 25     15
+	 26     13
+	 27     21
+	 28     19
+	 29     14
+	 30     14
+	 31     13
+	 32     14
+	 33     13
+	 34     16
+	 35     16
+	 36     14
+	 37     10
+	 38      9
+	 39      9
+	 40      8
+	 41     13
+	 42      9
+	 43      8
+	 44     14
+	 45     11
+	 46      6
+	 47      8
+	 48      8
+	 49      6
+	 50      6
+	 51      4
+	 52      2
+	 53      1
+	 54      3
+	 55      2
+	 56      3
+	 57      3
+	 58      1
+	 59      3
+	 61      2
+	 62      2
+	 63      4
+	 64      7
+	 65      4
+	 66     11
+	 67      4
+	 68      4
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  21.23]:  0  0  0  0  0  0  0  0  2  7 14 28 34 39 49 45 31 25 21 18 18 17 18 21 21 15 13 21 19 14 14 13 14 13 16 16 14 10  9  9  8 13  9  8 14 11  6  8  8  6  6  4  2  1  3  2  3  3  1  3  0  2  2  4  7  4 11  4  4  5  6  5  3  5  2
+[DBG@00:25:01.679] *** UTT -> END ***
+[STD@00:25:01.694] end of utterance 005
+[DBG@00:25:01.694] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:25:01.694] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:25:01.694] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:25:01.710] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:25:01.710] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:25:01.710] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:25:01.710] wait for return: 0
+[DBG@00:25:01.710] Valid socket
+[DBG@00:25:01.710] Valid socket
+[DBG@00:25:01.710] Valid socket
+[DBG@00:25:01.757] wait for return: 1
+[DBG@00:25:01.757] Valid socket
+[DBG@00:25:01.757] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "SOUTH HILLS JUNCTION " :confhyp "SOUTH HILLS JUNCTION " :uttid "005" :engine_name "male" :nbest_index 0 :decoder_score -37886160.000000 :lm_score -594563.000000 :am_score -37291596.000000 :frame_num 208 :acoustic_gap_norm 43552.367188 :avg_sphinxwordconf 0.279145 :min_sphinxwordconf 0.279145 :max_sphinxwordconf 0.279145 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "19" :endframes "167" :init_timestamp 146816 :end_timestamp 148896 }  ) }
+Rest:
+[STD@00:25:01.757] Received results from engine male
+[DBG@00:25:01.757] Valid socket
+[DBG@00:25:01.757] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "SOUTH HILLS JUNCTION " :confhyp "SOUTH HILLS JUNCTION " :uttid "005" :engine_name "female" :nbest_index 0 :decoder_score -36900284.000000 :lm_score -824833.000000 :am_score -36075448.000000 :frame_num 208 :acoustic_gap_norm 38995.347656 :avg_sphinxwordconf 0.243065 :min_sphinxwordconf 0.243065 :max_sphinxwordconf 0.243065 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "19" :endframes "167" :init_timestamp 146816 :end_timestamp 148896 }  ) }
+Rest:
+[STD@00:25:01.757] Received results from engine female
+[DBG@00:25:01.757] Valid socket
+[DBG@00:25:01.757] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "005" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 17408 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 146816 								:end_timestamp 148992 							} 							) 						}
+Rest:
+[STD@00:25:01.757] Received results from engine dtmf
+[STD@00:25:01.757] Got results.
+[DBG@00:25:01.757] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:25:01.757] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:25:01.757] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:25:01.757] male(0): SOUTH HILLS JUNCTION 
+[STD@00:25:01.757] female(0): SOUTH HILLS JUNCTION 
+[STD@00:25:01.757] dtmf(0): 
+[DBG@00:25:01.757] *** END -> LISTEN ***
+[DBG@00:25:02.069] :set_lm found
+[STD@00:25:02.069] Setting LM for engine male to yes_no
+[DBG@00:25:02.069] Message sent to male engine:
+engine_set_lm yes_no 
+
+[STD@00:25:02.069] Setting LM for engine female to yes_no
+[DBG@00:25:02.069] Message sent to female engine:
+engine_set_lm yes_no 
+
+[DBG@00:25:02.069] :set_dtmf_len found
+[STD@00:25:02.069] Setting LM for engine dtmf to 1
+[DBG@00:25:02.085] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[DBG@00:25:06.069] Flushing male: 0 bytes	
+[DBG@00:25:06.069] Flushing female: 0 bytes	
+[DBG@00:25:06.069] Flushing dtmf: 0 bytes	
+[STD@00:25:06.069] Start utt 006 at 200576 (SIL->SPEECH threshold: 32)
+PowHist:
+	  8      2
+	  9      7
+	 10     16
+	 11     33
+	 12     47
+	 13     50
+	 14     55
+	 15     49
+	 16     35
+	 17     31
+	 18     23
+	 19     18
+	 20     18
+	 21     14
+	 22     20
+	 23     21
+	 24     19
+	 25     18
+	 26     14
+	 27     19
+	 28     20
+	 29     15
+	 30     13
+	 31     12
+	 32     11
+	 33     11
+	 34     15
+	 35     12
+	 36     12
+	 37      8
+	 38      8
+	 39      7
+	 40      7
+	 41     11
+	 42      8
+	 43      7
+	 44     11
+	 45      9
+	 46      6
+	 47      7
+	 48      7
+	 49      6
+	 50      6
+	 51      4
+	 52      2
+	 53      2
+	 54      3
+	 55      2
+	 56      3
+	 57      3
+	 58      1
+	 59      3
+	 60      2
+	 61      2
+	 62      3
+	 63      7
+	 64      7
+	 65      5
+	 66     10
+	 67      4
+	 68      4
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  25.60]:  0  0  0  0  0  0  0  0  2  7 16 33 47 50 55 49 35 31 23 18 18 14 20 21 19 18 14 19 20 15 13 12 11 11 15 12 12  8  8  7  7 11  8  7 11  9  6  7  7  6  6  4  2  2  3  2  3  3  1  3  2  2  3  7  7  5 10  4  4  5  6  5  3  5  2
+[DBG@00:25:06.069] Message sent to male engine:
+engine_begin_utt 006 200576
+
+[DBG@00:25:06.069] Message sent to female engine:
+engine_begin_utt 006 200576
+
+[DBG@00:25:06.069] Message sent to dtmf engine:
+engine_begin_utt 006 200576
+
+[DBG@00:25:06.069] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:06.069] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:06.069] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:06.069] *** LISTEN -> UTT ***
+[DBG@00:25:06.319] Message sent to male engine:
+engine_proc_raw 1792 
+
+[DBG@00:25:06.319] 1792 bytes raw data sent to male decoding engine
+[DBG@00:25:06.319] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:06.319] Message sent to female engine:
+engine_proc_raw 1792 
+
+[DBG@00:25:06.319] 1792 bytes raw data sent to female decoding engine
+[DBG@00:25:06.319] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:06.351] Message sent to dtmf engine:
+engine_proc_raw 1792 
+
+[DBG@00:25:06.351] 1792 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:06.351] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:06.663] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:06.663] 4864 bytes raw data sent to male decoding engine
+[DBG@00:25:06.663] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:06.663] Converting frame from male (engine_P=186):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "male"											:start_timestamp "200576" 											:end_timestamp "200976" 											:frame_num "40" 										}
+Rest:
+[STD@00:25:06.663] Frame received from engine male:
+[DBG@00:25:06.663] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:06.663] 4864 bytes raw data sent to female decoding engine
+[DBG@00:25:06.663] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:06.663] Converting frame from female (engine_P=188):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "female"											:start_timestamp "200576" 											:end_timestamp "200976" 											:frame_num "40" 										}
+Rest:
+[STD@00:25:06.663] Frame received from engine female:
+[DBG@00:25:06.694] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:06.694] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:06.694] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:06.944] Message sent to male engine:
+engine_proc_raw 7424 
+
+[DBG@00:25:06.944] 7424 bytes raw data sent to male decoding engine
+[DBG@00:25:06.944] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:06.944] Converting frame from male (engine_P=185):
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "200576" 											:end_timestamp "201276" 											:frame_num "70" 										}
+Rest:
+[STD@00:25:06.944] Frame received from engine male:
+[DBG@00:25:06.944] Message sent to female engine:
+engine_proc_raw 7424 
+
+[DBG@00:25:06.944] 7424 bytes raw data sent to female decoding engine
+[DBG@00:25:06.960] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:06.960] Converting frame from female (engine_P=187):
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "200576" 											:end_timestamp "201276" 											:frame_num "70" 										}
+Rest:
+[STD@00:25:06.960] Frame received from engine female:
+[DBG@00:25:06.975] Message sent to dtmf engine:
+engine_proc_raw 7424 
+
+[DBG@00:25:06.975] 7424 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:06.975] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:25:07.288] End utt 006 at 210944 (SPEECH->SIL threshold: 25)
+PowHist:
+	  8      2
+	  9      7
+	 10     19
+	 11     42
+	 12     55
+	 13     54
+	 14     56
+	 15     51
+	 16     37
+	 17     32
+	 18     23
+	 19     20
+	 20     19
+	 21     15
+	 22     21
+	 23     23
+	 24     20
+	 25     20
+	 26     15
+	 27     20
+	 28     24
+	 29     16
+	 30     16
+	 31     14
+	 32     13
+	 33     16
+	 34     16
+	 35     12
+	 36     14
+	 37      8
+	 38     10
+	 39      8
+	 40      8
+	 41     12
+	 42     10
+	 43      8
+	 44     13
+	 45      9
+	 46      6
+	 47      7
+	 48      9
+	 49      8
+	 50      6
+	 51      4
+	 52      2
+	 53      2
+	 54      3
+	 55      2
+	 56      5
+	 57      4
+	 58      1
+	 59      3
+	 60      2
+	 61      2
+	 62      3
+	 63      7
+	 64      7
+	 65      5
+	 66     10
+	 67      4
+	 68      4
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  26.86]:  0  0  0  0  0  0  0  0  2  7 19 42 55 54 56 51 37 32 23 20 19 15 21 23 20 20 15 20 24 16 16 14 13 16 16 12 14  8 10  8  8 12 10  8 13  9  6  7  9  8  6  4  2  2  3  2  5  4  1  3  2  2  3  7  7  5 10  4  4  5  6  5  3  5  2
+[DBG@00:25:07.288] *** UTT -> END ***
+[STD@00:25:07.304] end of utterance 006
+[DBG@00:25:07.304] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:25:07.304] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:25:07.304] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:25:07.304] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:25:07.304] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:25:07.304] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:25:07.304] wait for return: 0
+[DBG@00:25:07.304] Valid socket
+[DBG@00:25:07.304] Valid socket
+[DBG@00:25:07.304] Valid socket
+[DBG@00:25:07.350] wait for return: 1
+[DBG@00:25:07.350] Valid socket
+[DBG@00:25:07.350] Valid socket
+[DBG@00:25:07.350] Valid socket
+[DBG@00:25:07.350] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "006" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 10368 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 200576 								:end_timestamp 201872 							} 							) 						}
+Rest:
+[STD@00:25:07.350] Received results from engine dtmf
+[DBG@00:25:07.350] wait for return: 2
+[DBG@00:25:07.350] Valid socket
+[DBG@00:25:07.350] Valid socket
+[DBG@00:25:07.350] Valid socket
+[DBG@00:25:07.397] wait for return: 3
+[DBG@00:25:07.397] Valid socket
+[DBG@00:25:07.397] Valid socket
+[DBG@00:25:07.397] Valid socket
+[DBG@00:25:07.444] wait for return: 4
+[DBG@00:25:07.444] Valid socket
+[DBG@00:25:07.444] Valid socket
+[DBG@00:25:07.444] Converting frame from engine female:
+{c properties 											:partial_hyp "YES FROM " 											:engine_name "female"											:start_timestamp "200576" 											:end_timestamp "201746" 											:frame_num "117" 										}
+Rest:{c result :results ( {c hypothesis :hyp "YES FROM " :confhyp ".?YES?. FROM " :uttid "006" :engine_name "female" :nbest_index 0 :decoder_score -21110020.000000 :lm_score -939380.000000 :am_score -20170640.000000 :frame_num 120 :acoustic_gap_norm 30121.732422 :avg_sphinxwordconf 0.382856 :min_sphinxwordconf 0.180480 :max_sphinxwordconf 0.585233 :avg_wordconf 0.500000 :min_wordconf 0.416667 :max_wordconf 0.583333 :avg_validwordconf 0.583333 :min_validwordconf 0.583333 :max_validwordconf 0.583333 :startframes "16 62" :endframes "61 83" :init_timestamp 200576 :end_timestamp 201776 }  ) }
+[STD@00:25:07.444] Received results from engine female
+[DBG@00:25:07.444] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "YES FROM " :confhyp ".?YES?. FROM " :uttid "006" :engine_name "female" :nbest_index 0 :decoder_score -21110020.000000 :lm_score -939380.000000 :am_score -20170640.000000 :frame_num 120 :acoustic_gap_norm 30121.732422 :avg_sphinxwordconf 0.382856 :min_sphinxwordconf 0.180480 :max_sphinxwordconf 0.585233 :avg_wordconf 0.500000 :min_wordconf 0.416667 :max_wordconf 0.583333 :avg_validwordconf 0.583333 :min_validwordconf 0.583333 :max_validwordconf 0.583333 :startframes "16 62" :endframes "61 83" :init_timestamp 200576 :end_timestamp 201776 }  ) }
+Rest:
+[STD@00:25:07.444] Received results from engine female
+[DBG@00:25:07.444] Valid socket
+[DBG@00:25:07.444] wait for return: 5
+[DBG@00:25:07.444] Valid socket
+[DBG@00:25:07.444] Valid socket
+[DBG@00:25:07.444] Valid socket
+[DBG@00:25:07.491] wait for return: 6
+[DBG@00:25:07.491] Valid socket
+[DBG@00:25:07.491] Converting frame from engine male:
+{c properties 											:partial_hyp "YES FROM " 											:engine_name "male"											:start_timestamp "200576" 											:end_timestamp "201746" 											:frame_num "117" 										}
+Rest:
+[STD@00:25:07.491] Received results from engine male
+[DBG@00:25:07.491] Valid socket
+[DBG@00:25:07.491] Valid socket
+[DBG@00:25:07.491] wait for return: 7
+[DBG@00:25:07.491] Valid socket
+[DBG@00:25:07.491] Valid socket
+[DBG@00:25:07.491] Valid socket
+[DBG@00:25:07.538] wait for return: 8
+[DBG@00:25:07.538] Valid socket
+[DBG@00:25:07.538] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "YES FROM " :confhyp ".?YES?. FROM " :uttid "006" :engine_name "male" :nbest_index 0 :decoder_score -21981882.000000 :lm_score -939380.000000 :am_score -21042502.000000 :frame_num 120 :acoustic_gap_norm 33282.714844 :avg_sphinxwordconf 0.266804 :min_sphinxwordconf 0.193700 :max_sphinxwordconf 0.339909 :avg_wordconf 0.500000 :min_wordconf 0.416667 :max_wordconf 0.583333 :avg_validwordconf 0.583333 :min_validwordconf 0.583333 :max_validwordconf 0.583333 :startframes "16 63" :endframes "62 85" :init_timestamp 200576 :end_timestamp 201776 }  ) }
+Rest:
+[STD@00:25:07.538] Received results from engine male
+[DBG@00:25:07.538] Valid socket
+[DBG@00:25:07.538] Valid socket
+[STD@00:25:07.538] Got results.
+[DBG@00:25:07.538] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:25:07.538] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:25:07.538] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:25:07.538] male(0): YES FROM 
+[STD@00:25:07.538] female(0): YES FROM 
+[STD@00:25:07.538] dtmf(0): 
+[DBG@00:25:07.538] *** END -> LISTEN ***
+[DBG@00:25:07.850] :set_lm found
+[STD@00:25:07.850] Setting LM for engine male to yes_no
+[DBG@00:25:07.850] Message sent to male engine:
+engine_set_lm yes_no 
+
+[STD@00:25:07.850] Setting LM for engine female to yes_no
+[DBG@00:25:07.850] Message sent to female engine:
+engine_set_lm yes_no 
+
+[DBG@00:25:07.850] :set_dtmf_len found
+[STD@00:25:07.850] Setting LM for engine dtmf to 1
+[DBG@00:25:07.866] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[DBG@00:25:12.975] Flushing male: 0 bytes	
+[DBG@00:25:12.975] Flushing female: 0 bytes	
+[DBG@00:25:12.975] Flushing dtmf: 0 bytes	
+[STD@00:25:12.975] Start utt 007 at 255744 (SIL->SPEECH threshold: 31)
+PowHist:
+	  8      2
+	  9      7
+	 10     13
+	 11     37
+	 12     65
+	 13     83
+	 14     56
+	 15     53
+	 16     36
+	 17     30
+	 18     21
+	 19     25
+	 20     23
+	 21     21
+	 22     21
+	 23     20
+	 24     19
+	 25     19
+	 26     17
+	 27     16
+	 28     26
+	 29     14
+	 30     15
+	 31     14
+	 32     11
+	 33     16
+	 34     14
+	 35      9
+	 36     10
+	 37      7
+	 38      8
+	 39      7
+	 40      7
+	 41      8
+	 42      7
+	 43      7
+	 44      9
+	 45      7
+	 46      6
+	 47      8
+	 48      7
+	 49      7
+	 50      6
+	 51      4
+	 52      2
+	 53      2
+	 54      3
+	 55      2
+	 56      5
+	 57      4
+	 58      1
+	 59      4
+	 60      2
+	 61      2
+	 62      3
+	 63      8
+	 64      8
+	 65      6
+	 66      9
+	 67      5
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  32.48]:  0  0  0  0  0  0  0  0  2  7 13 37 65 83 56 53 36 30 21 25 23 21 21 20 19 19 17 16 26 14 15 14 11 16 14  9 10  7  8  7  7  8  7  7  9  7  6  8  7  7  6  4  2  2  3  2  5  4  1  4  2  2  3  8  8  6  9  5  7  5  6  5  3  5  2
+[DBG@00:25:12.975] Message sent to male engine:
+engine_begin_utt 007 255744
+
+[DBG@00:25:12.975] Message sent to female engine:
+engine_begin_utt 007 255744
+
+[DBG@00:25:12.975] Message sent to dtmf engine:
+engine_begin_utt 007 255744
+
+[DBG@00:25:12.975] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:12.975] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:12.975] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:12.975] *** LISTEN -> UTT ***
+[DBG@00:25:13.225] Message sent to male engine:
+engine_proc_raw 1536 
+
+[DBG@00:25:13.225] 1536 bytes raw data sent to male decoding engine
+[DBG@00:25:13.225] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:13.225] Message sent to female engine:
+engine_proc_raw 1536 
+
+[DBG@00:25:13.225] 1536 bytes raw data sent to female decoding engine
+[DBG@00:25:13.225] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:13.257] Message sent to dtmf engine:
+engine_proc_raw 1536 
+
+[DBG@00:25:13.257] 1536 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:13.257] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:13.507] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:13.507] 4864 bytes raw data sent to male decoding engine
+[DBG@00:25:13.507] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:13.507] Converting frame from male (engine_P=186):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "male"											:start_timestamp "255744" 											:end_timestamp "256124" 											:frame_num "38" 										}
+Rest:
+[STD@00:25:13.507] Frame received from engine male:
+[DBG@00:25:13.507] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:13.507] 4864 bytes raw data sent to female decoding engine
+[DBG@00:25:13.522] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:13.522] Converting frame from female (engine_P=188):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "female"											:start_timestamp "255744" 											:end_timestamp "256124" 											:frame_num "38" 										}
+Rest:
+[STD@00:25:13.522] Frame received from engine female:
+[DBG@00:25:13.538] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:13.538] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:13.538] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:13.850] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:13.850] 5120 bytes raw data sent to male decoding engine
+[DBG@00:25:13.850] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:13.850] Converting frame from male (engine_P=185):
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "255744" 											:end_timestamp "256434" 											:frame_num "69" 										}
+Rest:
+[STD@00:25:13.850] Frame received from engine male:
+[DBG@00:25:13.850] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:13.850] 5120 bytes raw data sent to female decoding engine
+[DBG@00:25:13.850] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:13.897] Converting frame from female (engine_P=187):
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "255744" 											:end_timestamp "256434" 											:frame_num "69" 										}
+Rest:
+[STD@00:25:13.897] Frame received from engine female:
+[DBG@00:25:13.897] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:13.897] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:13.897] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:14.147] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:14.147] 5120 bytes raw data sent to male decoding engine
+[DBG@00:25:14.147] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:14.147] Converting frame from male (engine_P=186):
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "255744" 											:end_timestamp "256754" 											:frame_num "101" 										}
+Rest:
+[STD@00:25:14.147] Frame received from engine male:
+[DBG@00:25:14.147] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:14.147] 5120 bytes raw data sent to female decoding engine
+[DBG@00:25:14.147] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:14.147] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:14.147] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:14.147] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:25:14.460] End utt 007 at 267392 (SPEECH->SIL threshold: 24)
+PowHist:
+	  8      2
+	  9      7
+	 10     12
+	 11     35
+	 12     69
+	 13     80
+	 14     51
+	 15     50
+	 16     34
+	 17     29
+	 18     20
+	 19     24
+	 20     25
+	 21     20
+	 22     23
+	 23     21
+	 24     21
+	 25     20
+	 26     18
+	 27     19
+	 28     28
+	 29     16
+	 30     17
+	 31     15
+	 32     11
+	 33     15
+	 34     13
+	 35      9
+	 36     11
+	 37      7
+	 38     12
+	 39      9
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      8
+	 45      7
+	 46      6
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      4
+	 52      2
+	 53      2
+	 54      3
+	 55      2
+	 56      6
+	 57      4
+	 58      1
+	 59      4
+	 60      2
+	 61      2
+	 62      4
+	 63      7
+	 64      9
+	 65      7
+	 66      8
+	 67      5
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  34.05]:  0  0  0  0  0  0  0  0  2  7 12 35 69 80 51 50 34 29 20 24 25 20 23 21 21 20 18 19 28 16 17 15 11 15 13  9 11  7 12  9  7  7  7  7  8  7  6  7  7  7  6  4  2  2  3  2  6  4  1  4  2  2  4  7  9  7  8  5  7  5  6  5  3  5  2
+[DBG@00:25:14.460] *** UTT -> END ***
+[STD@00:25:14.475] end of utterance 007
+[DBG@00:25:14.475] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:25:14.475] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:25:14.475] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:25:14.475] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:25:14.475] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:25:14.475] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:25:14.475] wait for return: 0
+[DBG@00:25:14.475] Valid socket
+[DBG@00:25:14.475] Valid socket
+[DBG@00:25:14.475] Converting frame from engine female:
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "255744" 											:end_timestamp "256754" 											:frame_num "101" 										}
+Rest:
+[STD@00:25:14.475] Received results from engine female
+[DBG@00:25:14.475] Valid socket
+[DBG@00:25:14.475] wait for return: 1
+[DBG@00:25:14.475] Valid socket
+[DBG@00:25:14.475] Valid socket
+[DBG@00:25:14.475] Valid socket
+[DBG@00:25:14.475] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "007" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 11648 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 255744 								:end_timestamp 257200 							} 							) 						}
+Rest:
+[STD@00:25:14.475] Received results from engine dtmf
+[DBG@00:25:14.491] wait for return: 2
+[DBG@00:25:14.491] Valid socket
+[DBG@00:25:14.491] Valid socket
+[DBG@00:25:14.491] Valid socket
+[DBG@00:25:14.538] wait for return: 3
+[DBG@00:25:14.538] Valid socket
+[DBG@00:25:14.538] Converting frame from engine male:
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "255744" 											:end_timestamp "257074" 											:frame_num "133" 										}
+Rest:{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "007" :engine_name "male" :nbest_index 0 :decoder_score -25566780.000000 :lm_score -196024.000000 :am_score -25370756.000000 :frame_num 136 :acoustic_gap_norm 41329.910156 :avg_sphinxwordconf 0.347279 :min_sphinxwordconf 0.347279 :max_sphinxwordconf 0.347279 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "19" :endframes "60" :init_timestamp 255744 :end_timestamp 257104 }  ) }
+[STD@00:25:14.538] Received results from engine male
+[DBG@00:25:14.538] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "007" :engine_name "male" :nbest_index 0 :decoder_score -25566780.000000 :lm_score -196024.000000 :am_score -25370756.000000 :frame_num 136 :acoustic_gap_norm 41329.910156 :avg_sphinxwordconf 0.347279 :min_sphinxwordconf 0.347279 :max_sphinxwordconf 0.347279 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "19" :endframes "60" :init_timestamp 255744 :end_timestamp 257104 }  ) }
+Rest:
+[STD@00:25:14.538] Received results from engine male
+[DBG@00:25:14.538] Valid socket
+[DBG@00:25:14.538] Valid socket
+[DBG@00:25:14.538] wait for return: 4
+[DBG@00:25:14.538] Valid socket
+[DBG@00:25:14.538] Valid socket
+[DBG@00:25:14.538] Valid socket
+[DBG@00:25:14.585] wait for return: 5
+[DBG@00:25:14.585] Valid socket
+[DBG@00:25:14.585] Valid socket
+[DBG@00:25:14.585] Converting frame from engine female:
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "255744" 											:end_timestamp "257074" 											:frame_num "133" 										}
+Rest:
+[STD@00:25:14.585] Received results from engine female
+[DBG@00:25:14.585] Valid socket
+[DBG@00:25:14.585] wait for return: 6
+[DBG@00:25:14.585] Valid socket
+[DBG@00:25:14.585] Valid socket
+[DBG@00:25:14.585] Valid socket
+[DBG@00:25:14.632] wait for return: 7
+[DBG@00:25:14.632] Valid socket
+[DBG@00:25:14.632] Valid socket
+[DBG@00:25:14.632] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "007" :engine_name "female" :nbest_index 0 :decoder_score -24677316.000000 :lm_score -196024.000000 :am_score -24481292.000000 :frame_num 136 :acoustic_gap_norm 37839.148438 :avg_sphinxwordconf 0.371505 :min_sphinxwordconf 0.371505 :max_sphinxwordconf 0.371505 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "19" :endframes "60" :init_timestamp 255744 :end_timestamp 257104 }  ) }
+Rest:
+[STD@00:25:14.632] Received results from engine female
+[DBG@00:25:14.632] Valid socket
+[STD@00:25:14.632] Got results.
+[DBG@00:25:14.632] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:25:14.632] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:25:14.632] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:25:14.632] male(0): YES 
+[STD@00:25:14.632] female(0): YES 
+[STD@00:25:14.632] dtmf(0): 
+[DBG@00:25:14.632] *** END -> LISTEN ***
+[DBG@00:25:15.022] :set_lm found
+[STD@00:25:15.022] Setting LM for engine male to place
+[DBG@00:25:15.022] Message sent to male engine:
+engine_set_lm place 
+
+[STD@00:25:15.022] Setting LM for engine female to place
+[DBG@00:25:15.022] Message sent to female engine:
+engine_set_lm place 
+
+[DBG@00:25:15.022] :set_dtmf_len found
+[STD@00:25:15.022] Setting LM for engine dtmf to 1
+[DBG@00:25:15.038] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[DBG@00:25:15.757] Flushing male: 0 bytes	
+[DBG@00:25:15.757] Flushing female: 0 bytes	
+[DBG@00:25:15.757] Flushing dtmf: 0 bytes	
+[STD@00:25:15.757] Start utt 008 at 278400 (SIL->SPEECH threshold: 31)
+PowHist:
+	  8      2
+	  9      7
+	 10     11
+	 11     34
+	 12     70
+	 13     77
+	 14     49
+	 15     49
+	 16     35
+	 17     30
+	 18     21
+	 19     25
+	 20     23
+	 21     20
+	 22     21
+	 23     21
+	 24     19
+	 25     19
+	 26     16
+	 27     19
+	 28     25
+	 29     18
+	 30     15
+	 31     14
+	 32     11
+	 33     14
+	 34     13
+	 35      8
+	 36     10
+	 37      7
+	 38     12
+	 39      8
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      6
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      4
+	 52      2
+	 53      2
+	 54      3
+	 55      2
+	 56      6
+	 57      5
+	 58      1
+	 59      4
+	 60      4
+	 61      2
+	 62      5
+	 63      9
+	 64     12
+	 65      7
+	 66      7
+	 67      5
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  35.30]:  0  0  0  0  0  0  0  0  2  7 11 34 70 77 49 49 35 30 21 25 23 20 21 21 19 19 16 19 25 18 15 14 11 14 13  8 10  7 12  8  7  7  7  7  7  7  6  7  7  7  6  4  2  2  3  2  6  5  1  4  4  2  5  9 12  7  7  5  7  5  6  5  3  5  2
+[DBG@00:25:15.757] Message sent to male engine:
+engine_begin_utt 008 278400
+
+[DBG@00:25:15.757] Message sent to female engine:
+engine_begin_utt 008 278400
+
+[DBG@00:25:15.757] Message sent to dtmf engine:
+engine_begin_utt 008 278400
+
+[DBG@00:25:15.757] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:15.757] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:15.757] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:15.757] *** LISTEN -> UTT ***
+[DBG@00:25:16.007] Message sent to male engine:
+engine_proc_raw 1024 
+
+[DBG@00:25:16.007] 1024 bytes raw data sent to male decoding engine
+[DBG@00:25:16.007] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:16.007] Message sent to female engine:
+engine_proc_raw 1024 
+
+[DBG@00:25:16.007] 1024 bytes raw data sent to female decoding engine
+[DBG@00:25:16.022] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:16.022] Message sent to dtmf engine:
+engine_proc_raw 1024 
+
+[DBG@00:25:16.022] 1024 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:16.022] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:16.335] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:16.335] 5120 bytes raw data sent to male decoding engine
+[DBG@00:25:16.335] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:16.335] Converting frame from male (engine_P=186):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "male"											:start_timestamp "278400" 											:end_timestamp "278750" 											:frame_num "35" 										}
+Rest:
+[STD@00:25:16.335] Frame received from engine male:
+[DBG@00:25:16.335] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:16.335] 5120 bytes raw data sent to female decoding engine
+[DBG@00:25:16.335] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:16.350] Converting frame from female (engine_P=188):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "female"											:start_timestamp "278400" 											:end_timestamp "278750" 											:frame_num "35" 										}
+Rest:
+[STD@00:25:16.350] Frame received from engine female:
+[DBG@00:25:16.382] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:16.382] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:16.382] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:16.632] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:16.632] 4864 bytes raw data sent to male decoding engine
+[DBG@00:25:16.632] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:16.632] Converting frame from male (engine_P=185):
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "278400" 											:end_timestamp "279070" 											:frame_num "67" 										}
+Rest:
+[STD@00:25:16.632] Frame received from engine male:
+[DBG@00:25:16.632] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:16.632] 4864 bytes raw data sent to female decoding engine
+[DBG@00:25:16.632] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:16.632] Converting frame from female (engine_P=187):
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "278400" 											:end_timestamp "279070" 											:frame_num "67" 										}
+Rest:
+[STD@00:25:16.632] Frame received from engine female:
+[DBG@00:25:16.678] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:16.678] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:16.678] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:16.991] Message sent to male engine:
+engine_proc_raw 5376 
+
+[DBG@00:25:16.991] 5376 bytes raw data sent to male decoding engine
+[DBG@00:25:16.991] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:16.991] Converting frame from male (engine_P=185):
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "278400" 											:end_timestamp "279370" 											:frame_num "97" 										}
+Rest:
+[STD@00:25:16.991] Frame received from engine male:
+[DBG@00:25:16.991] Message sent to female engine:
+engine_proc_raw 5376 
+
+[DBG@00:25:17.007] 5376 bytes raw data sent to female decoding engine
+[DBG@00:25:17.007] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:17.007] Converting frame from female (engine_P=187):
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "278400" 											:end_timestamp "279370" 											:frame_num "97" 										}
+Rest:
+[STD@00:25:17.007] Frame received from engine female:
+[DBG@00:25:17.038] Message sent to dtmf engine:
+engine_proc_raw 5376 
+
+[DBG@00:25:17.038] 5376 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:17.038] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:25:17.288] End utt 008 at 289920 (SPEECH->SIL threshold: 24)
+PowHist:
+	  8      2
+	  9      7
+	 10     10
+	 11     31
+	 12     66
+	 13     73
+	 14     50
+	 15     46
+	 16     33
+	 17     31
+	 18     21
+	 19     24
+	 20     25
+	 21     20
+	 22     19
+	 23     23
+	 24     23
+	 25     21
+	 26     19
+	 27     22
+	 28     27
+	 29     18
+	 30     18
+	 31     17
+	 32     14
+	 33     14
+	 34     15
+	 35      8
+	 36      9
+	 37      7
+	 38     11
+	 39      7
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      7
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      5
+	 52      2
+	 53      2
+	 54      3
+	 55      2
+	 56      6
+	 57      5
+	 58      1
+	 59      4
+	 60      5
+	 61      2
+	 62      5
+	 63      8
+	 64     11
+	 65      7
+	 66      7
+	 67      5
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  36.86]:  0  0  0  0  0  0  0  0  2  7 10 31 66 73 50 46 33 31 21 24 25 20 19 23 23 21 19 22 27 18 18 17 14 14 15  8  9  7 11  7  7  7  7  7  7  7  7  7  7  7  6  5  2  2  3  2  6  5  1  4  5  2  5  8 11  7  7  5  7  5  6  5  3  5  2
+[DBG@00:25:17.288] *** UTT -> END ***
+[STD@00:25:17.303] end of utterance 008
+[DBG@00:25:17.303] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:25:17.303] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:25:17.303] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:25:17.319] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:25:17.319] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:25:17.319] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:25:17.319] wait for return: 0
+[DBG@00:25:17.319] Valid socket
+[DBG@00:25:17.319] Converting frame from engine male:
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "278400" 											:end_timestamp "279710" 											:frame_num "131" 										}
+Rest:
+[STD@00:25:17.319] Received results from engine male
+[DBG@00:25:17.335] Valid socket
+[DBG@00:25:17.335] Converting frame from engine female:
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "278400" 											:end_timestamp "279710" 											:frame_num "131" 										}
+Rest:
+[STD@00:25:17.335] Received results from engine female
+[DBG@00:25:17.335] Valid socket
+[DBG@00:25:17.335] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "008" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 11520 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 278400 								:end_timestamp 279840 							} 							) 						}
+Rest:
+[STD@00:25:17.335] Received results from engine dtmf
+[DBG@00:25:17.335] wait for return: 1
+[DBG@00:25:17.335] Valid socket
+[DBG@00:25:17.335] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "008" :engine_name "male" :nbest_index 0 :decoder_score -24846928.000000 :lm_score -465062.000000 :am_score -24381866.000000 :frame_num 134 :acoustic_gap_norm 31663.119141 :avg_sphinxwordconf 0.351973 :min_sphinxwordconf 0.351973 :max_sphinxwordconf 0.351973 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "18" :endframes "78" :init_timestamp 278400 :end_timestamp 279740 }  ) }
+Rest:
+[STD@00:25:17.335] Received results from engine male
+[DBG@00:25:17.335] Valid socket
+[DBG@00:25:17.335] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "008" :engine_name "female" :nbest_index 0 :decoder_score -24080618.000000 :lm_score -465062.000000 :am_score -23615556.000000 :frame_num 134 :acoustic_gap_norm 27969.462891 :avg_sphinxwordconf 0.619704 :min_sphinxwordconf 0.619704 :max_sphinxwordconf 0.619704 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "17" :endframes "80" :init_timestamp 278400 :end_timestamp 279740 }  ) }
+Rest:
+[STD@00:25:17.335] Received results from engine female
+[DBG@00:25:17.335] Valid socket
+[STD@00:25:17.335] Got results.
+[DBG@00:25:17.335] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:25:17.335] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:25:17.335] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:25:17.335] male(0): YES 
+[STD@00:25:17.335] female(0): YES 
+[STD@00:25:17.335] dtmf(0): 
+[DBG@00:25:17.335] *** END -> LISTEN ***
+[DBG@00:25:17.741] :set_lm found
+[STD@00:25:17.741] Setting LM for engine male to place
+[DBG@00:25:17.741] Message sent to male engine:
+engine_set_lm place 
+
+[STD@00:25:17.741] Setting LM for engine female to place
+[DBG@00:25:17.757] Message sent to female engine:
+engine_set_lm place 
+
+[DBG@00:25:17.757] :set_dtmf_len found
+[STD@00:25:17.757] Setting LM for engine dtmf to 1
+[DBG@00:25:17.772] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[DBG@00:25:20.460] Flushing male: 0 bytes	
+[DBG@00:25:20.460] Flushing female: 0 bytes	
+[DBG@00:25:20.460] Flushing dtmf: 0 bytes	
+[STD@00:25:20.460] Start utt 009 at 315904 (SIL->SPEECH threshold: 31)
+PowHist:
+	  8      2
+	  9      7
+	 10     12
+	 11     36
+	 12     70
+	 13     89
+	 14     61
+	 15     46
+	 16     38
+	 17     35
+	 18     24
+	 19     29
+	 20     30
+	 21     24
+	 22     22
+	 23     27
+	 24     33
+	 25     25
+	 26     27
+	 27     23
+	 28     27
+	 29     18
+	 30     17
+	 31     17
+	 32     15
+	 33     14
+	 34     16
+	 35      7
+	 36      9
+	 37      7
+	 38     11
+	 39      8
+	 40      7
+	 41      7
+	 42      9
+	 43      7
+	 44     10
+	 45      7
+	 46      7
+	 47      8
+	 48      7
+	 49      7
+	 50      6
+	 51      5
+	 52      2
+	 53      2
+	 54      3
+	 55      2
+	 56      6
+	 57      5
+	 58      1
+	 59      5
+	 60      5
+	 61      2
+	 62      6
+	 63      7
+	 64     11
+	 65      8
+	 66      8
+	 67      5
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  39.98]:  0  0  0  0  0  0  0  0  2  7 12 36 70 89 61 46 38 35 24 29 30 24 22 27 33 25 27 23 27 18 17 17 15 14 16  7  9  7 11  8  7  7  9  7 10  7  7  8  7  7  6  5  2  2  3  2  6  5  1  5  5  2  6  7 11  8  8  5  7  5  6  5  3  5  2
+[DBG@00:25:20.460] Message sent to male engine:
+engine_begin_utt 009 315904
+
+[DBG@00:25:20.460] Message sent to female engine:
+engine_begin_utt 009 315904
+
+[DBG@00:25:20.460] Message sent to dtmf engine:
+engine_begin_utt 009 315904
+
+[DBG@00:25:20.460] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:20.460] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:20.460] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:20.460] *** LISTEN -> UTT ***
+[DBG@00:25:20.710] Message sent to male engine:
+engine_proc_raw 1024 
+
+[DBG@00:25:20.710] 1024 bytes raw data sent to male decoding engine
+[DBG@00:25:20.710] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:20.710] Message sent to female engine:
+engine_proc_raw 1024 
+
+[DBG@00:25:20.710] 1024 bytes raw data sent to female decoding engine
+[DBG@00:25:20.710] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:20.725] Message sent to dtmf engine:
+engine_proc_raw 1024 
+
+[DBG@00:25:20.725] 1024 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:20.725] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:21.038] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:21.038] 5120 bytes raw data sent to male decoding engine
+[DBG@00:25:21.038] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:21.038] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:21.038] 5120 bytes raw data sent to female decoding engine
+[DBG@00:25:21.053] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:21.053] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:21.053] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:21.053] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:21.366] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:21.366] 4864 bytes raw data sent to male decoding engine
+[DBG@00:25:21.366] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:21.366] Converting frame from male (engine_P=187):
+{c properties 											:partial_hyp "NORTH " 											:engine_name "male"											:start_timestamp "315904" 											:end_timestamp "316574" 											:frame_num "67" 										}
+Rest:
+[STD@00:25:21.366] Frame received from engine male:
+[DBG@00:25:21.366] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:21.366] 4864 bytes raw data sent to female decoding engine
+[DBG@00:25:21.366] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:21.413] Converting frame from female (engine_P=189):
+{c properties 											:partial_hyp "NORTH " 											:engine_name "female"											:start_timestamp "315904" 											:end_timestamp "316574" 											:frame_num "67" 										}
+Rest:
+[STD@00:25:21.413] Frame received from engine female:
+[DBG@00:25:21.413] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:21.413] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:21.413] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:21.663] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:21.663] 5120 bytes raw data sent to male decoding engine
+[DBG@00:25:21.663] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:21.663] Converting frame from male (engine_P=187):
+{c properties 											:partial_hyp "NO SA " 											:engine_name "male"											:start_timestamp "315904" 											:end_timestamp "316874" 											:frame_num "97" 										}
+Rest:
+[STD@00:25:21.663] Frame received from engine male:
+[DBG@00:25:21.663] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:21.663] 5120 bytes raw data sent to female decoding engine
+[DBG@00:25:21.663] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:21.663] Converting frame from female (engine_P=196):
+{c properties 											:partial_hyp "NORTH SIDE   " 											:engine_name "female"											:start_timestamp "315904" 											:end_timestamp "316874" 											:frame_num "97" 										}
+Rest:
+[STD@00:25:21.663] Frame received from engine female:
+[DBG@00:25:21.694] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:21.694] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:21.694] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:21.944] Message sent to male engine:
+engine_proc_raw 2560 
+
+[DBG@00:25:21.944] 2560 bytes raw data sent to male decoding engine
+[DBG@00:25:21.944] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:21.944] Converting frame from male (engine_P=195):
+{c properties 											:partial_hyp "NORTH SIDE   " 											:engine_name "male"											:start_timestamp "315904" 											:end_timestamp "317194" 											:frame_num "129" 										}
+Rest:
+[STD@00:25:21.944] Frame received from engine male:
+[DBG@00:25:21.944] Message sent to female engine:
+engine_proc_raw 2560 
+
+[DBG@00:25:21.944] 2560 bytes raw data sent to female decoding engine
+[DBG@00:25:21.944] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:21.975] Converting frame from female (engine_P=197):
+{c properties 											:partial_hyp "NORTH SIDE   " 											:engine_name "female"											:start_timestamp "315904" 											:end_timestamp "317194" 											:frame_num "129" 										}
+Rest:
+[STD@00:25:21.975] Frame received from engine female:
+[DBG@00:25:21.975] Message sent to dtmf engine:
+engine_proc_raw 2560 
+
+[DBG@00:25:21.975] 2560 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:21.975] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:25:22.038] End utt 009 at 328576 (SPEECH->SIL threshold: 24)
+PowHist:
+	  8      2
+	  9      7
+	 10     12
+	 11     34
+	 12     70
+	 13     84
+	 14     55
+	 15     41
+	 16     36
+	 17     33
+	 18     22
+	 19     28
+	 20     29
+	 21     22
+	 22     23
+	 23     27
+	 24     36
+	 25     27
+	 26     30
+	 27     21
+	 28     26
+	 29     18
+	 30     16
+	 31     15
+	 32     14
+	 33     14
+	 34     15
+	 35      9
+	 36     11
+	 37      8
+	 38     10
+	 39      8
+	 40      7
+	 41      7
+	 42      9
+	 43      8
+	 44      9
+	 45      7
+	 46      7
+	 47      7
+	 48      9
+	 49      9
+	 50      6
+	 51      5
+	 52      2
+	 53      3
+	 54      3
+	 55      2
+	 56      6
+	 57      5
+	 58      2
+	 59      6
+	 60      6
+	 61      4
+	 62      8
+	 63      8
+	 64     12
+	 65     14
+	 66     13
+	 67      6
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  41.54]:  0  0  0  0  0  0  0  0  2  7 12 34 70 84 55 41 36 33 22 28 29 22 23 27 36 27 30 21 26 18 16 15 14 14 15  9 11  8 10  8  7  7  9  8  9  7  7  7  9  9  6  5  2  3  3  2  6  5  2  6  6  4  8  8 12 14 13  6  7  5  6  5  3  5  2
+[DBG@00:25:22.038] *** UTT -> END ***
+[STD@00:25:22.053] end of utterance 009
+[DBG@00:25:22.053] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:25:22.053] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:25:22.053] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:25:22.053] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:25:22.053] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:25:22.053] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:25:22.053] wait for return: 0
+[DBG@00:25:22.053] Valid socket
+[DBG@00:25:22.053] Valid socket
+[DBG@00:25:22.053] Valid socket
+[DBG@00:25:22.100] wait for return: 1
+[DBG@00:25:22.100] Valid socket
+[DBG@00:25:22.100] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "NORTH SIDE " :confhyp "NORTH SIDE " :uttid "009" :engine_name "male" :nbest_index 0 :decoder_score -28752260.000000 :lm_score -784161.000000 :am_score -27968100.000000 :frame_num 148 :acoustic_gap_norm 45537.539063 :avg_sphinxwordconf 0.134474 :min_sphinxwordconf 0.134474 :max_sphinxwordconf 0.134474 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "27" :endframes "103" :init_timestamp 315904 :end_timestamp 317384 }  ) }
+Rest:
+[STD@00:25:22.100] Received results from engine male
+[DBG@00:25:22.100] Valid socket
+[DBG@00:25:22.100] Valid socket
+[DBG@00:25:22.100] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "009" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 12672 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 315904 								:end_timestamp 317488 							} 							) 						}
+Rest:
+[STD@00:25:22.100] Received results from engine dtmf
+[DBG@00:25:22.100] wait for return: 2
+[DBG@00:25:22.100] Valid socket
+[DBG@00:25:22.100] Valid socket
+[DBG@00:25:22.100] Valid socket
+[DBG@00:25:22.147] wait for return: 3
+[DBG@00:25:22.147] Valid socket
+[DBG@00:25:22.147] Valid socket
+[DBG@00:25:22.147] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "NORTH SIDE " :confhyp "NORTH SIDE " :uttid "009" :engine_name "female" :nbest_index 0 :decoder_score -27469888.000000 :lm_score -784161.000000 :am_score -26685726.000000 :frame_num 148 :acoustic_gap_norm 36962.796875 :avg_sphinxwordconf 0.197564 :min_sphinxwordconf 0.197564 :max_sphinxwordconf 0.197564 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "28" :endframes "103" :init_timestamp 315904 :end_timestamp 317384 }  ) }
+Rest:
+[STD@00:25:22.147] Received results from engine female
+[DBG@00:25:22.147] Valid socket
+[STD@00:25:22.147] Got results.
+[DBG@00:25:22.147] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:25:22.147] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:25:22.147] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:25:22.147] male(0): NORTH SIDE 
+[STD@00:25:22.147] female(0): NORTH SIDE 
+[STD@00:25:22.147] dtmf(0): 
+[DBG@00:25:22.147] *** END -> LISTEN ***
+[DBG@00:25:22.460] :set_lm found
+[STD@00:25:22.460] Setting LM for engine male to yes_no
+[DBG@00:25:22.460] Message sent to male engine:
+engine_set_lm yes_no 
+
+[STD@00:25:22.460] Setting LM for engine female to yes_no
+[DBG@00:25:22.460] Message sent to female engine:
+engine_set_lm yes_no 
+
+[DBG@00:25:22.460] :set_dtmf_len found
+[STD@00:25:22.475] Setting LM for engine dtmf to 1
+[DBG@00:25:22.491] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[DBG@00:25:25.772] Flushing male: 0 bytes	
+[DBG@00:25:25.772] Flushing female: 0 bytes	
+[DBG@00:25:25.772] Flushing dtmf: 0 bytes	
+[STD@00:25:25.772] Start utt 010 at 357760 (SIL->SPEECH threshold: 31)
+PowHist:
+	  8      2
+	  9      8
+	 10     14
+	 11     33
+	 12     76
+	 13     81
+	 14     47
+	 15     38
+	 16     31
+	 17     32
+	 18     21
+	 19     23
+	 20     28
+	 21     23
+	 22     25
+	 23     26
+	 24     28
+	 25     22
+	 26     30
+	 27     16
+	 28     22
+	 29     21
+	 30     16
+	 31     17
+	 32     14
+	 33     13
+	 34     13
+	 35      8
+	 36      8
+	 37      7
+	 38      7
+	 39      8
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      9
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      5
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      6
+	 57      6
+	 58      2
+	 59      9
+	 60      8
+	 61      8
+	 62      8
+	 63      7
+	 64      9
+	 65     11
+	 66     10
+	 67      6
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  45.30]:  0  0  0  0  0  0  0  0  2  8 14 33 76 81 47 38 31 32 21 23 28 23 25 26 28 22 30 16 22 21 16 17 14 13 13  8  8  7  7  8  7  7  7  7  7  7  9  7  7  7  6  5  2  3  4  3  6  6  2  9  8  8  8  7  9 11 10  6  7  5  6  5  3  5  2
+[DBG@00:25:25.772] Message sent to male engine:
+engine_begin_utt 010 357760
+
+[DBG@00:25:25.772] Message sent to female engine:
+engine_begin_utt 010 357760
+
+[DBG@00:25:25.772] Message sent to dtmf engine:
+engine_begin_utt 010 357760
+
+[DBG@00:25:25.772] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:25.772] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:25.772] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:25.772] *** LISTEN -> UTT ***
+[DBG@00:25:26.022] Message sent to male engine:
+engine_proc_raw 2304 
+
+[DBG@00:25:26.022] 2304 bytes raw data sent to male decoding engine
+[DBG@00:25:26.022] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:26.022] Message sent to female engine:
+engine_proc_raw 2304 
+
+[DBG@00:25:26.022] 2304 bytes raw data sent to female decoding engine
+[DBG@00:25:26.022] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:26.022] Message sent to dtmf engine:
+engine_proc_raw 2304 
+
+[DBG@00:25:26.038] 2304 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:26.038] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:26.350] Message sent to male engine:
+engine_proc_raw 7424 
+
+[DBG@00:25:26.350] 7424 bytes raw data sent to male decoding engine
+[DBG@00:25:26.350] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:26.350] Converting frame from male (engine_P=186):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "male"											:start_timestamp "357760" 											:end_timestamp "358190" 											:frame_num "43" 										}
+Rest:
+[STD@00:25:26.350] Frame received from engine male:
+[DBG@00:25:26.350] Message sent to female engine:
+engine_proc_raw 7424 
+
+[DBG@00:25:26.350] 7424 bytes raw data sent to female decoding engine
+[DBG@00:25:26.350] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:26.350] Converting frame from female (engine_P=188):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "female"											:start_timestamp "357760" 											:end_timestamp "358190" 											:frame_num "43" 										}
+Rest:
+[STD@00:25:26.350] Frame received from engine female:
+[DBG@00:25:26.381] Message sent to dtmf engine:
+engine_proc_raw 7424 
+
+[DBG@00:25:26.381] 7424 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:26.381] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:25:26.631] End utt 010 at 365952 (SPEECH->SIL threshold: 24)
+PowHist:
+	  8      2
+	  9     10
+	 10     21
+	 11     46
+	 12     83
+	 13     82
+	 14     50
+	 15     38
+	 16     31
+	 17     32
+	 18     22
+	 19     25
+	 20     28
+	 21     23
+	 22     26
+	 23     26
+	 24     28
+	 25     23
+	 26     32
+	 27     20
+	 28     23
+	 29     24
+	 30     18
+	 31     18
+	 32     16
+	 33     14
+	 34     13
+	 35      9
+	 36      9
+	 37      7
+	 38      7
+	 39      8
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      8
+	 45      7
+	 46      9
+	 47      7
+	 48      8
+	 49      7
+	 50      6
+	 51      5
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      6
+	 57      6
+	 58      2
+	 59      9
+	 60      8
+	 61      8
+	 62      8
+	 63      7
+	 64      9
+	 65     11
+	 66     10
+	 67      6
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  46.22]:  0  0  0  0  0  0  0  0  2 10 21 46 83 82 50 38 31 32 22 25 28 23 26 26 28 23 32 20 23 24 18 18 16 14 13  9  9  7  7  8  7  7  7  7  8  7  9  7  8  7  6  5  2  3  4  3  6  6  2  9  8  8  8  7  9 11 10  6  7  5  6  5  3  5  2
+[DBG@00:25:26.631] *** UTT -> END ***
+[STD@00:25:26.647] end of utterance 010
+[DBG@00:25:26.647] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:25:26.647] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:25:26.647] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:25:26.647] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:25:26.647] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:25:26.647] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:25:26.647] wait for return: 0
+[DBG@00:25:26.647] Valid socket
+[DBG@00:25:26.647] Converting frame from engine male:
+{c properties 											:partial_hyp "YES FROM " 											:engine_name "male"											:start_timestamp "357760" 											:end_timestamp "358650" 											:frame_num "89" 										}
+Rest:
+[STD@00:25:26.647] Received results from engine male
+[DBG@00:25:26.647] Valid socket
+[DBG@00:25:26.647] Valid socket
+[DBG@00:25:26.663] wait for return: 1
+[DBG@00:25:26.663] Valid socket
+[DBG@00:25:26.663] Valid socket
+[DBG@00:25:26.663] Valid socket
+[DBG@00:25:26.663] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "010" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 8192 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 357760 								:end_timestamp 358784 							} 							) 						}
+Rest:
+[STD@00:25:26.663] Received results from engine dtmf
+[DBG@00:25:26.663] wait for return: 2
+[DBG@00:25:26.663] Valid socket
+[DBG@00:25:26.663] Valid socket
+[DBG@00:25:26.663] Valid socket
+[DBG@00:25:26.709] wait for return: 3
+[DBG@00:25:26.709] Valid socket
+[DBG@00:25:26.709] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "010" :engine_name "male" :nbest_index 0 :decoder_score -15698052.000000 :lm_score -196024.000000 :am_score -15502028.000000 :frame_num 92 :acoustic_gap_norm 32909.347656 :avg_sphinxwordconf 0.492958 :min_sphinxwordconf 0.492958 :max_sphinxwordconf 0.492958 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "18" :endframes "68" :init_timestamp 357760 :end_timestamp 358680 }  ) }
+Rest:
+[STD@00:25:26.709] Received results from engine male
+[DBG@00:25:26.709] Valid socket
+[DBG@00:25:26.709] Converting frame from engine female:
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "357760" 											:end_timestamp "358650" 											:frame_num "89" 										}
+Rest:{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "010" :engine_name "female" :nbest_index 0 :decoder_score -15035789.000000 :lm_score -196024.000000 :am_score -14839765.000000 :frame_num 92 :acoustic_gap_norm 29940.402344 :avg_sphinxwordconf 0.550860 :min_sphinxwordconf 0.550860 :max_sphinxwordconf 0.550860 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "18" :endframes "83" :init_timestamp 357760 :end_timestamp 358680 }  ) }
+[STD@00:25:26.709] Received results from engine female
+[DBG@00:25:26.709] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "010" :engine_name "female" :nbest_index 0 :decoder_score -15035789.000000 :lm_score -196024.000000 :am_score -14839765.000000 :frame_num 92 :acoustic_gap_norm 29940.402344 :avg_sphinxwordconf 0.550860 :min_sphinxwordconf 0.550860 :max_sphinxwordconf 0.550860 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "18" :endframes "83" :init_timestamp 357760 :end_timestamp 358680 }  ) }
+Rest:
+[STD@00:25:26.709] Received results from engine female
+[DBG@00:25:26.709] Valid socket
+[STD@00:25:26.709] Got results.
+[DBG@00:25:26.709] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:25:26.709] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:25:26.709] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:25:26.709] male(0): YES 
+[STD@00:25:26.709] female(0): YES 
+[STD@00:25:26.709] dtmf(0): 
+[DBG@00:25:26.709] *** END -> LISTEN ***
+[DBG@00:25:27.022] :set_lm found
+[STD@00:25:27.022] Setting LM for engine male to time
+[DBG@00:25:27.022] Message sent to male engine:
+engine_set_lm time 
+
+[STD@00:25:27.022] Setting LM for engine female to time
+[DBG@00:25:27.022] Message sent to female engine:
+engine_set_lm time 
+
+[DBG@00:25:27.022] :set_dtmf_len found
+[STD@00:25:27.022] Setting LM for engine dtmf to 1
+[DBG@00:25:27.038] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[DBG@00:25:30.147] Flushing male: 0 bytes	
+[DBG@00:25:30.147] Flushing female: 0 bytes	
+[DBG@00:25:30.147] Flushing dtmf: 0 bytes	
+[STD@00:25:30.147] Start utt 011 at 392320 (SIL->SPEECH threshold: 31)
+PowHist:
+	  8      2
+	  9      8
+	 10     18
+	 11     49
+	 12     79
+	 13     68
+	 14     39
+	 15     32
+	 16     31
+	 17     30
+	 18     21
+	 19     22
+	 20     26
+	 21     22
+	 22     23
+	 23     27
+	 24     25
+	 25     28
+	 26     28
+	 27     18
+	 28     21
+	 29     18
+	 30     18
+	 31     14
+	 32     16
+	 33     14
+	 34     12
+	 35      9
+	 36      7
+	 37      7
+	 38      7
+	 39      7
+	 40      7
+	 41      8
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      7
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      5
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      6
+	 57      6
+	 58      2
+	 59      7
+	 60      7
+	 61      7
+	 62      7
+	 63      7
+	 64      7
+	 65     10
+	 66      8
+	 67      9
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  49.66]:  0  0  0  0  0  0  0  0  2  8 18 49 79 68 39 32 31 30 21 22 26 22 23 27 25 28 28 18 21 18 18 14 16 14 12  9  7  7  7  7  7  8  7  7  7  7  7  7  7  7  6  5  2  3  4  3  6  6  2  7  7  7  7  7  7 10  8  9  7  5  6  5  3  5  2
+[DBG@00:25:30.147] Message sent to male engine:
+engine_begin_utt 011 392320
+
+[DBG@00:25:30.147] Message sent to female engine:
+engine_begin_utt 011 392320
+
+[DBG@00:25:30.147] Message sent to dtmf engine:
+engine_begin_utt 011 392320
+
+[DBG@00:25:30.147] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:30.147] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:30.147] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:30.147] *** LISTEN -> UTT ***
+[DBG@00:25:30.397] Message sent to male engine:
+engine_proc_raw 3328 
+
+[DBG@00:25:30.397] 3328 bytes raw data sent to male decoding engine
+[DBG@00:25:30.397] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:30.397] Message sent to female engine:
+engine_proc_raw 3328 
+
+[DBG@00:25:30.397] 3328 bytes raw data sent to female decoding engine
+[DBG@00:25:30.397] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:30.428] Message sent to dtmf engine:
+engine_proc_raw 3328 
+
+[DBG@00:25:30.428] 3328 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:30.428] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:30.741] Message sent to male engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:30.741] 4864 bytes raw data sent to male decoding engine
+[DBG@00:25:30.741] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:30.741] Converting frame from male (engine_P=185):
+{c properties 											:partial_hyp "NOW " 											:engine_name "male"											:start_timestamp "392320" 											:end_timestamp "392810" 											:frame_num "49" 										}
+Rest:
+[STD@00:25:30.741] Frame received from engine male:
+[DBG@00:25:30.741] Message sent to female engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:30.741] 4864 bytes raw data sent to female decoding engine
+[DBG@00:25:30.741] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:30.741] Converting frame from female (engine_P=187):
+{c properties 											:partial_hyp "NOW " 											:engine_name "female"											:start_timestamp "392320" 											:end_timestamp "392810" 											:frame_num "49" 										}
+Rest:
+[STD@00:25:30.741] Frame received from engine female:
+[DBG@00:25:30.772] Message sent to dtmf engine:
+engine_proc_raw 4864 
+
+[DBG@00:25:30.772] 4864 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:30.772] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:31.022] Message sent to male engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:31.022] 5120 bytes raw data sent to male decoding engine
+[DBG@00:25:31.022] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:31.022] Converting frame from male (engine_P=185):
+{c properties 											:partial_hyp "NOW " 											:engine_name "male"											:start_timestamp "392320" 											:end_timestamp "393120" 											:frame_num "80" 										}
+Rest:
+[STD@00:25:31.022] Frame received from engine male:
+[DBG@00:25:31.022] Message sent to female engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:31.022] 5120 bytes raw data sent to female decoding engine
+[DBG@00:25:31.038] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:31.038] Converting frame from female (engine_P=187):
+{c properties 											:partial_hyp "NOW " 											:engine_name "female"											:start_timestamp "392320" 											:end_timestamp "393120" 											:frame_num "80" 										}
+Rest:
+[STD@00:25:31.038] Frame received from engine female:
+[DBG@00:25:31.069] Message sent to dtmf engine:
+engine_proc_raw 5120 
+
+[DBG@00:25:31.069] 5120 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:31.069] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:31.319] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:31.319] 6656 bytes raw data sent to male decoding engine
+[DBG@00:25:31.319] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:31.319] Converting frame from male (engine_P=186):
+{c properties 											:partial_hyp "NOW " 											:engine_name "male"											:start_timestamp "392320" 											:end_timestamp "393440" 											:frame_num "112" 										}
+Rest:
+[STD@00:25:31.319] Frame received from engine male:
+[DBG@00:25:31.319] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:31.319] 6656 bytes raw data sent to female decoding engine
+[DBG@00:25:31.319] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:31.350] Converting frame from female (engine_P=188):
+{c properties 											:partial_hyp "NOW " 											:engine_name "female"											:start_timestamp "392320" 											:end_timestamp "393440" 											:frame_num "112" 										}
+Rest:
+[STD@00:25:31.350] Frame received from engine female:
+[DBG@00:25:31.350] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:31.350] 6656 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:31.350] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:25:31.663] End utt 011 at 405632 (SPEECH->SIL threshold: 24)
+PowHist:
+	  8      2
+	  9      8
+	 10     18
+	 11     52
+	 12     86
+	 13     67
+	 14     39
+	 15     31
+	 16     28
+	 17     28
+	 18     20
+	 19     22
+	 20     28
+	 21     21
+	 22     23
+	 23     26
+	 24     23
+	 25     28
+	 26     27
+	 27     18
+	 28     19
+	 29     18
+	 30     17
+	 31     13
+	 32     15
+	 33     14
+	 34     11
+	 35      9
+	 36      7
+	 37      7
+	 38      7
+	 39      7
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      7
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      6
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      7
+	 57      6
+	 58      2
+	 59      7
+	 60      7
+	 61      8
+	 62      7
+	 63      7
+	 64      8
+	 65     11
+	 66     13
+	 67      8
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  51.23]:  0  0  0  0  0  0  0  0  2  8 18 52 86 67 39 31 28 28 20 22 28 21 23 26 23 28 27 18 19 18 17 13 15 14 11  9  7  7  7  7  7  7  7  7  7  7  7  7  7  7  6  6  2  3  4  3  7  6  2  7  7  8  7  7  8 11 13  8  7  5  6  5  3  5  2
+[DBG@00:25:31.663] *** UTT -> END ***
+[STD@00:25:31.678] end of utterance 011
+[DBG@00:25:31.678] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:25:31.678] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:25:31.678] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:25:31.678] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:25:31.678] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:25:31.678] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:25:31.678] wait for return: 0
+[DBG@00:25:31.678] Valid socket
+[DBG@00:25:31.678] Valid socket
+[DBG@00:25:31.678] Valid socket
+[DBG@00:25:31.725] wait for return: 1
+[DBG@00:25:31.725] Valid socket
+[DBG@00:25:31.725] Converting frame from engine male:
+{c properties 											:partial_hyp "NOW " 											:engine_name "male"											:start_timestamp "392320" 											:end_timestamp "393850" 											:frame_num "153" 										}
+Rest:{c result :results ( {c hypothesis :hyp "NOW " :confhyp "NOW " :uttid "011" :engine_name "male" :nbest_index 0 :decoder_score -28820528.000000 :lm_score -1178930.000000 :am_score -27641600.000000 :frame_num 156 :acoustic_gap_norm 31899.896484 :avg_sphinxwordconf 0.301935 :min_sphinxwordconf 0.301935 :max_sphinxwordconf 0.301935 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "27" :endframes "84" :init_timestamp 392320 :end_timestamp 393880 }  ) }
+[STD@00:25:31.725] Received results from engine male
+[DBG@00:25:31.725] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "NOW " :confhyp "NOW " :uttid "011" :engine_name "male" :nbest_index 0 :decoder_score -28820528.000000 :lm_score -1178930.000000 :am_score -27641600.000000 :frame_num 156 :acoustic_gap_norm 31899.896484 :avg_sphinxwordconf 0.301935 :min_sphinxwordconf 0.301935 :max_sphinxwordconf 0.301935 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "27" :endframes "84" :init_timestamp 392320 :end_timestamp 393880 }  ) }
+Rest:
+[STD@00:25:31.725] Received results from engine male
+[DBG@00:25:31.725] Valid socket
+[DBG@00:25:31.725] Converting frame from engine female:
+{c properties 											:partial_hyp "NOW " 											:engine_name "female"											:start_timestamp "392320" 											:end_timestamp "393850" 											:frame_num "153" 										}
+Rest:{c result :results ( {c hypothesis :hyp "NOW " :confhyp "NOW " :uttid "011" :engine_name "female" :nbest_index 0 :decoder_score -28149800.000000 :lm_score -771376.000000 :am_score -27378424.000000 :frame_num 156 :acoustic_gap_norm 31985.179688 :avg_sphinxwordconf 0.472060 :min_sphinxwordconf 0.472060 :max_sphinxwordconf 0.472060 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "31" :endframes "84" :init_timestamp 392320 :end_timestamp 393880 }  ) }
+[STD@00:25:31.725] Received results from engine female
+[DBG@00:25:31.725] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "NOW " :confhyp "NOW " :uttid "011" :engine_name "female" :nbest_index 0 :decoder_score -28149800.000000 :lm_score -771376.000000 :am_score -27378424.000000 :frame_num 156 :acoustic_gap_norm 31985.179688 :avg_sphinxwordconf 0.472060 :min_sphinxwordconf 0.472060 :max_sphinxwordconf 0.472060 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "31" :endframes "84" :init_timestamp 392320 :end_timestamp 393880 }  ) }
+Rest:
+[STD@00:25:31.725] Received results from engine female
+[DBG@00:25:31.725] Valid socket
+[DBG@00:25:31.725] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "011" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 13312 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 392320 								:end_timestamp 393984 							} 							) 						}
+Rest:
+[STD@00:25:31.725] Received results from engine dtmf
+[STD@00:25:31.725] Got results.
+[DBG@00:25:31.725] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:25:31.725] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:25:31.725] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:25:31.725] male(0): NOW 
+[STD@00:25:31.725] female(0): NOW 
+[STD@00:25:31.725] dtmf(0): 
+[DBG@00:25:31.725] *** END -> LISTEN ***
+[DBG@00:25:32.038] :set_lm found
+[STD@00:25:32.038] Setting LM for engine male to yes_no
+[DBG@00:25:32.038] Message sent to male engine:
+engine_set_lm yes_no 
+
+[STD@00:25:32.038] Setting LM for engine female to yes_no
+[DBG@00:25:32.038] Message sent to female engine:
+engine_set_lm yes_no 
+
+[DBG@00:25:32.069] :set_dtmf_len found
+[STD@00:25:32.069] Setting LM for engine dtmf to 1
+[DBG@00:25:32.069] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[DBG@00:25:35.787] Flushing male: 0 bytes	
+[DBG@00:25:35.787] Flushing female: 0 bytes	
+[DBG@00:25:35.787] Flushing dtmf: 0 bytes	
+[STD@00:25:35.787] Start utt 012 at 438016 (SIL->SPEECH threshold: 31)
+PowHist:
+	  8      2
+	  9      8
+	 10     22
+	 11     65
+	 12    116
+	 13     62
+	 14     40
+	 15     32
+	 16     28
+	 17     26
+	 18     21
+	 19     24
+	 20     25
+	 21     23
+	 22     28
+	 23     27
+	 24     26
+	 25     30
+	 26     27
+	 27     21
+	 28     20
+	 29     18
+	 30     16
+	 31     14
+	 32     17
+	 33     13
+	 34     14
+	 35      9
+	 36      7
+	 37      8
+	 38      7
+	 39      7
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      7
+	 47      8
+	 48      7
+	 49      7
+	 50      6
+	 51      6
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      8
+	 57      6
+	 58      3
+	 59      9
+	 60      7
+	 61      7
+	 62     13
+	 63     10
+	 64      7
+	 65      9
+	 66     11
+	 67      7
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  55.30]:  0  0  0  0  0  0  0  0  2  8 22 65 116 62 40 32 28 26 21 24 25 23 28 27 26 30 27 21 20 18 16 14 17 13 14  9  7  8  7  7  7  7  7  7  7  7  7  8  7  7  6  6  2  3  4  3  8  6  3  9  7  7 13 10  7  9 11  7  7  5  6  5  3  5  2
+[DBG@00:25:35.803] Message sent to male engine:
+engine_begin_utt 012 438016
+
+[DBG@00:25:35.803] Message sent to female engine:
+engine_begin_utt 012 438016
+
+[DBG@00:25:35.803] Message sent to dtmf engine:
+engine_begin_utt 012 438016
+
+[DBG@00:25:35.803] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:35.803] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:35.803] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:35.803] *** LISTEN -> UTT ***
+[DBG@00:25:36.053] Message sent to male engine:
+engine_proc_raw 1792 
+
+[DBG@00:25:36.053] 1792 bytes raw data sent to male decoding engine
+[DBG@00:25:36.053] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:36.053] Message sent to female engine:
+engine_proc_raw 1792 
+
+[DBG@00:25:36.053] 1792 bytes raw data sent to female decoding engine
+[DBG@00:25:36.053] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:36.053] Message sent to dtmf engine:
+engine_proc_raw 1792 
+
+[DBG@00:25:36.069] 1792 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:36.069] Message sent to dtmf engine:
+engine_proc_partial 
+
+[DBG@00:25:36.319] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:36.319] 6656 bytes raw data sent to male decoding engine
+[DBG@00:25:36.319] Message sent to male engine:
+engine_proc_partial 
+
+[DBG@00:25:36.319] Converting frame from male (engine_P=186):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "male"											:start_timestamp "438016" 											:end_timestamp "438416" 											:frame_num "40" 										}
+Rest:
+[STD@00:25:36.319] Frame received from engine male:
+[DBG@00:25:36.319] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:36.319] 6656 bytes raw data sent to female decoding engine
+[DBG@00:25:36.319] Message sent to female engine:
+engine_proc_partial 
+
+[DBG@00:25:36.334] Converting frame from female (engine_P=188):
+{c properties 											:partial_hyp "YEAH " 											:engine_name "female"											:start_timestamp "438016" 											:end_timestamp "438416" 											:frame_num "40" 										}
+Rest:
+[STD@00:25:36.334] Frame received from engine female:
+[DBG@00:25:36.366] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:36.366] 6656 bytes raw data sent to dtmf decoding engine
+[DBG@00:25:36.366] Message sent to dtmf engine:
+engine_proc_partial 
+
+[STD@00:25:36.678] End utt 012 at 445568 (SPEECH->SIL threshold: 24)
+PowHist:
+	  8      2
+	  9      9
+	 10     25
+	 11     75
+	 12    108
+	 13     58
+	 14     35
+	 15     29
+	 16     25
+	 17     23
+	 18     19
+	 19     22
+	 20     22
+	 21     21
+	 22     25
+	 23     24
+	 24     23
+	 25     27
+	 26     25
+	 27     20
+	 28     20
+	 29     21
+	 30     17
+	 31     14
+	 32     17
+	 33     12
+	 34     13
+	 35      8
+	 36      7
+	 37      7
+	 38      7
+	 39      7
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      7
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      6
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      8
+	 57      6
+	 58      3
+	 59      8
+	 60      7
+	 61      7
+	 62     12
+	 63      9
+	 64      7
+	 65      8
+	 66     10
+	 67      7
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  56.22]:  0  0  0  0  0  0  0  0  2  9 25 75 108 58 35 29 25 23 19 22 22 21 25 24 23 27 25 20 20 21 17 14 17 12 13  8  7  7  7  7  7  7  7  7  7  7  7  7  7  7  6  6  2  3  4  3  8  6  3  8  7  7 12  9  7  8 10  7  7  5  6  5  3  5  2
+[DBG@00:25:36.678] *** UTT -> END ***
+[STD@00:25:36.694] end of utterance 012
+[DBG@00:25:36.694] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:25:36.694] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:25:36.694] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:25:36.709] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:25:36.709] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:25:36.709] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:25:36.709] wait for return: 0
+[DBG@00:25:36.709] Valid socket
+[DBG@00:25:36.709] Converting frame from engine male:
+{c properties 											:partial_hyp "YES " 											:engine_name "male"											:start_timestamp "438016" 											:end_timestamp "438826" 											:frame_num "81" 										}
+Rest:{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "012" :engine_name "male" :nbest_index 0 :decoder_score -14625323.000000 :lm_score -249010.000000 :am_score -14376313.000000 :frame_num 84 :acoustic_gap_norm 30712.296875 :avg_sphinxwordconf 0.449876 :min_sphinxwordconf 0.449876 :max_sphinxwordconf 0.449876 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "18" :endframes "75" :init_timestamp 438016 :end_timestamp 438856 }  ) }
+[STD@00:25:36.709] Received results from engine male
+[DBG@00:25:36.725] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "012" :engine_name "male" :nbest_index 0 :decoder_score -14625323.000000 :lm_score -249010.000000 :am_score -14376313.000000 :frame_num 84 :acoustic_gap_norm 30712.296875 :avg_sphinxwordconf 0.449876 :min_sphinxwordconf 0.449876 :max_sphinxwordconf 0.449876 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "18" :endframes "75" :init_timestamp 438016 :end_timestamp 438856 }  ) }
+Rest:
+[STD@00:25:36.725] Received results from engine male
+[DBG@00:25:36.725] Valid socket
+[DBG@00:25:36.725] Converting frame from engine female:
+{c properties 											:partial_hyp "YES " 											:engine_name "female"											:start_timestamp "438016" 											:end_timestamp "438826" 											:frame_num "81" 										}
+Rest:
+[STD@00:25:36.725] Received results from engine female
+[DBG@00:25:36.725] Valid socket
+[DBG@00:25:36.725] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "012" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 7552 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 438016 								:end_timestamp 438960 							} 							) 						}
+Rest:
+[STD@00:25:36.725] Received results from engine dtmf
+[DBG@00:25:36.725] wait for return: 1
+[DBG@00:25:36.725] Valid socket
+[DBG@00:25:36.725] Valid socket
+[DBG@00:25:36.725] Valid socket
+[DBG@00:25:36.772] wait for return: 2
+[DBG@00:25:36.772] Valid socket
+[DBG@00:25:36.772] Valid socket
+[DBG@00:25:36.772] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "YES " :confhyp "YES " :uttid "012" :engine_name "female" :nbest_index 0 :decoder_score -13568645.000000 :lm_score -249010.000000 :am_score -13319635.000000 :frame_num 84 :acoustic_gap_norm 27092.796875 :avg_sphinxwordconf 0.619400 :min_sphinxwordconf 0.619400 :max_sphinxwordconf 0.619400 :avg_wordconf 0.916667 :min_wordconf 0.916667 :max_wordconf 0.916667 :avg_validwordconf 0.916667 :min_validwordconf 0.916667 :max_validwordconf 0.916667 :startframes "18" :endframes "77" :init_timestamp 438016 :end_timestamp 438856 }  ) }
+Rest:
+[STD@00:25:36.772] Received results from engine female
+[DBG@00:25:36.772] Valid socket
+[STD@00:25:36.772] Got results.
+[DBG@00:25:36.772] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:25:36.772] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:25:36.772] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:25:36.772] male(0): YES 
+[STD@00:25:36.772] female(0): YES 
+[STD@00:25:36.772] dtmf(0): 
+[DBG@00:25:36.772] *** END -> LISTEN ***
+[DBG@00:25:37.569] :set_lm found
+[STD@00:25:37.569] Setting LM for engine male to next_query
+[DBG@00:25:37.569] Message sent to male engine:
+engine_set_lm next_query 
+
+[STD@00:25:37.569] Setting LM for engine female to next_query
+[DBG@00:25:37.584] Message sent to female engine:
+engine_set_lm next_query 
+
+[DBG@00:25:37.584] :set_dtmf_len found
+[STD@00:25:37.584] Setting LM for engine dtmf to 1
+[DBG@00:25:37.584] Message sent to dtmf engine:
+engine_set_lm 1 
+
+[STD@00:25:40.850] received stop_decoding
+[DBG@00:25:41.694] Flushing male: 0 bytes	
+[DBG@00:25:41.694] Flushing female: 0 bytes	
+[DBG@00:25:41.694] Flushing dtmf: 0 bytes	
+[STD@00:25:41.694] Start utt 013_000 at 485120 (SIL->SPEECH threshold: 31)
+PowHist:
+	  8      2
+	  9      7
+	 10     22
+	 11     75
+	 12    113
+	 13     60
+	 14     35
+	 15     30
+	 16     23
+	 17     21
+	 18     22
+	 19     22
+	 20     25
+	 21     24
+	 22     33
+	 23     27
+	 24     26
+	 25     25
+	 26     31
+	 27     18
+	 28     26
+	 29     24
+	 30     16
+	 31     16
+	 32     14
+	 33      9
+	 34     12
+	 35     10
+	 36      9
+	 37     10
+	 38      7
+	 39      7
+	 40      8
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      7
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      6
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      7
+	 57      6
+	 58      3
+	 59      7
+	 60      7
+	 61      7
+	 62      9
+	 63      7
+	 64      7
+	 65      7
+	 66      7
+	 67      7
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  61.23]:  0  0  0  0  0  0  0  0  2  7 22 75 113 60 35 30 23 21 22 22 25 24 33 27 26 25 31 18 26 24 16 16 14  9 12 10  9 10  7  7  8  7  7  7  7  7  7  7  7  7  6  6  2  3  4  3  7  6  3  7  7  7  9  7  7  7  7  7  7  5  6  5  3  5  2
+[DBG@00:25:41.694] *** LISTEN -> UTT ***
+[STD@00:25:42.256] End utt 013_000 at 489728 (SPEECH->SIL threshold: 24)
+PowHist:
+	  8      2
+	  9      8
+	 10     23
+	 11     79
+	 12    117
+	 13     69
+	 14     39
+	 15     31
+	 16     26
+	 17     25
+	 18     22
+	 19     22
+	 20     26
+	 21     24
+	 22     36
+	 23     29
+	 24     28
+	 25     25
+	 26     31
+	 27     18
+	 28     26
+	 29     24
+	 30     16
+	 31     16
+	 32     14
+	 33      9
+	 34     12
+	 35     10
+	 36      9
+	 37     10
+	 38      7
+	 39      7
+	 40      8
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      7
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      6
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      7
+	 57      6
+	 58      3
+	 59      7
+	 60      7
+	 61      7
+	 62      9
+	 63      7
+	 64      7
+	 65      7
+	 66      7
+	 67      7
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  61.86]:  0  0  0  0  0  0  0  0  2  8 23 79 117 69 39 31 26 25 22 22 26 24 36 29 28 25 31 18 26 24 16 16 14  9 12 10  9 10  7  7  8  7  7  7  7  7  7  7  7  7  6  6  2  3  4  3  7  6  3  7  7  7  9  7  7  7  7  7  7  5  6  5  3  5  2
+[DBG@00:25:42.256] *** UTT -> END ***
+[DBG@00:25:42.272] *** END -> LISTEN ***
+[DBG@00:25:43.272] Flushing male: 0 bytes	
+[DBG@00:25:43.272] Flushing female: 0 bytes	
+[DBG@00:25:43.272] Flushing dtmf: 0 bytes	
+[STD@00:25:43.272] Start utt 013_001 at 496896 (SIL->SPEECH threshold: 31)
+PowHist:
+	  8      2
+	  9      7
+	 10     21
+	 11     70
+	 12    103
+	 13     61
+	 14     37
+	 15     35
+	 16     27
+	 17     25
+	 18     21
+	 19     23
+	 20     23
+	 21     21
+	 22     33
+	 23     26
+	 24     27
+	 25     23
+	 26     29
+	 27     19
+	 28     33
+	 29     23
+	 30     17
+	 31     15
+	 32     16
+	 33     11
+	 34     14
+	 35     10
+	 36      8
+	 37      9
+	 38      7
+	 39      7
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      7
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      6
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      7
+	 57      6
+	 58      3
+	 59      7
+	 60      7
+	 61      7
+	 62      8
+	 63      7
+	 64      7
+	 65      7
+	 66      7
+	 67      7
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  62.80]:  0  0  0  0  0  0  0  0  2  7 21 70 103 61 37 35 27 25 21 23 23 21 33 26 27 23 29 19 33 23 17 15 16 11 14 10  8  9  7  7  7  7  7  7  7  7  7  7  7  7  6  6  2  3  4  3  7  6  3  7  7  7  8  7  7  7  7  7  7  5  6  5  3  5  2
+[DBG@00:25:43.272] *** LISTEN -> UTT ***
+[STD@00:25:44.459] End utt 013_001 at 506240 (SPEECH->SIL threshold: 24)
+PowHist:
+	  8      2
+	  9      7
+	 10     19
+	 11     62
+	 12     91
+	 13     54
+	 14     33
+	 15     31
+	 16     24
+	 17     22
+	 18     22
+	 19     30
+	 20     35
+	 21     25
+	 22     32
+	 23     26
+	 24     29
+	 25     24
+	 26     33
+	 27     20
+	 28     36
+	 29     23
+	 30     16
+	 31     14
+	 32     14
+	 33     10
+	 34     13
+	 35      9
+	 36      7
+	 37      8
+	 38      7
+	 39      7
+	 40      7
+	 41      7
+	 42      7
+	 43      7
+	 44      7
+	 45      7
+	 46      7
+	 47      7
+	 48      7
+	 49      7
+	 50      6
+	 51      6
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      7
+	 57      6
+	 58      3
+	 59      7
+	 60      7
+	 61      7
+	 62      7
+	 63      7
+	 64      7
+	 65      7
+	 66      7
+	 67      7
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  64.05]:  0  0  0  0  0  0  0  0  2  7 19 62 91 54 33 31 24 22 22 30 35 25 32 26 29 24 33 20 36 23 16 14 14 10 13  9  7  8  7  7  7  7  7  7  7  7  7  7  7  7  6  6  2  3  4  3  7  6  3  7  7  7  7  7  7  7  7  7  7  5  6  5  3  5  2
+[DBG@00:25:44.459] *** UTT -> END ***
+[DBG@00:25:44.475] *** END -> LISTEN ***
+[DBG@00:25:56.412] Flushing male: 0 bytes	
+[DBG@00:25:56.412] Flushing female: 0 bytes	
+[DBG@00:25:56.412] Flushing dtmf: 0 bytes	
+[STD@00:25:56.412] Start utt 013 at 603648 (SIL->SPEECH threshold: 30)
+PowHist:
+	  8      2
+	  9     14
+	 10     28
+	 11     76
+	 12     64
+	 13     45
+	 14     38
+	 15     46
+	 16     36
+	 17     34
+	 18     32
+	 19     39
+	 20     41
+	 21     33
+	 22     33
+	 23     28
+	 24     29
+	 25     27
+	 26     30
+	 27     25
+	 28     29
+	 29     26
+	 30     20
+	 31     11
+	 32     13
+	 33      7
+	 34      8
+	 35      7
+	 36      7
+	 37      7
+	 38      7
+	 39      7
+	 40      7
+	 41      8
+	 42      8
+	 43      7
+	 44      7
+	 45      8
+	 46      7
+	 47      9
+	 48      8
+	 49      8
+	 50      6
+	 51      6
+	 52      2
+	 53      3
+	 54      4
+	 55      3
+	 56      7
+	 57      6
+	 58      3
+	 59      8
+	 60      7
+	 61      7
+	 62      7
+	 63      7
+	 64      7
+	 65      7
+	 66      7
+	 67      7
+	 68      7
+	 69      5
+	 70      6
+	 71      5
+	 72      3
+	 73      5
+	 74      2
+PH[  75.92]:  0  0  0  0  0  0  0  0  2 14 28 76 64 45 38 46 36 34 32 39 41 33 33 28 29 27 30 25 29 26 20 11 13  7  8  7  7  7  7  7  7  8  8  7  7  8  7  9  8  8  6  6  2  3  4  3  7  6  3  8  7  7  7  7  7  7  7  7  7  5  6  5  3  5  2
+[DBG@00:25:56.412] Message sent to male engine:
+engine_begin_utt 013 603648
+
+[DBG@00:25:56.412] Message sent to female engine:
+engine_begin_utt 013 603648
+
+[DBG@00:25:56.412] Message sent to dtmf engine:
+engine_begin_utt 013 603648
+
+[DBG@00:25:56.412] Message sent to male engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:56.412] Message sent to female engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:56.412] Message sent to dtmf engine:
+engine_proc_raw 6656 
+
+[DBG@00:25:56.412] *** LISTEN -> UTT ***
+[DBG@00:25:56.600] *** UTT -> END ***
+[STD@00:25:56.615] end of utterance 013
+[DBG@00:25:56.615] Message sent to male engine:
+engine_end_utt 
+
+[DBG@00:25:56.615] Message sent to male engine:
+engine_proc_result 
+
+[DBG@00:25:56.615] Message sent to female engine:
+engine_end_utt 
+
+[DBG@00:25:56.615] Message sent to female engine:
+engine_proc_result 
+
+[DBG@00:25:56.615] Message sent to dtmf engine:
+engine_end_utt 
+
+[DBG@00:25:56.615] Message sent to dtmf engine:
+engine_proc_result 
+
+[DBG@00:25:56.615] wait for return: 0
+[DBG@00:25:56.615] Valid socket
+[DBG@00:25:56.615] Valid socket
+[DBG@00:25:56.615] Valid socket
+[DBG@00:25:56.662] wait for return: 1
+[DBG@00:25:56.662] Valid socket
+[DBG@00:25:56.662] Valid socket
+[DBG@00:25:56.662] Valid socket
+[DBG@00:25:56.662] Converting frame from engine dtmf:
+{c result 					        :results ( 		                    {c hypothesis 							    :hyp "" 								:confhyp "" 								:uttid "013" 								:engine_name "dtmf" 								:decoder_score 1.000000 								:lm_score 0 								:am_score 0 								:frame_num 3328 								:acoustic_gap_norm 0 								:avg_wordconf 0 								:min_wordconf 0 								:max_wordconf 0 								:avg_validwordconf 0 								:min_validwordconf 0 								:max_validwordconf 0 								:startframes "" 								:endframes "" 								:init_timestamp 603648 								:end_timestamp 604064 							} 							) 						}
+Rest:
+[STD@00:25:56.662] Received results from engine dtmf
+[DBG@00:25:56.662] wait for return: 2
+[DBG@00:25:56.662] Valid socket
+[DBG@00:25:56.662] Valid socket
+[DBG@00:25:56.662] Valid socket
+[DBG@00:25:56.709] wait for return: 3
+[DBG@00:25:56.709] Valid socket
+[DBG@00:25:56.709] Valid socket
+[DBG@00:25:56.709] Valid socket
+[DBG@00:25:56.756] wait for return: 4
+[DBG@00:25:56.756] Valid socket
+[DBG@00:25:56.756] Converting frame from engine male:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "013" :engine_name "male" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 32 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 603648 :end_timestamp 603968 }  ) }
+Rest:
+[STD@00:25:56.756] Received results from engine male
+[DBG@00:25:56.756] Valid socket
+[DBG@00:25:56.756] Converting frame from engine female:
+{c result :results ( {c hypothesis :hyp "" :confhyp "" :uttid "013" :engine_name "female" :nbest_index 0 :decoder_score 0.000000 :lm_score 0.000000 :am_score 0.000000 :frame_num 33 :acoustic_gap_norm 0.000000 :avg_sphinxwordconf 0.000000 :min_sphinxwordconf 1.000000 :max_sphinxwordconf 0.000000 :avg_wordconf 0.000000 :min_wordconf 0.000000 :max_wordconf 0.000000 :avg_validwordconf 0.000000 :min_validwordconf 0.000000 :max_validwordconf 0.000000 :startframes "" :endframes "" :init_timestamp 603648 :end_timestamp 603978 }  ) }
+Rest:
+[STD@00:25:56.756] Received results from engine female
+[DBG@00:25:56.756] Valid socket
+[STD@00:25:56.756] Got results.
+[DBG@00:25:56.756] Message sent to male engine:
+engine_cancel_utt 
+
+[DBG@00:25:56.756] Message sent to female engine:
+engine_cancel_utt 
+
+[DBG@00:25:56.756] Message sent to dtmf engine:
+engine_cancel_utt 
+
+[STD@00:25:56.756] male(0): 
+[STD@00:25:56.756] female(0): 
+[STD@00:25:56.756] dtmf(0): 
+[STD@00:25:56.928] flushing audio buffer
+[DBG@00:25:56.928] *** END -> IDLE ***

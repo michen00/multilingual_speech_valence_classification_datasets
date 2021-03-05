@@ -1,0 +1,622 @@
+[CTH@19:13:57.268] Initializing Core ...
+[CTH@19:13:57.268] Core initialization parameters dumped below:
+broadcast_state = helios.set_dialog_state
+default_nonunderstanding_threshold = 0.0
+default_timeout = 8
+displayed_streams = GMS:1101;COR:1111
+dmi_verbosity = 1
+exit_on_fatal_error = true
+grounding_manager_configuration = turns:moffo_letsgopublic;concepts:default
+grounding_policies_file = grounding.policies
+log_dir = ..\..\logs\LetsGoPublic\20061122\005\
+logged_streams = CTH;REG;COR;AGN;DTT;INP;OTP;OTH;STA;TMS;TMD;GMS;GMX;DTS;CON
+
+[REG@19:13:57.268] Clearing up the registry ...
+[REG@19:13:57.269] Deallocating remaining registered agents ...
+[REG@19:13:57.269] Deallocating remaining registered agents completed.
+[REG@19:13:57.270] Agent type CDMCoreAgent registered successfully.
+[REG@19:13:57.270] Agent DMCoreAgent created successfully.
+[REG@19:13:57.270] Agent DMCoreAgent registered successfully.
+[CTH@19:13:57.270] Creating auxiliary core dialog core agents ...
+[REG@19:13:57.270] Agent type CInputManagerAgent registered successfully.
+[REG@19:13:57.270] Agent InputManagerAgent created successfully.
+[REG@19:13:57.270] Agent InputManagerAgent registered successfully.
+[REG@19:13:57.270] Agent type COutputManagerAgent registered successfully.
+[REG@19:13:57.270] Agent OutputManagerAgent created successfully.
+[REG@19:13:57.270] Agent OutputManagerAgent registered successfully.
+[REG@19:13:57.270] Agent type CTrafficManagerAgent registered successfully.
+[REG@19:13:57.270] Agent TrafficManagerAgent created successfully.
+[REG@19:13:57.270] Agent TrafficManagerAgent registered successfully.
+[REG@19:13:57.270] Agent type CStateManagerAgent registered successfully.
+[REG@19:13:57.270] Agent StateManagerAgent created successfully.
+[REG@19:13:57.271] Agent StateManagerAgent registered successfully.
+[REG@19:13:57.271] Agent type CDTTManagerAgent registered successfully.
+[REG@19:13:57.271] Agent DTTManagerAgent created successfully.
+[REG@19:13:57.271] Agent DTTManagerAgent registered successfully.
+[REG@19:13:57.271] Agent type CGroundingManagerAgent registered successfully.
+[REG@19:13:57.271] Agent GroundingManagerAgent created successfully.
+[REG@19:13:57.271] Agent GroundingManagerAgent registered successfully.
+[GMS@19:13:57.271] Setting configuration: turns:moffo_letsgopublic;concepts:default
+[GMS@19:13:57.272] Loading grounding models ...
+[GMS@19:13:57.274] Loaded grounding model expl from expl.pol .
+[GMS@19:13:57.275] Loaded grounding model moffo from moffo.pol .
+[GMS@19:13:57.276] 2 grounding model(s) loaded.
+[CTH@19:13:57.277] Auxiliary core dialog management agents created successfully.
+[CTH@19:13:57.277] Core initialization completed successfully.
+[GMS@19:13:57.277] Registering grounding action: NOA [NO_ACTION].
+[GMS@19:13:57.277] Registering grounding action: ACCEPT [ACCEPT].
+[GMS@19:13:57.277] Registering grounding action: EXPL_CONF [EXPL_CONF].
+[REG@19:13:57.277] Agent type _CExplicitConfirm registered successfully.
+[GMS@19:13:57.277] Registering grounding action: IMPL_CONF [IMPL_CONF].
+[REG@19:13:57.278] Agent type _CImplicitConfirmInform registered successfully.
+[REG@19:13:57.278] Agent type _CImplicitConfirmExpect registered successfully.
+[GMS@19:13:57.278] Registering grounding action: AREP [ASK_REPEAT].
+[REG@19:13:57.278] Agent type _CAskRepeat registered successfully.
+[GMS@19:13:57.278] Registering grounding action: ARPH [ASK_REPHRASE].
+[REG@19:13:57.278] Agent type _CAskRephrase registered successfully.
+[GMS@19:13:57.278] Registering grounding action: RP [REPEAT_PROMPT].
+[REG@19:13:57.278] Agent type _CRepeatPrompt registered successfully.
+[GMS@19:13:57.278] Registering grounding action: TYCS [WHAT_CAN_I_SAY].
+[REG@19:13:57.278] Agent type _CWhatCanISay registered successfully.
+[GMS@19:13:57.278] Registering grounding action: TYCS_SO [WHAT_CAN_I_SAY].
+[GMS@19:13:57.279] Registering grounding action: ASO [ASK_STARTOVER].
+[REG@19:13:57.279] Agent type _CAskStartOver registered successfully.
+[REG@19:13:57.279] Agent type _CAskStartOverAsk registered successfully.
+[REG@19:13:57.279] Agent type _CAskStartOverInform registered successfully.
+[REG@19:13:57.280] Agent type _CAskStartOverExecute registered successfully.
+[GMS@19:13:57.280] Registering grounding action: SLL_RP [SPEAKLESSLOUD_AND_REPROMPT].
+[REG@19:13:57.280] Agent type _CSpeakLessLoudAndReprompt registered successfully.
+[GMS@19:13:57.280] Registering grounding action: ASA_RP [ASK_SHORT_ANSWER_AND_REPROMPT].
+[REG@19:13:57.280] Agent type _CAskShortAnswerAndReprompt registered successfully.
+[GMS@19:13:57.280] Registering grounding action: IT [INTERACTION_TIPS].
+[REG@19:13:57.280] Agent type _CInteractionTips registered successfully.
+[GMS@19:13:57.280] Registering grounding action: GIVE_UP [GIVE_UP].
+[REG@19:13:57.280] Agent type _CGiveUp registered successfully.
+[GMS@19:13:57.280] Registering grounding action: MOVE [MOVE_ON].
+[REG@19:13:57.280] Agent type _CMoveOn registered successfully.
+[DTT@19:13:57.280] Starting Dialog Tree Creation Phase ...
+[DTT@19:13:57.280] Registering  dialog task agent types ...
+[REG@19:13:57.280] Agent type CLetsGoPublic registered successfully.
+[REG@19:13:57.280] Agent type CGiveIntroduction registered successfully.
+[REG@19:13:57.280] Agent type CInformWelcome registered successfully.
+[REG@19:13:57.281] Agent type CRepeatIntroduction registered successfully.
+[REG@19:13:57.281] Agent type CPerformTask registered successfully.
+[REG@19:13:57.281] Agent type CGetQuerySpecs registered successfully.
+[REG@19:13:57.281] Agent type CAskHowMayIHelpYou registered successfully.
+[REG@19:13:57.281] Agent type CGetDeparturePlace registered successfully.
+[REG@19:13:57.281] Agent type CRequestBusNumberOrDeparturePlace registered successfully.
+[REG@19:13:57.281] Agent type CExpectUncoveredRoute registered successfully.
+[REG@19:13:57.281] Agent type CInformUncoveredRoute registered successfully.
+[REG@19:13:57.281] Agent type CRequestDeparturePlace registered successfully.
+[REG@19:13:57.281] Agent type CRetrieveDepartureStops registered successfully.
+[REG@19:13:57.281] Agent type CQueryBackendForDepartureStops registered successfully.
+[REG@19:13:57.281] Agent type CInformNoDepartureStopMatching registered successfully.
+[REG@19:13:57.281] Agent type CGetDepartureNeighborhoodAndStop registered successfully.
+[REG@19:13:57.281] Agent type CInformDepartureNeighborhoodStrategy registered successfully.
+[REG@19:13:57.281] Agent type CRequestDepartureNeighborhood registered successfully.
+[REG@19:13:57.281] Agent type CRequestDepartureStopInNeighborhood registered successfully.
+[REG@19:13:57.281] Agent type CExpectDontKnowStop registered successfully.
+[REG@19:13:57.281] Agent type CInformUsingDefaultStop registered successfully.
+[REG@19:13:57.281] Agent type CGetArrivalPlace registered successfully.
+[REG@19:13:57.281] Agent type CRequestArrivalPlace registered successfully.
+[REG@19:13:57.281] Agent type CRetrieveArrivalStops registered successfully.
+[REG@19:13:57.281] Agent type CQueryBackendForArrivalStops registered successfully.
+[REG@19:13:57.281] Agent type CInformNoArrivalStopMatching registered successfully.
+[REG@19:13:57.281] Agent type CGetDepartureArrivalDisambiguation registered successfully.
+[REG@19:13:57.281] Agent type CRequestDepartureArrivalDisambiguation registered successfully.
+[REG@19:13:57.281] Agent type CGetTravelTime registered successfully.
+[REG@19:13:57.281] Agent type CRequestTravelTime registered successfully.
+[REG@19:13:57.281] Agent type CRequestExactTravelTime registered successfully.
+[REG@19:13:57.281] Agent type CHandleUncoveredPlace registered successfully.
+[REG@19:13:57.281] Agent type CExpectUncoveredPlace registered successfully.
+[REG@19:13:57.281] Agent type CInformUncoveredPlace registered successfully.
+[REG@19:13:57.281] Agent type CProcessQuery registered successfully.
+[REG@19:13:57.281] Agent type CInformFirstProcessing registered successfully.
+[REG@19:13:57.281] Agent type CInformSubsequentProcessing registered successfully.
+[REG@19:13:57.282] Agent type CExecutePreprocessing registered successfully.
+[REG@19:13:57.282] Agent type CExecuteBackendCall registered successfully.
+[REG@19:13:57.282] Agent type CGiveResults registered successfully.
+[REG@19:13:57.282] Agent type CInformSuccess registered successfully.
+[REG@19:13:57.282] Agent type CInformError registered successfully.
+[REG@19:13:57.282] Agent type CRequestNextQuery registered successfully.
+[REG@19:13:57.282] Agent type CRequestNextQueryError registered successfully.
+[REG@19:13:57.282] Agent type CRepeatResult registered successfully.
+[REG@19:13:57.282] Agent type CRepeatSuccess registered successfully.
+[REG@19:13:57.282] Agent type CRepeatError registered successfully.
+[REG@19:13:57.282] Agent type CExpectGoodbye registered successfully.
+[REG@19:13:57.282] Agent type CInformStartingNewQuery registered successfully.
+[REG@19:13:57.282] Agent type CGreetGoodbye registered successfully.
+[REG@19:13:57.282] Agent type CGiveCurrentTime registered successfully.
+[REG@19:13:57.282] Agent type CMakeCurrentTimeQuery registered successfully.
+[REG@19:13:57.282] Agent type CExecuteGetCurrentTime registered successfully.
+[REG@19:13:57.282] Agent type CInformCurrentTime registered successfully.
+[REG@19:13:57.282] Agent type CTimeoutTerminate registered successfully.
+[REG@19:13:57.282] Agent type CTT_HandleFirstTimeout registered successfully.
+[REG@19:13:57.282] Agent type CTT_HandleSecondTimeout registered successfully.
+[REG@19:13:57.282] Agent type CTT_TerminateOnTimeout registered successfully.
+[REG@19:13:57.282] Agent type CTT_InformYouNotThere registered successfully.
+[REG@19:13:57.282] Agent type CTT_Terminate registered successfully.
+[DTT@19:13:57.282] Creating Dialog Task Tree ...
+[REG@19:13:57.282] Agent InformWelcome created successfully.
+[REG@19:13:57.282] Agent RepeatIntroduction created successfully.
+[REG@19:13:57.282] Agent GiveIntroduction created successfully.
+[REG@19:13:57.289] Agent AskHowMayIHelpYou created successfully.
+[REG@19:13:57.295] Agent RequestBusNumberOrDeparturePlace created successfully.
+[REG@19:13:57.301] Agent ExpectUncoveredRoute created successfully.
+[REG@19:13:57.301] Agent InformUncoveredRoute created successfully.
+[REG@19:13:57.301] Agent RequestDeparturePlace created successfully.
+[REG@19:13:57.306] Agent QueryBackendForDepartureStops created successfully.
+[REG@19:13:57.306] Agent InformNoDepartureStopMatching created successfully.
+[REG@19:13:57.306] Agent RetrieveStopForDeparturePlace created successfully.
+[REG@19:13:57.307] Agent InformDepartureNeighborhoodStrategy created successfully.
+[REG@19:13:57.307] Agent RequestDepartureNeighborhood created successfully.
+[REG@19:13:57.313] Agent RequestDepartureStopInNeighborhood created successfully.
+[REG@19:13:57.318] Agent ExpectDontKnowStop created successfully.
+[REG@19:13:57.318] Agent InformUsingDefaultStop created successfully.
+[REG@19:13:57.318] Agent GetDepartureNeighborhoodAndStop created successfully.
+[REG@19:13:57.318] Agent GetDeparturePlace created successfully.
+[REG@19:13:57.318] Agent RequestArrivalPlace created successfully.
+[REG@19:13:57.325] Agent QueryBackendForArrivalStops created successfully.
+[REG@19:13:57.325] Agent InformNoArrivalStopMatching created successfully.
+[REG@19:13:57.325] Agent RetrieveArrivalStops created successfully.
+[REG@19:13:57.325] Agent RequestDepartureArrivalDisambiguation created successfully.
+[REG@19:13:57.330] Agent GetDepartureArrivalDisambiguation created successfully.
+[REG@19:13:57.330] Agent GetArrivalPlace created successfully.
+[REG@19:13:57.330] Agent RequestTravelTime created successfully.
+[REG@19:13:57.336] Agent RequestExactTravelTime created successfully.
+[REG@19:13:57.342] Agent GetTravelTime created successfully.
+[REG@19:13:57.342] Agent ExpectUncoveredPlace created successfully.
+[REG@19:13:57.342] Agent InformUncoveredPlace created successfully.
+[REG@19:13:57.342] Agent HandleUncoveredPlace created successfully.
+[REG@19:13:57.342] Agent GetQuerySpecs created successfully.
+[REG@19:13:57.342] Agent InformFirstProcessing created successfully.
+[REG@19:13:57.342] Agent InformSubsequentProcessing created successfully.
+[REG@19:13:57.342] Agent ExecutePreprocessing created successfully.
+[REG@19:13:57.342] Agent ExecuteBackendCall created successfully.
+[REG@19:13:57.342] Agent ProcessQuery created successfully.
+[REG@19:13:57.343] Agent InformSuccess created successfully.
+[REG@19:13:57.343] Agent InformError created successfully.
+[REG@19:13:57.343] Agent RequestNextQuery created successfully.
+[REG@19:13:57.348] Agent RequestNextQueryError created successfully.
+[REG@19:13:57.354] Agent RepeatSuccess created successfully.
+[REG@19:13:57.354] Agent RepeatError created successfully.
+[REG@19:13:57.354] Agent RepeatResult created successfully.
+[REG@19:13:57.354] Agent ExpectGoodbye created successfully.
+[REG@19:13:57.354] Agent InformStartingNewQuery created successfully.
+[REG@19:13:57.354] Agent GiveResults created successfully.
+[REG@19:13:57.354] Agent PerformTask created successfully.
+[REG@19:13:57.355] Agent GreetGoodbye created successfully.
+[REG@19:13:57.355] Agent MakeCurrentTimeQuery created successfully.
+[REG@19:13:57.355] Agent ExecuteGetCurrentTime created successfully.
+[REG@19:13:57.355] Agent InformCurrentTime created successfully.
+[REG@19:13:57.356] Agent GiveCurrentTime created successfully.
+[REG@19:13:57.356] Agent TT_HandleFirstTimeout created successfully.
+[REG@19:13:57.356] Agent TT_HandleSecondTimeout created successfully.
+[REG@19:13:57.356] Agent TT_InformYouNotThere created successfully.
+[REG@19:13:57.356] Agent TT_Terminate created successfully.
+[REG@19:13:57.356] Agent TT_TerminateOnTimeout created successfully.
+[REG@19:13:57.356] Agent TimeoutTerminate created successfully.
+[DTS@19:13:57.356] Condition: 1
+[REG@19:13:57.356] Agent LetsGoPublic created successfully.
+[REG@19:13:57.356] Agent /LetsGoPublic registered successfully.
+[REG@19:13:57.356] Agent /LetsGoPublic/GiveIntroduction registered successfully.
+[REG@19:13:57.356] Agent /LetsGoPublic/GiveIntroduction/InformWelcome registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/GiveIntroduction/RepeatIntroduction registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/InformUncoveredRoute registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace/QueryBackendForDepartureStops registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace/InformNoDepartureStopMatching registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/InformDepartureNeighborhoodStrategy registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/InformUsingDefaultStop registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops/QueryBackendForArrivalStops registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops/InformNoArrivalStopMatching registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace registered successfully.
+[REG@19:13:57.357] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/InformUncoveredPlace registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/ProcessQuery registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/ProcessQuery/InformFirstProcessing registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/ProcessQuery/InformSubsequentProcessing registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/ProcessQuery/ExecutePreprocessing registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/ProcessQuery/ExecuteBackendCall registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults/InformSuccess registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults/InformError registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults/RequestNextQuery registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults/RequestNextQueryError registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult/RepeatSuccess registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult/RepeatError registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/PerformTask/GiveResults/InformStartingNewQuery registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/GreetGoodbye registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/GiveCurrentTime registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/GiveCurrentTime/MakeCurrentTimeQuery registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/GiveCurrentTime/ExecuteGetCurrentTime registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/GiveCurrentTime/InformCurrentTime registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/TimeoutTerminate registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/TT_InformYouNotThere registered successfully.
+[REG@19:13:57.358] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/TT_Terminate registered successfully.
+[REG@19:13:57.358] Agent type CTerminate registered successfully.
+[REG@19:13:57.358] Agent type CHelp registered successfully.
+[REG@19:13:57.358] Agent type CHelpExecutionAgency registered successfully.
+[REG@19:13:57.359] Agent type CHEstablishContext registered successfully.
+[REG@19:13:57.359] Agent type CHExplainMore registered successfully.
+[REG@19:13:57.359] Agent type CHWhatCanISay registered successfully.
+[REG@19:13:57.359] Agent type CHTriggerInputPass registered successfully.
+[REG@19:13:57.359] Agent type CHelpGetTips registered successfully.
+[REG@19:13:57.359] Agent type CHelpEstablishContext registered successfully.
+[REG@19:13:57.359] Agent type CHelpWhatCanISay registered successfully.
+[REG@19:13:57.359] Agent type CRepeat registered successfully.
+[REG@19:13:57.359] Agent type CStartOver registered successfully.
+[REG@19:13:57.359] Agent type CAskAreYouSureStartOver registered successfully.
+[REG@19:13:57.359] Agent type CInformStartingOver registered successfully.
+[REG@19:13:57.359] Agent type CExecuteStartOver registered successfully.
+[REG@19:13:57.359] Agent Terminate created successfully.
+[DTT@19:13:57.359] Mounting Terminate as last child of /LetsGoPublic .
+[REG@19:13:57.359] Agent /LetsGoPublic/Terminate registered successfully.
+[REG@19:13:57.359] Agent HEstablishContext created successfully.
+[REG@19:13:57.359] Agent HExplainMore created successfully.
+[REG@19:13:57.359] Agent HWhatCanISay created successfully.
+[REG@19:13:57.359] Agent HTriggerInputPass created successfully.
+[REG@19:13:57.359] Agent HelpExecutionAgency created successfully.
+[REG@19:13:57.359] Agent HelpExecutionAgency registered successfully.
+[REG@19:13:57.359] Agent HelpExecutionAgency/HEstablishContext registered successfully.
+[REG@19:13:57.359] Agent HelpExecutionAgency/HExplainMore registered successfully.
+[REG@19:13:57.359] Agent HelpExecutionAgency/HWhatCanISay registered successfully.
+[REG@19:13:57.359] Agent HelpExecutionAgency/HTriggerInputPass registered successfully.
+[REG@19:13:57.359] Agent Help created successfully.
+[DTT@19:13:57.359] Mounting Help as last child of /LetsGoPublic .
+[REG@19:13:57.359] Agent /LetsGoPublic/Help registered successfully.
+[REG@19:13:57.360] Agent HelpGetTips created successfully.
+[DTT@19:13:57.360] Mounting HelpGetTips as last child of /LetsGoPublic .
+[REG@19:13:57.360] Agent /LetsGoPublic/HelpGetTips registered successfully.
+[REG@19:13:57.360] Agent HelpEstablishContext created successfully.
+[DTT@19:13:57.360] Mounting HelpEstablishContext as last child of /LetsGoPublic .
+[REG@19:13:57.360] Agent /LetsGoPublic/HelpEstablishContext registered successfully.
+[REG@19:13:57.360] Agent HelpWhatCanISay created successfully.
+[DTT@19:13:57.360] Mounting HelpWhatCanISay as last child of /LetsGoPublic .
+[REG@19:13:57.360] Agent /LetsGoPublic/HelpWhatCanISay registered successfully.
+[REG@19:13:57.360] Agent Repeat created successfully.
+[DTT@19:13:57.360] Mounting Repeat as last child of /LetsGoPublic .
+[REG@19:13:57.360] Agent /LetsGoPublic/Repeat registered successfully.
+[REG@19:13:57.360] Agent AskAreYouSureStartOver created successfully.
+[REG@19:13:57.366] Agent InformStartingOver created successfully.
+[REG@19:13:57.366] Agent ExecuteStartOver created successfully.
+[REG@19:13:57.366] Agent StartOver created successfully.
+[DTT@19:13:57.366] Mounting StartOver as last child of /LetsGoPublic .
+[REG@19:13:57.366] Agent /LetsGoPublic/StartOver registered successfully.
+[REG@19:13:57.366] Agent /LetsGoPublic/StartOver/AskAreYouSureStartOver registered successfully.
+[REG@19:13:57.366] Agent /LetsGoPublic/StartOver/InformStartingOver registered successfully.
+[REG@19:13:57.366] Agent /LetsGoPublic/StartOver/ExecuteStartOver registered successfully.
+[DTT@19:13:57.366] Dialog Tree Creation Phase completed successfully.
+[COR@19:13:57.366] Starting Dialog Task execution.
+[COR@19:13:57.366] Agent /LetsGoPublic added on the execution stack by DMCoreAgent.
+[COR@19:13:57.366] Executing dialog agent /LetsGoPublic ...
+[COR@19:13:57.367] Agent /LetsGoPublic/GiveIntroduction added on the execution stack by /LetsGoPublic.
+[COR@19:13:57.367] Executing dialog agent /LetsGoPublic/GiveIntroduction ...
+[COR@19:13:57.367] Agent /LetsGoPublic/GiveIntroduction/InformWelcome added on the execution stack by /LetsGoPublic/GiveIntroduction.
+[COR@19:13:57.367] Executing dialog agent /LetsGoPublic/GiveIntroduction/InformWelcome ...
+[OTP@19:13:57.367] Processing output prompt 0 from /LetsGoPublic/GiveIntroduction/InformWelcome. (dump below)
+{:non-listening :non-repeatable inform welcome}
+[OTP@19:13:57.368] Processed output prompt 0 and sent it to nlg (dump below)
+start
+{
+act	inform
+object	welcome
+_repeat_counter	0
+system_version	1
+}
+end
+
+[OTP@19:13:57.368] Processing output prompt 1 from /LetsGoPublic/GiveIntroduction/InformWelcome. (dump below)
+{inform how_to_get_help}
+[OTP@19:13:57.369] Processed output prompt 1 and sent it to nlg (dump below)
+start
+{
+act	inform
+object	how_to_get_help
+_repeat_counter	0
+system_version	1
+}
+end
+
+[COR@19:13:57.370] Eliminated 2 completed agent(s) (dumped below) from the execution stack.
+/LetsGoPublic/GiveIntroduction/InformWelcome
+/LetsGoPublic/GiveIntroduction
+[COR@19:13:57.371] Executing dialog agent /LetsGoPublic ...
+[COR@19:13:57.371] Agent /LetsGoPublic/PerformTask added on the execution stack by /LetsGoPublic.
+[COR@19:13:57.371] Executing dialog agent /LetsGoPublic/PerformTask ...
+[COR@19:13:57.372] Agent /LetsGoPublic/PerformTask/GetQuerySpecs added on the execution stack by /LetsGoPublic/PerformTask.
+[COR@19:13:57.372] Executing dialog agent /LetsGoPublic/PerformTask/GetQuerySpecs ...
+[COR@19:13:57.373] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou added on the execution stack by /LetsGoPublic/PerformTask/GetQuerySpecs.
+[COR@19:13:57.373] Executing dialog agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou ...
+[OTP@19:13:57.373] Processing output prompt 2 from /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou. (dump below)
+{request how_may_i_help_you}
+[OTP@19:13:57.374] Processed output prompt 2 and sent it to nlg (dump below)
+start
+{
+act	request
+object	how_may_i_help_you
+_repeat_counter	0
+system_version	1
+}
+end
+
+[COR@19:13:57.375] Starting INPUT Pass.
+[COR@19:13:57.375] Timeout period: 20
+[COR@19:13:57.375] Nonunderstanding threshold: 0.00
+[CON@19:13:57.376] Grounding-relevant concepts dumped below:
+Concept: /LetsGoPublic/PerformTask/query.type
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/query.travel_time.time
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.departure_place
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.arrival_place
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/query.route_number
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/query.direction
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/uncovered_route
+<UNDEFINED>
+
+Concept: /LetsGoPublic/PerformTask/neighborhood
+<UNDEFINED>
+Concept: /LetsGoPublic/PerformTask/uncovered_place
+<UNDEFINED>
+
+[COR@19:13:57.376] Execution stack dumped below:
+  /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+  /LetsGoPublic/PerformTask/GetQuerySpecs
+  /LetsGoPublic/PerformTask
+  /LetsGoPublic
+
+[COR@19:13:57.376] Expectation Agenda Assembly Phase initiated.
+[COR@19:13:57.376] Compiling Expectation Agenda ...
+[COR@19:13:57.419] Compiling Expectation Agenda completed.
+[COR@19:13:57.421] Enforcing binding policies ...
+[COR@19:13:57.422] Enforcing binding policies completed.
+[AGN@19:13:57.424] Concept expectation agenda dumped below:
+ Level 0: generated by /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou
+ Level 1: generated by /LetsGoPublic/PerformTask/GetQuerySpecs
+  O [1_departureplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [1_departureplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [1_departureplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [1_departureplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [2_arrivalplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [2_arrivalplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [2_arrivalplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime)/LetsGoPublic/PerformTask/query.travel_time
+  X [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime)/LetsGoPublic/PerformTask/query.travel_time [X-![] not under focus]
+  X [ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood)/LetsGoPublic/PerformTask/neighborhood [X-![] not under focus]
+  X [anystop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop)/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/dont_know [X-@(../RequestDepartureStopInNeighborhood) not containing focus]
+  X [busnumber.covered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace)/LetsGoPublic/PerformTask/query.route_number [X-![] not under focus]
+  X [busnumber.uncovered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute)/LetsGoPublic/PerformTask/uncovered_route [X-@(../RequestBusNumberOrDeparturePlace) not containing focus]
+  X [covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood)/LetsGoPublic/PerformTask/neighborhood [X-![] not under focus]
+  O [covered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace)/LetsGoPublic/PerformTask/query.route_number
+  O [date_time] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime)/LetsGoPublic/PerformTask/query.travel_time
+  X [date_time] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime)/LetsGoPublic/PerformTask/query.travel_time [X-![] not under focus]
+  X [disambiguatearrival] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [disambiguatedeparture] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [dontknow] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop)/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/dont_know [X-@(../RequestDepartureStopInNeighborhood) not containing focus]
+  X [dtmf_one] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  X [dtmf_three] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation)/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/ambiguous_is_arrival [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.ambiguous_covered_place] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.covered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace)/LetsGoPublic/PerformTask/query.departure_place
+  X [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-![] not under focus]
+  O [singleplace.stop_name.covered_place.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace)/LetsGoPublic/PerformTask/query.arrival_place
+  O [singleplace.stop_name.uncovered_place.uncovered_neighborhood] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  O [singleplace.stop_name.uncovered_place.uncovered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace)/LetsGoPublic/PerformTask/uncovered_place
+  X [stop_name.monument] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-@(../RequestDepartureNeighborhood) not containing focus]
+  X [stop_name.registered_stop] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood)/LetsGoPublic/PerformTask/query.departure_place [X-@(../RequestDepartureNeighborhood) not containing focus]
+  O [uncovered_route] -> (/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute)/LetsGoPublic/PerformTask/uncovered_route
+ Level 2: generated by /LetsGoPublic/PerformTask
+  X [3_busafterthatrequest] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [3_busbeforethatrequest] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [finalquit] -> (/LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye)/LetsGoPublic/PerformTask/GiveResults/goodbye [X-[] not under topic]
+  X [quit] -> (/LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye)/LetsGoPublic/PerformTask/GiveResults/goodbye [X-[] not under topic]
+  X [repeat] -> (/LetsGoPublic/PerformTask/GiveResults/RepeatResult)/LetsGoPublic/PerformTask/GiveResults/RepeatResult/_RepeatResult_trigger [X-[] not under topic]
+  X [startover] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQuery)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+  X [startover] -> (/LetsGoPublic/PerformTask/GiveResults/RequestNextQueryError)/LetsGoPublic/PerformTask/GiveResults/next_query [X-![] not under focus]
+ Level 3: generated by /LetsGoPublic
+  X [dtmf_one] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  X [dtmf_three] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  O [dtmf_zero] -> (/LetsGoPublic/Help)/LetsGoPublic/Help/_Help_trigger
+  O [establishcontext] -> (/LetsGoPublic/HelpEstablishContext)/LetsGoPublic/HelpEstablishContext/_HelpEstablishContext_trigger
+  O [event:terminatesession] -> (/LetsGoPublic/Terminate)/LetsGoPublic/Terminate/_Terminate_trigger
+  O [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout)/LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout/_TT_HandleFirstTimeout_trigger
+  X [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout)/LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout/_TT_HandleSecondTimeout_trigger [X-expect condition false]
+  X [event:timeout] -> (/LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout)/LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/_TT_TerminateOnTimeout_trigger [X-expect condition false]
+  O [help.general_help] -> (/LetsGoPublic/Help)/LetsGoPublic/Help/_Help_trigger
+  O [help.give_me_tips] -> (/LetsGoPublic/HelpGetTips)/LetsGoPublic/HelpGetTips/_HelpGetTips_trigger
+  O [help.what_can_i_say] -> (/LetsGoPublic/HelpWhatCanISay)/LetsGoPublic/HelpWhatCanISay/_HelpWhatCanISay_trigger
+  O [help.where_are_we] -> (/LetsGoPublic/HelpEstablishContext)/LetsGoPublic/HelpEstablishContext/_HelpEstablishContext_trigger
+  X [no] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+  X [repeat] -> (/LetsGoPublic/GiveIntroduction/RepeatIntroduction)/LetsGoPublic/GiveIntroduction/RepeatIntroduction/_RepeatIntroduction_trigger [X-@(/LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace) not containing focus]
+  O [repeat] -> (/LetsGoPublic/Repeat)/LetsGoPublic/Repeat/_Repeat_trigger
+  O [startover] -> (/LetsGoPublic/StartOver)/LetsGoPublic/StartOver/_StartOver_trigger
+  O [whattimeisitrequest] -> (/LetsGoPublic/GiveCurrentTime)/LetsGoPublic/GiveCurrentTime/_GiveCurrentTime_trigger
+  X [yes] -> (/LetsGoPublic/StartOver/AskAreYouSureStartOver)/LetsGoPublic/StartOver/sure_start_over [X-![] not under focus]
+[COR@19:13:57.425] Expectation Agenda Assembly Phase completed (4 levels).
+[STA@19:13:57.425] Updating dialog state ...
+[STA@19:13:57.431] Dialog state update completed.
+[STA@19:13:57.436] Broadcasting dialog manager state to helios.set_dialog_state
+[STA@19:13:57.438] Dialog manager state broadcast completed.
+[COR@19:13:57.438] Input line configuration dumped below.
+set_dtmf_len = 1
+set_lm = first_query
+[COR@19:13:57.439] System action dumped below.
+REQUEST()
+EXPL_CONF()
+IMPL_CONF()
+UNPLANNED_IMPL_CONF()
+[INP@19:13:57.439] Waiting for input ...
+[OTP@19:14:01.489] Received final output notification frame. id: 0; bargein: -1; Conveyance Info: (dump below)
+
+Tagged Utterance: (dump below)
+ {audio src="../../Resources/audio/intro1.wav"}Welcome to the CMU Let's Go bus information system.{/audio}
+
+[OTH@19:14:01.489] OUTPUT HISTORY
+id	 utterance
+--------------------------------------------------------------------------------
+0	{audio src="../../Resources/audio/intro1.wav"}Welcome to the CMU Let's Go bus information system.{/audio}
+
+[INP@19:14:01.670] New input arrived (dump below).
+  [EVENT:EVENT] = true
+  [EVENT:TerminateSession] = true
+  [h3_confidence] = 1.0
+
+[COR@19:14:01.670] Concepts Binding Phase initiated.
+[COR@19:14:01.671] Slot [event:terminatesession](true|1.000000) bound to concept (/LetsGoPublic/Terminate)/LetsGoPublic/Terminate/_Terminate_trigger.
+[COR@19:14:01.672] Attempted bindings dumped below:
+Success: Level.3	[event:terminatesession](true|1.000000)->(/LetsGoPublic/Terminate)/LetsGoPublic/Terminate/_Terminate_trigger
+
+[COR@19:14:01.672] Concepts Binding Phase completed (1 concept(s) bound, 0 concept(s) blocked out, 0 forced concept update(s)).
+[COR@19:14:01.672] INPUT Pass completed.
+[GMS@19:14:01.672] Running grounding process ...
+[GMS@19:14:01.672] Grounding last user turn ...
+[GMS@19:14:01.673] Last turn: successful bindings.
+[GMS@19:14:01.673] Grounding last user turn completed.
+[GMS@19:14:01.673] Grounding process completed.
+[COR@19:14:01.674] Focus Claims Assembly Phase initiated.
+[COR@19:14:01.674] 1 agent(s) claiming focus (dumped below):
+  /LetsGoPublic/Terminate
+
+[COR@19:14:01.674] Pruning Focus Claims list.
+[COR@19:14:01.674] 0 agents(s) eliminated from the focus claims list.
+[COR@19:14:01.674] Focus Claims Assembly Phase completed (1 claim(s)).
+[COR@19:14:01.675] Adding focus-claiming agent /LetsGoPublic/Terminate on the execution stack.
+[COR@19:14:01.675] Agent /LetsGoPublic/Terminate added on the execution stack by DMCoreAgent.
+[COR@19:14:01.675] Executing dialog agent /LetsGoPublic/Terminate ...
+[COR@19:14:01.675] Dialog Task Execution completed. Dialog finished
+[CTH@19:14:01.675] Terminating Core ...
+[REG@19:14:01.676] Agent DMCoreAgent unregistered successfully.
+[DTT@19:14:01.676] Deallocating the dialog task tree.
+[REG@19:14:01.676] Agent HelpExecutionAgency/HEstablishContext unregistered successfully.
+[REG@19:14:01.676] Agent HelpExecutionAgency/HExplainMore unregistered successfully.
+[REG@19:14:01.676] Agent HelpExecutionAgency/HWhatCanISay unregistered successfully.
+[REG@19:14:01.676] Agent HelpExecutionAgency/HTriggerInputPass unregistered successfully.
+[REG@19:14:01.676] Agent HelpExecutionAgency unregistered successfully.
+[REG@19:14:01.676] Agent /LetsGoPublic/GiveIntroduction/InformWelcome unregistered successfully.
+[REG@19:14:01.676] Agent /LetsGoPublic/GiveIntroduction/RepeatIntroduction unregistered successfully.
+[REG@19:14:01.676] Agent /LetsGoPublic/GiveIntroduction unregistered successfully.
+[REG@19:14:01.676] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/AskHowMayIHelpYou unregistered successfully.
+[REG@19:14:01.676] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestBusNumberOrDeparturePlace unregistered successfully.
+[REG@19:14:01.676] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/ExpectUncoveredRoute unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/InformUncoveredRoute unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RequestDeparturePlace unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace/QueryBackendForDepartureStops unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace/InformNoDepartureStopMatching unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/RetrieveStopForDeparturePlace unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/InformDepartureNeighborhoodStrategy unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureNeighborhood unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/RequestDepartureStopInNeighborhood unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/ExpectDontKnowStop unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop/InformUsingDefaultStop unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace/GetDepartureNeighborhoodAndStop unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetDeparturePlace unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RequestArrivalPlace unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops/QueryBackendForArrivalStops unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops/InformNoArrivalStopMatching unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/RetrieveArrivalStops unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation/RequestDepartureArrivalDisambiguation unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace/GetDepartureArrivalDisambiguation unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetArrivalPlace unregistered successfully.
+[REG@19:14:01.677] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestTravelTime unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime/RequestExactTravelTime unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/GetTravelTime unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/ExpectUncoveredPlace unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace/InformUncoveredPlace unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GetQuerySpecs/HandleUncoveredPlace unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GetQuerySpecs unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/ProcessQuery/InformFirstProcessing unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/ProcessQuery/InformSubsequentProcessing unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/ProcessQuery/ExecutePreprocessing unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/ProcessQuery/ExecuteBackendCall unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/ProcessQuery unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults/InformSuccess unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults/InformError unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults/RequestNextQuery unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults/RequestNextQueryError unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult/RepeatSuccess unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult/RepeatError unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults/RepeatResult unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults/ExpectGoodbye unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults/InformStartingNewQuery unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask/GiveResults unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/PerformTask unregistered successfully.
+[REG@19:14:01.678] Agent /LetsGoPublic/GreetGoodbye unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/GiveCurrentTime/MakeCurrentTimeQuery unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/GiveCurrentTime/ExecuteGetCurrentTime unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/GiveCurrentTime/InformCurrentTime unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/GiveCurrentTime unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/TimeoutTerminate/TT_HandleFirstTimeout unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/TimeoutTerminate/TT_HandleSecondTimeout unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/TT_InformYouNotThere unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout/TT_Terminate unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/TimeoutTerminate/TT_TerminateOnTimeout unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/TimeoutTerminate unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/Terminate unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/Help unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/HelpGetTips unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/HelpEstablishContext unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/HelpWhatCanISay unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/Repeat unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/StartOver/AskAreYouSureStartOver unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/StartOver/InformStartingOver unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/StartOver/ExecuteStartOver unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic/StartOver unregistered successfully.
+[REG@19:14:01.679] Agent /LetsGoPublic unregistered successfully.
+[REG@19:14:01.679] Agent DTTManagerAgent unregistered successfully.
+[REG@19:14:01.679] Agent TrafficManagerAgent unregistered successfully.
+[REG@19:14:01.679] Agent OutputManagerAgent unregistered successfully.
+[REG@19:14:01.680] Agent InputManagerAgent unregistered successfully.
+[REG@19:14:01.680] Agent StateManagerAgent unregistered successfully.
+[REG@19:14:01.680] Agent GroundingManagerAgent unregistered successfully.
+[REG@19:14:01.680] Clearing up the registry ...
+[REG@19:14:01.680] Deallocating remaining registered agents ...
+[REG@19:14:01.680] Deallocating remaining registered agents completed.
+[CTH@19:14:01.680] Core terminated successfully.

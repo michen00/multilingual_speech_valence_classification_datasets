@@ -1,0 +1,113 @@
+LOGFILE_FORMAT_VERSION: 1.0
+
+SESSION_ID: Default
+
+
+
+
+:BEGIN_UTT (-01)
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE Builtin(<Builtin>:-1) 1090 new_session at 19:13:57.21 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE AudioRecorder(localhost:19000) 1090 start_recording at 19:13:57.21 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE AudioRecorder(localhost:19000) 1090 start_recording at 19:13:57.23 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 1090 start_listening at 19:13:57.23 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 1090 start_listening at 19:13:57.27 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 1090 begin_session at 19:13:57.29 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 1090 begin_session at 19:13:57.30 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1090 begin_session at 19:13:57.30 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1091 launch_query at 19:13:57.40 on 22-NOV-2006]
+:dont_listen (-01): "1"
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 1091 launch_query at 19:13:57.41 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1092 launch_query at 19:13:57.41 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 1092 launch_query at 19:13:57.41 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 1093 main at 19:13:57.41 on 22-NOV-2006]
+:dont_listen (-01): 1
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 1094 main at 19:13:57.41 on 22-NOV-2006]
+:dont_listen (-01): 0
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 1093 speak at 19:13:57.41 on 22-NOV-2006]
+:phrase (-01): " {audio src=\"../../Resources/audio/intro1.wav\"}Welcome to the CMU Let's Go bus information system.{/audio}
+"
+:id (-01): "DialogManager-6334:0"
+:dont_listen (-01): 1
+:interruptable (-01): 1
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1095 launch_query at 19:13:57.43 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 1095 launch_query at 19:13:57.43 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 1093 speak at 19:13:57.44 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 1094 speak at 19:13:57.44 on 22-NOV-2006]
+:phrase (-01): " {audio src=\"../../Resources/audio/intro4.wav\"}To get help at any time, just say Help or press zero.{/audio}
+"
+:id (-01): "DialogManager-6334:1"
+:dont_listen (-01): 0
+:interruptable (-01): 1
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 1093 speak at 19:13:57.44 on 22-NOV-2006]
+:tty-phrase (-01): " {audio src=\"../../Resources/audio/intro1.wav\"}Welcome to the CMU Let's Go bus information system.{/audio}
+"
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 1094 speak at 19:13:57.44 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 1093 speak at 19:13:57.44 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 1094 speak at 19:13:57.46 on 22-NOV-2006]
+:tty-phrase (-01): " {audio src=\"../../Resources/audio/intro4.wav\"}To get help at any time, just say Help or press zero.{/audio}
+"
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 1094 speak at 19:13:57.46 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE nlg(localhost:16000) 1096 main at 19:13:57.46 on 22-NOV-2006]
+:dont_listen (-01): 0
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 1096 speak at 19:13:57.46 on 22-NOV-2006]
+:phrase (-01): " What can I do for you?
+"
+:id (-01): "DialogManager-6334:2"
+:dont_listen (-01): 0
+:interruptable (-01): 1
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 1096 speak at 19:13:57.48 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE tty-sphinx(localhost:11001) 1096 speak at 19:13:57.48 on 22-NOV-2006]
+:tty-phrase (-01): " What can I do for you?
+"
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE tty-sphinx(localhost:11001) 1096 speak at 19:13:57.48 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1098 set_config at 19:13:57.48 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 1090 begin_session at 19:13:57.49 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 1098 set_config at 19:13:57.49 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 1090 begin_session at 19:13:57.54 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 1099 main at 19:13:57.62 on 22-NOV-2006]
+:beginout (-01): "beginout message from kalliope"
+:dont_listen (-01): 1
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1099 cancel_inactivity_timeout at 19:13:57.62 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 1099 cancel_inactivity_timeout at 19:13:57.62 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 1090 begin_session at 19:14:00.68 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 1099 stop_decoding at 19:14:00.68 on 22-NOV-2006]
+:id (-01): "DialogManager-6334:0"
+:beginout (-01): "beginout message from kalliope"
+:dont_listen (-01): 1
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 1099 stop_decoding at 19:14:00.68 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 1100 main at 19:14:01.52 on 22-NOV-2006]
+:endout (-01): "endout message from kalliope"
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1100 start_inactivity_timeout at 19:14:01.52 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 1100 start_inactivity_timeout at 19:14:01.52 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 1100 start_decoding at 19:14:01.52 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 1101 main at 19:14:01.52 on 22-NOV-2006]
+:beginout (-01): "beginout message from kalliope"
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1101 cancel_inactivity_timeout at 19:14:01.52 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 1100 start_decoding at 19:14:01.52 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 1101 cancel_inactivity_timeout at 19:14:01.52 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1100 notify_output_manager at 19:14:01.52 on 22-NOV-2006]
+:conveyance (-01): ""
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 1100 notify_output_manager at 19:14:01.52 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE helios(localhost:14000) 1100 notify_helios_bargein at 19:14:01.52 on 22-NOV-2006]
+:conveyance (-01): ""
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE helios(localhost:14000) 1100 notify_helios_bargein at 19:14:01.52 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE gentner(localhost:10000) 1102 main at 19:14:01.69 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 1102 stop_listening at 19:14:01.69 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 1102 stop_listening at 19:14:01.69 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 1102 reset at 19:14:01.69 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE kalliope(localhost:12001) 1102 reset at 19:14:01.69 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE AudioRecorder(localhost:19000) 1102 stop_recording at 19:14:01.69 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE AudioRecorder(localhost:19000) 1102 stop_recording at 19:14:01.71 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1102 end_session at 19:14:01.71 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1103 main at 19:14:01.73 on 22-NOV-2006]
+:close_session (-01): ""
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 1102 end_session at 19:14:01.73 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE sphinx(localhost:11000) 1103 stop_listening at 19:14:01.73 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE DialogManager(localhost:17000) 1102 cancel_inactivity_timeout at 19:14:01.73 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE sphinx(localhost:11000) 1103 stop_listening at 19:14:01.73 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE kalliope(localhost:12001) 1103 reset at 19:14:01.73 on 22-NOV-2006]
+[Timestamp (-01): read:GAL_REPLY_MSG_TYPE DialogManager(localhost:17000) 1102 cancel_inactivity_timeout at 19:14:01.73 on 22-NOV-2006]
+[Timestamp (-01): send:GAL_MESSAGE_MSG_TYPE Builtin(<Builtin>:-1) 1102 end_session at 19:14:01.73 on 22-NOV-2006]
+
+
+:END_UTT (-01)
