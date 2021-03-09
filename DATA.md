@@ -56,7 +56,8 @@ I considered many other datasets such as those listed in [[38]](#38), but most o
 * Non-English
   * [aesdd](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/aesdd) | Acted Emotional Speech Dynamic Database (Greek) [[31]](#31)–[[32]](#32)
   * [anad](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/anad) | Arabic Natural Audio Dataset [[26]](#26)
-  * BAUM-1 & BAUM-2 | (Turkish) [[35]](#35)–[[36]](#36)
+  * BAUM-1 | (Turkish) [[35]](#35)
+  * BAUM-2 | (Turkish) [[36]](#36)
   * [cafe](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/cafe) | Canadian French Emotional Speech Database [[27]](#27)
   * [ekorpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ekorpus) | Estonian Emotional Speech Corpus [[28]](#28)
   * [EmoDB](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoDB) | Berlin Database of Emotional Speech (German) [[30]](#30)
