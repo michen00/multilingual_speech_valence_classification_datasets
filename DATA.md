@@ -45,7 +45,7 @@ I considered many other datasets such as those listed in [[38]](#38), but most o
   * EmoReact dataset | [[15]](#15)
   * [Emotional_EMA](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/Emotional_EMA) | Electromagnetic Articulography Database [[14]](#14)
   * [EmoV-DB_sorted](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoV-DB_sorted) | Emotional Voices Database [[16]](#16)
-  * [enterface_db](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/enterface_db) | name [[17]](#17)
+  * [enterface_db](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/enterface_db) | eNTERFACE '05 Audio-Visual Emotion Database [[17]](#17)
   * [jl-corpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/jl-corpus) | JL-Corpus [[18]](#18)
   * [LEGOv2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/LEGOv2) | Carnegie Mellon University Let’s Go Spoken Dialogue Corpus [[10]](#10)–[[11]](#11)
   * [MELD](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/MELD) | Multimodal EmotionLines Dataset [[19]](#19)–[[20]](#20)
