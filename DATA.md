@@ -34,7 +34,7 @@ Each dataset was created with different methods, but they share common features 
 1. Demonstrated academic or practical application in some context (e.g., conference or journal publication, Kaggle, etc.).
 1. Public or free-use non-commercial access.
 
-A gender label was available for all datasets as well. All speakers in all datasets were adults with the exception of the EmoReact dataset [[15]](#15), which featured children's English.
+Information about speaker gender was available for all datasets as well (although not always explicitly encoded). All speakers in all datasets were adults with the exception of the EmoReact dataset [[15]](#15), which featured children's English.
 
 I considered many other datasets such as those listed in [[38]](#38), but most of these did not meet all the above criteria, required an active academic affiliation, were paywalled, or were otherwise inaccessible.
 
