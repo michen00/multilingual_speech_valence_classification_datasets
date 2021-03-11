@@ -22,7 +22,7 @@ Most of the English-language datasets are of North American English. For instanc
 
 On the other hand, the Surrey Audio-Visual Expressed Emotion Database [[22]](#22) is of British English and the JL Corpus [[18]](#18) is of New Zealand English. The eNTERFACE '05 Audio-Visual Emotion Database [[17]](#17) consists of English spoken by participants of fourteen nationalities. Although not a full dataset, [[25]](#25) provides six samples (two each of positive, negative, and neutral valence) in Australian English (prepared for investigation of emotion perception in patients with schizophrenia).
 
-Similar spoken corpora with emotion labels are freely available for Arabic ([Arabic Natural Audio Dataset](https://www.kaggle.com/suso172/arabic-natural-audio-dataset)) [[26]](#26), Canadian French ([Canadian French Emotional Speech Database](https://www.gel.usherbrooke.ca/audio/cafe.htm)) [[27]](#27), Estonian ([Estonian Emotional Speech Corpus](https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/)) [[28]](#28), French ([French Emotional Speech Database - Oréau](https://zenodo.org/record/4405783)) [[29]](#29), German ([Berlin Database of Emotional Speech](https://www.kaggle.com/piyushagni5/berlin-database-of-emotional-speech-emodb)) [[30]](#30), Greek ([Acted Emotional Speech Dynamic Database](https://mega.nz/folder/0ShVXY7C#-73kVoK05OjTPEA95UUvMw)) [[31]](#31)–[[32]](#32), Persian ([Sharif Emotional Speech Database](https://github.com/mansourehk/ShEMO)) [[33]](#33), and Urdu ([Urdu Language Speech Dataset](https://www.kaggle.com/bitlord/urdu-language-speech-dataset)) [[5]](#5).
+Similar spoken corpora with emotion labels are freely available for Arabic ([Arabic Natural Audio Dataset](https://www.kaggle.com/suso172/arabic-natural-audio-dataset)) [[26]](#26), Estonian ([Estonian Emotional Speech Corpus](https://metashare.ut.ee/repository/download/4d42d7a8463411e2a6e4005056b40024a19021a316b54b7fb707757d43d1a889/)) [[27]](#27), French ([French Emotional Speech Database - Oréau](https://zenodo.org/record/4405783)) [[28]](#28) and Canadian (Québec) French ([Canadian French Emotional Speech Database](https://www.gel.usherbrooke.ca/audio/cafe.htm)) [[29]](#29), German ([Berlin Database of Emotional Speech](https://www.kaggle.com/piyushagni5/berlin-database-of-emotional-speech-emodb)) [[30]](#30), Greek ([Acted Emotional Speech Dynamic Database](https://mega.nz/folder/0ShVXY7C#-73kVoK05OjTPEA95UUvMw)) [[31]](#31)–[[32]](#32), Persian ([Sharif Emotional Speech Database](https://github.com/mansourehk/ShEMO)) [[33]](#33), and Urdu ([Urdu Language Speech Dataset](https://www.kaggle.com/bitlord/urdu-language-speech-dataset)) [[5]](#5).
 
 In addition, the [Emotional Speech Dataset](https://github.com/HLTSingapore/Emotional-Speech-Data) [[34]](#34) contains utterances in both English and Mandarin Chinese. The English samples consist of North American English with some dialectic variation.
 
@@ -31,12 +31,12 @@ I obtained labeled datasets for Turkish ([BAUM-1](https://archive.ics.uci.edu/ml
 Like the Emotional Speech Dataset [[34]](#34), BAUM-2 [[36]](#36) also contains samples in English (from television series).
 
 Each dataset was created with different methods, but they share common features that made them suitable for this project:
-1. Audio data (or video data with audio) of natural human speech at the word or utterance level from a single speaker. These were variously obtained via spontaneous participant elicitation (e.g., the eNTERFACE '05 Audio-Visual Emotion Database [[17]](#17) or Estonian Emotional Speech Corpus [[28]](#28)), trained actors (e.g., Ryerson Audio-Visual Database of Emotional Speech and Song [[21]](#21) or Acted Emotional Speech Dynamic Database [[31]](#31)–[[32]](#32)), or television media samples (e.g., the Urdu Language Speech Dataset [[5]](#5) or Multimodal EmotionLines Dataset [[19]](#19)–[[20]](#20))).
+1. Audio data (or video data with audio) of natural human speech at the word or utterance level from a single speaker. These were variously obtained via spontaneous participant elicitation (e.g., the eNTERFACE '05 Audio-Visual Emotion Database [[17]](#17) or Estonian Emotional Speech Corpus [[27]](#27)), trained actors (e.g., Ryerson Audio-Visual Database of Emotional Speech and Song [[21]](#21) or Acted Emotional Speech Dynamic Database [[31]](#31)–[[32]](#32)), or television media samples (e.g., the Urdu Language Speech Dataset [[5]](#5) or Multimodal EmotionLines Dataset [[19]](#19)–[[20]](#20))).
 1. A single unambiguous valence classification of either positive, negative, or neutral per audio sample — explicitly labeled or directly inferable from the conventional valences of basic emotion categories. For instance, samples colored with anger, disgust, fear, or sadness would all be considered negatively valenced. Joy is considered positively valenced. Because the valence of surprise is ambiguous [[37]](#37), it was not considered a valid label for this project. Similarly, neither datasets that associated observations with multiple emotions nor those dealing with sentiment but not emotions were considered.
 1. Demonstrated academic or practical application in some context (e.g., conference or journal publication, Kaggle, etc.).
 1. Public or free-use non-commercial access.
 
-Information about speaker gender was available for all datasets as well (although not always explicitly encoded). All speakers in all datasets were adults with the exception of the EmoReact dataset [[15]](#15), which featured children's English.
+Information about speaker gender was available for all datasets as well (although not always explicitly encoded). All speakers in all datasets were adults with the exception of the EmoReact dataset [[15]](#15), which featured children's English, and the Canadian French Emotional Speech Database [[29]](#29) in which one of the actors was under 18 years old at time of recording.
 
 I considered many other datasets such as those listed in [[38]](#38), but most of these did not meet all the above criteria, required an active academic affiliation, were paywalled, or were otherwise inaccessible.
 
@@ -60,11 +60,11 @@ I considered many other datasets such as those listed in [[38]](#38), but most o
   * [anad](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/anad) | Arabic Natural Audio Dataset [[26]](#26)
   * BAUM1 | (Turkish) [[35]](#35)
   * BAUM2 | (Turkish) [[36]](#36)
-  * [cafe](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/cafe) | Canadian French Emotional Speech Database [[27]](#27)
-  * [ekorpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ekorpus) | Estonian Emotional Speech Corpus [[28]](#28)
+  * [cafe](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/cafe) | Canadian French Emotional Speech Database [[29]](#29)
+  * [ekorpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ekorpus) | Estonian Emotional Speech Corpus [[27]](#27)
   * [EmoDB](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoDB) | Berlin Database of Emotional Speech (German) [[30]](#30)
   * [esd](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/esd) | Emotional Speech Dataset (Mandarin Chinese and English) [[34]](#34)
-  * [oreau2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/oreau2) | French Emotional Speech Database - Oréau [[29]](#29)
+  * [oreau2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/oreau2) | French Emotional Speech Database - Oréau [[28]](#28)
   * [ShEMO](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ShEMO) | Sharif Emotional Speech Database (Persian) [[33]](#33)
   * [urdu](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/urdu) | Urdu Language Speech Dataset [[5]](#5)
 
@@ -176,15 +176,15 @@ I considered many other datasets such as those listed in [[38]](#38), but most o
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>27</sup></sub></sup></sub></h6></span>
 
-27. O. Lahaie and P. Gournay, *Canadian French Emotional Speech Database. V1.1.* 2017. Distributed by Groupe de Recherche sur la Parole et l'Audio. Accessed: Feb. 8, 2021. [Online]. Available: https://www.gel.usherbrooke.ca/audio/cafe.htm
+27. H. Pajupuu, *Eesti Emotsionaalse Kõne Korpus. V5.* Jun. 12, 2012. Distributed by Center of Estonian Language Resources. Accessed: Feb. 9, 2021. [Online]. doi: https://doi.org/10.15155/EKI.000A.
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>28</sup></sub></sup></sub></h6></span>
 
-28. H. Pajupuu, *Eesti Emotsionaalse Kõne Korpus. V5.* Jun. 12, 2012. Distributed by Center of Estonian Language Resources. Accessed: Feb. 9, 2021. [Online]. doi: https://doi.org/10.15155/EKI.000A.
+28. L. Kerkeni, C. Cleder, Y. Serrestou, and K. Raoff, *French Emotional Speech Database - Oréau. V2.* Dec. 31, 2020. Distributed by Zenodo. Accessed: Feb. 9, 2021. [Dataset]. doi: https://doi.org/10.5281/zenodo.4405783.
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>29</sup></sub></sup></sub></h6></span>
 
-29. L. Kerkeni, C. Cleder, Y. Serrestou, and K. Raoff, *French Emotional Speech Database - Oréau. V2.* Dec. 31, 2020. Distributed by Zenodo. Accessed: Feb. 9, 2021. [Dataset]. doi: https://doi.org/10.5281/zenodo.4405783.
+29. O. Lahaie and P. Gournay, *Canadian French Emotional Speech Database. V1.1.* 2017. Distributed by Groupe de Recherche sur la Parole et l'Audio. Accessed: Feb. 8, 2021. [Online]. Available: https://www.gel.usherbrooke.ca/audio/cafe.htm
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>30</sup></sub></sup></sub></h6></span>
 
