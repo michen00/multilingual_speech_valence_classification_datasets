@@ -20,5 +20,5 @@ for root, _, files in walk("."):
             val = "1" if emo == "happiness" else "-1"
             out.append([path, emo_encode[emo], val, lang, "aesdd\n"])
 
-with open("data_dir.csv", "w") as f:
+with open("data_dir.tsv", "w") as f:
     [f.write("\t".join(record)) for record in out]
