@@ -3,7 +3,11 @@ This script lists the filepaths and metadata for records retained for model deve
 The resultant csv is used to help aggregate all records for feature extraction from the audio signal.
 Records are from the BAUM2 dataset.
 """
+from os.path import exists
 
+# I did extensive precleaning of annotations in Excel to map emotion labels into valence codes
+# Records with surprise emotion and records without useful audio were dropped
+# Sheet 4 in data_dir.xlsx was the base for preclean.tsv
 with open("preclean.tsv", "r") as f:
     lines = f.readlines()
 
@@ -13,7 +17,7 @@ ranges = [
     ("101", "150"),
     ("151", "200"),
     ("201", "250"),
-    ("251", "285"),
+    ("251", "286"),
 ]
 
 for i in range(len(lines)):
@@ -21,10 +25,15 @@ for i in range(len(lines)):
     folder, wav = line[:8].split("_")
     for a, b in ranges:
         if a <= folder[1:] <= b:
-            _ = "BAUM-2_S%s-S%s" % (a, b)
+            _ = "BAUM-2_S%s_S%s" % (a, b)
+            # directory BAUM-2_S001-S050 was manually renamed to BAUM-2_S001_S050 (underscore instead of dash)
             break
     lines[i] = line.split("\t")
-    lines[i][0] = "\\".join([_, folder, "wav", wav + ".wav"])
+    file = "\\".join([_, folder, "wav", wav + ".wav"])
+    if not exists(file):
+        print("uh oh, %s doesn't exist!" % file)
+        pass
+    lines[i][0] = file
 
 with open("data_dir.tsv", "w") as f:
     [f.write("\t".join(record)) for record in lines]
