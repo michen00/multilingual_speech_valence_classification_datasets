@@ -5,9 +5,10 @@ Records are from the BAUM2 dataset.
 """
 from os.path import exists
 
-# I did extensive precleaning of annotations in Excel to map emotion labels into valence codes
-# Records with surprise emotion and records without useful audio were dropped
-# Sheet 4 in data_dir.xlsx was the base for preclean.tsv
+# I did extensive precleaning of annotations in Excel to map emotion labels into valence codes.
+# Records with surprise emotion and records without useful audio were dropped.
+# data_dir.xlsx was the base for preclean.tsv
+# See also datasets/Notes.docx and datsets/dataset_details.xlsx for more notes on cleaning.
 with open("preclean.tsv", "r") as f:
     lines = f.readlines()
 

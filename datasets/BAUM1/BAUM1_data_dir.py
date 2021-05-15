@@ -10,9 +10,7 @@ from os.path import exists
 with open("preclean.tsv", "r") as f:
     lines = f.readlines()
 
-codemaker = lambda x: {
-    k: v for k, v in zip(["".join((str(_), "\n")) for _ in range(1, len(x) + 1)], x)
-}
+codemaker = lambda x: {k: v for k, v in zip([str(_) for _ in range(1, len(x) + 1)], x)}
 codes_act, codes_spo = codemaker(
     ["ang", "bor", "dis", "fea", "hap", "int", "sad", "sur", "uns"]
 ), codemaker(
@@ -45,19 +43,19 @@ lang = "tur"  # ISO 639-2/3 Turkish
 out = []
 
 for record in acted:
-    file, emo, code = record.split("\t")
-    emo = emo[:3].lower()
+    file, emo, code, gender = record.rstrip().lower().split("\t")
+    emo = emo[:3]
     if codes_act[code] != emo:
         print("uh oh, emo code does not match label in annotations", file)
     elif emo in keep_emos:
         speaker = file.lower().split("_", 1)[0]
         file = "\\".join(("BAUM1a_MP4_all", speaker, ".".join((file, "mp4"))))
-        out.append("\t".join((file, emo, valence[emo], lang, "BAUM1\n")))
+        out.append("\t".join((file, emo, valence[emo], lang, gender, "BAUM1\n")))
 
 for record in spont:
-    file, emo, code = record.split("\t")
+    file, emo, code, gender = record.rstrip().lower().split("\t")
     if emo == "Concentrating":
-        if code != "4\n":
+        if code != "4":
             print("uh oh, emo code does not match label in annotations", file)
         continue
     emo = emo[:3].lower()
@@ -71,7 +69,7 @@ for record in spont:
         file = "\\".join(("BAUM1s_MP4 - All", speaker, ".".join((file, "mp4"))))
         if not exists(file):
             print("uh oh, %s doesn't exist!" % file)
-        out.append("\t".join((file, emo, valence[emo], lang, "BAUM1\n")))
+        out.append("\t".join((file, emo, valence[emo], lang, gender, "BAUM1\n")))
 
 with open("data_dir.tsv", "w") as f:
     [f.write(record) for record in out]

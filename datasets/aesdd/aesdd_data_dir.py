@@ -22,7 +22,8 @@ for root, _, files in walk("."):
             val = "1" if emo == "happiness" else "-1"
             if not exists(path.split("\\", 1)[-1]):
                 print("uh oh, %s doesn't exist!" % path)
-            out.append([path, emo_encode[emo], val, lang, "aesdd\n"])
+            out.append([path, emo_encode[emo], val, lang, "U", "aesdd\n"])
+# U is for missing gender label
 
 with open("data_dir.tsv", "w") as f:
     [f.write("\t".join(record)) for record in out]
