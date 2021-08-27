@@ -33,8 +33,8 @@ for i in range(len(lines)):
     file = "\\".join([_, folder, "wav", wav + ".wav"])
     if not exists(file):
         print("uh oh, %s doesn't exist!" % file)
-        pass
     lines[i][0] = file
 
 with open("data_dir.tsv", "w") as f:
     [f.write("\t".join(record)) for record in lines]
+print("done")
