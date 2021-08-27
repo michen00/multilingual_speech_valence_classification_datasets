@@ -42,7 +42,7 @@ I considered many other datasets such as those listed in [[38]](#38), but most o
 * English
   * [CREMA-D](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/CREMA-D) | Crowd-sourced Emotional Multimodal Actors Dataset [[12]](#12)–[[13]](#13)
   * [dzafic](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/dzafic) | Six samples from [[24]](#24)
-  * [EmoReact_V_1.0](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/BAUM1) | EmoReact dataset [[15]](#15)
+  * [EmoReact_V_1.0](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/EmoReact_V_1.0) | EmoReact dataset [[15]](#15)
   * [Emotional_EMA](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/Emotional_EMA) | Electromagnetic Articulography Database [[14]](#14)
   * [EmoV-DB_sorted](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoV-DB_sorted) | Emotional Voices Database [[35]](#35)
   * [enterface_db](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/enterface_db) | eNTERFACE '05 Audio-Visual Emotion Database [[16]](#16)
@@ -54,9 +54,9 @@ I considered many other datasets such as those listed in [[38]](#38), but most o
   * [tess](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/tess) | Toronto Emotional Speech Set [[22]](#22)
   * [vivae](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/vivae) | Variably Intense Vocalizations of Affect and Emotion Corpus [[23]](#23)
 * Non-English
-  * [aesdd](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/aesdd) | Acted Emotional Speech Dynamic Database (Greek) [[30]](#30)–[[31]](#31)
-  * [BAUM1](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/BAUM1) | (Turkish) [[33]](#33)
-  * [BAUM2](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/BAUM2) | (Turkish) [[34]](#34)
+  * [aesdd](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/aesdd) | Acted Emotional Speech Dynamic Database (Greek) [[30]](#30)–[[31]](#31)
+  * [BAUM1](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/BAUM1) | (Turkish) [[33]](#33)
+  * [BAUM2](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/BAUM2) | (Turkish) [[34]](#34)
   * [cafe](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/cafe) | Canadian French Emotional Speech Database [[28]](#29)
   * [ekorpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ekorpus) | Estonian Emotional Speech Corpus [[26]](#26)
   * [EmoDB](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoDB) | Berlin Database of Emotional Speech (German) [[29]](#29)
