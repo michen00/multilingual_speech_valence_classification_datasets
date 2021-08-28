@@ -1,6 +1,6 @@
 """
-This script lists the filepaths and metadata for records retained for model development in a tab-delimited csv.
-The resultant tsv is used to help aggregate all records for feature extraction from the audio signal.
+This script writes the file paths, label, and other metadata of records to retain for model development in a tab-delimited csv.
+The resultant tsv is used to help aggregate all records into a unified dataset.
 Records are from the Acted Emotional Speech Dynamic Database.
 """
 
