@@ -100,7 +100,7 @@ ACTORID_GENDER = {
 }
 
 INFILE, OUTFILE = "filelist", "data_dir.tsv"
-LANG = "eng"  # ISO 639-2/3 English
+LANG = "eng"  # ISO 639-3 English
 
 VALENCE = dict.fromkeys(["ANG", "DIS", "HAP", "NEU", "FEA", "SAD"], "-1")
 VALENCE["NEU"], VALENCE["HAP"] = "0", "1"

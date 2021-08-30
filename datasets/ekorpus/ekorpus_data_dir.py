@@ -7,7 +7,7 @@ Records are from the Estonian Emotional Speech Corpus (ekorpus).
 from os.path import exists
 
 
-LANG = "est"  # ISO 639-2/3 Estonian
+LANG = "est"  # ISO 639-3 Estonian
 VALENCE = {"ang": "-1", "hap": "1", "neu": "0", "sad": "-1"}
 
 missing_files = []

@@ -18,7 +18,7 @@ EMO_ENCODE = {
 VALENCE = {k[0]: "-1" for k in EMO_FOLDERS}
 VALENCE["N"], VALENCE["J"] = "0", "1"
 PREFIX = "CaFE_192k_"
-LANG = "fra"  # ISO 639-2/3 French
+LANG = "fra"  # ISO 639-3 French
 # Quebec French doesn't have its own code.
 
 OUTFILE = "data_dir.tsv"

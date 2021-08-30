@@ -40,7 +40,7 @@ VALENCE = {k: "-1" for k in KEEP_EMOS}
 VALENCE["neu"] = "0"
 VALENCE["hap"], VALENCE["int"] = "1", "1"
 
-LANG = "tur"  # ISO 639-2/3 Turkish
+LANG = "tur"  # ISO 639-3 Turkish
 out = []
 
 for record in acted:
