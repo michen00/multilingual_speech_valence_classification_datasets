@@ -16,7 +16,7 @@ missing_wav = []
 intent_percept_mismatch = []
 
 with open("perceived_valences", "r") as f1:
-    with open("data_dir.tsv", "w") as f2:
+    with open("ekorpus_data_files.tsv", "w") as f2:
         for line in f1:
             sample_ID, perceived_valence = line.strip().split("\t")
             # capture intended emotions through TextGrid files

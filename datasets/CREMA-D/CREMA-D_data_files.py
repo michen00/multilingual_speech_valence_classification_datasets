@@ -99,15 +99,14 @@ ACTORID_GENDER = {
     "1091": "f",
 }
 
-INFILE, OUTFILE = "filelist", "data_dir.tsv"
 LANG = "eng"  # ISO 639-3 English
 
 VALENCE = dict.fromkeys(["ANG", "DIS", "HAP", "NEU", "FEA", "SAD"], "-1")
 VALENCE["NEU"], VALENCE["HAP"] = "0", "1"
 
 # filelist is copy-pasted from data_selection.xlsx
-with open(INFILE, "r") as f1:
-    with open(OUTFILE, "w") as f2:
+with open("filelist", "r") as f1:
+    with open("CREMA-D_data_files.tsv", "w") as f2:
         for line in f1:
             actor_id, _, emotion, _ = line.split("_")
             f2.write(

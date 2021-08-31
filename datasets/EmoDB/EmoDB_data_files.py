@@ -34,7 +34,7 @@ SPEAKER_GENDER = {
 }
 
 # folder, [], files in folder
-with open("data_dir.tsv", "w") as f:
+with open("EmoDB_data_files.tsv", "w") as f:
     for _, _, files in walk("."):
         for file in files:
             if len(file) >= 4 and file[-4:] == ".wav":

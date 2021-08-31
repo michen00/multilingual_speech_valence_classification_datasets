@@ -21,14 +21,14 @@ PREFIX = "CaFE_192k_"
 LANG = "fra"  # ISO 639-3 French
 # Quebec French doesn't have its own code.
 
-OUTFILE = "data_dir.tsv"
+OUTFILE = "cafe_data_files.tsv"
 
 # Clear out file contents for rewriting
 open(OUTFILE, "w").close()
 
 
 def write_records(folder: str, emotion: str) -> list[str]:
-    """Writes a list of records to file given a folder"""
+    """Write a list of records to file given a folder."""
     with open(OUTFILE, "a") as f:
         # folder, [], files in folder
         for _, _, files in walk(folder):
