@@ -7,6 +7,7 @@ Records are from the Electromagnetic Articulography Database.
 from typing import OrderedDict, TextIO
 
 LANG = "eng"  # ISO 639-3 English
+LANG2 = "en-us"  # ISO 639-1 English (United States)
 
 # Collect valence votes of each file
 valence_votes = {}
@@ -71,6 +72,7 @@ def process_file(filename: str, f_write: TextIO) -> None:
                     intended_emotion,
                     intended_valence,
                     LANG,
+                    LANG2,
                     SPEAKER_GENDER[speaker],
                     "Emotional_EMA\n",
                 ]

@@ -12,7 +12,8 @@ DIRS = ["anger", "disgust", "fear", "happiness", "sadness"]
 EMO_ENCODE = {k: v for k, v in zip(DIRS, ["ang", "dis", "fea", "hap", "sad"])}
 # no neutral in this dataset
 
-LANG = "ell"  # ISO 639-2/3 Greek
+LANG = "ell"  # ISO 639-3 Modern Greek
+LANG2 = "el"  # ISO 639-1 Modern Greek
 out = []
 
 for root, _, files in walk("."):
@@ -25,7 +26,9 @@ for root, _, files in walk("."):
             # e.g. 'a03 (4).wav' is the 3rd utterance spoken by the 4th speaker with anger
             speaker_gender = SPEAKERS[int(filename.split(")")[0][-1])]
             val = "1" if emo == "happiness" else "-1"
-            out.append([path, EMO_ENCODE[emo], val, LANG, speaker_gender, "aesdd\n"])
+            out.append(
+                [path, EMO_ENCODE[emo], val, LANG, LANG2, speaker_gender, "aesdd\n"]
+            )
 
 with open("aesdd_data_files.tsv", "w") as f:
     [f.write("\t".join(record)) for record in out]

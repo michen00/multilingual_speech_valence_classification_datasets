@@ -8,6 +8,7 @@ from os import walk
 
 
 LANG = "deu"  # ISO 639-3 German
+LANG2 = "de"  # ISO 639-1 German
 EMO_CODE = {
     "W": "ang",
     "L": "bor",
@@ -52,6 +53,7 @@ with open("EmoDB_data_files.tsv", "w") as f:
                             emotion,
                             VALENCE[emotion],
                             LANG,
+                            LANG2,
                             SPEAKER_GENDER[file[:2]],
                             "EmoDB\n",
                         ]

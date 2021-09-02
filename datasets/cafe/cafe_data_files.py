@@ -19,7 +19,7 @@ VALENCE = {k[0]: "-1" for k in EMO_FOLDERS}
 VALENCE["N"], VALENCE["J"] = "0", "1"
 PREFIX = "CaFE_192k_"
 LANG = "fra"  # ISO 639-3 French
-# Quebec French doesn't have its own code.
+LANG2 = "fr-ca"  # ISO 639-1 French (Canada)
 
 OUTFILE = "cafe_data_files.tsv"
 
@@ -40,6 +40,7 @@ def write_records(folder: str, emotion: str) -> list[str]:
                             EMO_ENCODE[emotion],
                             VALENCE[emotion[0]],
                             LANG,
+                            LANG2,
                             "m" if int(file[0:2]) % 2 else "f",
                             "cafe\n",
                         ]

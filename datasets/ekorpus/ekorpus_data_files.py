@@ -8,6 +8,7 @@ from os.path import exists
 
 
 LANG = "est"  # ISO 639-3 Estonian
+LANG2 = "et"  # ISO 639-1 Estonian
 VALENCE = {"ang": "-1", "hap": "1", "neu": "0", "sad": "-1"}
 
 missing_files = []
@@ -45,6 +46,7 @@ with open("perceived_valences", "r") as f1:
                                         intended_emotion,
                                         intended_valence,
                                         LANG,
+                                        LANG2,
                                         "f",
                                         "ekorpus\n",
                                     ]
