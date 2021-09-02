@@ -1,7 +1,7 @@
 # Datasets for multilingual speech valence classification
 
 ## Introduction
-This repo collects datasets with raw audio that can be used for speech emotion recognition, particularly for training a multilingual speech valence classifier.
+This repository collects datasets with raw audio that can be used for speech emotion recognition, particularly for training a multilingual speech valence classifier.
 
 To the best of my knowledge, all end-user license agreements for these datasets allow for public or free-use non-commercial access; for those that disallow distribution, there are no requirements for active university affiliation or institutional review board approval.
 
