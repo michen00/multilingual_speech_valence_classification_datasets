@@ -7,7 +7,7 @@ Records are from BAUM-1.
 from os.path import exists
 
 # I copied and pasted from Annotations_BAUM1a.xlsx and Annotations_BAUM1s.xlsx to make preclean.tsv with a newline between the subsets
-with open("preclean.tsv", "r") as f:
+with open("preclean.tsv", "r", encoding="utf-8-sig") as f:
     lines = f.readlines()
 
 codemaker = lambda x: {k: v for k, v in zip([str(_) for _ in range(1, len(x) + 1)], x)}
@@ -19,8 +19,8 @@ CODES_ACT, CODES_SPO = codemaker(
         "ang",
         "bor",
         "bot",
-        "con",  # contempt
         "con",  # concentrating
+        "con",  # contempt
         "dis",
         "fea",
         "hap",
@@ -32,9 +32,9 @@ CODES_ACT, CODES_SPO = codemaker(
     ]
 )
 
-# I set the 266th line in preclean.tsv to a single newline
-acted = lines[:265]
-spont = lines[266:]
+# I set the 267th line in preclean.tsv to a single newline
+acted = lines[:274]
+spont = lines[275:]
 
 KEEP_EMOS = [
     "ang",
@@ -65,7 +65,7 @@ for record in acted:
         print("uh oh, emo code does not match label in annotations", file)
     elif emo in KEEP_EMOS:
         speaker = file.lower().split("_", 1)[0]
-        file = "\\".join(("BAUM1a_MP4_all", speaker, ".".join((file, "mp4"))))
+        file = "\\".join(("BAUM1a_MP4_all", speaker, ".".join((file.upper(), "mp4"))))
         out.append(
             "\t".join(
                 (
@@ -94,9 +94,9 @@ for record in spont:
         # it was pretty obvious to me that it was a happy sample (smiling and laughing)
     elif emo in KEEP_EMOS:
         speaker = file.lower().split("_", 1)[0]
-        file = "\\".join(("BAUM1s_MP4 - All", speaker, ".".join((file, "mp4"))))
+        file = "\\".join(("BAUM1s_MP4 - All", speaker, ".".join((file.upper(), "mp4"))))
         if not exists(file):
-            # This never happens since all files exist
+            # This never happens since all s files exist
             print("uh oh, %s doesn't exist!" % file)
         out.append(
             "\t".join(

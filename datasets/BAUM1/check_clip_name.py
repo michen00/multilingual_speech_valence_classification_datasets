@@ -1404,3 +1404,15 @@ annotations_s = [
     ("31", "53", "S031_053"),
     ("31", "54", "S031_054"),
 ]
+
+
+# annotations = annotations_a + annotations_s
+for speaker, clip, clipname in annotations_a:
+    if f"S{speaker.rjust(3, f'0')}_{clip.rjust(3, f'0')}" == clipname:
+        continue
+    print("a", clipname)
+
+for speaker, clip, clipname in annotations_s:
+    if f"S{speaker.rjust(3, f'0')}_{clip.rjust(3, f'0')}" == clipname:
+        continue
+    print("s", clipname)
