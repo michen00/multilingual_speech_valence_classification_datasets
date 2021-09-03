@@ -10,6 +10,9 @@ from os.path import exists
 with open("preclean.tsv", "r", encoding="utf-8-sig") as f:
     lines = f.readlines()
 
+# retroactive fix: change "uns" to "unc" and "int" to "cur"
+fixed_emo = lambda emo: "unc" if emo == "uns" else "cur" if emo == "int" else emo
+
 codemaker = lambda x: {k: v for k, v in zip([str(_) for _ in range(1, len(x) + 1)], x)}
 # codes in the acted and spontaneous sets
 CODES_ACT, CODES_SPO = codemaker(
@@ -32,7 +35,7 @@ CODES_ACT, CODES_SPO = codemaker(
     ]
 )
 
-# I set the 267th line in preclean.tsv to a single newline
+# I set the 275th line in preclean.tsv to a single newline
 acted = lines[:274]
 spont = lines[275:]
 
@@ -70,8 +73,7 @@ for record in acted:
             "\t".join(
                 (
                     file,
-                    # retroactive fix: change "uns" to "unc"
-                    "unc" if emo == "uns" else emo,
+                    fixed_emo(emo),
                     VALENCE[emo],
                     LANG,
                     LANG2,
@@ -102,8 +104,7 @@ for record in spont:
             "\t".join(
                 (
                     file,
-                    # retroactive fix: change "uns" to "unc"
-                    "unc" if emo == "uns" else emo,
+                    fixed_emo(emo),
                     VALENCE[emo],
                     LANG,
                     LANG2,
