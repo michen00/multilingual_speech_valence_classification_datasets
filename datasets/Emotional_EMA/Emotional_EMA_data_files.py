@@ -7,7 +7,7 @@ Records are from the Electromagnetic Articulography Database.
 from typing import OrderedDict, TextIO
 
 LANG = "eng"  # ISO 639-3 English
-LANG2 = "en-us"  # ISO 639-1 English (United States)
+LANG2 = "en-us"  # ISO 639-1 English + ISO 3166-1 United States
 
 # Collect valence votes of each file
 valence_votes = {}

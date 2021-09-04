@@ -8,7 +8,7 @@ from os import walk
 
 
 LANG = "deu"  # ISO 639-3 German
-LANG2 = "de"  # ISO 639-1 German
+LANG2 = "de-de"  # ISO 639-1 German + ISO 3166-1 Germany
 EMO_CODE = {
     "W": "ang",
     "L": "bor",

@@ -7,7 +7,7 @@ Records are from the Emotional Voices Database.
 from os import walk
 
 LANG = "eng"  # ISO 639-3 English
-LANG2 = "en-us"  # ISO 639-1 English (United States)
+LANG2 = "en-us"  # ISO 639-1 English + ISO 3166-1 United States
 
 speaker_gender = {"bea": "f", "jenie": "f", "josh": "m", "sam": "m"}
 valence = dict.fromkeys(["ang", "dis"], "-1")

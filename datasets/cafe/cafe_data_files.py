@@ -19,7 +19,7 @@ VALENCE = {k[0]: "-1" for k in EMO_FOLDERS}
 VALENCE["N"], VALENCE["J"] = "0", "1"
 PREFIX = "CaFE_192k_"
 LANG = "fra"  # ISO 639-3 French
-LANG2 = "fr-ca"  # ISO 639-1 French (Canada)
+LANG2 = "fr-ca"  # ISO 639-1 French + ISO 3166-1 Canada
 
 OUTFILE = "cafe_data_files.tsv"
 

@@ -13,7 +13,7 @@ EMO_ENCODE = {k: v for k, v in zip(DIRS, ["ang", "dis", "fea", "hap", "sad"])}
 # no neutral in this dataset
 
 LANG = "ell"  # ISO 639-3 Modern Greek
-LANG2 = "el"  # ISO 639-1 Modern Greek
+LANG2 = "el-gr"  # ISO 639-1 Modern Greek + ISO 3166-1 Greece
 out = []
 
 for root, _, files in walk("."):

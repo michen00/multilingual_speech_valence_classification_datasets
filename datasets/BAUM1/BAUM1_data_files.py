@@ -58,7 +58,7 @@ VALENCE["neu"] = "0"
 VALENCE["hap"], VALENCE["int"] = "1", "1"
 
 LANG = "tur"  # ISO 639-3 Turkish
-LANG2 = "tr"  # ISO 639-1 Turkish
+LANG2 = "tr-tr"  # ISO 639-1 Turkish + ISO 3166-1 Turkey
 out = []
 
 for record in acted:

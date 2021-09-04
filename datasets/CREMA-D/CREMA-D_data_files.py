@@ -100,7 +100,7 @@ ACTORID_GENDER = {
 }
 
 LANG = "eng"  # ISO 639-3 English
-LANG2 = "en-us"  # ISO 639-1 English (United States)
+LANG2 = "en-us"  # ISO 639-1 English + ISO 3166-1 United States
 
 VALENCE = dict.fromkeys(["ANG", "DIS", "HAP", "NEU", "FEA", "SAD"], "-1")
 VALENCE["NEU"], VALENCE["HAP"] = "0", "1"
