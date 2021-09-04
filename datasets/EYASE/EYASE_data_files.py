@@ -22,7 +22,7 @@ with open("EYASE_data_files.tsv", "w") as f:
                     f.write(
                         "\t".join(
                             [
-                                "/".join([folder, file_]),
+                                f"{folder}/{file_}",
                                 emo,
                                 valence[emo],
                                 LANG,
