@@ -28,7 +28,7 @@ with open("EYASE_data_files.tsv", "w") as f:
                                 LANG,
                                 LANG2,
                                 gender[0].lower(),
-                                "esd\n",
+                                "EYASE\n",
                             ]
                         )
                     )
