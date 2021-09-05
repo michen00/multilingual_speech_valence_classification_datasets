@@ -9,6 +9,7 @@ from os.path import exists
 
 LANG = "est"  # ISO 639-3 Estonian
 LANG2 = "et-ee"  # ISO 639-1 Estonian + ISO 3166-1 Estonia
+DATASET = "ekorpus"
 VALENCE = {"ang": "-1", "hap": "1", "neu": "0", "sad": "-1"}
 
 missing_files = []
@@ -47,8 +48,9 @@ with open("perceived_valences", "r") as f1:
                                         intended_valence,
                                         LANG,
                                         LANG2,
+                                        f"{DATASET}+0",
                                         "f",
-                                        "ekorpus\n",
+                                        f"{DATASET}\n",
                                     ]
                                 )
                             )

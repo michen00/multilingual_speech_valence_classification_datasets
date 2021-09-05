@@ -12,24 +12,33 @@ DIRS = ["anger", "disgust", "fear", "happiness", "sadness"]
 EMO_ENCODE = {k: v for k, v in zip(DIRS, ["ang", "dis", "fea", "hap", "sad"])}
 # no neutral in this dataset
 
+DATASET = "aesdd"
 LANG = "ell"  # ISO 639-3 Modern Greek
 LANG2 = "el-gr"  # ISO 639-1 Modern Greek + ISO 3166-1 Greece
-out = []
-
-for root, _, files in walk("."):
-    for filename in files:
-        emo = root[2:]
-        if emo in DIRS:
-            path = "\\".join([emo, filename])
-            if not exists(path):
-                print(f"uh oh, {path} doesn't exist!")
-            # e.g. 'a03 (4).wav' is the 3rd utterance spoken by the 4th speaker with anger
-            speaker_gender = SPEAKERS[int(filename.split(")")[0][-1])]
-            val = "1" if emo == "happiness" else "-1"
-            out.append(
-                [path, EMO_ENCODE[emo], val, LANG, LANG2, speaker_gender, "aesdd\n"]
-            )
-
 with open("aesdd_data_files.tsv", "w") as f:
-    [f.write("\t".join(record)) for record in out]
+    for root, _, files in walk("."):
+        for filename in files:
+            emo = root[2:]
+            if emo in DIRS:
+                path = "\\".join([emo, filename])
+                if not exists(path):
+                    print(f"uh oh, {path} doesn't exist!")
+                # e.g. 'a03 (4).wav' is the 3rd utterance spoken by the 4th speaker with anger
+                speaker = int(filename.split(")")[0][-1])
+                speaker_gender = SPEAKERS[speaker]
+                val = "1" if emo == "happiness" else "-1"
+                f.write(
+                    "\t".join(
+                        [
+                            path,
+                            EMO_ENCODE[emo],
+                            val,
+                            LANG,
+                            LANG2,
+                            f"{DATASET}+{speaker}",
+                            speaker_gender,
+                            f"{DATASET}\n",
+                        ]
+                    )
+                )
 print("done")

@@ -8,9 +8,21 @@ from collections import namedtuple
 
 LANG = "eng"  # ISO 639-3 English
 LANG2 = "en"  # ISO 639-1 English
+DATASET = "EmoReact_V_1.0"
 
 # Speaker is adult interviewer, not child subject
-manually_omit = {"VCR107_2.mp4", "BULLYING27_2.mp4", "GAMEBOY19_2.mp4"}
+# or there is no vocal utterance
+manually_omit = {
+    "VCR107_2.mp4",
+    "BULLYING27_2.mp4",
+    "GAMEBOY19_2.mp4",
+    "GAMEBOY29_2.mp4",
+    "KIMCHI65_2.mp4",
+    "OLDCOMPUTERS128_2.mp4",
+    "REBECCA13_2.mp4",
+    "TYPEWRITERS19_2.mp4",
+    "TYPEWRITERS28_2.mp4",
+}
 
 rating_vector = namedtuple(
     "RatingVector",
@@ -84,7 +96,7 @@ with open("EmoReact_V_1.0_data_files.tsv", "w") as f1:
             with open(f"Labels/{split}_labels.text", "r") as f3:
                 for filename_gender, votes in zip(f2, f3):
                     # manual annotations: filename*gender
-                    file, gender = strip_split(filename_gender, "*")
+                    speaker_number, file, gender = strip_split(filename_gender, "*")
                     ratings = [float(_) for _ in strip_split(votes, ",")]
                     perceived_valence = valence_from_float(ratings.pop(-1))
                     (
@@ -107,8 +119,9 @@ with open("EmoReact_V_1.0_data_files.tsv", "w") as f1:
                                     perceived_valence,
                                     LANG,
                                     LANG2,
+                                    f"{DATASET}+{split}{speaker_number}",
                                     gender,
-                                    "EmoReact_V_1.0\n",
+                                    f"{DATASET}\n",
                                 ]
                             )
                         )

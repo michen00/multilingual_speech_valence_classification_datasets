@@ -8,6 +8,7 @@ from os import walk
 
 LANG = "eng"  # ISO 639-3 English
 LANG2 = "en"  # ISO 639-1 English
+DATASET = "enterface_db"
 
 speaker_gender = {
     "1": "m",
@@ -88,8 +89,9 @@ with open("enterface_db_data_files.tsv", "w") as f:
                         valence[emo],
                         LANG,
                         LANG2,
+                        f"{DATASET}+{speaker}",
                         speaker_gender[speaker],
-                        "enterface_db\n",
+                        f"{DATASET}\n",
                     ]
                 )
             )

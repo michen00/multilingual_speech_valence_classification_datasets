@@ -10,6 +10,7 @@ eng1 = "eng"  # ISO 639-3 English
 eng2 = "en-us"  # ISO 639-1 English + ISO 3166-1 United States
 zho1 = "cmn"  # 639-3 Mandarin Chinese
 zho2 = "zh-cn"  # ISO 639-1 Chinese + ISO 3166-1 PRC
+DATASET = "esd"
 
 speaker_gender = {
     "0001": "f",
@@ -53,8 +54,9 @@ with open("esd_data_files.tsv", "w") as f:
                                 valence[emo],
                                 lang,
                                 lang2,
+                                f"{DATASET}+{speaker}",
                                 speaker_gender[speaker],
-                                "esd\n",
+                                f"{DATASET}\n",
                             ]
                         )
                     )

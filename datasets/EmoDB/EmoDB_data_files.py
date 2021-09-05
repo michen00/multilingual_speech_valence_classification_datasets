@@ -9,6 +9,7 @@ from os import walk
 
 LANG = "deu"  # ISO 639-3 German
 LANG2 = "de-de"  # ISO 639-1 German + ISO 3166-1 Germany
+DATASET = "EmoDB"
 EMO_CODE = {
     "W": "ang",
     "L": "bor",
@@ -46,6 +47,7 @@ with open("EmoDB_data_files.tsv", "w") as f:
                 # Position 7: if there are more than two versions these are numbered a, b, c ....
                 # Example: 03a01Fa.wav is the audio file from Speaker 03 speaking text a01 with the emotion "Freude" (Happiness).
                 emotion = EMO_CODE[file[5]]
+                speaker = file[:2]
                 f.write(
                     "\t".join(
                         [
@@ -54,8 +56,9 @@ with open("EmoDB_data_files.tsv", "w") as f:
                             VALENCE[emotion],
                             LANG,
                             LANG2,
-                            SPEAKER_GENDER[file[:2]],
-                            "EmoDB\n",
+                            f"{DATASET}+{speaker}",
+                            SPEAKER_GENDER[speaker],
+                            f"{DATASET}\n",
                         ]
                     )
                 )

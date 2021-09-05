@@ -8,6 +8,7 @@ from os import walk
 
 LANG = "eng"  # ISO 639-3 English
 LANG2 = "en-us"  # ISO 639-1 English + ISO 3166-1 United States
+DATASET = "EmoV-DB_sorted"
 
 speaker_gender = {"bea": "f", "jenie": "f", "josh": "m", "sam": "m"}
 valence = dict.fromkeys(["ang", "dis"], "-1")
@@ -28,8 +29,9 @@ with open("EmoV-DB_sorted_data_files.tsv", "w") as f:
                             valence[emo],
                             LANG,
                             LANG2,
+                            f"{DATASET}+{folder}",
                             speaker_gender[folder],
-                            "EmoV-DB_sorted\n",
+                            f"{DATASET}\n",
                         ]
                     )
                 )

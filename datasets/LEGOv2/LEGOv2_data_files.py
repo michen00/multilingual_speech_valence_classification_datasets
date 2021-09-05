@@ -8,6 +8,7 @@ from os import walk
 
 LANG = "eng"  # ISO 639-3 English
 LANG2 = "en-us"  # ISO 639-1 English + ISO 3166-1 United States
+DATASET = "LEGOv2"
 
 speaker_gender = {}
 with open("corpus/csv/calls.csv", "r") as f:
@@ -34,8 +35,9 @@ with open("LEGOv2_data_files.tsv", "w") as f_write:
                             "-1",
                             LANG,
                             LANG2,
+                            f"{DATASET}+{folder}",
                             gender,
-                            "LEGOv2\n",
+                            f"{DATASET}\n",
                         ]
                     )
                 )

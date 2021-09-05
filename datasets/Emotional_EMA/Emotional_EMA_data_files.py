@@ -8,6 +8,7 @@ from typing import OrderedDict, TextIO
 
 LANG = "eng"  # ISO 639-3 English
 LANG2 = "en-us"  # ISO 639-1 English + ISO 3166-1 United States
+DATASET = "Emotional_EMA"
 
 # Collect valence votes of each file
 valence_votes = {}
@@ -73,8 +74,9 @@ def process_file(filename: str, f_write: TextIO) -> None:
                     intended_valence,
                     LANG,
                     LANG2,
+                    f"{DATASET}+{speaker}",
                     SPEAKER_GENDER[speaker],
-                    "Emotional_EMA\n",
+                    f"{DATASET}\n",
                 ]
             )
         )

@@ -8,6 +8,7 @@ from os import walk
 
 LANG = "arz"  # ISO 639-3 Egyptian Arabic
 LANG2 = "ar-eg"  # ISO 639-1 Arabic + ISO 3166-1 Egypt
+DATASET = "EYASE"
 
 valence = dict.fromkeys(["ang", "sad"], "-1")
 valence["hap"], valence["neu"] = "1", "0"
@@ -27,8 +28,9 @@ with open("EYASE_data_files.tsv", "w") as f:
                                 valence[emo],
                                 LANG,
                                 LANG2,
+                                f"{DATASET}+{folder}",
                                 gender[0].lower(),
-                                "EYASE\n",
+                                f"{DATASET}\n",
                             ]
                         )
                     )

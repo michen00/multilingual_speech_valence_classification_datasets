@@ -20,6 +20,7 @@ VALENCE["N"], VALENCE["J"] = "0", "1"
 PREFIX = "CaFE_192k_"
 LANG = "fra"  # ISO 639-3 French
 LANG2 = "fr-ca"  # ISO 639-1 French + ISO 3166-1 Canada
+DATASET = "cafe"
 
 OUTFILE = "cafe_data_files.tsv"
 
@@ -33,6 +34,7 @@ def write_records(folder: str, emotion: str) -> list[str]:
         # folder, [], files in folder
         for _, _, files in walk(folder):
             for file in files:
+                speaker = file[:2]
                 f.write(
                     "\t".join(
                         [
@@ -41,8 +43,9 @@ def write_records(folder: str, emotion: str) -> list[str]:
                             VALENCE[emotion[0]],
                             LANG,
                             LANG2,
-                            "m" if int(file[0:2]) % 2 else "f",
-                            "cafe\n",
+                            f"{DATASET}+{speaker}",
+                            "m" if int(speaker) % 2 else "f",
+                            f"{DATASET}\n",
                         ]
                     )
                 )
@@ -56,3 +59,5 @@ for folder_num in {"1", "2"}:
         else:
             for subfolder in {"Faible", "Fort"}:
                 write_records(f"{prefix}{subfolder}/", emotion)
+
+print("done")

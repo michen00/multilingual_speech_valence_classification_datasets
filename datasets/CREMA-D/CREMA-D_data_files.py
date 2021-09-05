@@ -101,6 +101,7 @@ ACTORID_GENDER = {
 
 LANG = "eng"  # ISO 639-3 English
 LANG2 = "en-us"  # ISO 639-1 English + ISO 3166-1 United States
+DATASET = "CREMA-D"
 
 VALENCE = dict.fromkeys(["ANG", "DIS", "HAP", "NEU", "FEA", "SAD"], "-1")
 VALENCE["NEU"], VALENCE["HAP"] = "0", "1"
@@ -118,8 +119,9 @@ with open("filelist", "r") as f1:
                         VALENCE[emotion],
                         LANG,
                         LANG2,
+                        f"{DATASET}+{actor_id}",
                         ACTORID_GENDER[actor_id],
-                        "CREMA-D\n",
+                        f"{DATASET}\n",
                     ]
                 )
             )

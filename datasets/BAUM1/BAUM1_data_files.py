@@ -59,7 +59,11 @@ VALENCE["hap"], VALENCE["int"] = "1", "1"
 
 LANG = "tur"  # ISO 639-3 Turkish
 LANG2 = "tr-tr"  # ISO 639-1 Turkish + ISO 3166-1 Turkey
+DATASET = "BAUM1"
+
 out = []
+
+# The next two for loops are not DRY, but keeping them separate helped me validate the data
 
 for record in acted:
     file, emo, code, gender = record.rstrip().lower().split("\t")
@@ -77,8 +81,9 @@ for record in acted:
                     VALENCE[emo],
                     LANG,
                     LANG2,
+                    f"{DATASET}+{speaker}",
                     gender,
-                    "BAUM1\n",
+                    f"{DATASET}\n",
                 )
             )
         )
@@ -108,8 +113,9 @@ for record in spont:
                     VALENCE[emo],
                     LANG,
                     LANG2,
+                    f"{DATASET}+{speaker}",
                     gender,
-                    "BAUM1\n",
+                    f"{DATASET}\n",
                 )
             )
         )
