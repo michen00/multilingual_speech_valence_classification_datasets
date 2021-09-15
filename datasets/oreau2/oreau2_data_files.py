@@ -7,7 +7,7 @@ Records are from the French Emotional Speech Database - Oréau v2.
 from os import walk
 
 LANG = "fra"  # ISO 639-3 French
-LANG2 = "fr-fr"  # ISO 639-1 French + ISO 3166-1 France
+LANG2 = "fr"  # ISO 639-1 French
 DATASET = "oreau2"
 
 emo_chars = ("c", "d", "j", "n", "p", "s", "t")
