@@ -5,6 +5,10 @@ This repository collects datasets with raw audio that can be used for speech emo
 
 To the best of my knowledge, all end-user license agreements for these datasets allow for public or free-use non-commercial access; for those that disallow distribution, there are no requirements for active university affiliation or institutional review board approval.
 
+Anyone cloning this repository may consider using a shallow clone as its total size is quite large with over 40 GB in the working directory (and there may be large artifacts in the commit history). See also (REPO COMING SOON), which unifies these datasets, standardizes file format and sampling rate, and trims silences (discarding samples with zero duration). I may add another dataset or two in the next week or so as I am in correspondence with some authors on their data.
+
+Inquiries may be directed to Michael.Chen.0@gmail.com.
+
 ---
 
 ## Contents
@@ -33,7 +37,7 @@ Two datasets contained non-English samples in addition to English samples: the [
 
 The end-user license agreements of BAUM-1 [[33]](#33), BAUM-2 [[34]](#34), the EmoReact dataset [[15]](#15), the Egyptian Arabic speech emotion database [[25]](#25) and the Surrey Audio-Visual Expressed Emotion Database [[21]](#21) do not allow for distribution of the datasets, so the raw data were not uploaded to this repository; to use these datasets, you may need to fill out the appropriate end-user license agreements and/or contact the authors. Otherwise, I tried to preserve the directory structure of each dataset and upload the audio files in full, although I compressed some subdirectories and may have omitted some files to reduce total file size (e.g., video samples when audio-only samples are also available).
 
-I also included additional documentation (e.g., full-text journal articles) where I could along with some notes and Python scripts I used for file organization. (The scripts were written in a 3.9.6 environment, but most Python 3.x versions should be fine.)
+I also included additional documentation (e.g., full-text journal articles) where I could along with some notes and Python scripts I used for file organization. (The scripts were written in a 3.9.6 environment, but most Python 3.x versions should be fine.) Since each dataset is different in the way files samples were collected, files are organized, speaker IDs were notated, etc., a run-once script named \*\_data\_files.py that I used to help me select the files I would personally consider retaining as samples for model development may be found in each dataset directory; each of these scripts generates a tab-separated file (\*\_data\_files.tsv) containing the paths of those files and some metadata per dataset. My personal notes
 
 Each dataset was created with different methods, but they share common features that made them suitable for this project:
 1. Audio data (or video data with audio) of natural human speech at the utterance level from a single primary speaker. These were variously obtained via spontaneous participant elicitation (e.g., the eNTERFACE '05 Audio-Visual Emotion Database [[16]](#16) or Estonian Emotional Speech Corpus [[26]](#26)), acted speech (e.g., Ryerson Audio-Visual Database of Emotional Speech and Song [[20]](#20) or Acted Emotional Speech Dynamic Database [[30]](#30)–[[31]](#31)), or media samples from telelvision or films (e.g., the Urdu Language Speech Dataset [[5]](#5) or Multimodal EmotionLines Dataset [[18]](#18)–[[19]](#19))).
