@@ -5,7 +5,7 @@ This repository collects datasets with raw audio that can be used for speech emo
 
 To the best of my knowledge, all end-user license agreements for these datasets allow for public or free-use non-commercial access; for those that disallow distribution, there are no requirements for active university affiliation or institutional review board approval.
 
-Many users may consider a [partial or shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/) of this repository. It contains over 40 GB in the working directory (and there may be large artifacts in the commit history). See also (REPO COMING SOON), which unifies these datasets by standardizing file format and sampling rate and trimming silences (discarding samples with zero duration). I may add another dataset or two in the next week or so as I am in correspondence with some authors on their data.
+Users of this repository may consider a [partial or shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/) since it contains over 40 GB in the working directory (and there may be large artifacts in the commit history). See also (REPO COMING SOON), which unifies these datasets by standardizing file format and sampling rate and trimming silences (discarding samples with zero duration). I may add another dataset or two in the next week or so as I am in correspondence with some authors on their data.
 
 Inquiries may be directed to Michael.Chen.0@gmail.com.
 
