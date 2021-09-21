@@ -6,7 +6,7 @@ Records are from the Toronto Emotional Speech Set.
 
 from os import walk
 
-LANG = "eng"  # ISO 639-3
+LANG = "eng"  # ISO 639-3 English
 LANG2 = "en-ca"  # ISO 639-1 English + ISO 3166-1 Canada
 DATASET = "tess"
 
