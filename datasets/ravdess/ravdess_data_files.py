@@ -8,7 +8,7 @@ from os import walk
 
 LANG = "eng"  # ISO 639-3 English
 LANG2 = "en-ca"  # ISO 639-1 French + ISO 3166-1 Canada
-DATASET = "oreau2"
+DATASET = "ravdess"
 
 emotions = ("neu", "cal", "hap", "sad", "ang", "fea", "dis", "sur")
 emotion_decoder = dict(zip([f"{i:02}" for i in range(1, 9)], emotions))
