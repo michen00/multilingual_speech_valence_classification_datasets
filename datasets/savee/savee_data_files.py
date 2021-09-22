@@ -20,7 +20,8 @@ valence["hap"], valence["neu"] = "1", "0"
 # (file, emotion, valence, speaker_gender, speaker_id)
 manual_records = {
     ("anger02", "ang", "-1", "f", "f0"),
-    ("disgust01", "unk", "-1", "m", "HaroldKumar"),
+    # The one below is a whole dialogue!
+    # ("disgust01", "unk", "-1", "m", "HaroldKumar"),
     ("fear01", "fea", "-1", "m", "m0"),
     ("fear04", "fea", "-1", "m", "HaroldKumar"),
     ("happiness01", "hap", "1", "m", "m1"),
