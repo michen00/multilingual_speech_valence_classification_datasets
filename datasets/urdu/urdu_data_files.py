@@ -30,7 +30,7 @@ with open("urdu_data_files.tsv", "w") as f:
                     f.write(
                         "\t".join(
                             [
-                                file_,
+                                f"{root}/{file_}",
                                 emo := emotion_decoder[emo_code],
                                 valence[emo],
                                 LANG,
