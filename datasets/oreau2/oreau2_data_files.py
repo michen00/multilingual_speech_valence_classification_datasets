@@ -17,7 +17,7 @@ valence["j"], valence["n"] = "1", "0"
 
 speaker_gender_tracker = {}
 bad_files = set()
-with open("orea2_data_files.tsv", "w") as f:
+with open("oreau2_data_files.tsv", "w") as f:
     for speaker_gender in {"f", "m"}:
         for emo_char in emo_chars:
             for root, _, files in walk(f"{speaker_gender}/sess{emo_char}"):
