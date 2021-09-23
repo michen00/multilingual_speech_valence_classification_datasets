@@ -30,7 +30,7 @@ for i in range(len(lines)):
             # directory BAUM-2_S001-S050 was manually renamed to BAUM-2_S001_S050 (underscore instead of dash)
             break
     lines[i] = line.split("\t")
-    file = "\\".join([_, folder, "wav", wav + ".wav"])
+    file = "/".join([_, folder, "wav", wav + ".wav"])
     if not exists(file):
         print("uh oh, %s doesn't exist!" % file)
     lines[i][0] = file

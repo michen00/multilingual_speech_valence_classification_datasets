@@ -95,7 +95,7 @@ with open("MESS_data_files.tsv", "w") as f:
             f.write(
                 "\t".join(
                     [
-                        f"{row}.wav",
+                        f"{row}_SCR.wav",
                         emo := emotion_decoder[emo_code],
                         valence[emo],
                         LANG,
@@ -126,7 +126,7 @@ with open("MESS_data_files.tsv", "a") as f:
                 f.write(
                     "\t".join(
                         [
-                            f"{code}.wav",
+                            f"{code}_SCR.wav",
                             emo := emotion_decoder[emo_code],
                             # Calm audio with mismatched valence perception recoded as neutral calm
                             "0" if emo_code == "C" else valence[emo],

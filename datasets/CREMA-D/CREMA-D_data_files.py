@@ -4,6 +4,8 @@ The resultant tsv is used to help aggregate all records into a unified dataset.
 Records are from the Crowd-sourced Emotional Multimodal Actors Dataset (CREMA-D).
 """
 
+from os import walk
+
 # Basically copy-pasted from VideoDemographics.csv
 ACTORID_GENDER = {
     "1001": "m",
@@ -106,15 +108,35 @@ DATASET = "CREMA-D"
 VALENCE = dict.fromkeys(["ANG", "DIS", "HAP", "NEU", "FEA", "SAD"], "-1")
 VALENCE["NEU"], VALENCE["HAP"] = "0", "1"
 
+# I copy and pasted the rejected files from data_selection.xlsx
+with open("known_bad_files", "r") as f:
+    known_bad = {line.strip() for line in f.readlines()}
+
+actual_files = {
+    filepart[0]
+    for _, _, files in walk("AudioWAV")
+    for file_ in files
+    if (filepart := file_.split("."))[-1] == "wav"
+} - known_bad
+
 # filelist is copy-pasted from data_selection.xlsx
 with open("filelist", "r") as f1:
     with open("CREMA-D_data_files.tsv", "w") as f2:
         for line in f1:
+            filename = (
+                "1040_ITH_SAD_X"  # This file name is different from the rest
+                if (filename := line.rstrip()) == "1040_ITH_SAD_XX"
+                else filename
+            )
+            if filename in actual_files:
+                actual_files.remove(filename)
+            else:
+                print(f"uh oh! {filename} doesn't exist")
             actor_id, _, emotion, _ = line.split("_")
             f2.write(
                 "\t".join(
                     [
-                        f"AudioWAV/{line.rstrip()}.wav",
+                        f"AudioWAV/{filename}.wav",
                         emotion.lower(),
                         VALENCE[emotion],
                         LANG,
@@ -125,4 +147,9 @@ with open("filelist", "r") as f1:
                     ]
                 )
             )
+
+if actual_files:
+    print("The following actual files are unaccounted for:")
+    # print(*actual_files)
+
 print("done")

@@ -20,8 +20,7 @@ with open("aesdd_data_files.tsv", "w") as f:
         for filename in files:
             emo = root[2:]
             if emo in DIRS:
-                path = "\\".join([emo, filename])
-                if not exists(path):
+                if not exists(path := f"{emo}/{filename}"):
                     print(f"uh oh, {path} doesn't exist!")
                 # e.g. 'a03 (4).wav' is the 3rd utterance spoken by the 4th speaker with anger
                 speaker = int(filename.split(")")[0][-1])

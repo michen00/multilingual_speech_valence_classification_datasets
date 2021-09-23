@@ -72,11 +72,10 @@ for record in acted:
         print("uh oh, emo code does not match label in annotations", file)
     elif emo in KEEP_EMOS:
         speaker = file.lower().split("_", 1)[0]
-        file = "\\".join(("BAUM1a_MP4_all", speaker, ".".join((file.upper(), "mp4"))))
         out.append(
             "\t".join(
                 (
-                    file,
+                    f"BAUM1a_MP4_all/{speaker}/{file.upper()}.mp4",
                     fixed_emo(emo),
                     VALENCE[emo],
                     LANG,
@@ -101,8 +100,7 @@ for record in spont:
         # it was pretty obvious to me that it was a happy sample (smiling and laughing)
     elif emo in KEEP_EMOS:
         speaker = file.lower().split("_", 1)[0]
-        file = "\\".join(("BAUM1s_MP4 - All", speaker, ".".join((file.upper(), "mp4"))))
-        if not exists(file):
+        if not exists(file := f"BAUM1s_MP4 - All/{speaker}/{file.upper()}.mp4"):
             # This never happens since all s files exist
             print("uh oh, %s doesn't exist!" % file)
         out.append(
