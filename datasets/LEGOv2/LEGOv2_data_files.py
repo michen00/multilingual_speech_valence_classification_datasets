@@ -30,7 +30,7 @@ with open("LEGOv2_data_files.tsv", "w") as f_write:
                 f_write.write(
                     "\t".join(
                         [
-                            f"{folder}/{file_}",
+                            f"audio/{file_}",
                             "ang",
                             "-1",
                             LANG,
