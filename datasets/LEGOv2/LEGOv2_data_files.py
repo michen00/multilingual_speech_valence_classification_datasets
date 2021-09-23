@@ -35,7 +35,7 @@ with open("LEGOv2_data_files.tsv", "w") as f_write:
                             "-1",
                             LANG,
                             LANG2,
-                            f"{DATASET}+{folder}",
+                            f"{DATASET}+{folder.replace('/', ')')}",
                             gender,
                             f"{DATASET}\n",
                         ]
