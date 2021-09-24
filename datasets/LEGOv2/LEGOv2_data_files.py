@@ -19,7 +19,17 @@ with open("corpus/csv/calls.csv", "r") as f:
 with open("LEGOv2_data_files.tsv", "w") as f_write:
     with open("corpus/csv/interactions.csv", "r") as f_read:
         for line in f_read:
-            if "Angry" in line:
+            if "garbage" in line:
+                continue
+            else:
+                if "neutral" in line:
+                    emo, valence = "neu", "0"
+                elif "friendly" in line:
+                    emo, valence = "fri", "1"
+                elif "angry" in line.lower():
+                    emo, valence = "ang", "-1"
+                else:
+                    continue
                 file_ = line.split(";")[-6].strip('"')
                 folder = file_.rsplit("/", 1)[0]
                 try:
@@ -31,8 +41,8 @@ with open("LEGOv2_data_files.tsv", "w") as f_write:
                     "\t".join(
                         [
                             f"audio/{file_}",
-                            "ang",
-                            "-1",
+                            emo,
+                            valence,
                             LANG,
                             LANG2,
                             f"{DATASET}+{folder.replace('/', ')')}",
@@ -41,4 +51,5 @@ with open("LEGOv2_data_files.tsv", "w") as f_write:
                         ]
                     )
                 )
+
 print("done")
