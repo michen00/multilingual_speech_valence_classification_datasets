@@ -18,7 +18,9 @@ LANG2 = "el-gr"  # ISO 639-1 Modern Greek + ISO 3166-1 Greece
 with open("aesdd_data_files.tsv", "w") as f:
     for root, _, files in walk("."):
         for filename in files:
-            emo = root[2:]
+            if (emo := root[2:]) and filename == "s05 (3).wav":
+                # This file is corrupted
+                continue
             if emo in DIRS:
                 if not exists(path := f"{emo}/{filename}"):
                     print(f"uh oh, {path} doesn't exist!")

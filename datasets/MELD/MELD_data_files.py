@@ -148,6 +148,7 @@ for split in split_path:
 # train/dia503_utt10 is low quality
 # train/dia503_utt10 is mis-annotated
 # test/dia108_utt1&2 are identical and mis-annotated
+# train/dia125_utt3 is corrupted
 # some are removed for duplication
 baddev = {"dia49_utt5", "dia66_utt9", "dia66_utt10"}
 badtest = {
@@ -160,7 +161,7 @@ badtest = {
     "dia108_utt1",
     "dia108_utt2",
 }
-badtrain = {"dia4_utt1", "dia503_utt10", "dia715_utt0"}
+badtrain = {"dia125_utt3", "dia4_utt1", "dia503_utt10", "dia715_utt0"}
 
 # Manually address specific problems observed
 for split, file_list in zip(sorted(split_path.keys()), (baddev, badtest, badtrain)):
