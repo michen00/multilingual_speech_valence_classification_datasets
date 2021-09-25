@@ -18,7 +18,7 @@ LANG2 = "el-gr"  # ISO 639-1 Modern Greek + ISO 3166-1 Greece
 with open("aesdd_data_files.tsv", "w") as f:
     for root, _, files in walk("."):
         for filename in files:
-            if (emo := root[2:]) and filename == "s05 (3).wav":
+            if (emo := root[2:]) == "sadness" and filename == "s05 (3).wav":
                 # This file is corrupted
                 continue
             if emo in DIRS:
