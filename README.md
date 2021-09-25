@@ -1,6 +1,7 @@
 # Datasets for multilingual speech valence classification
 
 ## Introduction
+
 This repository collects datasets with raw audio that can be used for speech emotion recognition, particularly for training a multilingual speech valence classifier.
 
 To the best of my knowledge, all end-user license agreements for these datasets allow for public or free-use non-commercial access (although some disallow distribution) and there are no requirements for active university affiliation or institutional review board approval.
@@ -12,19 +13,25 @@ Inquiries may be directed to Michael.Chen.0@gmail.com.
 ---
 
 ## Contents
+
 * [Application](#Application)
 * [Data](#Data)
 * [Datasets](#Datasets)
+  * [English](#English)
+  * [Non-English](#Non-English)
+  * [Non-Speech](#Non-Speech)
 * [References](#References)
 
 ---
 
 ## Application
+
 Emotion recognition is an important part of natural language understanding. Conversational agents accepting voice input have already been deployed in many contexts such as healthcare [[1]](#1) or customer service [[2]](#2) where empathic responses improve the quality of services provided. A cross-lingually or multilingually trained classifier can be especially useful when little training data is available for a particular target language [[3]](#3).
 
 [[4]](#4) combined five corpora (German, Italian, and English variants) and attained F1 scores between 89% and 98% and corresponding accuracy scores between 92% and 98% for valence classification. Using a model trained on English and French data, [[3]](#3) achieved an unweighted average recall of 61.73% (English) and 49.33% (French) for valence. [[5]](#5) trained a model on English, German, Italian, and Urdu to obtain an unweighted average recall score of 70.98% for binary (negative and non-negative) valence classification in Urdu. Others have developed multilingual speech emotion recognition systems to classify utterances into affective categories (e.g., happy, sad, angry, neutral, etc.) [[6]](#6)–[[9]](#9). This repo is part of a project that builds on prior research by unifying a broader set of multilingual data: 13 English data sources, 9 datasets in non-English languages, 2 datasets providing both English and non-English speech samples, and 3 datasets of affective human non-speech vocalizations for a total of 27 data sources in 9 languages.
 
 ## Data
+
 English audio samples with emotion labels were sourced from the [Carnegie Mellon University Let's Go Spoken Dialogue Corpus](https://www.ultes.eu/ressources/lego-spoken-dialogue-corpus/) [[10]](#10)–[[11]](#11), [Crowd-sourced Emotional Multimodal Actors Dataset](https://github.com/CheyneyComputerScience/CREMA-D) [[12]](#12)–[[13]](#13), the [Electromagnetic Articulography Database](https://span.usc.edu/owncloud/index.php/s/RTttck1EJ6Vcoyu) [[14]](#14), the [EmoReact dataset](https://www.behnaznojavan.com/data) [[15]](#15), the [eNTERFACE '05 Audio-Visual Emotion Database](http://www.enterface.net/enterface05/docs/results/databases/project2_database.zip) [[16]](#16), the [JL Corpus](https://www.kaggle.com/tli725/jl-corpus) [[17]](#17), the [Morgan Emotional Speech Set](https://zenodo.org/record/3813437) [[18]](#18)–[[19]](#19), the [Multimodal EmotionLines Dataset](https://affective-meld.github.io/) [[20]](#20)–[[21]](#21), the [Ryerson Audio-Visual Database of Emotional Speech and Song](https://zenodo.org/record/1188976) [[22]](#22), the [Surrey Audio-Visual Expressed Emotion Database](http://personal.ee.surrey.ac.uk/Personal/P.Jackson/SAVEE/Download.html) [[23]](#23), and the [Toronto Emotional Speech Set](https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi%3A10.5683%2FSP2%2FE8H2MF) [[24]](#24).
 
 Most of the English-language datasets are of North American English with some dialectic variations. For instance, the Crowd-sourced Emotional Multimodal Actors Dataset [[12]](#12)–[[13]](#13) (amongst others) consists mostly of Mainstream American English recordings but also some samples of non-standard American English while the Toronto Emotional Speech Set [[24]](#24) was elicited from two actresses recruited from the eponymous metropolitan area in Canada.
@@ -35,7 +42,7 @@ Similar spoken corpora with emotion labels were obtained for Arabic ([Egyptian A
 
 Two datasets contained non-English samples in addition to English samples: the [Bahcesehir University Multilingual Affective Face Database](https://archive.ics.uci.edu/ml/datasets/BAUM-2) (Turkish) [[35]](#35) and the [Emotional Speech Dataset](https://github.com/HLTSingapore/Emotional-Speech-Data) (Mandarin Chinese) [[36]](#36). Although reported to contain Belgian French samples as well, only the English files of the [Emotional Voices Database](https://mega.nz/folder/KBp32apT#gLIgyWf9iQ-yqnWFUFuUHg) [[37]](#37) were available to me.
 
-The [the corpus provided by Lima, Castro, and Scott](https://link.springer.com/article/10.3758/s13428-013-0324-3) [[38]](#38), the [Montreal Affective Voices](https://amubox.univ-amu.fr/index.php/s/JdF6fWC2M0lSr14) [[39]](#39), and the [Variably Intense Vocalizations of Affect and Emotion Corpus](https://zenodo.org/record/4066235) [[40]](#40) contained emotional non-speech vocalizations of humans. Vocalizations were elicited from native speakers of European Portuguese [[38]](#38), Canadian French [[39]](#39), and American English [[40]](#40).
+The [the corpus provided by Lima, Castro, and Scott](https://link.springer.com/article/10.3758/s13428-013-0324-3) [[38]](#38), the [Montreal Affective Voices](https://amubox.univ-amu.fr/index.php/s/JdF6fWC2M0lSr14) [[39]](#39), and the [Variably Intense Vocalizations of Affect and Emotion Corpus](https://zenodo.org/record/4066235) [[40]](#40) contained emotional non-speech vocalizations of humans. Respectively, vocalizations were elicited from native speakers of European Portuguese [[38]](#38), Canadian French [[39]](#39), and American English [[40]](#40).
 
 The end-user license agreements of the two Bahcesehir University datasets [[34]](#34)–[[35]](#35), the EmoReact dataset [[15]](#15), the Egyptian Arabic speech emotion database [[26]](#26) and the Surrey Audio-Visual Expressed Emotion Database [[23]](#23) do not allow for distribution of the datasets, so the raw data were not uploaded to this repository; to use these datasets, you may need to fill out the appropriate end-user license agreements and/or contact the authors. Otherwise, I tried to preserve the directory structure of each dataset and upload the audio files in full, although I compressed some subdirectories and may have omitted some files to reduce total file size (e.g., video samples when audio-only samples are also available).
 
@@ -52,36 +59,42 @@ Information about speaker gender was available for all datasets as well (althoug
 I considered many other datasets such as those listed in [[41]](#41), but most of these did not meet all the above criteria, required an active academic affiliation, were paywalled, or were otherwise inaccessible or unusable.
 
 ## Datasets
-* English
-  * [CREMA-D](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/CREMA-D) | Crowd-sourced Emotional Multimodal Actors Dataset [[12]](#12)–[[13]](#13)
-  * [dzafic](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/dzafic) | Six samples from [[25]](#25)
-  * [EmoReact_V_1.0](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/EmoReact_V_1.0) | EmoReact dataset [[15]](#15)
-  * [Emotional_EMA](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/Emotional_EMA) | Electromagnetic Articulography Database [[14]](#14)
-  * [EmoV-DB_sorted](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoV-DB_sorted) | Emotional Voices Database [[37]](#37)
-  * [enterface_db](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/enterface_db) | eNTERFACE '05 Audio-Visual Emotion Database [[16]](#16)
-  * [jl-corpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/jl-corpus) | JL Corpus [[17]](#17)
-  * [LEGOv2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/LEGOv2) | Carnegie Mellon University Let’s Go Spoken Dialogue Corpus [[10]](#10)–[[11]](#11)
-  * [MELD](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/MELD) | Multimodal EmotionLines Dataset [[20]](#20)–[[21]](#21)
-  * [MESS](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/MESS) | Morgan Emotional Speech Set [[18]](#18)–[[19]](#19)
-  * [ravdess](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ravdess) | Ryerson Audio-Visual Database of Emotional Speech and Song [[22]](#22)
-  * [savee](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/savee) | Surrey Audio-Visual Expressed Emotion Database [[23]](#23)
-  * [tess](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/tess) | Toronto Emotional Speech Set [[24]](#24)
-* Non-English
-  * [aesdd](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/aesdd) | Acted Emotional Speech Dynamic Database (Greek) [[31]](#31)–[[32]](#32)
-  * [BAUM1](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/BAUM1) | Bahcesehir University Multimodal Face Database of Affective and Mental States [[34]](#34)
-  * [BAUM2](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/BAUM2) | Bahcesehir University Multilingual Affective Face Database [[35]](#35)
-  * [cafe](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/cafe) | Canadian French Emotional Speech Database [[29]](#29)
-  * [ekorpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ekorpus) | Estonian Emotional Speech Corpus [[27]](#27)
-  * [EmoDB](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoDB) | Berlin Database of Emotional Speech (German) [[30]](#30)
-  * [esd](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/esd) | Emotional Speech Dataset (Mandarin Chinese and English) [[36]](#36)
-  * [EYASE](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EYASE) | Egyptian Arabic speech emotion database [[26]](#26)
-  * [oreau2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/oreau2) | French Emotional Speech Database - Oréau [[28]](#28)
-  * [ShEMO](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ShEMO) | Sharif Emotional Speech Database (Persian) [[33]](#33)
-  * [urdu](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/urdu) | Urdu Language Speech Dataset [[5]](#5)
-* Non-Speech
-  * [LimaCastroScott](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/LimaCastroScott) | the corpus provided by Lima, Castro, and Scott [[38]](#38)
-  * [MAV](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/MAV) | Montreal Affective Voices [[39]](#39)
-  * [vivae](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/vivae) | Variably Intense Vocalizations of Affect and Emotion Corpus [[40]](#40)
+
+### English
+  
+* [CREMA-D](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/CREMA-D) | Crowd-sourced Emotional Multimodal Actors Dataset [[12]](#12)–[[13]](#13)
+* [dzafic](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/dzafic) | Six samples from [[25]](#25)
+* [EmoReact_V_1.0](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/EmoReact_V_1.0) | EmoReact dataset [[15]](#15)
+* [Emotional_EMA](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/Emotional_EMA) | Electromagnetic Articulography Database [[14]](#14)
+* [EmoV-DB_sorted](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoV-DB_sorted) | Emotional Voices Database [[37]](#37)
+* [enterface_db](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/enterface_db) | eNTERFACE '05 Audio-Visual Emotion Database [[16]](#16)
+* [jl-corpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/jl-corpus) | JL Corpus [[17]](#17)
+* [LEGOv2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/LEGOv2) | Carnegie Mellon University Let’s Go Spoken Dialogue Corpus [[10]](#10)–[[11]](#11)
+* [MELD](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/MELD) | Multimodal EmotionLines Dataset [[20]](#20)–[[21]](#21)
+* [MESS](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/MESS) | Morgan Emotional Speech Set [[18]](#18)–[[19]](#19)
+* [ravdess](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ravdess) | Ryerson Audio-Visual Database of Emotional Speech and Song [[22]](#22)
+* [savee](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/savee) | Surrey Audio-Visual Expressed Emotion Database [[23]](#23)
+* [tess](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/tess) | Toronto Emotional Speech Set [[24]](#24)
+
+### Non-English
+
+* [aesdd](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/aesdd) | Acted Emotional Speech Dynamic Database (Greek) [[31]](#31)–[[32]](#32)
+* [BAUM1](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/BAUM1) | Bahcesehir University Multimodal Face Database of Affective and Mental States [[34]](#34)
+* [BAUM2](https://www.github.com/michen00/potential_project_data/tree/main/multilingual_speech_valence_class/tree/main/datasets/BAUM2) | Bahcesehir University Multilingual Affective Face Database [[35]](#35)
+* [cafe](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/cafe) | Canadian French Emotional Speech Database [[29]](#29)
+* [ekorpus](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ekorpus) | Estonian Emotional Speech Corpus [[27]](#27)
+* [EmoDB](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EmoDB) | Berlin Database of Emotional Speech (German) [[30]](#30)
+* [esd](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/esd) | Emotional Speech Dataset (Mandarin Chinese and English) [[36]](#36)
+* [EYASE](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/EYASE) | Egyptian Arabic speech emotion database [[26]](#26)
+* [oreau2](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/oreau2) | French Emotional Speech Database - Oréau [[28]](#28)
+* [ShEMO](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/ShEMO) | Sharif Emotional Speech Database (Persian) [[33]](#33)
+* [urdu](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/urdu) | Urdu Language Speech Dataset [[5]](#5)
+
+### Non-Speech
+
+* [LimaCastroScott](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/LimaCastroScott) | the corpus provided by Lima, Castro, and Scott [[38]](#38)
+* [MAV](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/MAV) | Montreal Affective Voices [[39]](#39)
+* [vivae](https://github.com/michen00/multilingual_speech_valence_classification/tree/main/datasets/vivae) | Variably Intense Vocalizations of Affect and Emotion Corpus [[40]](#40)
 
 ## References
 
@@ -256,3 +269,5 @@ I considered many other datasets such as those listed in [[41]](#41), but most o
 <span aria-hidden="true"><h6><sub><sup><sub><sup>43</sup></sub></sup></sub></h6></span>
 
 43. M. K. Noordewier and E. van Dijk, "Curiosity and time: From not knowing to almost knowing," *Cognition and Emotion,* vol. 31, no. 3, pp. 411–421, Apr. 2017, doi: https://doi.org/10.1080/02699931.2015.1122577.
+
+[^top](#Datasets-for-multilingual-speech-valence-classification)
