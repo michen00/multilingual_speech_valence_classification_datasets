@@ -232,7 +232,7 @@ I considered many other datasets such as those listed in [[41]](#41), but most o
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>34</sup></sub></sup></sub></h6></span>
 
-34. S. Zhalehpour, O. Onder, Z. Akhtar, and C. E. Erdem, "BAUM-1: A spontaneous audio-visual face database of affective and mental states," *IEEE Trans.  Affect. Comput.,* vol. 8, no. 3, pp. 300–313, Jul./Sep. 2017, doi: https://doi.org/10.1109/TAFFC.2016.2553038.
+34. S. Zhalehpour, O. Onder, Z. Akhtar, and C. E. Erdem, "BAUM-1: A spontaneous audio-visual face database of affective and mental states," *IEEE Trans. Affect. Comput.,* vol. 8, no. 3, pp. 300–313, Jul./Sep. 2017, doi: https://doi.org/10.1109/TAFFC.2016.2553038.
 
 <span aria-hidden="true"><h6><sub><sup><sub><sup>35</sup></sub></sup></sub></h6></span>
 
