@@ -6,7 +6,7 @@ This repository collects datasets with raw audio that can be used for speech emo
 
 To the best of my knowledge, all end-user license agreements for these datasets allow for public or free-use non-commercial access (although some disallow distribution) and there are no requirements for active university affiliation or institutional review board approval.
 
-Users of this repository may consider a [partial or shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/) since the working directory contains over 40 GB (and there may be large artifacts in the commit history). See also (REPO COMING SOON), which unifies these datasets by standardizing file format and sampling rate and trimming silences (discarding samples with zero duration). I may add another dataset or two in the next week or so as I am in correspondence with some authors on their data.
+Users of this repository may consider a [partial or shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/) since the working directory contains roughly 40 GB (and there may be large artifacts in the commit history). See also the [Unified Multilingual Dataset of Emotional Human Utterances](#https://github.com/michen00/unified_multilingual_dataset_of_emotional_human_utterances), which unifies these datasets by standardizing audio format, normalizing volume, and trimming silences.
 
 Inquiries may be directed to Michael.Chen.0@gmail.com.
 
