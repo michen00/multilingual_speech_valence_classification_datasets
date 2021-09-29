@@ -73,7 +73,7 @@ I considered many other datasets such as those listed in [[41]](#41), but most o
 * [MELD](https://github.com/michen00/multilingual_speech_valence_classification_datasets/tree/main/datasets/MELD) | Multimodal EmotionLines Dataset [[20]](#20)–[[21]](#21)
 * [MESS](https://github.com/michen00/multilingual_speech_valence_classification_datasets/tree/main/datasets/MESS) | Morgan Emotional Speech Set [[18]](#18)–[[19]](#19)
 * [ravdess](https://github.com/michen00/multilingual_speech_valence_classification_datasets/tree/main/datasets/ravdess) | Ryerson Audio-Visual Database of Emotional Speech and Song [[22]](#22)
-* [savee](https://github.com/michen00/multilingual_speech_valence_classification_datasets/savee) | Surrey Audio-Visual Expressed Emotion Database [[23]](#23)
+* [savee](https://github.com/michen00/multilingual_speech_valence_classification_datasets/tree/main/datasets/savee) | Surrey Audio-Visual Expressed Emotion Database [[23]](#23)
 * [tess](https://github.com/michen00/multilingual_speech_valence_classification_datasets/tree/main/datasets/tess) | Toronto Emotional Speech Set [[24]](#24)
 
 ### Non-English
